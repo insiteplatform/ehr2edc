@@ -1,0 +1,57 @@
+{
+	"create": {
+		"title"				: "Creëer analyse",
+		"next"				: "Volgende",
+		"create"			: "Creëer",
+		"back"				: "Terug",
+		"specificTitle"		: "Creëer {{analysisType}} analyse"
+	},
+	
+	"ageDistribution": {
+		"binSize"			: "Bin grootte (jaren)",
+		"totalBins"			: "Totaal aantal bins"
+	},
+	
+	"cohortComparison": {
+		"comparedCohort"	: "Vergeleken cohorte",
+		"selectCohort"		: "Selecteer cohorte"
+	},
+	
+	"measurementDistribution": {
+		"conceptOfInterest" : "Concept van interesse (numerieke observatie)",
+		"choose"			: "Kies...",
+		"desiredUnit"		: "Gewenste eenheid",
+		"selectUnit"		: "Selecteer eenheid van lijst of geef een andere in",
+		"referenceDate"		: "Referentiedatum"
+	},
+	
+	"prevalence": {
+		"conceptOfInterest" : "Concept van interesse (numerieke observatie)",
+		"choose"			: "Kies...",
+		"relativeLevel"		: "Relatief subniveau van rapportage",
+		"startDate"			: "Begindatum klinische observaties",
+		"endDate"			: "Einddatum klinische observaties"
+	},
+	
+	"terminology": {
+		"title"				: "Kies concept van interesse",
+		"confirm"			: "Bevestig",
+		"back"				: "Terug"
+	},
+	
+	"sidebar": {
+		"conceptLabel"			: "Concept naam",
+		"conceptCodingSystem"	: "Concept coderingssysteem",
+		"conceptCode"			: "Concept code",
+		"chosenUnit"			: "Gekozen eenheid",
+		"errorMessage"			: "Foutbericht"
+	},
+	
+	"descriptions": {
+		"AgeDistribution"			: "Rapporteert patiëntdistributie van leeftijd",
+		"GenderDistribution"		: "Rapporteert patiëntdistributie van geslacht",
+		"CohortComparison"			: "Rapporteert patiëntsetoperaties op twee cohortes",
+		"Prevalence"				: "Rapporteert concept prevalentie op een gekozen hiërarchisch niveau",
+		"MeasurementDistribution"	: "Rapporteert distributie van laatst gemeten patiëntwaarden voor een gekozen numeriek concept en eenheid"
+	}
+}

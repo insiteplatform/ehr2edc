@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_ID",
+  "query": {
+    "type": "demographic",
+    "criteria": {
+      "criteria": []
+    }
+  },
+  "projectors": [
+    {
+      "type": "gender"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+.definition-list ul {
+	overflow-y: hidden;
+}
+
+li.settings-heading {
+	width: 60%;
+}
+
+#edit-interval input {
+	float: left;
+	width: 30%;
+}
+
+#edit-interval select {
+	width: 70%;
+}
+
+#edit-status, #edit-interval {
+	padding: 0;
+}

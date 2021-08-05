@@ -1,0 +1,58 @@
+.blank-state-text {
+    display: block;
+    position: absolute;
+    left: calc(50% - 325px);
+    top: 200px;
+    max-width: 650px;
+    text-align: center;
+}
+
+/*
+BREADCRUMBS
+ */
+.bread-crumbs li a {
+    height: 100%;
+}
+.bread-crumbs li a:empty {
+    display: none;
+}
+
+/*
+Responsive Definition List:
+<dl class="responsive">
+    <div class="row">
+        <dt></dt>
+        <dd></dd>
+    </div>
+</dl>
+*/
+dl.responsive > .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+dl.responsive > .row > dt,
+dl.responsive > .row > dd {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+dl.responsive > .row > dt, dl.responsive > .row > dd {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+
+/* Nested Definition Lists */
+dl.responsive dl.responsive {
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+
+dl.responsive dl.responsive dd {
+    margin-bottom: 0;
+}

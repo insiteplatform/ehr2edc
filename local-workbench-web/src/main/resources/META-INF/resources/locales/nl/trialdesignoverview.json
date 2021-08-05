@@ -1,0 +1,12 @@
+{	
+	"approveDialog": {
+		"title"				: "Studie accepteren voor site placement",
+		"approve"			: "Accepteren",
+		"success"			: "Studie succesvol geaccepteerd"
+	},
+	"rejectDialog": {
+		"title"				: "Studie weigeren voor site placement",
+		"reject"			: "Weigeren",
+		"success"			: "Studie succesvol geweigerd"
+	}
+}

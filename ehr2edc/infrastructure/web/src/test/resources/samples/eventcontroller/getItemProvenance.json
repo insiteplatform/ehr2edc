@@ -1,0 +1,35 @@
+{
+  "groups": [
+    {
+      "label": "Group 1",
+      "items": [
+        {
+          "label": "Item 1",
+          "value": "Value 1"
+        },
+        {
+          "label": "Item 2",
+          "value": ""
+        },
+        {
+          "label": "Item 3",
+          "value": null
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "label": "Item 4",
+      "value": "Value 4"
+    },
+    {
+      "label": "Item 5",
+      "value": ""
+    },
+    {
+      "label": "Item 6",
+      "value": null
+    }
+  ]
+}

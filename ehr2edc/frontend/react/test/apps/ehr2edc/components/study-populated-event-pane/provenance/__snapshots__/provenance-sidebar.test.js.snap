@@ -1,0 +1,302 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProvenanceSidebar rendering Should render a ItemProvenance-component inside a Sidebar 1`] = `
+<ProvenanceSidebar
+  actions={
+    Object {
+      "closeItemDetails": [MockFunction],
+      "fetchItemProvenance": [MockFunction],
+      "fetchSubmittedItemProvenance": [MockFunction],
+      "openItemDetails": [MockFunction],
+      "toggleNavigationSidebar": [MockFunction],
+    }
+  }
+  name="Lab Test or Examination Short Name"
+  provenance={
+    Object {
+      "endDate": "2019-07-09T13:35:00",
+      "labConcept": Object {
+        "component": "Component for insulin",
+        "concept": Object {
+          "code": "INSULIN",
+        },
+        "fastingStatus": "FASTING",
+        "method": "Radioimmunoassay",
+        "specimen": "Blood",
+      },
+      "qualitativeResult": Object {
+        "originalInterpretation": "positive",
+        "parsedInterpretation": 1,
+      },
+      "quantitativeResult": Object {
+        "lowerLimit": 75,
+        "unit": "mg/dL",
+        "upperLimit": 100,
+        "value": 85,
+      },
+      "startDate": "2019-07-08T13:35:00",
+      "vendor": "Lab",
+    }
+  }
+  value="VAL"
+>
+  <SidebarPortal>
+    <Portal
+      container={
+        <div
+          id="study-details-content-pane"
+        >
+          <div
+            class="sidebar grid-block vertical small-4 border-left slideInLeft slideOutRight"
+          >
+            <div
+              class="sidebar-right"
+            >
+              <a
+                class="float-right close-icon"
+              >
+                <i
+                  class="fa fa-close"
+                />
+              </a>
+              <div
+                class="grid-block shrink vertical"
+              >
+                <h4
+                  class="facts-title"
+                >
+                  Source Data Details
+                </h4>
+                <dl
+                  class="margin-none"
+                >
+                  <h5>
+                    Name
+                  </h5>
+                  <dd>
+                    Lab Test or Examination Short Name
+                  </dd>
+                  <h5>
+                    Submitted Value
+                  </h5>
+                  <dd>
+                    VAL
+                  </dd>
+                </dl>
+                <h5>
+                  Source Data
+                </h5>
+                <p>
+                  Loading...
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      }
+    >
+      <WaitForContainer
+        container={
+          <div
+            id="study-details-content-pane"
+          >
+            <div
+              class="sidebar grid-block vertical small-4 border-left slideInLeft slideOutRight"
+            >
+              <div
+                class="sidebar-right"
+              >
+                <a
+                  class="float-right close-icon"
+                >
+                  <i
+                    class="fa fa-close"
+                  />
+                </a>
+                <div
+                  class="grid-block shrink vertical"
+                >
+                  <h4
+                    class="facts-title"
+                  >
+                    Source Data Details
+                  </h4>
+                  <dl
+                    class="margin-none"
+                  >
+                    <h5>
+                      Name
+                    </h5>
+                    <dd>
+                      Lab Test or Examination Short Name
+                    </dd>
+                    <h5>
+                      Submitted Value
+                    </h5>
+                    <dd>
+                      VAL
+                    </dd>
+                  </dl>
+                  <h5>
+                    Source Data
+                  </h5>
+                  <p>
+                    Loading...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        }
+      >
+        <Portal
+          containerInfo={
+            <div
+              id="study-details-content-pane"
+            >
+              <div
+                class="sidebar grid-block vertical small-4 border-left slideInLeft slideOutRight"
+              >
+                <div
+                  class="sidebar-right"
+                >
+                  <a
+                    class="float-right close-icon"
+                  >
+                    <i
+                      class="fa fa-close"
+                    />
+                  </a>
+                  <div
+                    class="grid-block shrink vertical"
+                  >
+                    <h4
+                      class="facts-title"
+                    >
+                      Source Data Details
+                    </h4>
+                    <dl
+                      class="margin-none"
+                    >
+                      <h5>
+                        Name
+                      </h5>
+                      <dd>
+                        Lab Test or Examination Short Name
+                      </dd>
+                      <h5>
+                        Submitted Value
+                      </h5>
+                      <dd>
+                        VAL
+                      </dd>
+                    </dl>
+                    <h5>
+                      Source Data
+                    </h5>
+                    <p>
+                      Loading...
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          }
+        >
+          <Sidebar
+            additionalClasses={
+              Array [
+                "small-4",
+                "border-left",
+                "slideInLeft",
+                "slideOutRight",
+              ]
+            }
+          >
+            <div
+              className="sidebar grid-block vertical small-4 border-left slideInLeft slideOutRight"
+            >
+              <div
+                className="sidebar-right"
+              >
+                <a
+                  className="float-right close-icon"
+                  onClick={[Function]}
+                >
+                  <i
+                    className="fa fa-close"
+                  />
+                </a>
+                <div
+                  className="grid-block shrink vertical"
+                >
+                  <ItemProvenance
+                    item={
+                      Object {
+                        "name": "Lab Test or Examination Short Name",
+                        "provenance": Object {
+                          "endDate": "2019-07-09T13:35:00",
+                          "labConcept": Object {
+                            "component": "Component for insulin",
+                            "concept": Object {
+                              "code": "INSULIN",
+                            },
+                            "fastingStatus": "FASTING",
+                            "method": "Radioimmunoassay",
+                            "specimen": "Blood",
+                          },
+                          "qualitativeResult": Object {
+                            "originalInterpretation": "positive",
+                            "parsedInterpretation": 1,
+                          },
+                          "quantitativeResult": Object {
+                            "lowerLimit": 75,
+                            "unit": "mg/dL",
+                            "upperLimit": 100,
+                            "value": 85,
+                          },
+                          "startDate": "2019-07-08T13:35:00",
+                          "vendor": "Lab",
+                        },
+                        "value": "VAL",
+                      }
+                    }
+                  >
+                    <h4
+                      className="facts-title"
+                    >
+                      Source Data Details
+                    </h4>
+                    <dl
+                      className="margin-none"
+                    >
+                      <h5>
+                        Name
+                      </h5>
+                      <dd>
+                        Lab Test or Examination Short Name
+                      </dd>
+                      <h5>
+                        Submitted Value
+                      </h5>
+                      <dd>
+                        VAL
+                      </dd>
+                    </dl>
+                    <h5>
+                      Source Data
+                    </h5>
+                    <p>
+                      Loading...
+                    </p>
+                  </ItemProvenance>
+                </div>
+              </div>
+            </div>
+          </Sidebar>
+        </Portal>
+      </WaitForContainer>
+    </Portal>
+  </SidebarPortal>
+</ProvenanceSidebar>
+`;

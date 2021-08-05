@@ -1,0 +1,3 @@
+[submodule "deploy/review/config-sources/insite-local"]
+	path = deploy/review/config-sources/insite-local
+	url = ssh://git@cdix-back-gitlab-config-vm.internal.custodix.com:2222/development/insite-local.git

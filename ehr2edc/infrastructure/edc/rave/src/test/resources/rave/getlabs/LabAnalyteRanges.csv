@@ -1,0 +1,5 @@
+SiteNumber,LabName,AnalyteName,FromDate,ToDate,LowRange,HighRange,Units,Dictionary,Comments
+12345,my_local_lab,test_analyte_rws_101,,,0,10,my_unit_rws_101,,
+12345,my_local_lab_2,test_analyte_rws_101,,,0,10,my_unit_rws_101,,
+12345,my_local_lab,test_analyte_2_rws_101,,,0,10,my_unit_rws_101,,
+12346,my_local_lab_3,test_analyte_rws_101,,,0,10,my_unit_rws_101,,

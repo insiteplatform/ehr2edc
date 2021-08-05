@@ -1,0 +1,11 @@
+{
+  "patientId":{
+    "source":"HIS_001",
+    "id":"PID_042"
+  },
+  "subjectId":"SUBJ_042_4",
+  "edcSubjectReference": "edc-subj",
+  "dateOfConsent":"2019-04-12",
+  "dateOfConsentWithdrawn":"2019-05-12",
+  "dataCaptureStopReason":"CONSENT_RETRACTED"
+}

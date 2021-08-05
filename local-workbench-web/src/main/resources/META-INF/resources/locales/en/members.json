@@ -1,0 +1,11 @@
+{
+	"table": {
+		"recovering"		: "Recovering",
+		"invited"			: "Invited"
+	},
+
+	"changeRoles": {
+		"title"				: "Change additional user roles",
+		"confirm"			: "Save changes"
+	}
+}

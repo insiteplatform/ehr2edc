@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>workbench-parent</artifactId>
+        <groupId>org.ehr4cr.local</groupId>
+        <version>3.15.50-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.custodix.insite</groupId>
+    <artifactId>ehr2edc</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>application</module>
+        <module>vocabulary</module>
+        <module>shared</module>
+        <module>infrastructure</module>
+        <module>domain</module>
+        <module>main</module>
+        <module>main-split</module>
+        <module>frontend</module>
+    </modules>
+    <profiles>
+        <profile>
+            <id>check-quality</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <build>
+                <defaultGoal>checkstyle:check pmd:check cpd:cpd-check</defaultGoal>
+                <plugins>
+                    <plugin>
+                        <artifactId>maven-checkstyle-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>checkstyle</id>
+                                <goals>
+                                    <goal>check</goal>
+                                </goals>
+                                <phase>verify</phase>
+                            </execution>
+                        </executions>
+                    </plugin>
+
+                    <plugin>
+                        <artifactId>maven-pmd-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>pmd</id>
+                                <goals>
+                                    <goal>check</goal>
+                                </goals>
+                                <phase>verify</phase>
+                                <configuration>
+                                    <excludeFromFailureFile>exclude-pmd.properties</excludeFromFailureFile>
+                                </configuration>
+                            </execution>
+                            <execution>
+                                <id>cpd</id>
+                                <goals>
+                                    <goal>cpd-check</goal>
+                                </goals>
+                                <phase>verify</phase>
+                                <configuration>
+                                    <excludes>
+                                        <exclude>com/custodix/insite/local/ehr2edc/query/*.java</exclude>
+                                        <exclude>com/custodix/insite/local/ehr2edc/command/*.java</exclude>
+                                        <exclude>com/custodix/insite/local/ehr2edc/infra/edc/openclinica/odm/*.java</exclude>
+                                        <exclude>com/custodix/insite/local/ehr2edc/infra/edc/openclinica/odm/model/*.java</exclude>
+                                    </excludes>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+</project>

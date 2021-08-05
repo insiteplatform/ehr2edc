@@ -1,0 +1,2 @@
+SubjectKey,ParticipantID,StudyEventOID,StudyEventRepeatKey,FormOID,ItemGroupOID,ItemGroupRepeatKey,ItemOID,Status,Timestamp,Message
+SS_001,,,,,,,,Failed,,errorCode.participantNotFound

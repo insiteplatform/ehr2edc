@@ -1,0 +1,1 @@
+﻿CREATE INDEX pd_idx_patientnum_sexcd_birthdate ON patient_dimension USING btree (patient_num, sex_cd, birth_date);

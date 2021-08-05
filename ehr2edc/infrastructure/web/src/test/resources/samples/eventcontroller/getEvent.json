@@ -1,0 +1,30 @@
+{
+  "event": {
+    "lastSubmissionTime": null,
+    "name": "eventName",
+    "forms": [
+      {
+        "id": "form-latest",
+        "name": "Latest form",
+        "populationTime": "2019-03-04T05:06:07Z",
+        "referenceDate": "2015-03-09",
+        "itemGroups": [
+          {
+            "id": "group-1",
+            "name": "Group nr. 1",
+            "items": [
+              {
+                "id": "item-1",
+                "name": "Item nr. 1",
+                "value": "itemValue",
+                "valueLabel": null,
+                "exportable": true,
+                "unit": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

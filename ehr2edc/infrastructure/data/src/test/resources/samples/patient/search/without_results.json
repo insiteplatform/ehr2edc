@@ -1,0 +1,22 @@
+{
+  "resourceType": "Bundle",
+  "id": "ab825cc7-78ce-4851-a955-86f1f6e6c7a3",
+  "meta": {
+    "lastUpdated": "2020-01-14T09:07:25.882+00:00",
+    "tag": [
+      {
+        "system": "http://hl7.org/fhir/v3/ObservationValue",
+        "code": "SUBSETTED",
+        "display": "Resource encoded in summary mode"
+      }
+    ]
+  },
+  "type": "searchset",
+  "total": 0,
+  "link": [
+    {
+      "relation": "self",
+      "url": "http://hapifhir-r2.custodix.tech/baseDstu2/Patient?_elements=id&_pretty=true&identifier=unknown%7Cunknown"
+    }
+  ]
+}

@@ -1,0 +1,468 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`A reviewed Item gets rendered well A read-only reviewed Item gets rendered well 1`] = `
+<div
+  className="item padding-small-tb"
+  id="id-1"
+>
+  <div
+    className="disabled padding-small-rl"
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
+    <small
+      style={
+        Object {
+          "display": "flex",
+          "width": "100%",
+        }
+      }
+    >
+      <ErrorTooltip
+        additionalClassNames={
+          Array [
+            "small-8",
+          ]
+        }
+      >
+        <span
+          className="small-8"
+        >
+          Item name
+        </span>
+      </ErrorTooltip>
+      <span
+        className="small-4 text-right"
+      >
+        Item value
+        <a
+          className="open-item-details margin-small-left"
+          onClick={[Function]}
+          title="Open item details"
+        >
+          <i
+            className="fa fa-file-text-o"
+          />
+        </a>
+      </span>
+    </small>
+  </div>
+</div>
+`;
+
+exports[`A reviewed Item gets rendered well A regular reviewed Item gets rendered well 1`] = `
+<div
+  className="item padding-small-tb"
+  id="id-1"
+>
+  <div
+    className="disabled padding-small-rl"
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
+    <small
+      style={
+        Object {
+          "display": "flex",
+          "width": "100%",
+        }
+      }
+    >
+      <ErrorTooltip
+        additionalClassNames={
+          Array [
+            "small-8",
+          ]
+        }
+      >
+        <span
+          className="small-8"
+        >
+          Item name
+        </span>
+      </ErrorTooltip>
+      <span
+        className="small-4 text-right"
+      >
+        Item value
+        <a
+          className="open-item-details margin-small-left"
+          onClick={[Function]}
+          title="Open item details"
+        >
+          <i
+            className="fa fa-file-text-o"
+          />
+        </a>
+      </span>
+    </small>
+  </div>
+</div>
+`;
+
+exports[`A reviewed Item gets rendered well An reviewed Item with a unit gets rendered well 1`] = `
+<div
+  className="item padding-small-tb"
+  id="id-1"
+>
+  <div
+    className="disabled padding-small-rl"
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
+    <small
+      style={
+        Object {
+          "display": "flex",
+          "width": "100%",
+        }
+      }
+    >
+      <ErrorTooltip
+        additionalClassNames={
+          Array [
+            "small-8",
+          ]
+        }
+      >
+        <span
+          className="small-8"
+        >
+          Item name
+          <small>
+             (
+            kg
+            )
+          </small>
+        </span>
+      </ErrorTooltip>
+      <span
+        className="small-4 text-right"
+      >
+        Item value
+        <a
+          className="open-item-details margin-small-left"
+          onClick={[Function]}
+          title="Open item details"
+        >
+          <i
+            className="fa fa-file-text-o"
+          />
+        </a>
+      </span>
+    </small>
+  </div>
+</div>
+`;
+
+exports[`An Item in review gets rendered well A read-only Item in review gets rendered well 1`] = `
+<div
+  className="item padding-small-tb"
+  id="id-1"
+  title="This data point was populated to facilitate review only and cannot be exported (it will not be sent to any EDC system linked to this study)"
+>
+  <div
+    className="disabled padding-small-rl"
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
+    <small
+      style={
+        Object {
+          "display": "flex",
+          "width": "100%",
+        }
+      }
+    >
+      <ErrorTooltip
+        additionalClassNames={
+          Array [
+            "small-8",
+          ]
+        }
+      >
+        <span
+          className="small-8"
+        >
+          Item name
+        </span>
+      </ErrorTooltip>
+      <span
+        className="small-4 text-right"
+      >
+        Item value
+        <a
+          className="open-item-details margin-small-left"
+          onClick={[Function]}
+          title="Open item details"
+        >
+          <i
+            className="fa fa-file-text-o"
+          />
+        </a>
+      </span>
+    </small>
+  </div>
+</div>
+`;
+
+exports[`An Item in review gets rendered well A regular Item in review gets rendered well 1`] = `
+<div
+  className="item padding-small-tb"
+  id="id-1"
+>
+  <input
+    id="select-form-item-item-key-1"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="inline-label"
+    htmlFor="select-form-item-item-key-1"
+  >
+    <ErrorTooltip
+      additionalClassNames={
+        Array [
+          "small-8",
+        ]
+      }
+    >
+      <span
+        className="small-8"
+      >
+        Item name
+      </span>
+    </ErrorTooltip>
+    <span
+      className="small-4 text-right"
+    >
+      Item value
+      <a
+        className="open-item-details margin-small-left"
+        onClick={[Function]}
+        title="Open item details"
+      >
+        <i
+          className="fa fa-file-text-o"
+        />
+      </a>
+    </span>
+  </label>
+</div>
+`;
+
+exports[`An Item in review gets rendered well A selected Item in review gets rendered well 1`] = `
+<div
+  className="item padding-small-tb"
+  id="id-1"
+>
+  <input
+    checked={true}
+    id="select-form-item-item-key-1"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="inline-label"
+    htmlFor="select-form-item-item-key-1"
+  >
+    <ErrorTooltip
+      additionalClassNames={
+        Array [
+          "small-8",
+        ]
+      }
+    >
+      <span
+        className="small-8"
+      >
+        Item name
+      </span>
+    </ErrorTooltip>
+    <span
+      className="small-4 text-right"
+    >
+      Item value
+      <a
+        className="open-item-details margin-small-left"
+        onClick={[Function]}
+        title="Open item details"
+      >
+        <i
+          className="fa fa-file-text-o"
+        />
+      </a>
+    </span>
+  </label>
+</div>
+`;
+
+exports[`An Item in review gets rendered well An Item in review with a labeled value gets rendered well 1`] = `
+<div
+  className="item padding-small-tb"
+  id="id-1"
+>
+  <input
+    id="select-form-item-item-key-1"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="inline-label"
+    htmlFor="select-form-item-item-key-1"
+  >
+    <ErrorTooltip
+      additionalClassNames={
+        Array [
+          "small-8",
+        ]
+      }
+    >
+      <span
+        className="small-8"
+      >
+        Item name
+      </span>
+    </ErrorTooltip>
+    <span
+      className="small-4 text-right"
+    >
+      Item value
+      <small>
+         (
+        Item value label
+        )
+      </small>
+      <a
+        className="open-item-details margin-small-left"
+        onClick={[Function]}
+        title="Open item details"
+      >
+        <i
+          className="fa fa-file-text-o"
+        />
+      </a>
+    </span>
+  </label>
+</div>
+`;
+
+exports[`An Item in review gets rendered well An Item in review with a unit gets rendered well 1`] = `
+<div
+  className="item padding-small-tb"
+  id="id-1"
+>
+  <input
+    id="select-form-item-item-key-1"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="inline-label"
+    htmlFor="select-form-item-item-key-1"
+  >
+    <ErrorTooltip
+      additionalClassNames={
+        Array [
+          "small-8",
+        ]
+      }
+    >
+      <span
+        className="small-8"
+      >
+        Item name
+        <small>
+           (
+          kg
+          )
+        </small>
+      </span>
+    </ErrorTooltip>
+    <span
+      className="small-4 text-right"
+    >
+      Item value
+      <a
+        className="open-item-details margin-small-left"
+        onClick={[Function]}
+        title="Open item details"
+      >
+        <i
+          className="fa fa-file-text-o"
+        />
+      </a>
+    </span>
+  </label>
+</div>
+`;
+
+exports[`An Item in review gets rendered well An reviewed Item that was not submitted to edc 1`] = `
+<div
+  className="item padding-small-tb"
+  id="id-1"
+>
+  <div
+    className="disabled padding-small-rl"
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
+    <small
+      style={
+        Object {
+          "display": "flex",
+          "width": "100%",
+        }
+      }
+    >
+      <ErrorTooltip
+        additionalClassNames={
+          Array [
+            "small-8",
+          ]
+        }
+      >
+        <span
+          className="small-8"
+        >
+          Item name
+        </span>
+      </ErrorTooltip>
+      <span
+        className="small-4 text-right"
+      >
+        Item value
+        <small>
+           (
+          Item value label
+          )
+        </small>
+        <a
+          className="open-item-details margin-small-left"
+          onClick={[Function]}
+          title="Open item details"
+        >
+          <i
+            className="fa fa-file-text-o"
+          />
+        </a>
+      </span>
+    </small>
+  </div>
+</div>
+`;

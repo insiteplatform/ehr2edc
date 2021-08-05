@@ -1,0 +1,62 @@
+{
+	"create": {
+		"title"				: "Create analysis",
+		"next"				: "Next",
+		"create"			: "Create",
+		"back"				: "Back",
+		"specificTitle"		: "Create {{analysisType}} analysis"
+	},
+	
+	"ageDistribution": {
+		"binSize"			: "Bin size (years)",
+		"totalBins"			: "Total bins"
+	},
+	
+	"cohortComparison": {
+		"comparedCohort"	: "Compared cohort",
+		"selectCohort"		: "Select cohort"
+	},
+	
+	"measurementDistribution": {
+		"conceptOfInterest" : "Concept of interest (numeric observation)",
+		"choose"			: "Choose...",
+		"desiredUnit"		: "Desired unit",
+		"selectUnit"		: "Select unit from list or input a different one",
+		"referenceDate"		: "Reference date"
+	},
+	
+	"prevalence": {
+		"conceptOfInterest"	: "Concept of interest",
+		"choose"			: "Choose...",
+		"relativeLevel"		: "Relative sublevel of reporting",
+		"startDate"			: "Clinical facts start date",
+		"endDate"			: "Clinical facts end date"
+	},
+	
+	"terminology": {
+		"title"				: "Choose concept of interest",
+		"confirm"			: "Confirm",
+		"back"				: "Back",
+		"searchLimitText_Left"			: "Your search terms yielded too many results. Only the top ",
+		"searchLimitText_Right"			: " results are returned.<br /> Please consider using more specific terms, searching by category or searching by code.",
+		"searchCoverageHidden_Left"		: "<strong>",
+		"searchCoverageHidden_Right"	: " terms</strong> for which no patient data is available have been filtered out of the search results.",
+        "browserCoverageHidden"         : "Concepts under this term have no known patient coverage. Therfore, they are hidden.<br />To browse these concepts go to &quot;Show search options&quot; and disable &quot;Hide terms without patient data&quot;"
+	},
+	
+	"sidebar": {
+		"conceptLabel"			: "Concept label",
+		"conceptCodingSystem"	: "Concept coding system",
+		"conceptCode"			: "Concept code",
+		"chosenUnit"			: "Chosen unit",
+		"errorMessage"			: "Error message"
+	},
+	
+	"descriptions": {
+		"AgeDistribution"			: "Reports patient distribution of age",
+		"GenderDistribution"		: "Reports patient distribution of gender",
+		"CohortComparison"			: "Reports patient set operations on two cohorts",
+		"Prevalence"				: "Reports concept prevalence on a chosen hierarchical level",
+		"MeasurementDistribution"	: "Reports distribution of last measured patient values for a chosen numerical concept and unit"
+	}
+}

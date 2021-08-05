@@ -1,0 +1,21 @@
+{
+  "plugins": [
+    "@babel/plugin-transform-regenerator",
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-transform-modules-umd"
+  ],
+  "presets": [
+    "@babel/preset-react",
+    [
+      "@babel/env",
+      {
+        "targets": {
+          "browsers": [
+            "last 1 versions",
+            "ie >= 11"
+          ]
+        }
+      }
+    ]
+  ]
+}

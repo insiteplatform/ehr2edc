@@ -1,0 +1,7 @@
+{
+  "type": "subject",
+  "patientCDWReference": {
+    "source": "patient-source",
+    "id": "patient-1"
+  }
+}

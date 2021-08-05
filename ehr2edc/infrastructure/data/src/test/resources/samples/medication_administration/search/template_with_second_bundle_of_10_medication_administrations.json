@@ -1,0 +1,755 @@
+{
+  "resourceType": "Bundle",
+  "id": "f8739316-c1ed-44da-b4e7-f2e05a0b9283",
+  "meta": {
+    "lastUpdated": "2020-01-06T16:02:03.579+00:00"
+  },
+  "type": "searchset",
+  "total": 28,
+  "link": [
+    {
+      "relation": "self",
+      "url": "http://localhost:${serverPort}/baseDstu2?_getpages=f8739316-c1ed-44da-b4e7-f2e05a0b9283&_pretty=true&_count=10&_getpagesoffset=10&_bundletype=searchset&_format=json"
+    },
+    {
+      "relation": "next",
+      "url": "http://localhost:${serverPort}/baseDstu2?_getpages=f8739316-c1ed-44da-b4e7-f2e05a0b9283&_getpagesoffset=20&_count=10&_format=json&_pretty=true&_bundletype=searchset"
+    },
+    {
+      "relation": "previous",
+      "url": "http://localhost:${serverPort}/baseDstu2?_getpages=f8739316-c1ed-44da-b4e7-f2e05a0b9283&_getpagesoffset=0&_count=10&_format=json&_pretty=true&_bundletype=searchset"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "http://localhost:${serverPort}/baseDstu2/MedicationAdministration/194259",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "194259",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2019-09-27T09:06:52.081+00:00"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: medadminexample02</p><p><b>status</b>: completed</p><p><b>patient</b>: <a>Patient/example</a></p><p><b>practitioner</b>: <a>Practitioner/example</a></p><p><b>prescription</b>: <a>MedicationOrder/medrx008</a></p><p><b>effectiveTime</b>: 15/01/2015 2:30:00 PM --&gt; 15/01/2015 2:30:00 PM</p><p><b>medication</b>: <a>Medication/medicationexample17</a></p><h3>Dosages</h3><table><tr><td>-</td><td><b>Route</b></td><td><b>Quantity</b></td><td><b>Rate[x]</b></td></tr><tr><td>*</td><td>Intravenous route <span>(Details : {SNOMED CT code '47625008' = '47625008', given as 'Intravenous route'})</span></td><td>80 mg<span> (Details: http://unitsofmeasure.org code mg = '??')</span></td><td>80 mg<span> (Details: http://unitsofmeasure.org code mg = '??')</span>/60 minutes<span> (Details: SNOMED CT code 258702006 = '258702006')</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "Patient/${patientResourceId}"
+        },
+        "practitioner": {
+          "reference": "Practitioner/209"
+        },
+        "prescription": {
+          "reference": "MedicationOrder/149812"
+        },
+        "effectiveTimePeriod": {
+          "start": "2015-01-15T14:30:00+01:00",
+          "end": "2015-01-15T14:30:00+01:00"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "123455",
+              "display": "Some Oral Tablet"
+            }
+          ],
+          "text": "Some Oral Oral Tablet"
+        },
+        "dosage": {
+          "route": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "47625008",
+                "display": "Intravenous route"
+              }
+            ]
+          },
+          "quantity": {
+            "value": 80,
+            "unit": "mg",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg"
+          },
+          "rateRatio": {
+            "numerator": {
+              "value": 80,
+              "unit": "mg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg"
+            },
+            "denominator": {
+              "value": 60,
+              "unit": "minutes",
+              "system": "http://snomed.info/sct",
+              "code": "258702006"
+            }
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:${serverPort}/baseDstu2/MedicationAdministration/194309",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "194309",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2019-09-27T09:29:15.217+00:00"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: medadminexample02</p><p><b>status</b>: completed</p><p><b>patient</b>: <a>Patient/example</a></p><p><b>practitioner</b>: <a>Practitioner/example</a></p><p><b>prescription</b>: <a>MedicationOrder/medrx008</a></p><p><b>effectiveTime</b>: 15/01/2015 2:30:00 PM --&gt; 15/01/2015 2:30:00 PM</p><p><b>medication</b>: <a>Medication/medicationexample17</a></p><h3>Dosages</h3><table><tr><td>-</td><td><b>Route</b></td><td><b>Quantity</b></td><td><b>Rate[x]</b></td></tr><tr><td>*</td><td>Intravenous route <span>(Details : {SNOMED CT code '47625008' = '47625008', given as 'Intravenous route'})</span></td><td>80 mg<span> (Details: http://unitsofmeasure.org code mg = '??')</span></td><td>80 mg<span> (Details: http://unitsofmeasure.org code mg = '??')</span>/60 minutes<span> (Details: SNOMED CT code 258702006 = '258702006')</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "Patient/${patientResourceId}"
+        },
+        "practitioner": {
+          "reference": "Practitioner/209"
+        },
+        "prescription": {
+          "reference": "MedicationOrder/149812"
+        },
+        "effectiveTimePeriod": {
+          "start": "2015-01-15T14:30:00+01:00",
+          "end": "2015-01-15T14:30:00+01:00"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "123455",
+              "display": "Some Oral Tablet"
+            }
+          ],
+          "text": "Some Oral Oral Tablet"
+        },
+        "dosage": {
+          "route": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "47625008",
+                "display": "Intravenous route"
+              }
+            ]
+          },
+          "quantity": {
+            "value": 80,
+            "unit": "mg",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg"
+          },
+          "rateRatio": {
+            "numerator": {
+              "value": 80,
+              "unit": "mg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg"
+            },
+            "denominator": {
+              "value": 60,
+              "unit": "minutes",
+              "system": "http://snomed.info/sct",
+              "code": "258702006"
+            }
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:${serverPort}/baseDstu2/MedicationAdministration/194310",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "194310",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2019-09-27T09:29:15.782+00:00"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: medadminexample02</p><p><b>status</b>: completed</p><p><b>patient</b>: <a>Patient/example</a></p><p><b>practitioner</b>: <a>Practitioner/example</a></p><p><b>prescription</b>: <a>MedicationOrder/medrx008</a></p><p><b>effectiveTime</b>: 15/01/2015 2:30:00 PM --&gt; 15/01/2015 2:30:00 PM</p><p><b>medication</b>: <a>Medication/medicationexample17</a></p><h3>Dosages</h3><table><tr><td>-</td><td><b>Route</b></td><td><b>Quantity</b></td><td><b>Rate[x]</b></td></tr><tr><td>*</td><td>Intravenous route <span>(Details : {SNOMED CT code '47625008' = '47625008', given as 'Intravenous route'})</span></td><td>80 mg<span> (Details: http://unitsofmeasure.org code mg = '??')</span></td><td>80 mg<span> (Details: http://unitsofmeasure.org code mg = '??')</span>/60 minutes<span> (Details: SNOMED CT code 258702006 = '258702006')</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "Patient/${patientResourceId}"
+        },
+        "practitioner": {
+          "reference": "Practitioner/209"
+        },
+        "prescription": {
+          "reference": "MedicationOrder/149812"
+        },
+        "effectiveTimePeriod": {
+          "start": "2015-01-15T14:30:00+01:00",
+          "end": "2015-01-15T14:30:00+01:00"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "123455",
+              "display": "Some Oral Tablet"
+            }
+          ],
+          "text": "Some Oral Oral Tablet"
+        },
+        "dosage": {
+          "route": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "47625008",
+                "display": "Intravenous route"
+              }
+            ]
+          },
+          "quantity": {
+            "value": 80,
+            "unit": "mg",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg"
+          },
+          "rateRatio": {
+            "numerator": {
+              "value": 80,
+              "unit": "mg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg"
+            },
+            "denominator": {
+              "value": 60,
+              "unit": "minutes",
+              "system": "http://snomed.info/sct",
+              "code": "258702006"
+            }
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:${serverPort}/baseDstu2/MedicationAdministration/194370",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "194370",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2019-09-27T09:53:09.992+00:00"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: medadminexample02</p><p><b>status</b>: completed</p><p><b>patient</b>: <a>Patient/example</a></p><p><b>practitioner</b>: <a>Practitioner/example</a></p><p><b>prescription</b>: <a>MedicationOrder/medrx008</a></p><p><b>effectiveTime</b>: 15/01/2015 2:30:00 PM --&gt; 15/01/2015 2:30:00 PM</p><p><b>medication</b>: <a>Medication/medicationexample17</a></p><h3>Dosages</h3><table><tr><td>-</td><td><b>Route</b></td><td><b>Quantity</b></td><td><b>Rate[x]</b></td></tr><tr><td>*</td><td>Intravenous route <span>(Details : {SNOMED CT code '47625008' = '47625008', given as 'Intravenous route'})</span></td><td>80 mg<span> (Details: http://unitsofmeasure.org code mg = '??')</span></td><td>80 mg<span> (Details: http://unitsofmeasure.org code mg = '??')</span>/60 minutes<span> (Details: SNOMED CT code 258702006 = '258702006')</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "Patient/${patientResourceId}"
+        },
+        "practitioner": {
+          "reference": "Practitioner/209"
+        },
+        "prescription": {
+          "reference": "MedicationOrder/149812"
+        },
+        "effectiveTimePeriod": {
+          "start": "2015-01-15T14:30:00+01:00",
+          "end": "2015-01-15T14:30:00+01:00"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "123455",
+              "display": "Some Oral Tablet"
+            }
+          ],
+          "text": "Some Oral Oral Tablet"
+        },
+        "dosage": {
+          "route": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "47625008",
+                "display": "Intravenous route"
+              }
+            ]
+          },
+          "quantity": {
+            "value": 80,
+            "unit": "mg",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg"
+          },
+          "rateRatio": {
+            "numerator": {
+              "value": 80,
+              "unit": "mg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg"
+            },
+            "denominator": {
+              "value": 60,
+              "unit": "minutes",
+              "system": "http://snomed.info/sct",
+              "code": "258702006"
+            }
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:${serverPort}/baseDstu2/MedicationAdministration/194371",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "194371",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2019-09-27T09:53:10.626+00:00"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: medadminexample02</p><p><b>status</b>: completed</p><p><b>patient</b>: <a>Patient/example</a></p><p><b>practitioner</b>: <a>Practitioner/example</a></p><p><b>prescription</b>: <a>MedicationOrder/medrx008</a></p><p><b>effectiveTime</b>: 15/01/2015 2:30:00 PM --&gt; 15/01/2015 2:30:00 PM</p><p><b>medication</b>: <a>Medication/medicationexample17</a></p><h3>Dosages</h3><table><tr><td>-</td><td><b>Route</b></td><td><b>Quantity</b></td><td><b>Rate[x]</b></td></tr><tr><td>*</td><td>Intravenous route <span>(Details : {SNOMED CT code '47625008' = '47625008', given as 'Intravenous route'})</span></td><td>80 mg<span> (Details: http://unitsofmeasure.org code mg = '??')</span></td><td>80 mg<span> (Details: http://unitsofmeasure.org code mg = '??')</span>/60 minutes<span> (Details: SNOMED CT code 258702006 = '258702006')</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "Patient/${patientResourceId}"
+        },
+        "practitioner": {
+          "reference": "Practitioner/209"
+        },
+        "prescription": {
+          "reference": "MedicationOrder/149812"
+        },
+        "effectiveTimePeriod": {
+          "start": "2015-01-15T14:30:00+01:00",
+          "end": "2015-01-15T14:30:00+01:00"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "123455",
+              "display": "Some Oral Tablet"
+            }
+          ],
+          "text": "Some Oral Oral Tablet"
+        },
+        "dosage": {
+          "route": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "47625008",
+                "display": "Intravenous route"
+              }
+            ]
+          },
+          "quantity": {
+            "value": 80,
+            "unit": "mg",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg"
+          },
+          "rateRatio": {
+            "numerator": {
+              "value": 80,
+              "unit": "mg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg"
+            },
+            "denominator": {
+              "value": 60,
+              "unit": "minutes",
+              "system": "http://snomed.info/sct",
+              "code": "258702006"
+            }
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:${serverPort}/baseDstu2/MedicationAdministration/194432",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "194432",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2019-09-27T10:09:44.945+00:00"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: medadminexample02</p><p><b>status</b>: completed</p><p><b>patient</b>: <a>Patient/example</a></p><p><b>practitioner</b>: <a>Practitioner/example</a></p><p><b>prescription</b>: <a>MedicationOrder/medrx008</a></p><p><b>effectiveTime</b>: 15/01/2015 2:30:00 PM --&gt; 15/01/2015 2:30:00 PM</p><p><b>medication</b>: <a>Medication/medicationexample17</a></p><h3>Dosages</h3><table><tr><td>-</td><td><b>Route</b></td><td><b>Quantity</b></td><td><b>Rate[x]</b></td></tr><tr><td>*</td><td>Intravenous route <span>(Details : {SNOMED CT code '47625008' = '47625008', given as 'Intravenous route'})</span></td><td>80 mg<span> (Details: http://unitsofmeasure.org code mg = '??')</span></td><td>80 mg<span> (Details: http://unitsofmeasure.org code mg = '??')</span>/60 minutes<span> (Details: SNOMED CT code 258702006 = '258702006')</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "Patient/${patientResourceId}"
+        },
+        "practitioner": {
+          "reference": "Practitioner/209"
+        },
+        "prescription": {
+          "reference": "MedicationOrder/149812"
+        },
+        "effectiveTimePeriod": {
+          "start": "2015-01-15T14:30:00+01:00",
+          "end": "2015-01-15T14:30:00+01:00"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "123455",
+              "display": "Some Oral Tablet"
+            }
+          ],
+          "text": "Some Oral Oral Tablet"
+        },
+        "dosage": {
+          "route": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "47625008",
+                "display": "Intravenous route"
+              }
+            ]
+          },
+          "quantity": {
+            "value": 80,
+            "unit": "mg",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg"
+          },
+          "rateRatio": {
+            "numerator": {
+              "value": 80,
+              "unit": "mg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg"
+            },
+            "denominator": {
+              "value": 60,
+              "unit": "minutes",
+              "system": "http://snomed.info/sct",
+              "code": "258702006"
+            }
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:${serverPort}/baseDstu2/MedicationAdministration/194433",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "194433",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2019-09-27T10:09:46.914+00:00"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: medadminexample02</p><p><b>status</b>: completed</p><p><b>patient</b>: <a>Patient/example</a></p><p><b>practitioner</b>: <a>Practitioner/example</a></p><p><b>prescription</b>: <a>MedicationOrder/medrx008</a></p><p><b>effectiveTime</b>: 15/01/2015 2:30:00 PM --&gt; 15/01/2015 2:30:00 PM</p><p><b>medication</b>: <a>Medication/medicationexample17</a></p><h3>Dosages</h3><table><tr><td>-</td><td><b>Route</b></td><td><b>Quantity</b></td><td><b>Rate[x]</b></td></tr><tr><td>*</td><td>Intravenous route <span>(Details : {SNOMED CT code '47625008' = '47625008', given as 'Intravenous route'})</span></td><td>80 mg<span> (Details: http://unitsofmeasure.org code mg = '??')</span></td><td>80 mg<span> (Details: http://unitsofmeasure.org code mg = '??')</span>/60 minutes<span> (Details: SNOMED CT code 258702006 = '258702006')</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "Patient/${patientResourceId}"
+        },
+        "practitioner": {
+          "reference": "Practitioner/209"
+        },
+        "prescription": {
+          "reference": "MedicationOrder/149812"
+        },
+        "effectiveTimePeriod": {
+          "start": "2015-01-15T14:30:00+01:00",
+          "end": "2015-01-15T14:30:00+01:00"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "123455",
+              "display": "Some Oral Tablet"
+            }
+          ],
+          "text": "Some Oral Oral Tablet"
+        },
+        "dosage": {
+          "route": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "47625008",
+                "display": "Intravenous route"
+              }
+            ]
+          },
+          "quantity": {
+            "value": 80,
+            "unit": "mg",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg"
+          },
+          "rateRatio": {
+            "numerator": {
+              "value": 80,
+              "unit": "mg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg"
+            },
+            "denominator": {
+              "value": 60,
+              "unit": "minutes",
+              "system": "http://snomed.info/sct",
+              "code": "258702006"
+            }
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:${serverPort}/baseDstu2/MedicationAdministration/204712",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "204712",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2019-10-03T07:56:46.512+00:00"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: medadminexample02</p><p><b>status</b>: completed</p><p><b>patient</b>: <a>Patient/example</a></p><p><b>practitioner</b>: <a>Practitioner/example</a></p><p><b>prescription</b>: <a>MedicationOrder/medrx008</a></p><p><b>effectiveTime</b>: 15/01/2015 2:30:00 PM --&gt; 15/01/2015 2:30:00 PM</p><p><b>medication</b>: <a>Medication/medicationexample17</a></p><h3>Dosages</h3><table><tr><td>-</td><td><b>Route</b></td><td><b>Quantity</b></td><td><b>Rate[x]</b></td></tr><tr><td>*</td><td>Intravenous route <span>(Details : {SNOMED CT code '47625008' = '47625008', given as 'Intravenous route'})</span></td><td>80 mg<span> (Details: http://unitsofmeasure.org code mg = '??')</span></td><td>80 mg<span> (Details: http://unitsofmeasure.org code mg = '??')</span>/60 minutes<span> (Details: SNOMED CT code 258702006 = '258702006')</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "Patient/${patientResourceId}"
+        },
+        "practitioner": {
+          "reference": "Practitioner/209"
+        },
+        "prescription": {
+          "reference": "MedicationOrder/149812"
+        },
+        "effectiveTimePeriod": {
+          "start": "2015-01-15T14:30:00+01:00",
+          "end": "2015-01-15T14:30:00+01:00"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "123455",
+              "display": "Some Oral Tablet"
+            }
+          ],
+          "text": "Some Oral Oral Tablet"
+        },
+        "dosage": {
+          "route": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "47625008",
+                "display": "Intravenous route"
+              }
+            ]
+          },
+          "quantity": {
+            "value": 80,
+            "unit": "mg",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg"
+          },
+          "rateRatio": {
+            "numerator": {
+              "value": 80,
+              "unit": "mg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg"
+            },
+            "denominator": {
+              "value": 60,
+              "unit": "minutes",
+              "system": "http://snomed.info/sct",
+              "code": "258702006"
+            }
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:${serverPort}/baseDstu2/MedicationAdministration/204713",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "204713",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2019-10-03T07:56:46.988+00:00"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: medadminexample02</p><p><b>status</b>: completed</p><p><b>patient</b>: <a>Patient/example</a></p><p><b>practitioner</b>: <a>Practitioner/example</a></p><p><b>prescription</b>: <a>MedicationOrder/medrx008</a></p><p><b>effectiveTime</b>: 15/01/2015 2:30:00 PM --&gt; 15/01/2015 2:30:00 PM</p><p><b>medication</b>: <a>Medication/medicationexample17</a></p><h3>Dosages</h3><table><tr><td>-</td><td><b>Route</b></td><td><b>Quantity</b></td><td><b>Rate[x]</b></td></tr><tr><td>*</td><td>Intravenous route <span>(Details : {SNOMED CT code '47625008' = '47625008', given as 'Intravenous route'})</span></td><td>80 mg<span> (Details: http://unitsofmeasure.org code mg = '??')</span></td><td>80 mg<span> (Details: http://unitsofmeasure.org code mg = '??')</span>/60 minutes<span> (Details: SNOMED CT code 258702006 = '258702006')</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "Patient/${patientResourceId}"
+        },
+        "practitioner": {
+          "reference": "Practitioner/209"
+        },
+        "prescription": {
+          "reference": "MedicationOrder/149812"
+        },
+        "effectiveTimePeriod": {
+          "start": "2015-01-15T14:30:00+01:00",
+          "end": "2015-01-15T14:30:00+01:00"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "123455",
+              "display": "Some Oral Tablet"
+            }
+          ],
+          "text": "Some Oral Oral Tablet"
+        },
+        "dosage": {
+          "route": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "47625008",
+                "display": "Intravenous route"
+              }
+            ]
+          },
+          "quantity": {
+            "value": 80,
+            "unit": "mg",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg"
+          },
+          "rateRatio": {
+            "numerator": {
+              "value": 80,
+              "unit": "mg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg"
+            },
+            "denominator": {
+              "value": 60,
+              "unit": "minutes",
+              "system": "http://snomed.info/sct",
+              "code": "258702006"
+            }
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:${serverPort}/baseDstu2/MedicationAdministration/204714",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "204714",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2019-10-03T07:56:47.874+00:00"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: medadminexample02</p><p><b>status</b>: completed</p><p><b>patient</b>: <a>Patient/example</a></p><p><b>practitioner</b>: <a>Practitioner/example</a></p><p><b>prescription</b>: <a>MedicationOrder/medrx008</a></p><p><b>effectiveTime</b>: 15/01/2015 2:30:00 PM --&gt; 15/01/2015 2:30:00 PM</p><p><b>medication</b>: <a>Medication/medicationexample17</a></p><h3>Dosages</h3><table><tr><td>-</td><td><b>Route</b></td><td><b>Quantity</b></td><td><b>Rate[x]</b></td></tr><tr><td>*</td><td>Intravenous route <span>(Details : {SNOMED CT code '47625008' = '47625008', given as 'Intravenous route'})</span></td><td>80 mg<span> (Details: http://unitsofmeasure.org code mg = '??')</span></td><td>80 mg<span> (Details: http://unitsofmeasure.org code mg = '??')</span>/60 minutes<span> (Details: SNOMED CT code 258702006 = '258702006')</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "Patient/${patientResourceId}"
+        },
+        "practitioner": {
+          "reference": "Practitioner/209"
+        },
+        "prescription": {
+          "reference": "MedicationOrder/149812"
+        },
+        "effectiveTimePeriod": {
+          "start": "2015-01-15T14:30:00+01:00",
+          "end": "2015-01-15T14:30:00+01:00"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "123455",
+              "display": "Some Oral Tablet"
+            }
+          ],
+          "text": "Some Oral Oral Tablet"
+        },
+        "dosage": {
+          "route": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "47625008",
+                "display": "Intravenous route"
+              }
+            ]
+          },
+          "quantity": {
+            "value": 80,
+            "unit": "mg",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg"
+          },
+          "rateRatio": {
+            "numerator": {
+              "value": 80,
+              "unit": "mg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg"
+            },
+            "denominator": {
+              "value": 60,
+              "unit": "minutes",
+              "system": "http://snomed.info/sct",
+              "code": "258702006"
+            }
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}

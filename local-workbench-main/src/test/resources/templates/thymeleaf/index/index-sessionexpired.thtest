@@ -1,0 +1,6 @@
+%TEMPLATE_MODE HTML5
+# ------------------------------------------
+%INPUT (classpath:templates/thymeleaf/index.html)
+%FRAGMENT div[@id='sessionExpired']
+# ------------------------------------------
+%OUTPUT (classpath:templates/thymeleaf/index/expected/index-sessionexpired.html)

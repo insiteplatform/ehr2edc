@@ -1,0 +1,15 @@
+<ODM FileType="Snapshot" Granularity="Metadata" CreationDateTime="2019-06-27T09:10:00.000-00:00" FileOID="a87881e3-0e51-4015-973a-a45359b75cb3" ODMVersion="1.3" xmlns:mdsol="http://www.mdsol.com/ns/odm/metadata" xmlns="http://www.cdisc.org/ns/odm/v1.3">
+    <Study OID="EHR2EDC">
+        <GlobalVariables>
+            <StudyName>Invalid ODM</StudyName>
+            <StudyDescription>
+                This is an invalid ODM due to the Protocol tag
+            </StudyDescription>
+            <ProtocolName>ODM-invalid</ProtocolName>
+        </GlobalVariables>
+        <MetaDataVersion OID="1" Name="1">
+            <Protocol>
+            </Protocol>
+        </MetaDataVersion>
+    </Study>
+</ODM>

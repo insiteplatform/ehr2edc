@@ -1,0 +1,30 @@
+{
+  "query": {
+    "type": "laboratory",
+    "criteria": {
+      "criteria": [
+        {
+          "type": "includeConcepts",
+          "concepts": [
+            {
+              "code": "INSULIN"
+            }
+          ]
+        },
+        {
+          "type": "ordinal",
+          "ordinal": "LAST"
+        }
+      ]
+    }
+  },
+  "projectors": [
+    {
+      "type": "projectLabValue",
+      "field": "SPECIMEN"
+    },
+    {
+      "type": "toFormItem"
+    }
+  ]
+}

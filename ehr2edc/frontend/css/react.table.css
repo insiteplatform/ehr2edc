@@ -1,0 +1,220 @@
+/* Table general */
+.ReactTable {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.ReactTable.shrink {
+     flex: 0 0 auto;
+     display: flex;
+     flex-direction: row;
+ }
+
+.ReactTable .rt-table {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+.ReactTable .rt-tr {
+    border-bottom: 1px solid #CCC;
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 auto;
+}
+
+/* Table relative scaling */
+
+.ReactTable .small-1 {
+    -webkit-flex: 0 0 calc(100% * 1 / 12) !important;
+    -ms-flex: 0 0 calc(100% * 1 / 12) !important;
+    flex: 0 0 calc(100% * 1 / 12) !important;
+    max-width: calc(100% * 1 / 12) !important;
+}
+
+.ReactTable .small-2 {
+    -webkit-flex: 0 0 calc(100% * 2 / 12) !important;
+    -ms-flex: 0 0 calc(100% * 2 / 12) !important;
+    flex: 0 0 calc(100% * 2 / 12) !important;
+    max-width: calc(100% * 2 / 12) !important;
+}
+
+.ReactTable .small-3 {
+    -webkit-flex: 0 0 calc(100% * 3 / 12) !important;
+    -ms-flex: 0 0 calc(100% * 3 / 12) !important;
+    flex: 0 0 calc(100% * 3 / 12) !important;
+    max-width: calc(100% * 3 / 12) !important;
+}
+
+.ReactTable .small-4 {
+    -webkit-flex: 0 0 calc(100% * 4/12) !important;
+    -ms-flex: 0 0 calc(100% * 4/12) !important;
+    flex: 0 0 calc(100% * 4/12) !important;
+    max-width: calc(100% * 4/12) !important;
+}
+
+.ReactTable .small-5 {
+    -webkit-flex: 0 0 calc(100% * 5/12) !important;
+    -ms-flex: 0 0 calc(100% * 5/12) !important;
+    flex: 0 0 calc(100% * 5/12) !important;
+    max-width: calc(100% * 5/12) !important;
+}
+
+.ReactTable .small-6 {
+    -webkit-flex: 0 0 calc(100% * 6/12) !important;
+    -ms-flex: 0 0 calc(100% * 6/12) !important;
+    flex: 0 0 calc(100% * 6/12) !important;
+    max-width: calc(100% * 6/12) !important;
+}
+
+.ReactTable .small-7 {
+    -webkit-flex: 0 0 calc(100% * 7/12) !important;
+    -ms-flex: 0 0 calc(100% * 7/12) !important;
+    flex: 0 0 calc(100% * 7/12) !important;
+    max-width: calc(100% * 7/12) !important;
+}
+
+.ReactTable .small-8 {
+    -webkit-flex: 0 0 calc(100% * 8/12) !important;
+    -ms-flex: 0 0 calc(100% * 8/12) !important;
+    flex: 0 0 calc(100% * 8/12) !important;
+    max-width: calc(100% * 8/12) !important;
+}
+
+.ReactTable .small-9 {
+    -webkit-flex: 0 0 calc(100% * 9/12) !important;
+    -ms-flex: 0 0 calc(100% * 9/12) !important;
+    flex: 0 0 calc(100% * 9/12) !important;
+    max-width: calc(100% * 9/12) !important;
+}
+
+.ReactTable .small-10 {
+    -webkit-flex: 0 0 calc(100% * 10/12) !important;
+    -ms-flex: 0 0 calc(100% * 10/12) !important;
+    flex: 0 0 calc(100% * 10/12) !important;
+    max-width: calc(100% * 10/12) !important;
+}
+
+.ReactTable .small-11 {
+    -webkit-flex: 0 0 calc(100% * 11/12) !important;
+    -ms-flex: 0 0 calc(100% * 11/12) !important;
+    flex: 0 0 calc(100% * 11/12) !important;
+    max-width: calc(100% * 11/12) !important;
+}
+
+.ReactTable .small-12 {
+    -webkit-flex: 0 0 100% !important;
+    -ms-flex: 0 0 100% !important;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+}
+
+/* Table headers */
+
+.ReactTable .rt-th {
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 80%;
+    color: #999;
+    padding: 1em 0.5em;
+    vertical-align: top;
+    position: relative;
+}
+
+.ReactTable .rt-th:last-child {
+    padding-right: 2em;
+}
+
+.ReactTable .rt-th.-cursor-pointer {
+    padding-left: 1.3rem;
+}
+
+.ReactTable .rt-th.-cursor-pointer:before {
+    content: "\f0dc";
+    font-family: FontAwesome;
+    position: absolute;
+    left: 0.5rem;
+}
+
+.ReactTable .rt-th.-cursor-pointer.-sort-desc:before {
+    content: "\f0dd";
+}
+
+.ReactTable .rt-th.-cursor-pointer.-sort-asc:before {
+    content: "\f0de";
+}
+
+.ReactTable .rt-thead.-filters {
+    display: none;
+    visibility: hidden;
+}
+
+.ReactTable .rt-thead.-header {
+    flex: 0 0 auto;
+}
+
+/* Table body */
+.ReactTable .rt-tbody {
+    overflow-y: auto;
+    -ms-overflow-style: scrollbar;
+}
+
+.ReactTable .rt-td {
+    padding: 1em 0.5em;
+    font-size: 1rem;
+    vertical-align: top;
+}
+
+.ReactTable .rt-td a i {
+    padding: 3px 15px;
+}
+
+.ReactTable .rt-td.button-cell a i {
+    padding: 0 0.5em;
+}
+
+.ReactTable .rt-tbody .rt-tr:hover {
+    background-color: #F7F7F7;
+}
+
+.ReactTable .rt-tbody .rt-tr:hover > .rt-td:first-child {
+    box-shadow: inset 2px 0 #10D4AB;
+}
+
+.ReactTable .rt-table .rt-tbody .rt-tr-group .rt-tr.selected {
+    background-color: #EAEAEA;
+}
+
+/* Pager */
+
+.ReactTable .pagination-bottom {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: row
+}
+
+.ReactTable .pagination-bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.ReactTable zf-list-footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.ReactTable .pager-middle {
+    flex: 1;
+}
+
+.ReactTable .rt-noData, .ReactTable .-loading {
+    display: none;
+    visibility: hidden;
+}
+
+.ReactTable .rt-expandable {
+    display: none;
+}

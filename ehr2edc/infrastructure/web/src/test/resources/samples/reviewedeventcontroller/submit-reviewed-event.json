@@ -1,0 +1,34 @@
+{
+  "populatedEventId": "populated-event-id-098",
+  "reviewedForms": [
+    {
+      "id": "form-1",
+      "itemGroups": [
+        {
+          "id": "group-1",
+          "items": [
+            {
+              "id": "item-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "form-2",
+      "itemGroups": [
+        {
+          "id": "group-1",
+          "items": [
+            {
+              "id": "item-3"
+            },
+            {
+              "id": "item-4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

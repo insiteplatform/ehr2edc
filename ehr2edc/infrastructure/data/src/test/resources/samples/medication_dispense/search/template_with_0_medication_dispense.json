@@ -1,0 +1,15 @@
+{
+  "resourceType": "Bundle",
+  "id": "78b71120-c469-4f89-9a9c-199f3567d1a4",
+  "meta": {
+    "lastUpdated": "2020-01-20T14:13:47.722+00:00"
+  },
+  "type": "searchset",
+  "total": 0,
+  "link": [
+    {
+      "relation": "self",
+      "url": "http://hapifhir-r2.custodix.tech/baseDstu2/MedicationDispense?_pretty=true&patient=134"
+    }
+  ]
+}

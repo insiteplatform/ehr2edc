@@ -1,0 +1,12 @@
+{
+  "id": "STUDY-1",
+  "name": "Test study name",
+  "description": "Description of the test study",
+  "investigators": [],
+  "subjects": [],
+  "permissions": {
+      "canSubjectsBeAdded": true,
+      "canSubjectsBeViewed":false,
+      "canSendToEDC": false
+  }
+}

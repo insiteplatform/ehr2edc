@@ -1,0 +1,73 @@
+{
+  "resourceType": "Bundle",
+  "id": "5cbe23c0-4a14-4eb7-ad29-b8804ecf0e94",
+  "meta": {
+    "lastUpdated": "2020-02-04T14:25:56.721+00:00"
+  },
+  "type": "searchset",
+  "total": 1,
+  "link": [
+    {
+      "relation": "self",
+      "url": "http://localhost:${serverPort}/baseDstu2/Observation?_pretty=true&category=vital-signs"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "http://localhost:${serverPort}/baseDstu2/Observation/1859",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2018-11-19T12:29:04.646+00:00"
+        },
+        "status": "final",
+        "category": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "47625008",
+              "display": "Body Mass Index"
+            }
+          ],
+          "text": "Body Mass Index"
+        },
+        "subject": {
+          "reference": "Patient/1834"
+        },
+        "encounter": {
+          "reference": "Encounter/1855"
+        },
+        "effectiveDateTime": "2008-07-10T10:38:49-04:00",
+        "issued": "2008-07-10T10:38:49-04:00",
+        "valueQuantity": {
+          "value": 36.975895004252784,
+          "unit": "kg/m2",
+          "system": "http://unitsofmeasure.org/",
+          "code": "kg/m2"
+        },
+        "bodySite": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "40983000",
+              "display": "Upper arm"
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}

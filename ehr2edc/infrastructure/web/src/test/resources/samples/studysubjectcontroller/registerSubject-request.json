@@ -1,0 +1,12 @@
+{
+  "patientId":{
+    "source":"HIS_01",
+    "id":"PID_01"
+  },
+  "studyId" :"SID_01",
+  "edcSubjectReference":"SUB_01_REF",
+  "dateOfConsent": "2019-04-12",
+  "firstName": "John",
+  "lastName": "Smith",
+  "birthDate": "2009-09-09"
+}

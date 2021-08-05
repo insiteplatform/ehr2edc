@@ -1,0 +1,10 @@
+{
+  "availableStudies": [
+    {
+      "studyId": "STUD_002",
+      "name": "Another Study",
+      "description": "Another very serious study"
+    }
+  ],
+  "registeredStudies": []
+}

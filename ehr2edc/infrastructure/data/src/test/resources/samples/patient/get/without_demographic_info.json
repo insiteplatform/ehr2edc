@@ -1,0 +1,29 @@
+{
+  "resourceType": "Patient",
+  "id": "134",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2018-12-12T10:06:55.663+00:00"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">K Susanne <b>MUSTERFRAU </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>12345</td></tr></tbody></table></div>"
+  },
+  "identifier": [
+    {
+      "system": "http://acme.org/mrns",
+      "value": "12345"
+    }
+  ],
+  "name": [
+    {
+      "family": [
+        "Musterfrau"
+      ],
+      "given": [
+        "K",
+        "Susanne"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "studyParticipants": [
+    {
+      "subjectKey": "001",
+      "subjectOid": "SS_001",
+      "status": "Available",
+      "createdBy": "root",
+      "createdAt": "Nov 4, 2019 12:00:00 AM",
+      "lastModified": "Nov 13, 2019 12:00:00 AM",
+      "lastModifiedBy": ""
+    },
+    {
+      "subjectKey": "002",
+      "subjectOid": "SS_002",
+      "status": "Available",
+      "createdBy": "Jaron.Couvreur@trinetx.com",
+      "createdAt": "Nov 4, 2019 12:00:00 AM",
+      "lastModified": "Nov 4, 2019 12:00:00 AM",
+      "lastModifiedBy": ""
+    }
+  ],
+  "siteID": null,
+  "siteName": null,
+  "siteOID": null
+}

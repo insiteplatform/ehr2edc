@@ -1,0 +1,7 @@
+{
+	"createDialog" : {
+		"title"							: "Nieuwe cohort studie",
+		"createStudy"					: "Creëer cohort studie",
+		"editTitle"						: "Wijzig cohort studie"
+	}
+}

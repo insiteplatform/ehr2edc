@@ -1,0 +1,783 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalErrors Renders combination correctly 1`] = `
+<div
+  className="alert-box alert margin-top"
+>
+  The form returned some errors
+  <ul
+    className="bullet"
+  >
+    <li
+      key="0"
+    >
+      Validation failed.
+    </li>
+    <li
+      key="1"
+    >
+      Another validation failed
+    </li>
+  </ul>
+  <RequestError
+    contact="cont@ct"
+    error={
+      Object {
+        "response": Object {
+          "data": Object {
+            "issues": Array [
+              Object {
+                "field": null,
+                "message": "Something happened in the back-end",
+                "reference": null,
+              },
+            ],
+          },
+        },
+      }
+    }
+  />
+</div>
+`;
+
+exports[`ModalErrors Renders requestError correctly 1`] = `
+<div
+  className="alert-box alert margin-top"
+>
+  The form returned some errors
+  <ul
+    className="bullet"
+  />
+  <RequestError
+    contact="cont@ct"
+    error={
+      Object {
+        "response": Object {
+          "data": Object {
+            "issues": Array [
+              Object {
+                "field": null,
+                "message": "Something happened in the back-end",
+                "reference": null,
+              },
+            ],
+          },
+        },
+      }
+    }
+  />
+</div>
+`;
+
+exports[`ModalErrors Renders validationErrors correctly 1`] = `
+<div
+  className="alert-box alert margin-top"
+>
+  The form returned some errors
+  <ul
+    className="bullet"
+  >
+    <li
+      key="0"
+    >
+      Validation failed.
+    </li>
+    <li
+      key="1"
+    >
+      Another validation failed
+    </li>
+  </ul>
+  <RequestError />
+</div>
+`;
+
+exports[`Rendering the component A modal is in the close state by default 1`] = `
+<Modal
+  title="test"
+>
+  <Modal
+    ariaHideApp={true}
+    bodyOpenClassName="ReactModal__Body--open"
+    closeTimeoutMS={0}
+    isOpen={false}
+    onRequestClose={[Function]}
+    parentSelector={[Function]}
+    portalClassName="react-modal"
+    role="dialog"
+    shouldCloseOnEsc={true}
+    shouldCloseOnOverlayClick={false}
+    shouldFocusAfterRender={true}
+    shouldReturnFocusAfterClose={true}
+    style={
+      Object {
+        "content": Object {
+          "maxHeight": "688px",
+          "width": "450px",
+        },
+      }
+    }
+    title="test"
+  >
+    <Portal
+      containerInfo={
+        <div
+          class="react-modal"
+        />
+      }
+    >
+      <ModalPortal
+        ariaHideApp={true}
+        bodyOpenClassName="ReactModal__Body--open"
+        closeTimeoutMS={0}
+        defaultStyles={Object {}}
+        isOpen={false}
+        onRequestClose={[Function]}
+        parentSelector={[Function]}
+        portalClassName="react-modal"
+        role="dialog"
+        shouldCloseOnEsc={true}
+        shouldCloseOnOverlayClick={false}
+        shouldFocusAfterRender={true}
+        shouldReturnFocusAfterClose={true}
+        style={
+          Object {
+            "content": Object {
+              "maxHeight": "688px",
+              "width": "450px",
+            },
+          }
+        }
+        title="test"
+      />
+    </Portal>
+  </Modal>
+</Modal>
+`;
+
+exports[`Rendering the component A modal with a fixed width and height 1`] = `
+<Modal
+  height="350px"
+  open={true}
+  title="test"
+  width="800px"
+>
+  <Modal
+    ariaHideApp={true}
+    bodyOpenClassName="ReactModal__Body--open"
+    closeTimeoutMS={0}
+    isOpen={true}
+    onRequestClose={[Function]}
+    parentSelector={[Function]}
+    portalClassName="react-modal"
+    role="dialog"
+    shouldCloseOnEsc={true}
+    shouldCloseOnOverlayClick={false}
+    shouldFocusAfterRender={true}
+    shouldReturnFocusAfterClose={true}
+    style={
+      Object {
+        "content": Object {
+          "height": "350px",
+          "maxHeight": "688px",
+          "width": "800px",
+        },
+      }
+    }
+    title="test"
+  >
+    <Portal
+      containerInfo={
+        <div
+          class="react-modal"
+        >
+          <div
+            class="ReactModal__Overlay ReactModal__Overlay--after-open"
+          >
+            <div
+              class="ReactModal__Content ReactModal__Content--after-open"
+              role="dialog"
+              style="width: 800px; max-height: 688px; height: 350px;"
+              tabindex="-1"
+            >
+              <div
+                class="modal-titlebar"
+              >
+                <div
+                  class="modal-title"
+                >
+                  test
+                </div>
+                <div
+                  class="modal-close-icon"
+                >
+                  <i
+                    class="fa fa-times"
+                  />
+                </div>
+              </div>
+              <div
+                class="modal-content"
+              >
+                <p>
+                  Test
+                </p>
+              </div>
+              <div
+                class="modal-buttons"
+              >
+                <a
+                  class="button modal-ok "
+                  data-cy="modal-ok-button"
+                >
+                  OK
+                  <div
+                    class="bar"
+                  />
+                </a>
+                <a
+                  class="button secondary modal-cancel"
+                >
+                  Cancel
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      }
+    >
+      <ModalPortal
+        ariaHideApp={true}
+        bodyOpenClassName="ReactModal__Body--open"
+        closeTimeoutMS={0}
+        defaultStyles={Object {}}
+        isOpen={true}
+        onRequestClose={[Function]}
+        parentSelector={[Function]}
+        portalClassName="react-modal"
+        role="dialog"
+        shouldCloseOnEsc={true}
+        shouldCloseOnOverlayClick={false}
+        shouldFocusAfterRender={true}
+        shouldReturnFocusAfterClose={true}
+        style={
+          Object {
+            "content": Object {
+              "height": "350px",
+              "maxHeight": "688px",
+              "width": "800px",
+            },
+          }
+        }
+        title="test"
+      >
+        <div
+          className="ReactModal__Overlay ReactModal__Overlay--after-open"
+          onClick={[Function]}
+          onMouseDown={[Function]}
+          style={Object {}}
+        >
+          <div
+            className="ReactModal__Content ReactModal__Content--after-open"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onMouseDown={[Function]}
+            onMouseUp={[Function]}
+            role="dialog"
+            style={
+              Object {
+                "height": "350px",
+                "maxHeight": "688px",
+                "width": "800px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className="modal-titlebar"
+            >
+              <div
+                className="modal-title"
+              >
+                test
+              </div>
+              <div
+                className="modal-close-icon"
+                onClick={[Function]}
+              >
+                <i
+                  className="fa fa-times"
+                />
+              </div>
+            </div>
+            <div
+              className="modal-content"
+            >
+              <p>
+                Test
+              </p>
+            </div>
+            <div
+              className="modal-buttons"
+            >
+              <a
+                className="button modal-ok "
+                data-cy="modal-ok-button"
+                onClick={[Function]}
+              >
+                OK
+                <div
+                  className="bar"
+                />
+              </a>
+              <a
+                className="button secondary modal-cancel"
+                onClick={[Function]}
+              >
+                Cancel
+              </a>
+            </div>
+          </div>
+        </div>
+      </ModalPortal>
+    </Portal>
+  </Modal>
+</Modal>
+`;
+
+exports[`Rendering the component Rendering the closed state 1`] = `
+<Modal
+  open={false}
+  title="test"
+>
+  <Modal
+    ariaHideApp={true}
+    bodyOpenClassName="ReactModal__Body--open"
+    closeTimeoutMS={0}
+    isOpen={false}
+    onRequestClose={[Function]}
+    parentSelector={[Function]}
+    portalClassName="react-modal"
+    role="dialog"
+    shouldCloseOnEsc={true}
+    shouldCloseOnOverlayClick={false}
+    shouldFocusAfterRender={true}
+    shouldReturnFocusAfterClose={true}
+    style={
+      Object {
+        "content": Object {
+          "maxHeight": "688px",
+          "width": "450px",
+        },
+      }
+    }
+    title="test"
+  >
+    <Portal
+      containerInfo={
+        <div
+          class="react-modal"
+        />
+      }
+    >
+      <ModalPortal
+        ariaHideApp={true}
+        bodyOpenClassName="ReactModal__Body--open"
+        closeTimeoutMS={0}
+        defaultStyles={Object {}}
+        isOpen={false}
+        onRequestClose={[Function]}
+        parentSelector={[Function]}
+        portalClassName="react-modal"
+        role="dialog"
+        shouldCloseOnEsc={true}
+        shouldCloseOnOverlayClick={false}
+        shouldFocusAfterRender={true}
+        shouldReturnFocusAfterClose={true}
+        style={
+          Object {
+            "content": Object {
+              "maxHeight": "688px",
+              "width": "450px",
+            },
+          }
+        }
+        title="test"
+      />
+    </Portal>
+  </Modal>
+</Modal>
+`;
+
+exports[`Rendering the component Rendering the open state 1`] = `
+<Modal
+  onClose={[Function]}
+  open={true}
+  title="test"
+>
+  <Modal
+    ariaHideApp={true}
+    bodyOpenClassName="ReactModal__Body--open"
+    closeTimeoutMS={0}
+    isOpen={true}
+    onRequestClose={[Function]}
+    parentSelector={[Function]}
+    portalClassName="react-modal"
+    role="dialog"
+    shouldCloseOnEsc={true}
+    shouldCloseOnOverlayClick={false}
+    shouldFocusAfterRender={true}
+    shouldReturnFocusAfterClose={true}
+    style={
+      Object {
+        "content": Object {
+          "maxHeight": "688px",
+          "width": "450px",
+        },
+      }
+    }
+    title="test"
+  >
+    <Portal
+      containerInfo={
+        <div
+          class="react-modal"
+        >
+          <div
+            class="ReactModal__Overlay ReactModal__Overlay--after-open"
+          >
+            <div
+              class="ReactModal__Content ReactModal__Content--after-open"
+              role="dialog"
+              style="width: 450px; max-height: 688px;"
+              tabindex="-1"
+            >
+              <div
+                class="modal-titlebar"
+              >
+                <div
+                  class="modal-title"
+                >
+                  test
+                </div>
+                <div
+                  class="modal-close-icon"
+                >
+                  <i
+                    class="fa fa-times"
+                  />
+                </div>
+              </div>
+              <div
+                class="modal-content"
+              >
+                <p>
+                  Test
+                </p>
+              </div>
+              <div
+                class="modal-buttons"
+              >
+                <a
+                  class="button modal-ok "
+                  data-cy="modal-ok-button"
+                >
+                  OK
+                  <div
+                    class="bar"
+                  />
+                </a>
+                <a
+                  class="button secondary modal-cancel"
+                >
+                  Cancel
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      }
+    >
+      <ModalPortal
+        ariaHideApp={true}
+        bodyOpenClassName="ReactModal__Body--open"
+        closeTimeoutMS={0}
+        defaultStyles={Object {}}
+        isOpen={true}
+        onRequestClose={[Function]}
+        parentSelector={[Function]}
+        portalClassName="react-modal"
+        role="dialog"
+        shouldCloseOnEsc={true}
+        shouldCloseOnOverlayClick={false}
+        shouldFocusAfterRender={true}
+        shouldReturnFocusAfterClose={true}
+        style={
+          Object {
+            "content": Object {
+              "maxHeight": "688px",
+              "width": "450px",
+            },
+          }
+        }
+        title="test"
+      >
+        <div
+          className="ReactModal__Overlay ReactModal__Overlay--after-open"
+          onClick={[Function]}
+          onMouseDown={[Function]}
+          style={Object {}}
+        >
+          <div
+            className="ReactModal__Content ReactModal__Content--after-open"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onMouseDown={[Function]}
+            onMouseUp={[Function]}
+            role="dialog"
+            style={
+              Object {
+                "maxHeight": "688px",
+                "width": "450px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className="modal-titlebar"
+            >
+              <div
+                className="modal-title"
+              >
+                test
+              </div>
+              <div
+                className="modal-close-icon"
+                onClick={[Function]}
+              >
+                <i
+                  className="fa fa-times"
+                />
+              </div>
+            </div>
+            <div
+              className="modal-content"
+            >
+              <p>
+                Test
+              </p>
+            </div>
+            <div
+              className="modal-buttons"
+            >
+              <a
+                className="button modal-ok "
+                data-cy="modal-ok-button"
+                onClick={[Function]}
+              >
+                OK
+                <div
+                  className="bar"
+                />
+              </a>
+              <a
+                className="button secondary modal-cancel"
+                onClick={[Function]}
+              >
+                Cancel
+              </a>
+            </div>
+          </div>
+        </div>
+      </ModalPortal>
+    </Portal>
+  </Modal>
+</Modal>
+`;
+
+exports[`Rendering the component Rendering the open state with an action in Progress 1`] = `
+<Modal
+  inProgress={true}
+  onClose={[Function]}
+  open={true}
+  title="test"
+>
+  <Modal
+    ariaHideApp={true}
+    bodyOpenClassName="ReactModal__Body--open"
+    closeTimeoutMS={0}
+    isOpen={true}
+    onRequestClose={[Function]}
+    parentSelector={[Function]}
+    portalClassName="react-modal"
+    role="dialog"
+    shouldCloseOnEsc={true}
+    shouldCloseOnOverlayClick={false}
+    shouldFocusAfterRender={true}
+    shouldReturnFocusAfterClose={true}
+    style={
+      Object {
+        "content": Object {
+          "maxHeight": "688px",
+          "width": "450px",
+        },
+      }
+    }
+    title="test"
+  >
+    <Portal
+      containerInfo={
+        <div
+          class="react-modal"
+        >
+          <div
+            class="ReactModal__Overlay ReactModal__Overlay--after-open"
+          >
+            <div
+              class="ReactModal__Content ReactModal__Content--after-open"
+              role="dialog"
+              style="width: 450px; max-height: 688px;"
+              tabindex="-1"
+            >
+              <div
+                class="modal-titlebar"
+              >
+                <div
+                  class="modal-title"
+                >
+                  test
+                </div>
+                <div
+                  class="modal-close-icon"
+                >
+                  <i
+                    class="fa fa-times"
+                  />
+                </div>
+              </div>
+              <div
+                class="modal-content"
+              >
+                <p>
+                  Test
+                </p>
+              </div>
+              <div
+                class="modal-buttons"
+              >
+                <a
+                  class="button modal-ok in-progress"
+                  data-cy="modal-ok-button"
+                >
+                  OK
+                  <div
+                    class="bar"
+                  />
+                </a>
+                <a
+                  class="button secondary modal-cancel"
+                >
+                  Cancel
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      }
+    >
+      <ModalPortal
+        ariaHideApp={true}
+        bodyOpenClassName="ReactModal__Body--open"
+        closeTimeoutMS={0}
+        defaultStyles={Object {}}
+        isOpen={true}
+        onRequestClose={[Function]}
+        parentSelector={[Function]}
+        portalClassName="react-modal"
+        role="dialog"
+        shouldCloseOnEsc={true}
+        shouldCloseOnOverlayClick={false}
+        shouldFocusAfterRender={true}
+        shouldReturnFocusAfterClose={true}
+        style={
+          Object {
+            "content": Object {
+              "maxHeight": "688px",
+              "width": "450px",
+            },
+          }
+        }
+        title="test"
+      >
+        <div
+          className="ReactModal__Overlay ReactModal__Overlay--after-open"
+          onClick={[Function]}
+          onMouseDown={[Function]}
+          style={Object {}}
+        >
+          <div
+            className="ReactModal__Content ReactModal__Content--after-open"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onMouseDown={[Function]}
+            onMouseUp={[Function]}
+            role="dialog"
+            style={
+              Object {
+                "maxHeight": "688px",
+                "width": "450px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className="modal-titlebar"
+            >
+              <div
+                className="modal-title"
+              >
+                test
+              </div>
+              <div
+                className="modal-close-icon"
+                onClick={[Function]}
+              >
+                <i
+                  className="fa fa-times"
+                />
+              </div>
+            </div>
+            <div
+              className="modal-content"
+            >
+              <p>
+                Test
+              </p>
+            </div>
+            <div
+              className="modal-buttons"
+            >
+              <a
+                className="button modal-ok in-progress"
+                data-cy="modal-ok-button"
+                onClick={null}
+              >
+                OK
+                <div
+                  className="bar"
+                />
+              </a>
+              <a
+                className="button secondary modal-cancel"
+                onClick={[Function]}
+              >
+                Cancel
+              </a>
+            </div>
+          </div>
+        </div>
+      </ModalPortal>
+    </Portal>
+  </Modal>
+</Modal>
+`;

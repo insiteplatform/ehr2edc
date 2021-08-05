@@ -1,0 +1,58 @@
+package com.custodix.insite.local.security
+
+import com.custodix.insite.local.user.AbstractSpecification
+import eu.ehr4cr.workbench.local.WebRoutes
+import eu.ehr4cr.workbench.local.model.security.User
+import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc
+import org.springframework.http.HttpStatus
+import org.springframework.mock.web.MockHttpServletResponse
+import org.springframework.test.web.servlet.MockMvc
+import org.springframework.test.web.servlet.request.MockHttpServletRequestBuilder
+
+import static com.custodix.insite.local.cohort.scenario.objectMother.Users.PASSWORD
+import static eu.ehr4cr.workbench.local.WebRoutes.login
+import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.csrf
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post
+
+@AutoConfigureMockMvc
+class RecoveringUserLoginSpec extends AbstractSpecification {
+    @Autowired
+    private MockMvc mockMvc
+
+    def "A user that has a non-expired recovery request can still login"() {
+        given: "I am a user with an expired recovery request"
+        User user = users.aRecoveringUser()
+
+        when: "I fill in the login page with a valid user and password"
+        MockHttpServletResponse response = mockMvc.perform(createLoginRequest(user))
+                .andReturn()
+                .getResponse()
+
+        then: "I am redirected to the root"
+        response.status == HttpStatus.FOUND.value()
+        response.redirectedUrl == WebRoutes.root
+    }
+
+    def "A user that has an expired recovery request can still login"() {
+        given: "I am a user with an expired recovery request"
+        User user = users.aRecoveryExpiredUser()
+
+        when: "I fill in the login page with a valid user and password"
+        MockHttpServletResponse response = mockMvc.perform(createLoginRequest(user))
+                .andReturn()
+                .getResponse()
+
+        then: "I am redirected to the root"
+        response.status == HttpStatus.FOUND.value()
+        response.redirectedUrl == WebRoutes.root
+    }
+
+    private MockHttpServletRequestBuilder createLoginRequest(User user) {
+        return post(login)
+                .param("username", user.email)
+                .param("password", PASSWORD)
+                .with(csrf())
+    }
+
+}

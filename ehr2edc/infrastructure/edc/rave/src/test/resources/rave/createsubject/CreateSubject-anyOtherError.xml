@@ -1,0 +1,9 @@
+<Response
+        ReferenceNumber="00d125b0-b44b-4e64-913b-a9819a2705c2"
+        InboundODMFileOID="Example-1"
+        IsTransactionSuccessful = "0"
+        ReasonCode="RWS04242"
+        ErrorOriginLocation="/ODM/ClinicalData[1]/SubjectData[1]"
+        SuccessStatistics="Rave objects touched: Subjects=0; Folders=0; Forms=0; Fields=0; LogLines=0"
+        ErrorClientResponseMessage="Gert z'n gezicht staat mij niet aan">
+</Response>

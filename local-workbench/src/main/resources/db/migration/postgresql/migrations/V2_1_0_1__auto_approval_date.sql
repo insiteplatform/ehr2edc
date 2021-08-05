@@ -1,0 +1,1 @@
+ALTER TABLE feasibility_study ADD COLUMN autoApprovalDate timestamp without time zone DEFAULT NULL;

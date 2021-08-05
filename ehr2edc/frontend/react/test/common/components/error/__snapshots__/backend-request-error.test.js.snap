@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Building an error message from a error response Render issue with errormessage 1`] = `
+<ul
+  className="bullet"
+>
+  <li>
+    Something happened in the back-end
+  </li>
+</ul>
+`;
+
+exports[`Building an error message from a error response Render issue with fieldname 1`] = `
+<ul
+  className="bullet"
+>
+  <li>
+    field
+    : 
+    user error
+  </li>
+</ul>
+`;
+
+exports[`Building an error message from a error response Render issue with reference code 1`] = `
+<ul
+  className="bullet"
+>
+  <li>
+    error
+     Please try again or 
+    <a
+      href="mailto:someone@company.com?subject=Support request for issue code"
+      target="_blank"
+    >
+      contact support
+    </a>
+     if the issue persists.
+  </li>
+</ul>
+`;
+
+exports[`Building an error message from a error response Render multiple issues 1`] = `
+<ul
+  className="bullet"
+>
+  <li>
+    field
+    : 
+    Field validation failed.
+  </li>
+  <li>
+    field
+    : 
+    And something else is wrong with this field too
+  </li>
+  <li>
+    another-field
+    : 
+    Another field validation failed.
+  </li>
+</ul>
+`;

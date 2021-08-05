@@ -1,0 +1,23 @@
+{
+  "resourceType": "Patient",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2018-12-12T10:06:55.663+00:00"
+  },
+  "identifier": [
+    {
+      "system": "${identifier.source}",
+      "value": "${identifier.id}"
+    }
+  ],
+  "name": [
+    {
+      "family": [
+        "someFamilyName"
+      ],
+      "given": [
+        "givenName"
+      ]
+    }
+  ]
+}

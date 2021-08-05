@@ -1,0 +1,9 @@
+{
+  "studies": [
+    {
+      "id": "STUDY_ID",
+      "name": "STUDY",
+      "description": "DESCRIPTION"
+    }
+  ]
+}

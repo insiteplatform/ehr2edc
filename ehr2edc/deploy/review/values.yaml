@@ -1,0 +1,106 @@
+global:
+  mongo:
+    enabled: false
+  preloaded-postgres:
+    enabled: true
+  postgres:
+    enabled: false
+  ehr2edc:
+    lwb:
+      enabled: true
+    mongo:
+      enabled: true
+    preloaded-postgres:
+      enabled: false
+    mailhog:
+      enabled: false
+  mailhog:
+    enabled: true
+
+service:
+  database:
+    external:
+      enabled: false
+      url: preloaded-postgres
+    port: 5432
+
+ingress:
+  application:
+    annotations:
+      kubernetes.io/ingress.class: "nginx"
+      nginx.ingress.kubernetes.io/configuration-snippet: proxy_set_header X-Forwarded-Prefix "/ehr2edc";
+      nginx.ingress.kubernetes.io/rewrite-target: /
+  management:
+    annotations:
+      kubernetes.io/ingress.class: "nginx"
+      nginx.ingress.kubernetes.io/configuration-snippet: proxy_set_header X-Forwarded-Prefix "/ehr2edc";
+      nginx.ingress.kubernetes.io/rewrite-target: /actuator
+
+mongodb:
+  fullnameOverride: mongodb
+  mongodbUsername: insite
+  mongodbPassword: password
+  mongodbDatabase: insite
+  mongodbRootPassword: password
+  replicaSet:
+    enabled: true
+
+
+definedResources:
+  memory: 512
+  cpu: 50
+  request:
+    enabled: true
+
+deployment:
+  health:
+    enabled: false
+  ready:
+    enabled: false
+  javaOpts: "-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=8112 -Dlogging.config=file:/config-logging/log4j2-ehr2edc.xml"
+
+oidc-server:
+  deployment:
+    javaOpts: "-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=8778 -Djava.security.egd=file:/dev/./urandom -Djava.awt.headless=true -Dapplication.file=file:/config-override/override-oidc.properties -Dcredentials.file=file:/credentials/credentials-oidc.properties"
+  ingress:
+    enabled: false
+  service:
+    database:
+      external:
+        enabled: false
+        url: preloaded-postgres
+      port: 5432
+
+local-workbench-service:
+  deployment:
+    javaOpts: "-Dlogging.config=file:/config-logging/log4j2-lwb.xml"
+  ingress:
+    enabled: false
+  preloaded-postgres:
+    deployment:
+      imagePullSecret: harbor-registry
+    image:
+      repository: harbor.custodix.com/ehr2edc/ehr2edc-demo-data
+      tag: review-irst-demo-data
+  mailhog:
+    env:
+      MH_UI_WEB_PATH: mailhog
+    fullnameOverride: mailhog
+    extraEnv:
+      - name: MH_UI_WEB_PATH
+        value: mailhog
+    ingress:
+      enabled: true
+      tls:
+        - hosts:
+            - "${STRIPPED_CI_ENVIRONMENT_URL}"
+          secretName: custodix-tls
+      hosts:
+        - host: "${STRIPPED_CI_ENVIRONMENT_URL}"
+          paths:
+            - "/mailhog"
+  definedResources:
+    memory: 512
+    cpu: 50
+    request:
+      enabled: true

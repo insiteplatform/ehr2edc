@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumb correctly render route  The component generated ancestor route correctly based on the router 1`] = `
+<li>
+  <a
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "pathname": "/app/ehr2edc/studies/studyId_1/subjects/subjectId_1/eventdefinitions/eventDefinitionId_1/forms",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/app/ehr2edc/studies/studyId_1/subjects/subjectId_1/eventdefinitions/eventDefinitionId_1/forms",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+    href="/app/ehr2edc/studies/studyId_1/subjects/subjectId_1/eventdefinitions/eventDefinitionId_1/"
+    location={
+      Object {
+        "hash": "",
+        "pathname": "/app/ehr2edc/studies/studyId_1/subjects/subjectId_1/eventdefinitions/eventDefinitionId_1/forms",
+        "search": "",
+        "state": undefined,
+      }
+    }
+    match={
+      Object {
+        "isExact": false,
+        "params": Object {
+          "eventdefinitionId": "eventDefinitionId_1",
+          "studyId": "studyId_1",
+          "subjectId": "subjectId_1",
+        },
+        "path": "/app/ehr2edc/studies/:studyId/subjects/:subjectId/eventdefinitions/:eventdefinitionId/",
+        "url": "/app/ehr2edc/studies/studyId_1/subjects/subjectId_1/eventdefinitions/eventDefinitionId_1",
+      }
+    }
+    onClick={[Function]}
+  >
+    aAncestorTitle
+  </a>
+</li>
+`;
+
+exports[`Breadcrumb correctly render route  The component generated current route correctly based on current location 1`] = `
+<li>
+  currentRouteTitle
+</li>
+`;

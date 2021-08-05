@@ -1,0 +1,1 @@
+ALTER TABLE cohort_export ADD COLUMN completionDate timestamp without time zone DEFAULT NULL;

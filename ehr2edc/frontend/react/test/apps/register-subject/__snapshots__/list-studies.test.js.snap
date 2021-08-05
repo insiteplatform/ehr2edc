@@ -1,0 +1,1467 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering the component Select an available study 1`] = `
+<ListStudies
+  editable={true}
+  isLoading={false}
+  noDataMessage="There's no available studies for the patient"
+  onClose={[Function]}
+  onSubjectRegistration={[Function]}
+  studies={
+    Array [
+      Object {
+        "description": "Vitiligo Clinical Trial",
+        "name": "VCT",
+        "studyId": "SID_002",
+      },
+      Object {
+        "description": "Vitiligo Vulgaris Clinical Trial",
+        "name": "VVCT",
+        "studyId": "SID_003",
+      },
+    ]
+  }
+>
+  <ReactTable
+    AggregatedComponent={[Function]}
+    ExpanderComponent={[Function]}
+    FilterComponent={[Function]}
+    LoadingComponent={[Function]}
+    NoDataComponent={[Function]}
+    PadRowComponent={[Function]}
+    PaginationComponent={[Function]}
+    PivotValueComponent={[Function]}
+    ResizerComponent={[Function]}
+    SubComponent={[Function]}
+    TableComponent={[Function]}
+    TbodyComponent={[Function]}
+    TdComponent={[Function]}
+    TfootComponent={[Function]}
+    ThComponent={[Function]}
+    TheadComponent={[Function]}
+    TrComponent={[Function]}
+    TrGroupComponent={[Function]}
+    aggregatedKey="_aggregated"
+    className="shrink"
+    collapseOnDataChange={true}
+    collapseOnPageChange={true}
+    collapseOnSortingChange={true}
+    column={
+      Object {
+        "Aggregated": undefined,
+        "Cell": undefined,
+        "Expander": undefined,
+        "Filter": undefined,
+        "Footer": undefined,
+        "Header": undefined,
+        "Pivot": undefined,
+        "PivotValue": undefined,
+        "Placeholder": undefined,
+        "aggregate": undefined,
+        "className": "",
+        "filterAll": false,
+        "filterMethod": undefined,
+        "filterable": undefined,
+        "footerClassName": "",
+        "footerStyle": Object {},
+        "getFooterProps": [Function],
+        "getHeaderProps": [Function],
+        "getProps": [Function],
+        "headerClassName": "",
+        "headerStyle": Object {},
+        "minResizeWidth": 11,
+        "minWidth": 100,
+        "resizable": undefined,
+        "show": true,
+        "sortMethod": undefined,
+        "sortable": undefined,
+        "style": Object {},
+      }
+    }
+    columns={
+      Array [
+        Object {
+          "Header": "Name",
+          "accessor": "name",
+        },
+        Object {
+          "Header": "Description",
+          "accessor": "description",
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "description": "Vitiligo Clinical Trial",
+          "name": "VCT",
+          "studyId": "SID_002",
+        },
+        Object {
+          "description": "Vitiligo Vulgaris Clinical Trial",
+          "name": "VVCT",
+          "studyId": "SID_003",
+        },
+      ]
+    }
+    defaultExpanded={Object {}}
+    defaultFilterMethod={[Function]}
+    defaultFiltered={Array []}
+    defaultPage={0}
+    defaultPageSize={20}
+    defaultResized={Array []}
+    defaultSortDesc={false}
+    defaultSortMethod={[Function]}
+    defaultSorted={Array []}
+    expanded={
+      Array [
+        true,
+      ]
+    }
+    expanderDefaults={
+      Object {
+        "filterable": false,
+        "resizable": false,
+        "sortable": false,
+        "width": 35,
+      }
+    }
+    filterable={false}
+    freezeWhenExpanded={false}
+    getLoadingProps={[Function]}
+    getNoDataProps={[Function]}
+    getPaginationProps={[Function]}
+    getProps={[Function]}
+    getResizerProps={[Function]}
+    getTableProps={[Function]}
+    getTbodyProps={[Function]}
+    getTdProps={[Function]}
+    getTfootProps={[Function]}
+    getTfootTdProps={[Function]}
+    getTfootTrProps={[Function]}
+    getTheadFilterProps={[Function]}
+    getTheadFilterThProps={[Function]}
+    getTheadFilterTrProps={[Function]}
+    getTheadGroupProps={[Function]}
+    getTheadGroupThProps={[Function]}
+    getTheadGroupTrProps={[Function]}
+    getTheadProps={[Function]}
+    getTheadThProps={[Function]}
+    getTheadTrProps={[Function]}
+    getTrGroupProps={[Function]}
+    getTrProps={[Function]}
+    groupedByPivotKey="_groupedByPivot"
+    indexKey="_index"
+    loading={false}
+    loadingText="Loading..."
+    minRows={0}
+    multiSort={true}
+    nestingLevelKey="_nestingLevel"
+    nextText="Next"
+    noDataText="No rows found"
+    ofText="of"
+    onFetchData={[Function]}
+    originalKey="_original"
+    pageJumpText="jump to page"
+    pageSizeOptions={
+      Array [
+        5,
+        10,
+        20,
+        25,
+        50,
+        100,
+      ]
+    }
+    pageText="Page"
+    pivotDefaults={Object {}}
+    pivotIDKey="_pivotID"
+    pivotValKey="_pivotVal"
+    previousText="Previous"
+    resizable={true}
+    resolveData={[Function]}
+    rowsSelectorText="rows per page"
+    rowsText="rows"
+    showPageJump={true}
+    showPageSizeOptions={true}
+    showPagination={false}
+    showPaginationBottom={true}
+    showPaginationTop={false}
+    sortable={true}
+    style={Object {}}
+    subRowsKey="_subRows"
+  >
+    <div
+      className="ReactTable shrink"
+      style={Object {}}
+    >
+      <TableComponent
+        className=""
+      >
+        <div
+          className="rt-table"
+          role="grid"
+        >
+          <Thead
+            className="-header"
+            style={
+              Object {
+                "minWidth": "235px",
+              }
+            }
+          >
+            <div
+              className="rt-thead -header"
+              style={
+                Object {
+                  "minWidth": "235px",
+                }
+              }
+            >
+              <TrComponent>
+                <div
+                  className="rt-tr"
+                  role="row"
+                >
+                  <ThComponent
+                    className=""
+                    key="0-undefined"
+                    style={
+                      Object {
+                        "flex": "35 0 auto",
+                        "maxWidth": "35px",
+                        "width": "35px",
+                      }
+                    }
+                    toggleSort={[Function]}
+                  >
+                    <div
+                      className="rt-th"
+                      onClick={[Function]}
+                      role="columnheader"
+                      style={
+                        Object {
+                          "flex": "35 0 auto",
+                          "maxWidth": "35px",
+                          "width": "35px",
+                        }
+                      }
+                      tabIndex="-1"
+                    >
+                      <div
+                        className=""
+                      />
+                    </div>
+                  </ThComponent>
+                  <ThComponent
+                    className="rt-resizable-header -cursor-pointer"
+                    key="1-name"
+                    style={
+                      Object {
+                        "flex": "100 0 auto",
+                        "maxWidth": null,
+                        "width": "100px",
+                      }
+                    }
+                    toggleSort={[Function]}
+                  >
+                    <div
+                      className="rt-th rt-resizable-header -cursor-pointer"
+                      onClick={[Function]}
+                      role="columnheader"
+                      style={
+                        Object {
+                          "flex": "100 0 auto",
+                          "maxWidth": null,
+                          "width": "100px",
+                        }
+                      }
+                      tabIndex="-1"
+                    >
+                      <div
+                        className="rt-resizable-header-content"
+                      >
+                        Name
+                      </div>
+                      <Resizer
+                        onMouseDown={[Function]}
+                        onTouchStart={[Function]}
+                      >
+                        <div
+                          className="rt-resizer"
+                          onMouseDown={[Function]}
+                          onTouchStart={[Function]}
+                        />
+                      </Resizer>
+                    </div>
+                  </ThComponent>
+                  <ThComponent
+                    className="rt-resizable-header -cursor-pointer"
+                    key="2-description"
+                    style={
+                      Object {
+                        "flex": "100 0 auto",
+                        "maxWidth": null,
+                        "width": "100px",
+                      }
+                    }
+                    toggleSort={[Function]}
+                  >
+                    <div
+                      className="rt-th rt-resizable-header -cursor-pointer"
+                      onClick={[Function]}
+                      role="columnheader"
+                      style={
+                        Object {
+                          "flex": "100 0 auto",
+                          "maxWidth": null,
+                          "width": "100px",
+                        }
+                      }
+                      tabIndex="-1"
+                    >
+                      <div
+                        className="rt-resizable-header-content"
+                      >
+                        Description
+                      </div>
+                      <Resizer
+                        onMouseDown={[Function]}
+                        onTouchStart={[Function]}
+                      >
+                        <div
+                          className="rt-resizer"
+                          onMouseDown={[Function]}
+                          onTouchStart={[Function]}
+                        />
+                      </Resizer>
+                    </div>
+                  </ThComponent>
+                </div>
+              </TrComponent>
+            </div>
+          </Thead>
+          <Tbody
+            className=""
+            style={
+              Object {
+                "minWidth": "235px",
+              }
+            }
+          >
+            <div
+              className="rt-tbody"
+              style={
+                Object {
+                  "minWidth": "235px",
+                }
+              }
+            >
+              <TrGroupComponent
+                key="0"
+              >
+                <div
+                  className="rt-tr-group"
+                  role="rowgroup"
+                >
+                  <TrComponent
+                    className="selected -odd"
+                    onClick={[Function]}
+                  >
+                    <div
+                      className="rt-tr selected -odd"
+                      onClick={[Function]}
+                      role="row"
+                    >
+                      <TdComponent
+                        className="rt-expandable"
+                        key="0-undefined"
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "flex": "35 0 auto",
+                            "maxWidth": "35px",
+                            "width": "35px",
+                          }
+                        }
+                      >
+                        <div
+                          className="rt-td rt-expandable"
+                          onClick={[Function]}
+                          role="gridcell"
+                          style={
+                            Object {
+                              "flex": "35 0 auto",
+                              "maxWidth": "35px",
+                              "width": "35px",
+                            }
+                          }
+                        >
+                          <ExpanderComponent
+                            classes={
+                              Array [
+                                undefined,
+                                "",
+                                undefined,
+                              ]
+                            }
+                            column={
+                              Object {
+                                "Aggregated": undefined,
+                                "Cell": undefined,
+                                "Expander": undefined,
+                                "Filter": undefined,
+                                "Footer": undefined,
+                                "Header": undefined,
+                                "Pivot": undefined,
+                                "PivotValue": undefined,
+                                "Placeholder": undefined,
+                                "accessor": [Function],
+                                "aggregate": undefined,
+                                "className": "",
+                                "expander": true,
+                                "filterAll": false,
+                                "filterMethod": undefined,
+                                "filterable": false,
+                                "footerClassName": "",
+                                "footerStyle": Object {},
+                                "getFooterProps": [Function],
+                                "getHeaderProps": [Function],
+                                "getProps": [Function],
+                                "headerClassName": "",
+                                "headerStyle": Object {},
+                                "minResizeWidth": 11,
+                                "minWidth": 100,
+                                "resizable": false,
+                                "show": true,
+                                "sortMethod": undefined,
+                                "sortable": false,
+                                "style": Object {},
+                                "width": 35,
+                              }
+                            }
+                            columnProps={
+                              Object {
+                                "className": undefined,
+                                "rest": Object {},
+                                "style": undefined,
+                              }
+                            }
+                            expandable={true}
+                            expander={true}
+                            index={0}
+                            isExpanded={true}
+                            level={0}
+                            maxWidth={35}
+                            nestingPath={
+                              Array [
+                                0,
+                              ]
+                            }
+                            original={
+                              Object {
+                                "description": "Vitiligo Clinical Trial",
+                                "name": "VCT",
+                                "studyId": "SID_002",
+                              }
+                            }
+                            page={0}
+                            pageSize={20}
+                            resized={Array []}
+                            row={
+                              Object {
+                                "_index": 0,
+                                "_nestingLevel": 0,
+                                "_original": Object {
+                                  "description": "Vitiligo Clinical Trial",
+                                  "name": "VCT",
+                                  "studyId": "SID_002",
+                                },
+                                "_subRows": undefined,
+                                "_viewIndex": 0,
+                                "description": "Vitiligo Clinical Trial",
+                                "name": "VCT",
+                              }
+                            }
+                            show={true}
+                            styles={Object {}}
+                            tdProps={
+                              Object {
+                                "className": undefined,
+                                "rest": Object {},
+                                "style": undefined,
+                              }
+                            }
+                            viewIndex={0}
+                            width={35}
+                          >
+                            <div
+                              className="rt-expander -open"
+                            >
+                              •
+                            </div>
+                          </ExpanderComponent>
+                        </div>
+                      </TdComponent>
+                      <TdComponent
+                        className=""
+                        key="1-name"
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        <div
+                          className="rt-td"
+                          onClick={[Function]}
+                          role="gridcell"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          VCT
+                        </div>
+                      </TdComponent>
+                      <TdComponent
+                        className=""
+                        key="2-description"
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        <div
+                          className="rt-td"
+                          onClick={[Function]}
+                          role="gridcell"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          Vitiligo Clinical Trial
+                        </div>
+                      </TdComponent>
+                    </div>
+                  </TrComponent>
+                  <div
+                    className="grid-block vertical register-patient-form"
+                  >
+                    <form
+                      className="grid-block"
+                      onSubmit={[Function]}
+                    >
+                      <div
+                        className="grid-block padding"
+                      >
+                        <label
+                          htmlFor="inputSubjectId"
+                        >
+                          Subject ID 
+                          <i
+                            className="fa fa-info-circle"
+                            title="Identifier used to reference to the patient as a subject in this study (as issued by the IVRS or a similar system)"
+                          />
+                          <div>
+                            <SubjectIdField
+                              disabled={false}
+                              inputProps={
+                                Object {
+                                  "autoFocus": false,
+                                }
+                              }
+                              menuStyle={
+                                Object {
+                                  "maxHeight": "8em",
+                                }
+                              }
+                              onChange={[Function]}
+                              openOnFocus={true}
+                              valid={true}
+                              value=""
+                            >
+                              <input
+                                autoFocus={false}
+                                className="subject-identifier-field"
+                                disabled={false}
+                                name="subjectIdentifier"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                placeholder="Subject identifier"
+                                required={true}
+                                type="text"
+                                value=""
+                              />
+                            </SubjectIdField>
+                          </div>
+                        </label>
+                      </div>
+                      <div
+                        className="grid-block padding"
+                      >
+                        <label
+                          htmlFor="inputDateOfConsent"
+                        >
+                          Date of Consent 
+                          <i
+                            className="fa fa-info-circle"
+                            title="Date at which the patient has given informed consent to enter the study"
+                          />
+                          <div
+                            className="calendar-icon"
+                          >
+                            <t
+                              allowSameDay={false}
+                              dateFormat="d LLL yyyy"
+                              dateFormatCalendar="LLLL yyyy"
+                              disabled={false}
+                              disabledKeyboardNavigation={false}
+                              dropdownMode="scroll"
+                              id="inputDateOfConsent"
+                              inlineFocusSelectedMonth={false}
+                              maxDate={2019-06-26T22:00:00.000Z}
+                              monthsShown={1}
+                              nextMonthButtonLabel="Next Month"
+                              nextYearButtonLabel="Next Year"
+                              onBlur={[Function]}
+                              onCalendarClose={[Function]}
+                              onCalendarOpen={[Function]}
+                              onChange={[Function]}
+                              onClickOutside={[Function]}
+                              onFocus={[Function]}
+                              onInputClick={[Function]}
+                              onInputError={[Function]}
+                              onKeyDown={[Function]}
+                              onMonthChange={[Function]}
+                              onSelect={[Function]}
+                              onYearChange={[Function]}
+                              popperContainer={[Function]}
+                              preventOpenOnFocus={false}
+                              previousMonthButtonLabel="Previous Month"
+                              previousYearButtonLabel="Previous Year"
+                              readOnly={false}
+                              renderDayContents={[Function]}
+                              selected={2019-06-26T22:00:00.000Z}
+                              shouldCloseOnSelect={true}
+                              showMonthYearPicker={false}
+                              showPopperArrow={true}
+                              showPreviousMonths={false}
+                              showQuarterYearPicker={false}
+                              showTimeInput={false}
+                              showTimeSelect={false}
+                              strictParsing={false}
+                              timeCaption="Time"
+                              timeInputLabel="Time"
+                              timeIntervals={30}
+                              withPortal={false}
+                            >
+                              <t
+                                hidePopper={true}
+                                popperComponent={null}
+                                popperContainer={[Function]}
+                                popperModifiers={
+                                  Object {
+                                    "preventOverflow": Object {
+                                      "boundariesElement": "viewport",
+                                      "enabled": true,
+                                      "escapeWithReference": true,
+                                    },
+                                  }
+                                }
+                                popperPlacement="bottom-start"
+                                popperProps={Object {}}
+                                targetComponent={
+                                  <div
+                                    className="react-datepicker__input-container"
+                                  >
+                                    <input
+                                      className=""
+                                      disabled={false}
+                                      id="inputDateOfConsent"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
+                                      readOnly={false}
+                                      type="text"
+                                      value="27 Jun 2019"
+                                    />
+                                  </div>
+                                }
+                              >
+                                <Manager
+                                  className="react-datepicker-manager"
+                                >
+                                  <Reference>
+                                    <InnerReference
+                                      setReferenceNode={[Function]}
+                                    >
+                                      <div
+                                        className="react-datepicker-wrapper"
+                                      >
+                                        <div
+                                          className="react-datepicker__input-container"
+                                        >
+                                          <input
+                                            className=""
+                                            disabled={false}
+                                            id="inputDateOfConsent"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onClick={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyDown={[Function]}
+                                            readOnly={false}
+                                            type="text"
+                                            value="27 Jun 2019"
+                                          />
+                                        </div>
+                                      </div>
+                                    </InnerReference>
+                                  </Reference>
+                                  <CalendarContainer>
+                                    <Portal
+                                      container={null}
+                                    />
+                                  </CalendarContainer>
+                                </Manager>
+                              </t>
+                            </t>
+                          </div>
+                        </label>
+                      </div>
+                      <div
+                        className="grid-block margin padding"
+                      >
+                        <div>
+                          <a
+                            className="button icon disabled"
+                            onClick={[Function]}
+                          >
+                            <i
+                              className="fa fa-fw fa-plus"
+                            />
+                            <div
+                              className="bar"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </TrGroupComponent>
+              <TrGroupComponent
+                key="1"
+              >
+                <div
+                  className="rt-tr-group"
+                  role="rowgroup"
+                >
+                  <TrComponent
+                    className="-even"
+                    onClick={[Function]}
+                  >
+                    <div
+                      className="rt-tr -even"
+                      onClick={[Function]}
+                      role="row"
+                    >
+                      <TdComponent
+                        className="rt-expandable"
+                        key="0-undefined"
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "flex": "35 0 auto",
+                            "maxWidth": "35px",
+                            "width": "35px",
+                          }
+                        }
+                      >
+                        <div
+                          className="rt-td rt-expandable"
+                          onClick={[Function]}
+                          role="gridcell"
+                          style={
+                            Object {
+                              "flex": "35 0 auto",
+                              "maxWidth": "35px",
+                              "width": "35px",
+                            }
+                          }
+                        >
+                          <ExpanderComponent
+                            classes={
+                              Array [
+                                undefined,
+                                "",
+                                undefined,
+                              ]
+                            }
+                            column={
+                              Object {
+                                "Aggregated": undefined,
+                                "Cell": undefined,
+                                "Expander": undefined,
+                                "Filter": undefined,
+                                "Footer": undefined,
+                                "Header": undefined,
+                                "Pivot": undefined,
+                                "PivotValue": undefined,
+                                "Placeholder": undefined,
+                                "accessor": [Function],
+                                "aggregate": undefined,
+                                "className": "",
+                                "expander": true,
+                                "filterAll": false,
+                                "filterMethod": undefined,
+                                "filterable": false,
+                                "footerClassName": "",
+                                "footerStyle": Object {},
+                                "getFooterProps": [Function],
+                                "getHeaderProps": [Function],
+                                "getProps": [Function],
+                                "headerClassName": "",
+                                "headerStyle": Object {},
+                                "minResizeWidth": 11,
+                                "minWidth": 100,
+                                "resizable": false,
+                                "show": true,
+                                "sortMethod": undefined,
+                                "sortable": false,
+                                "style": Object {},
+                                "width": 35,
+                              }
+                            }
+                            columnProps={
+                              Object {
+                                "className": undefined,
+                                "rest": Object {},
+                                "style": undefined,
+                              }
+                            }
+                            expandable={true}
+                            expander={true}
+                            index={1}
+                            level={0}
+                            maxWidth={35}
+                            nestingPath={
+                              Array [
+                                1,
+                              ]
+                            }
+                            original={
+                              Object {
+                                "description": "Vitiligo Vulgaris Clinical Trial",
+                                "name": "VVCT",
+                                "studyId": "SID_003",
+                              }
+                            }
+                            page={0}
+                            pageSize={20}
+                            resized={Array []}
+                            row={
+                              Object {
+                                "_index": 1,
+                                "_nestingLevel": 0,
+                                "_original": Object {
+                                  "description": "Vitiligo Vulgaris Clinical Trial",
+                                  "name": "VVCT",
+                                  "studyId": "SID_003",
+                                },
+                                "_subRows": undefined,
+                                "_viewIndex": 1,
+                                "description": "Vitiligo Vulgaris Clinical Trial",
+                                "name": "VVCT",
+                              }
+                            }
+                            show={true}
+                            styles={Object {}}
+                            tdProps={
+                              Object {
+                                "className": undefined,
+                                "rest": Object {},
+                                "style": undefined,
+                              }
+                            }
+                            viewIndex={1}
+                            width={35}
+                          >
+                            <div
+                              className="rt-expander"
+                            >
+                              •
+                            </div>
+                          </ExpanderComponent>
+                        </div>
+                      </TdComponent>
+                      <TdComponent
+                        className=""
+                        key="1-name"
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        <div
+                          className="rt-td"
+                          onClick={[Function]}
+                          role="gridcell"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          VVCT
+                        </div>
+                      </TdComponent>
+                      <TdComponent
+                        className=""
+                        key="2-description"
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        <div
+                          className="rt-td"
+                          onClick={[Function]}
+                          role="gridcell"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          Vitiligo Vulgaris Clinical Trial
+                        </div>
+                      </TdComponent>
+                    </div>
+                  </TrComponent>
+                </div>
+              </TrGroupComponent>
+            </div>
+          </Tbody>
+        </div>
+      </TableComponent>
+      <LoadingComponent
+        loading={false}
+        loadingText="Loading..."
+      >
+        <div
+          className="-loading"
+        >
+          <div
+            className="-loading-inner"
+          >
+            Loading...
+          </div>
+        </div>
+      </LoadingComponent>
+    </div>
+  </ReactTable>
+</ListStudies>
+`;
+
+exports[`Rendering the component The page is loaded without registered studies 1`] = `
+<div
+  className="padding"
+>
+  There's no registered studies for the patient
+</div>
+`;
+
+exports[`Rendering the component The page is loading available studies 1`] = `
+<div
+  className="grid-block search-results-loading"
+>
+  <span
+    className="search-results-loading-icon padding-large"
+  >
+    <i
+      className="fa fa-circle-o-notch fa-spin"
+    />
+  </span>
+</div>
+`;
+
+exports[`Rendering the component The page is loading registered studies 1`] = `
+<div
+  className="grid-block search-results-loading"
+>
+  <span
+    className="search-results-loading-icon padding-large"
+  >
+    <i
+      className="fa fa-circle-o-notch fa-spin"
+    />
+  </span>
+</div>
+`;
+
+exports[`Rendering the component The page is rendered 1`] = `
+<div
+  className="padding"
+/>
+`;
+
+exports[`Rendering the component The page is rendering available studies 1`] = `
+<div
+  className="ReactTable shrink"
+  style={Object {}}
+>
+  <div
+    className="rt-table"
+    role="grid"
+  >
+    <div
+      className="rt-thead -header"
+      style={
+        Object {
+          "minWidth": "235px",
+        }
+      }
+    >
+      <div
+        className="rt-tr"
+        role="row"
+      >
+        <div
+          className="rt-th"
+          onClick={[Function]}
+          role="columnheader"
+          style={
+            Object {
+              "flex": "35 0 auto",
+              "maxWidth": "35px",
+              "width": "35px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <div
+            className=""
+          />
+        </div>
+        <div
+          className="rt-th rt-resizable-header -cursor-pointer"
+          onClick={[Function]}
+          role="columnheader"
+          style={
+            Object {
+              "flex": "100 0 auto",
+              "maxWidth": null,
+              "width": "100px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <div
+            className="rt-resizable-header-content"
+          >
+            Name
+          </div>
+          <div
+            className="rt-resizer"
+            onMouseDown={[Function]}
+            onTouchStart={[Function]}
+          />
+        </div>
+        <div
+          className="rt-th rt-resizable-header -cursor-pointer"
+          onClick={[Function]}
+          role="columnheader"
+          style={
+            Object {
+              "flex": "100 0 auto",
+              "maxWidth": null,
+              "width": "100px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <div
+            className="rt-resizable-header-content"
+          >
+            Description
+          </div>
+          <div
+            className="rt-resizer"
+            onMouseDown={[Function]}
+            onTouchStart={[Function]}
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="rt-tbody"
+      style={
+        Object {
+          "minWidth": "235px",
+        }
+      }
+    >
+      <div
+        className="rt-tr-group"
+        role="rowgroup"
+      >
+        <div
+          className="rt-tr -odd"
+          onClick={[Function]}
+          role="row"
+        >
+          <div
+            className="rt-td rt-expandable"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "35 0 auto",
+                "maxWidth": "35px",
+                "width": "35px",
+              }
+            }
+          >
+            <div
+              className="rt-expander"
+            >
+              •
+            </div>
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            VCT
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            Vitiligo Clinical Trial
+          </div>
+        </div>
+      </div>
+      <div
+        className="rt-tr-group"
+        role="rowgroup"
+      >
+        <div
+          className="rt-tr -even"
+          onClick={[Function]}
+          role="row"
+        >
+          <div
+            className="rt-td rt-expandable"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "35 0 auto",
+                "maxWidth": "35px",
+                "width": "35px",
+              }
+            }
+          >
+            <div
+              className="rt-expander"
+            >
+              •
+            </div>
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            VVCT
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            Vitiligo Vulgaris Clinical Trial
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="-loading"
+  >
+    <div
+      className="-loading-inner"
+    >
+      Loading...
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Rendering the component The page is rendering registered studies 1`] = `
+<div
+  className="ReactTable shrink"
+  style={Object {}}
+>
+  <div
+    className="rt-table"
+    role="grid"
+  >
+    <div
+      className="rt-thead -header"
+      style={
+        Object {
+          "minWidth": "400px",
+        }
+      }
+    >
+      <div
+        className="rt-tr"
+        role="row"
+      >
+        <div
+          className="rt-th rt-resizable-header -cursor-pointer"
+          onClick={[Function]}
+          role="columnheader"
+          style={
+            Object {
+              "flex": "100 0 auto",
+              "maxWidth": null,
+              "width": "100px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <div
+            className="rt-resizable-header-content"
+          >
+            Name
+          </div>
+          <div
+            className="rt-resizer"
+            onMouseDown={[Function]}
+            onTouchStart={[Function]}
+          />
+        </div>
+        <div
+          className="rt-th rt-resizable-header -cursor-pointer"
+          onClick={[Function]}
+          role="columnheader"
+          style={
+            Object {
+              "flex": "100 0 auto",
+              "maxWidth": null,
+              "width": "100px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <div
+            className="rt-resizable-header-content"
+          >
+            Description
+          </div>
+          <div
+            className="rt-resizer"
+            onMouseDown={[Function]}
+            onTouchStart={[Function]}
+          />
+        </div>
+        <div
+          className="rt-th rt-resizable-header -cursor-pointer"
+          onClick={[Function]}
+          role="columnheader"
+          style={
+            Object {
+              "flex": "100 0 auto",
+              "maxWidth": null,
+              "width": "100px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <div
+            className="rt-resizable-header-content"
+          >
+            Subject ID
+          </div>
+          <div
+            className="rt-resizer"
+            onMouseDown={[Function]}
+            onTouchStart={[Function]}
+          />
+        </div>
+        <div
+          className="rt-th rt-resizable-header -cursor-pointer"
+          onClick={[Function]}
+          role="columnheader"
+          style={
+            Object {
+              "flex": "100 0 auto",
+              "maxWidth": null,
+              "width": "100px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <div
+            className="rt-resizable-header-content"
+          >
+            Date Of Consent
+          </div>
+          <div
+            className="rt-resizer"
+            onMouseDown={[Function]}
+            onTouchStart={[Function]}
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="rt-tbody"
+      style={
+        Object {
+          "minWidth": "400px",
+        }
+      }
+    >
+      <div
+        className="rt-tr-group"
+        role="rowgroup"
+      >
+        <div
+          className="rt-tr -odd"
+          role="row"
+        >
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            MCT
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            Melanoma Clinical Trial
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            SUB_001
+          </div>
+          <div
+            className="rt-td"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            April 8, 2019
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="-loading"
+  >
+    <div
+      className="-loading-inner"
+    >
+      Loading...
+    </div>
+  </div>
+</div>
+`;

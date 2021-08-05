@@ -1,0 +1,34 @@
+/* analyses table checkboxes */
+input[type="checkbox"] + label, input[type="radio"] + label {
+	padding-left: 0px;
+}
+input[type="checkbox"] + label:before, input[type="radio"] + label:before {
+	position: relative ;
+}
+.analyses-table th:first-of-type {
+	width: 2% ;
+}
+
+/** TERMINOLOGY TREE **/
+/* terminology tree radiobuttons */
+li.search-tree-library label.concept-radio {
+    display: block;
+    padding: 0.5em 0.1em 0.5em 0em;
+    color: #4978B9;
+    position: absolute;
+    right: -2.2em;
+    top: -0.35em;
+    z-index: 4;
+}
+
+/* Prevents search functionality window from getting automatically hidden behind the terminology tree dialog */
+.terminologyTreeDialog {
+    z-index: 101 !important ;
+}
+ul.ui-autocomplete {
+	z-index: 200;
+}
+
+.search-tree .coverage-count {
+	top: 0px;
+}

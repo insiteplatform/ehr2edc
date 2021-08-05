@@ -1,0 +1,515 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component rendering Table gets rendered well with data 1`] = `
+<div
+  className="ReactTable"
+  style={Object {}}
+>
+  <div
+    className="rt-table"
+    role="grid"
+  >
+    <div
+      className="rt-thead -header"
+      style={
+        Object {
+          "minWidth": "200px",
+        }
+      }
+    >
+      <div
+        className="rt-tr"
+        role="row"
+      >
+        <div
+          className="rt-th small-4 -sort-asc -cursor-pointer"
+          onClick={[Function]}
+          role="columnheader"
+          style={
+            Object {
+              "flex": "100 0 auto",
+              "maxWidth": null,
+              "width": "100px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <div
+            className=""
+          >
+            Name
+          </div>
+        </div>
+        <div
+          className="rt-th small-8 -cursor-pointer"
+          onClick={[Function]}
+          role="columnheader"
+          style={
+            Object {
+              "flex": "100 0 auto",
+              "maxWidth": null,
+              "width": "100px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <div
+            className=""
+          >
+            Description
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="rt-tbody"
+      style={
+        Object {
+          "minWidth": "200px",
+        }
+      }
+    >
+      <div
+        className="rt-tr-group"
+        role="rowgroup"
+      >
+        <div
+          className="rt-tr -odd"
+          role="row"
+        >
+          <div
+            className="rt-td small-4"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            <div
+              data-cy="study-id-col"
+            >
+              <a
+                href="/TEST-1"
+                onClick={[Function]}
+              >
+                Test name 1
+              </a>
+            </div>
+          </div>
+          <div
+            className="rt-td small-8"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            Test description1
+          </div>
+        </div>
+      </div>
+      <div
+        className="rt-tr-group"
+        role="rowgroup"
+      >
+        <div
+          className="rt-tr -even"
+          role="row"
+        >
+          <div
+            className="rt-td small-4"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            <div
+              data-cy="study-id-col"
+            >
+              <a
+                href="/TEST-2"
+                onClick={[Function]}
+              >
+                Test name 2
+              </a>
+            </div>
+          </div>
+          <div
+            className="rt-td small-8"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            Test description2
+          </div>
+        </div>
+      </div>
+      <div
+        className="rt-tr-group"
+        role="rowgroup"
+      >
+        <div
+          className="rt-tr -odd"
+          role="row"
+        >
+          <div
+            className="rt-td small-4"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            <div
+              data-cy="study-id-col"
+            >
+              <a
+                href="/TEST-3"
+                onClick={[Function]}
+              >
+                Test name 3
+              </a>
+            </div>
+          </div>
+          <div
+            className="rt-td small-8"
+            onClick={[Function]}
+            role="gridcell"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            Test description3
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="pagination-bottom"
+  >
+    <zf-list-footer>
+      <div
+        className="pager-size"
+      >
+        <span>
+          Items per page: 
+        </span>
+        <ul>
+          <li
+            className="page-size-10"
+          >
+            <a
+              onClick={[Function]}
+            >
+              10
+            </a>
+          </li>
+          <li
+            className="page-size-25"
+          >
+            <a
+              onClick={[Function]}
+            >
+              25
+            </a>
+          </li>
+          <li
+            className="page-size-50 is-active"
+          >
+            <a
+              onClick={[Function]}
+            >
+              50
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        className="pager-middle"
+      />
+      <ul
+        className="pager"
+      >
+        <li
+          className="pager-navigation-button first disabled"
+        >
+          <a
+            disabled={true}
+            onClick={[Function]}
+          >
+            <i
+              className="fa fa-angle-double-left"
+            />
+          </a>
+        </li>
+        <li
+          className="pager-navigation-button prev disabled"
+        >
+          <a
+            disabled={true}
+            onClick={[Function]}
+          >
+            <i
+              className="fa fa-angle-left"
+            />
+          </a>
+        </li>
+        <li
+          className="pager-navigation-page is-active page-1"
+        >
+          <a
+            onClick={[Function]}
+          >
+            1
+          </a>
+        </li>
+        <li
+          className="pager-navigation-button next disabled"
+        >
+          <a
+            disabled={true}
+            onClick={[Function]}
+          >
+            <i
+              className="fa fa-angle-right"
+            />
+          </a>
+        </li>
+        <li
+          className="pager-navigation-button last disabled"
+        >
+          <a
+            disabled={true}
+            onClick={[Function]}
+          >
+            <i
+              className="fa fa-angle-double-right"
+            />
+          </a>
+        </li>
+      </ul>
+    </zf-list-footer>
+  </div>
+  <div
+    className="-loading"
+  >
+    <div
+      className="-loading-inner"
+    >
+      Loading...
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Component rendering Table gets rendered well with no data 1`] = `
+<div
+  className="ReactTable"
+  style={Object {}}
+>
+  <div
+    className="rt-table"
+    role="grid"
+  >
+    <div
+      className="rt-thead -header"
+      style={
+        Object {
+          "minWidth": "200px",
+        }
+      }
+    >
+      <div
+        className="rt-tr"
+        role="row"
+      >
+        <div
+          className="rt-th small-4 -sort-asc -cursor-pointer"
+          onClick={[Function]}
+          role="columnheader"
+          style={
+            Object {
+              "flex": "100 0 auto",
+              "maxWidth": null,
+              "width": "100px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <div
+            className=""
+          >
+            Name
+          </div>
+        </div>
+        <div
+          className="rt-th small-8 -cursor-pointer"
+          onClick={[Function]}
+          role="columnheader"
+          style={
+            Object {
+              "flex": "100 0 auto",
+              "maxWidth": null,
+              "width": "100px",
+            }
+          }
+          tabIndex="-1"
+        >
+          <div
+            className=""
+          >
+            Description
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="rt-tbody"
+      style={
+        Object {
+          "minWidth": "200px",
+        }
+      }
+    />
+  </div>
+  <div
+    className="pagination-bottom"
+  >
+    <zf-list-footer>
+      <div
+        className="pager-size"
+      >
+        <span>
+          Items per page: 
+        </span>
+        <ul>
+          <li
+            className="page-size-10"
+          >
+            <a
+              onClick={[Function]}
+            >
+              10
+            </a>
+          </li>
+          <li
+            className="page-size-25"
+          >
+            <a
+              onClick={[Function]}
+            >
+              25
+            </a>
+          </li>
+          <li
+            className="page-size-50 is-active"
+          >
+            <a
+              onClick={[Function]}
+            >
+              50
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        className="pager-middle"
+      />
+      <ul
+        className="pager"
+      >
+        <li
+          className="pager-navigation-button first disabled"
+        >
+          <a
+            disabled={true}
+            onClick={[Function]}
+          >
+            <i
+              className="fa fa-angle-double-left"
+            />
+          </a>
+        </li>
+        <li
+          className="pager-navigation-button prev disabled"
+        >
+          <a
+            disabled={true}
+            onClick={[Function]}
+          >
+            <i
+              className="fa fa-angle-left"
+            />
+          </a>
+        </li>
+        <li
+          className="pager-navigation-button next"
+        >
+          <a
+            disabled={false}
+            onClick={[Function]}
+          >
+            <i
+              className="fa fa-angle-right"
+            />
+          </a>
+        </li>
+        <li
+          className="pager-navigation-button last"
+        >
+          <a
+            disabled={false}
+            onClick={[Function]}
+          >
+            <i
+              className="fa fa-angle-double-right"
+            />
+          </a>
+        </li>
+      </ul>
+    </zf-list-footer>
+  </div>
+  <div
+    className="rt-noData"
+  >
+    No rows found
+  </div>
+  <div
+    className="-loading"
+  >
+    <div
+      className="-loading-inner"
+    >
+      Loading...
+    </div>
+  </div>
+</div>
+`;

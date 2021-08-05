@@ -1,0 +1,15 @@
+{	
+	"sidebar" : {
+		"patient"		: "patient",
+		"patients"		: "patienten"
+	},
+	
+	"editDialog" : {
+		"title"							: "Wijzig cohorte"
+	},
+	
+	"importDialog" : {
+		"title"							: "Importeer cohorte",
+		"create"						: "Creëer"
+	}
+}

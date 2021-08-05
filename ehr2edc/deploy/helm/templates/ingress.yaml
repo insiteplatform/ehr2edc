@@ -1,0 +1,130 @@
+{{- if .Values.global.ehr2edc.lwb.enabled -}}
+
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: {{ template "ehr2edc-service.name" . }}-lwb
+  labels:
+    app: {{ template "ehr2edc-service.name" . }}
+    chart: {{ .Chart.Name }}-{{ .Chart.Version | replace "+" "_" }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+spec:
+  rules:
+    - host: {{ template "hostname" .Values.ingress.host }}
+      http:
+        paths:
+          - path: /
+            backend:
+              serviceName: local-workbench-service
+              servicePort: 8080
+        {{- if .Values.ingress.tls }}
+  tls:
+    - hosts:
+        - {{ template "hostname" .Values.ingress.host }}
+      secretName: {{ .Values.ingress.tlsSecret }}
+
+  {{ end }}
+---
+{{ end }}
+
+{{- if .Values.ingress.application.enabled -}}
+{{- $serviceName := include "ehr2edc-service.name" . -}}
+{{- $servicePort := .Values.service.externalPort -}}
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: {{ template "ehr2edc-service.name" . }}-application
+  labels:
+    app: {{ template "ehr2edc-service.name" . }}
+    chart: {{ .Chart.Name }}-{{ .Chart.Version | replace "+" "_" }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+  annotations:
+    {{- range $key, $value := .Values.ingress.application.annotations }}
+      {{ $key }}: {{ $value | quote }}
+    {{- end }}
+spec:
+  rules:
+    - host: {{ template "hostname" .Values.ingress.host }}
+      http:
+        paths:
+          - path: /ehr2edc
+            backend:
+              serviceName: {{ $serviceName }}
+              servicePort: {{ $servicePort }}
+        {{- range .Values.ingress.application.paths }}
+          - path: {{ .path }}
+            backend:
+              serviceName: {{ .serviceName  }}
+              servicePort: {{ .servicePort }}
+        {{- end }}
+  {{- if .Values.ingress.tls }}
+  tls:
+  - hosts:
+    - {{ template "hostname" .Values.ingress.host }}
+    secretName: {{ .Values.ingress.tlsSecret }}
+  {{- end }}
+{{ end }}
+
+{{- if .Values.ingress.management.enabled -}}
+---
+{{- $serviceName := include "ehr2edc-service.name" . -}}
+{{- $servicePort := .Values.service.externalManagementPort -}}
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: {{ template "ehr2edc-service.name" . }}-management
+  labels:
+    app: {{ template "ehr2edc-service.name" . }}
+    chart: {{ .Chart.Name }}-{{ .Chart.Version | replace "+" "_" }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+  annotations:
+    {{- range $key, $value := .Values.ingress.management.annotations }}
+      {{ $key }}: {{ $value | quote }}
+    {{- end }}
+spec:
+  rules:
+    - host: {{ template "hostname" .Values.ingress.host }}
+      http:
+        paths:
+          - path: /ehr2edc/actuator
+            backend:
+              serviceName: {{ $serviceName }}
+              servicePort: {{ $servicePort }}
+  {{- if .Values.ingress.tls }}
+  tls:
+  - hosts:
+    - {{ template "hostname" .Values.ingress.host }}
+    secretName: {{ .Values.ingress.tlsSecret }}
+  {{- end }}
+{{ end }}
+
+{{- if .Values.global.ehr2edc.oidc.enabled -}}
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: {{ template "ehr2edc-service.name" . }}-idp
+  labels:
+    app: {{ template "ehr2edc-service.name" . }}
+    chart: {{ .Chart.Name }}-{{ .Chart.Version | replace "+" "_" }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+spec:
+  rules:
+    - host: {{ template "hostname" .Values.ingress.host }}
+      http:
+        paths:
+          - path: /idp
+            backend:
+              serviceName: oidc-server
+              servicePort: 8777
+{{- if .Values.ingress.tls }}
+  tls:
+    - hosts:
+        - {{ template "hostname" .Values.ingress.host }}
+      secretName: {{ .Values.ingress.tlsSecret }}
+{{- end }}
+{{ end }}

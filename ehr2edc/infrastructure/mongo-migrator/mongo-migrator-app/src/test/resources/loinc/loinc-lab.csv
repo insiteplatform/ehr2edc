@@ -1,0 +1,9 @@
+LOINC_NUM;COMPONENT;PROPERTY;TIME_ASPCT;SYSTEM;SCALE_TYP;METHOD_TYP;CLASS;CLASSTYPE;LONG_COMMON_NAME;SHORTNAME;EXTERNAL_COPYRIGHT_NOTICE;STATUS;FASTING_STATUS
+CODE-1;Test component;Test property;Test time aspect;Test specimen;Test scale type;;Test class;Test class type;Test long common name;Code without method or fasting status;;;
+CODE-2;Test component;Test property;Test time aspect;Test specimen;Test scale type;Test method long;Test class type;Test class;Test long common name;Code with method present;;ACTIVE;
+CODE-3;Test component;Test property;Test time aspect;Test specimen;Test scale type;;Test class;Test class type;Test long common name;Code with a negative fasting status;;ACTIVE;0
+CODE-4;Test component;Test property;Test time aspect;Test specimen;Test scale type;;Test class;Test class type;Test long common name;Code with a positive fasting status;;ACTIVE;1
+CODE-5;Test component;Test property;Test time aspect;Test specimen;Test scale type;Test method long;Test class;Test class type;Test long common name;Code with all data present;;ACTIVE;1
+DEPRECATED-CODE;Test component;Test property;Test time aspect;Test specimen;Test scale type;Test method long;Test class;Test class type;Test long common name;Code with all data present;;DEPRECATED;1
+DISCOURAGED-CODE;Test component;Test property;Test time aspect;Test specimen;Test scale type;Test method long;Test class;Test class type;Test long common name;Code with all data present;;DISCOURAGED;1
+TRIAL-CODE;Test component;Test property;Test time aspect;Test specimen;Test scale type;Test method long;Test class;Test class type;Test long common name;Code with all data present;;TRIAL;1

@@ -1,0 +1,17 @@
+{
+	"confirm"				: "bevestig",
+	"Confirm"				: "Bevestig",
+	"cancel"				: "annuleren",
+	"Cancel"				: "Annuleren",
+	"discardChanges"		: "Wijzigingen annuleren",
+	"No"					: "Nee",
+	"Yes"					: "Ja",
+	"Remove"				: "Verwijder",
+	"save"					: "opslaan",
+	"Save"					: "Opslaan",
+	"error"					: "Een onverwachte fout is opgetreden",
+
+	"querySummary" : {
+		"queryTypeUnavailable"		: "Niet gespecifieerd"
+	}
+}

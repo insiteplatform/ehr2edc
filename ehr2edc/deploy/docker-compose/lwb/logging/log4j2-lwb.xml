@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Configuration monitorInterval="10">
+    <Appenders>
+        <Console name="CONSOLE" target="SYSTEM_OUT">
+            <PatternLayout>
+                <pattern>
+                    %p | %c | %m%n
+                </pattern>
+            </PatternLayout>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Logger name="com.custodix.ciam.audit.common.client.protocol" level="INFO"/>
+        <Logger name="org.apache.activemq.broker" level="INFO"/>
+        <Logger name="org.apache.activemq.transport" level="INFO"/>
+        <Logger name="directConstruction.AbstractQueryExecutor" level="INFO"/>
+        <Logger name="directConstruction.CancelStatementProxy" level="ERROR"/>
+        <Logger name="ehr4cr.logic.query" level="WARN"/>
+        <Logger name="org.hibernate" level="WARN"/>
+        <Logger name="com.zaxxer.hikari" level="WARN"/>
+        <Logger name="com.custodix.insite.local.feasibility.CheckPlacementAutoApprovalScheduler" level="DEBUG"/>
+        <Logger name="com.custodix.insite.local.feasibility.ApprovePlacementUseCase" level="DEBUG"/>
+        <Logger name="eu.ehr4cr.workbench.local.eventhandlers.feasibility.AutoApprovalReadyEventController" level="DEBUG"/>
+        <Logger name="eu.ehr4cr.workbench.local.model.feasibility.FeasibilityStudy" level="DEBUG"/>
+        <Logger name="net.sf.ehcache.pool.sizeof.ObjectGraphWalker" level="ERROR"/>
+        <Logger name="org.apache.cxf.frontend.AbstractWSDLBasedEndpointFactory" level="ERROR"/>
+        <Logger name="org.apache.cxf.ws.addressing" level="ERROR"/>
+        <Logger name="com.custodix.util.security.CXFSecurityUtils" level="ERROR"/>
+        <Logger name="com.custodix.workbench.local.scheduling.ScheduledTaskErrorHandler" level="DEBUG"/>
+        <Root level="INFO">
+            <AppenderRef ref="CONSOLE"/>
+        </Root>
+    </Loggers>
+</Configuration>

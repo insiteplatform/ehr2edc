@@ -1,0 +1,5 @@
+{
+  "studyId": "SID_001",
+  "system": "FHIR",
+  "uri" : "http:/localhost:8080/fhir"
+}

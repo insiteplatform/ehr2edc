@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+
+    <%= htmlWebpackPlugin.options.header %>
+</head>
+<body>
+<h1> <%= htmlWebpackPlugin.options.pageHeader %> </h1>
+
+<div class="grid-block ehr2edc-studies"></div>
+
+<%= htmlWebpackPlugin.options.libs %>
+
+<script type="text/javascript">
+    notificationPollingInterval = 30000;
+    notificationPopupDuration = 5000;
+
+    var BASE_URL = "";
+    var NEW_NOTIFICATIONS_URL = BASE_URL + "/app/notifications/new";
+    var READ_NOTIFICATION = BASE_URL + "/app/notifications/{notificationId}/read";
+    var page_namespace = "/views/index/cohort/cohortdetails.jsp";
+    page_namespace = page_namespace.substring(page_namespace.lastIndexOf('/') + 1, page_namespace.lastIndexOf("."));
+    var loadPath;
+    if (page_namespace.indexOf("cohortbuilder") != -1 || page_namespace.indexOf("patient-screening-manual") != -1 || page_namespace.indexOf("edit-screening-filters") != -1) {
+        page_namespace = "querybuilder";
+        loadPath = BASE_URL + '/public/locales/{{lng}}/{{ns}}.json';
+    } else {
+        var loadPath = BASE_URL + '/locales/{{lng}}/{{ns}}.json';
+    }
+    var enableInternationalization = false;
+</script>
+
+<%= htmlWebpackPlugin.options.config %>
+
+<script type="text/javascript" src="/assets/global/js/jquery.tablesorter.js"></script>
+<script type="text/javascript" src="/assets/global/js/jquery.tablesorter.pager.js"></script>
+<script type="text/javascript" src="/assets/global/js/jquery.tablesorter.widgets.js"></script>
+<script type="text/javascript">
+    var BASE_URL = "";
+
+    var lwbSettings = {
+        'studyURL': BASE_URL + "/app/cohort/studies/study",
+        'factsURL': BASE_URL + "/app/cohort/studies/cohortPatientFacts",
+        'deleteURL': BASE_URL + "/app/cohort/studies/study/deleteCohort",
+        'updateURL': BASE_URL + "/app/cohort/studies/study/updateCohort",
+        'recalculateURL': BASE_URL + "/app/cohort/studies/study/cohortRecalculate",
+        'downloadFiltersURL': BASE_URL + "/app/cohort/studies/study/cohortFiltersDownload/{cohortId}",
+        'patientsURL': BASE_URL + "/app/cohort/studies/details",
+        'patientSourcesURL': BASE_URL + "/app/cohort/studies/cohortPatientSources",
+        'patientIdentifiersURL': BASE_URL + "/app/patient/{patientId}/identifiers"
+    }
+</script>
+<script type="text/javascript" src="/assets/index/js/foundation-datepicker.min.js"></script>
+<script type="text/javascript" src="/assets/index/js/cohortRecalculate.js"></script>
+<script type="text/javascript" src="/assets/index/js/patientFactViewer.js"></script>
+<script type="text/javascript" src="/assets/index/js/cohortFiltersDownload.js"></script>
+<script type="text/javascript" src="/assets/index/js/cohortDetails.js"></script>
+
+<script>
+    initAjaxHandling({
+        retryLimit: 20,
+        retryPeriod: 30000
+    });
+
+    var data = {
+        emptyMessage: "No EHR2EDC studies are found.",
+        errorMessage: "EHR2EDC Studies failed to load.",
+        studyListUrl: "/ehr2edc/study/",
+    };
+    $(document).ready(function () {
+        appendEhr2EdcStudies($(".ehr2edc-studies")[0], data);
+    });
+</script>
+</body>
+</html>

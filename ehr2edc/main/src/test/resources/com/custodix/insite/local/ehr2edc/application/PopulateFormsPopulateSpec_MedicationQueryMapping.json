@@ -1,0 +1,22 @@
+{
+  "query": {
+    "type": "medication",
+    "criteria": {
+      "criteria": [
+        {
+          "type": "ordinal",
+          "ordinal": "LAST"
+        }
+      ]
+    }
+  },
+  "projectors": [
+    {
+      "type": "projectMedication",
+      "field": "NAME"
+    },
+    {
+      "type": "toFormItem"
+    }
+  ]
+}

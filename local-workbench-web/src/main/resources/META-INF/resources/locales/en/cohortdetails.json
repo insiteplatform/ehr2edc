@@ -1,0 +1,24 @@
+{
+	"editDialog" : {
+		"title"							: "Edit cohort"
+	},
+	
+	"recalculateDialog" : {
+		"title"							: "Recalculate cohort"
+	},
+	
+	"sidebar" : {
+		"title"			: "Details for patient",
+		"age"			: "age",
+		"male"			: "male",
+		"female"		: "female",
+		"unknown"		: "gender unknown",
+		"failedLoad"	: "Failed to load patient facts",
+		"loadingFacts"	: "Loading facts&hellip;",
+		"displaySummary" : "Displaying {{observations}} observations, {{facts}} facts",
+		"noFactsAvailable": "No facts available for the selected patient or filter",
+		"patientRegistration": {
+			"title": "Patient registration"
+		}
+	}
+}

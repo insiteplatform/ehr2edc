@@ -1,0 +1,55 @@
+.node {
+  border: solid 1px white;
+  font: 11px sans-serif;
+  line-height: 12px;
+  overflow: hidden;
+  position: absolute;
+  text-indent: 2px;
+}
+
+.graph-text-big {
+    font-size: 20pt;
+}
+.graph-text-small {
+    text-transform: uppercase;
+}
+.charts.result-chart {
+	padding: 0px;
+}
+polyline {
+    opacity: .3;
+    stroke: rgb(109, 164, 220);
+    stroke-width: 2px;
+    fill: none;
+}
+svg {
+    width: 100%;
+}
+.x.axis path, .x.axis line {
+    fill: none;
+    stroke: #555;
+    shape-rendering: crispEdges;
+}
+line.divide {
+  stroke: #535353;
+}
+.collapse-table {
+	color: #999999;
+}
+
+/* Measurement Distribution */
+.measurement-distribution .box {
+  font: 14px sans-serif;
+}
+.measurement-distribution .box line,
+.measurement-distribution .box rect {
+  fill: #fff;
+  stroke: #535353;
+  stroke-width: 1.5px;
+}
+.measurement-distribution .box .center {
+  stroke-dasharray: 3,3;
+}
+span.initialcase {
+	text-transform: initial;
+}

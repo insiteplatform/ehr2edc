@@ -1,0 +1,1471 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AllStudies rendering Custom empty message 1`] = `
+<AllStudies
+  emptyMessage="Test empty message"
+  errorMessage="EHR2EDC Studies failed to load."
+  studies={Array []}
+>
+  <Sidebar
+    additionalClasses={
+      Array [
+        "shrink",
+        "sidebar-nav",
+        "border-right",
+        "padding-none",
+      ]
+    }
+  >
+    <div
+      className="sidebar grid-block vertical shrink sidebar-nav border-right padding-none"
+    />
+  </Sidebar>
+  <div
+    className="grid-block vertical"
+  >
+    <BreadCrumbs>
+      <ul
+        className="bread-crumbs shrink grid-block border-bottom"
+        id="page-bread-crumbs"
+      >
+        <li
+          className="is-active"
+        >
+          EHR2EDC Studies
+        </li>
+      </ul>
+    </BreadCrumbs>
+    <StudiesOverview
+      emptyMessage="Test empty message"
+      errorMessage="EHR2EDC Studies failed to load."
+      studies={Array []}
+    >
+      <div
+        className="ehr2edc-studies grid-block"
+      >
+        <EmptyStudies
+          emptyMessage="Test empty message"
+        >
+          <div
+            className="grid-block"
+            data-cy="all-studies-empty"
+          >
+            <div
+              className="blank-state-button"
+            >
+              <p
+                className="text-center"
+              >
+                Test empty message
+              </p>
+            </div>
+          </div>
+        </EmptyStudies>
+      </div>
+    </StudiesOverview>
+  </div>
+</AllStudies>
+`;
+
+exports[`AllStudies rendering Empty state 1`] = `
+<Fragment>
+  <Sidebar
+    additionalClasses={
+      Array [
+        "shrink",
+        "sidebar-nav",
+        "border-right",
+        "padding-none",
+      ]
+    }
+  />
+  <div
+    className="grid-block vertical"
+  >
+    <BreadCrumbs />
+    <StudiesOverview
+      emptyMessage="No EHR2EDC studies are found."
+      errorMessage="EHR2EDC Studies failed to load."
+      studies={Array []}
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`AllStudies rendering Error state 1`] = `
+<AllStudies
+  emptyMessage="No EHR2EDC studies are found."
+  error={
+    Object {
+      "response": Object {
+        "data": Object {
+          "issues": Array [
+            Object {
+              "field": null,
+              "message": "EHR2EDC Studies failed to load.",
+              "reference": null,
+            },
+          ],
+        },
+      },
+    }
+  }
+  errorMessage="EHR2EDC Studies failed to load."
+>
+  <Sidebar
+    additionalClasses={
+      Array [
+        "shrink",
+        "sidebar-nav",
+        "border-right",
+        "padding-none",
+      ]
+    }
+  >
+    <div
+      className="sidebar grid-block vertical shrink sidebar-nav border-right padding-none"
+    />
+  </Sidebar>
+  <div
+    className="grid-block vertical"
+  >
+    <BreadCrumbs>
+      <ul
+        className="bread-crumbs shrink grid-block border-bottom"
+        id="page-bread-crumbs"
+      >
+        <li
+          className="is-active"
+        >
+          EHR2EDC Studies
+        </li>
+      </ul>
+    </BreadCrumbs>
+    <StudiesOverview
+      emptyMessage="No EHR2EDC studies are found."
+      error={
+        Object {
+          "response": Object {
+            "data": Object {
+              "issues": Array [
+                Object {
+                  "field": null,
+                  "message": "EHR2EDC Studies failed to load.",
+                  "reference": null,
+                },
+              ],
+            },
+          },
+        }
+      }
+      errorMessage="EHR2EDC Studies failed to load."
+    >
+      <div
+        className="ehr2edc-studies grid-block"
+      >
+        <StudiesError
+          error={
+            Object {
+              "response": Object {
+                "data": Object {
+                  "issues": Array [
+                    Object {
+                      "field": null,
+                      "message": "EHR2EDC Studies failed to load.",
+                      "reference": null,
+                    },
+                  ],
+                },
+              },
+            }
+          }
+          errorMessage="EHR2EDC Studies failed to load."
+        >
+          <SearchResultsError
+            dataCy="all-studies-error"
+            message="EHR2EDC Studies failed to load."
+          >
+            <div
+              className="search-results-none-icon error-center"
+              data-cy="all-studies-error"
+            >
+              <i
+                className="fa fa-times warning"
+              />
+              <div
+                className="align-center error-message"
+              >
+                <RequestError
+                  error={
+                    Object {
+                      "response": Object {
+                        "data": Object {
+                          "issues": Array [
+                            Object {
+                              "field": null,
+                              "message": "EHR2EDC Studies failed to load.",
+                              "reference": null,
+                            },
+                          ],
+                        },
+                      },
+                    }
+                  }
+                >
+                  <Error
+                    error={
+                      Object {
+                        "issues": Array [
+                          Object {
+                            "field": null,
+                            "message": "EHR2EDC Studies failed to load.",
+                            "reference": null,
+                          },
+                        ],
+                      }
+                    }
+                  >
+                    <Issues
+                      issues={
+                        Array [
+                          Object {
+                            "field": null,
+                            "message": "EHR2EDC Studies failed to load.",
+                            "reference": null,
+                          },
+                        ]
+                      }
+                    >
+                      <ul
+                        className="bullet"
+                      >
+                        <Issue
+                          issue={
+                            Object {
+                              "field": null,
+                              "message": "EHR2EDC Studies failed to load.",
+                              "reference": null,
+                            }
+                          }
+                          key="0"
+                        >
+                          <ErrorMessage
+                            message="EHR2EDC Studies failed to load."
+                          >
+                            <li>
+                              EHR2EDC Studies failed to load.
+                            </li>
+                          </ErrorMessage>
+                        </Issue>
+                      </ul>
+                    </Issues>
+                  </Error>
+                </RequestError>
+              </div>
+            </div>
+          </SearchResultsError>
+        </StudiesError>
+      </div>
+    </StudiesOverview>
+  </div>
+</AllStudies>
+`;
+
+exports[`AllStudies rendering Loading state 1`] = `
+<AllStudies
+  emptyMessage="No EHR2EDC studies are found."
+  errorMessage="EHR2EDC Studies failed to load."
+>
+  <Sidebar
+    additionalClasses={
+      Array [
+        "shrink",
+        "sidebar-nav",
+        "border-right",
+        "padding-none",
+      ]
+    }
+  >
+    <div
+      className="sidebar grid-block vertical shrink sidebar-nav border-right padding-none"
+    />
+  </Sidebar>
+  <div
+    className="grid-block vertical"
+  >
+    <BreadCrumbs>
+      <ul
+        className="bread-crumbs shrink grid-block border-bottom"
+        id="page-bread-crumbs"
+      >
+        <li
+          className="is-active"
+        >
+          EHR2EDC Studies
+        </li>
+      </ul>
+    </BreadCrumbs>
+    <StudiesOverview
+      emptyMessage="No EHR2EDC studies are found."
+      errorMessage="EHR2EDC Studies failed to load."
+    >
+      <div
+        className="ehr2edc-studies grid-block"
+      >
+        <SearchResultsLoading>
+          <div
+            className="grid-block search-results-loading"
+          >
+            <span
+              className="search-results-loading-icon"
+            >
+              <i
+                className="fa fa-circle-o-notch fa-spin"
+              />
+            </span>
+          </div>
+        </SearchResultsLoading>
+      </div>
+    </StudiesOverview>
+  </div>
+</AllStudies>
+`;
+
+exports[`AllStudies rendering Valid study data json gets rendered well 1`] = `
+<StaticRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+    staticContext={Object {}}
+  >
+    <AllStudies
+      emptyMessage="No EHR2EDC studies are found."
+      errorMessage="EHR2EDC Studies failed to load."
+      studies={
+        Array [
+          Object {
+            "description": "DESCRIPTION",
+            "id": "STUDY_ID",
+            "name": "STUDY",
+          },
+        ]
+      }
+    >
+      <Sidebar
+        additionalClasses={
+          Array [
+            "shrink",
+            "sidebar-nav",
+            "border-right",
+            "padding-none",
+          ]
+        }
+      >
+        <div
+          className="sidebar grid-block vertical shrink sidebar-nav border-right padding-none"
+        />
+      </Sidebar>
+      <div
+        className="grid-block vertical"
+      >
+        <BreadCrumbs>
+          <ul
+            className="bread-crumbs shrink grid-block border-bottom"
+            id="page-bread-crumbs"
+          >
+            <li
+              className="is-active"
+            >
+              EHR2EDC Studies
+            </li>
+          </ul>
+        </BreadCrumbs>
+        <StudiesOverview
+          emptyMessage="No EHR2EDC studies are found."
+          errorMessage="EHR2EDC Studies failed to load."
+          studies={
+            Array [
+              Object {
+                "description": "DESCRIPTION",
+                "id": "STUDY_ID",
+                "name": "STUDY",
+              },
+            ]
+          }
+        >
+          <div
+            className="ehr2edc-studies grid-block"
+          >
+            <StudiesOverviewTable
+              data={
+                Array [
+                  Object {
+                    "description": "DESCRIPTION",
+                    "id": "STUDY_ID",
+                    "name": "STUDY",
+                  },
+                ]
+              }
+            >
+              <ReactTable
+                AggregatedComponent={[Function]}
+                ExpanderComponent={[Function]}
+                FilterComponent={[Function]}
+                LoadingComponent={[Function]}
+                NoDataComponent={[Function]}
+                PadRowComponent={[Function]}
+                PaginationComponent={[Function]}
+                PivotValueComponent={[Function]}
+                ResizerComponent={[Function]}
+                TableComponent={[Function]}
+                TbodyComponent={[Function]}
+                TdComponent={[Function]}
+                TfootComponent={[Function]}
+                ThComponent={[Function]}
+                TheadComponent={[Function]}
+                TrComponent={[Function]}
+                TrGroupComponent={[Function]}
+                aggregatedKey="_aggregated"
+                className=""
+                collapseOnDataChange={true}
+                collapseOnPageChange={true}
+                collapseOnSortingChange={true}
+                column={
+                  Object {
+                    "Aggregated": undefined,
+                    "Cell": undefined,
+                    "Expander": undefined,
+                    "Filter": undefined,
+                    "Footer": undefined,
+                    "Header": undefined,
+                    "Pivot": undefined,
+                    "PivotValue": undefined,
+                    "Placeholder": undefined,
+                    "aggregate": undefined,
+                    "className": "",
+                    "filterAll": false,
+                    "filterMethod": undefined,
+                    "filterable": undefined,
+                    "footerClassName": "",
+                    "footerStyle": Object {},
+                    "getFooterProps": [Function],
+                    "getHeaderProps": [Function],
+                    "getProps": [Function],
+                    "headerClassName": "",
+                    "headerStyle": Object {},
+                    "minResizeWidth": 11,
+                    "minWidth": 100,
+                    "resizable": undefined,
+                    "show": true,
+                    "sortMethod": undefined,
+                    "sortable": undefined,
+                    "style": Object {},
+                  }
+                }
+                columns={
+                  Array [
+                    Object {
+                      "Header": "ID",
+                      "accessor": "id",
+                      "className": "small-2",
+                      "filterable": false,
+                      "headerClassName": "small-2",
+                      "show": false,
+                      "sortable": true,
+                    },
+                    Object {
+                      "Cell": [Function],
+                      "Header": "Name",
+                      "accessor": "name",
+                      "className": "small-4",
+                      "filterable": false,
+                      "headerClassName": "small-4",
+                      "sortable": true,
+                    },
+                    Object {
+                      "Header": "Description",
+                      "accessor": "description",
+                      "className": "small-8",
+                      "filterable": false,
+                      "headerClassName": "small-8",
+                      "sortable": true,
+                    },
+                  ]
+                }
+                data={
+                  Array [
+                    Object {
+                      "description": "DESCRIPTION",
+                      "id": "STUDY_ID",
+                      "name": "STUDY",
+                    },
+                  ]
+                }
+                defaultExpanded={Object {}}
+                defaultFilterMethod={[Function]}
+                defaultFiltered={Array []}
+                defaultPage={0}
+                defaultPageSize={50}
+                defaultResized={Array []}
+                defaultSortDesc={false}
+                defaultSortMethod={[Function]}
+                defaultSorted={
+                  Array [
+                    Object {
+                      "desc": false,
+                      "id": "name",
+                    },
+                  ]
+                }
+                expanderDefaults={
+                  Object {
+                    "filterable": false,
+                    "resizable": false,
+                    "sortable": false,
+                    "width": 35,
+                  }
+                }
+                filterable={false}
+                freezeWhenExpanded={false}
+                getLoadingProps={[Function]}
+                getNoDataProps={[Function]}
+                getPaginationProps={[Function]}
+                getProps={[Function]}
+                getResizerProps={[Function]}
+                getTableProps={[Function]}
+                getTbodyProps={[Function]}
+                getTdProps={[Function]}
+                getTfootProps={[Function]}
+                getTfootTdProps={[Function]}
+                getTfootTrProps={[Function]}
+                getTheadFilterProps={[Function]}
+                getTheadFilterThProps={[Function]}
+                getTheadFilterTrProps={[Function]}
+                getTheadGroupProps={[Function]}
+                getTheadGroupThProps={[Function]}
+                getTheadGroupTrProps={[Function]}
+                getTheadProps={[Function]}
+                getTheadThProps={[Function]}
+                getTheadTrProps={[Function]}
+                getTrGroupProps={[Function]}
+                getTrProps={[Function]}
+                groupedByPivotKey="_groupedByPivot"
+                indexKey="_index"
+                loading={false}
+                loadingText="Loading..."
+                minRows={0}
+                multiSort={true}
+                nestingLevelKey="_nestingLevel"
+                nextText="Next"
+                noDataText="No rows found"
+                ofText="of"
+                onFetchData={[Function]}
+                originalKey="_original"
+                pageJumpText="jump to page"
+                pageSizeOptions={
+                  Array [
+                    10,
+                    25,
+                    50,
+                  ]
+                }
+                pageText="Page"
+                pivotDefaults={Object {}}
+                pivotIDKey="_pivotID"
+                pivotValKey="_pivotVal"
+                previousText="Previous"
+                resizable={false}
+                resolveData={[Function]}
+                rowsSelectorText="rows per page"
+                rowsText="rows"
+                showPageJump={true}
+                showPageSizeOptions={true}
+                showPagination={true}
+                showPaginationBottom={true}
+                showPaginationTop={false}
+                sortable={true}
+                style={Object {}}
+                subRowsKey="_subRows"
+              >
+                <div
+                  className="ReactTable"
+                  style={Object {}}
+                >
+                  <TableComponent
+                    className=""
+                  >
+                    <div
+                      className="rt-table"
+                      role="grid"
+                    >
+                      <Thead
+                        className="-header"
+                        style={
+                          Object {
+                            "minWidth": "200px",
+                          }
+                        }
+                      >
+                        <div
+                          className="rt-thead -header"
+                          style={
+                            Object {
+                              "minWidth": "200px",
+                            }
+                          }
+                        >
+                          <TrComponent>
+                            <div
+                              className="rt-tr"
+                              role="row"
+                            >
+                              <ThComponent
+                                className="small-4 -sort-asc -cursor-pointer"
+                                key="0-name"
+                                style={
+                                  Object {
+                                    "flex": "100 0 auto",
+                                    "maxWidth": null,
+                                    "width": "100px",
+                                  }
+                                }
+                                toggleSort={[Function]}
+                              >
+                                <div
+                                  className="rt-th small-4 -sort-asc -cursor-pointer"
+                                  onClick={[Function]}
+                                  role="columnheader"
+                                  style={
+                                    Object {
+                                      "flex": "100 0 auto",
+                                      "maxWidth": null,
+                                      "width": "100px",
+                                    }
+                                  }
+                                  tabIndex="-1"
+                                >
+                                  <div
+                                    className=""
+                                  >
+                                    Name
+                                  </div>
+                                </div>
+                              </ThComponent>
+                              <ThComponent
+                                className="small-8 -cursor-pointer"
+                                key="1-description"
+                                style={
+                                  Object {
+                                    "flex": "100 0 auto",
+                                    "maxWidth": null,
+                                    "width": "100px",
+                                  }
+                                }
+                                toggleSort={[Function]}
+                              >
+                                <div
+                                  className="rt-th small-8 -cursor-pointer"
+                                  onClick={[Function]}
+                                  role="columnheader"
+                                  style={
+                                    Object {
+                                      "flex": "100 0 auto",
+                                      "maxWidth": null,
+                                      "width": "100px",
+                                    }
+                                  }
+                                  tabIndex="-1"
+                                >
+                                  <div
+                                    className=""
+                                  >
+                                    Description
+                                  </div>
+                                </div>
+                              </ThComponent>
+                            </div>
+                          </TrComponent>
+                        </div>
+                      </Thead>
+                      <Tbody
+                        className=""
+                        style={
+                          Object {
+                            "minWidth": "200px",
+                          }
+                        }
+                      >
+                        <div
+                          className="rt-tbody"
+                          style={
+                            Object {
+                              "minWidth": "200px",
+                            }
+                          }
+                        >
+                          <TrGroupComponent
+                            key="0"
+                          >
+                            <div
+                              className="rt-tr-group"
+                              role="rowgroup"
+                            >
+                              <TrComponent
+                                className="-odd"
+                              >
+                                <div
+                                  className="rt-tr -odd"
+                                  role="row"
+                                >
+                                  <TdComponent
+                                    className="small-4"
+                                    key="0-name"
+                                    onClick={[Function]}
+                                    style={
+                                      Object {
+                                        "flex": "100 0 auto",
+                                        "maxWidth": null,
+                                        "width": "100px",
+                                      }
+                                    }
+                                  >
+                                    <div
+                                      className="rt-td small-4"
+                                      onClick={[Function]}
+                                      role="gridcell"
+                                      style={
+                                        Object {
+                                          "flex": "100 0 auto",
+                                          "maxWidth": null,
+                                          "width": "100px",
+                                        }
+                                      }
+                                    >
+                                      <Cell
+                                        classes={
+                                          Array [
+                                            undefined,
+                                            "small-4",
+                                            undefined,
+                                          ]
+                                        }
+                                        column={
+                                          Object {
+                                            "Aggregated": undefined,
+                                            "Cell": [Function],
+                                            "Expander": undefined,
+                                            "Filter": undefined,
+                                            "Footer": undefined,
+                                            "Header": "Name",
+                                            "Pivot": undefined,
+                                            "PivotValue": undefined,
+                                            "Placeholder": undefined,
+                                            "accessor": [Function],
+                                            "aggregate": undefined,
+                                            "className": "small-4",
+                                            "filterAll": false,
+                                            "filterMethod": undefined,
+                                            "filterable": false,
+                                            "footerClassName": "",
+                                            "footerStyle": Object {},
+                                            "getFooterProps": [Function],
+                                            "getHeaderProps": [Function],
+                                            "getProps": [Function],
+                                            "headerClassName": "small-4",
+                                            "headerStyle": Object {},
+                                            "id": "name",
+                                            "minResizeWidth": 11,
+                                            "minWidth": 100,
+                                            "resizable": undefined,
+                                            "show": true,
+                                            "sortMethod": undefined,
+                                            "sortable": true,
+                                            "style": Object {},
+                                          }
+                                        }
+                                        columnProps={
+                                          Object {
+                                            "className": undefined,
+                                            "rest": Object {},
+                                            "style": undefined,
+                                          }
+                                        }
+                                        index={0}
+                                        level={0}
+                                        nestingPath={
+                                          Array [
+                                            0,
+                                          ]
+                                        }
+                                        original={
+                                          Object {
+                                            "description": "DESCRIPTION",
+                                            "id": "STUDY_ID",
+                                            "name": "STUDY",
+                                          }
+                                        }
+                                        page={0}
+                                        pageSize={50}
+                                        resized={Array []}
+                                        row={
+                                          Object {
+                                            "_index": 0,
+                                            "_nestingLevel": 0,
+                                            "_original": Object {
+                                              "description": "DESCRIPTION",
+                                              "id": "STUDY_ID",
+                                              "name": "STUDY",
+                                            },
+                                            "_subRows": undefined,
+                                            "_viewIndex": 0,
+                                            "description": "DESCRIPTION",
+                                            "id": "STUDY_ID",
+                                            "name": "STUDY",
+                                          }
+                                        }
+                                        show={true}
+                                        styles={Object {}}
+                                        tdProps={
+                                          Object {
+                                            "className": undefined,
+                                            "rest": Object {},
+                                            "style": undefined,
+                                          }
+                                        }
+                                        value="STUDY"
+                                        viewIndex={0}
+                                        width={100}
+                                      >
+                                        <div
+                                          data-cy="study-id-col"
+                                        >
+                                          <Link
+                                            to="./STUDY_ID"
+                                          >
+                                            <a
+                                              href="/STUDY_ID"
+                                              onClick={[Function]}
+                                            >
+                                              STUDY
+                                            </a>
+                                          </Link>
+                                        </div>
+                                      </Cell>
+                                    </div>
+                                  </TdComponent>
+                                  <TdComponent
+                                    className="small-8"
+                                    key="1-description"
+                                    onClick={[Function]}
+                                    style={
+                                      Object {
+                                        "flex": "100 0 auto",
+                                        "maxWidth": null,
+                                        "width": "100px",
+                                      }
+                                    }
+                                  >
+                                    <div
+                                      className="rt-td small-8"
+                                      onClick={[Function]}
+                                      role="gridcell"
+                                      style={
+                                        Object {
+                                          "flex": "100 0 auto",
+                                          "maxWidth": null,
+                                          "width": "100px",
+                                        }
+                                      }
+                                    >
+                                      DESCRIPTION
+                                    </div>
+                                  </TdComponent>
+                                </div>
+                              </TrComponent>
+                            </div>
+                          </TrGroupComponent>
+                        </div>
+                      </Tbody>
+                    </div>
+                  </TableComponent>
+                  <div
+                    className="pagination-bottom"
+                  >
+                    <ReactTablePager
+                      AggregatedComponent={[Function]}
+                      ExpanderComponent={[Function]}
+                      FilterComponent={[Function]}
+                      LoadingComponent={[Function]}
+                      NoDataComponent={[Function]}
+                      PadRowComponent={[Function]}
+                      PaginationComponent={[Function]}
+                      PivotValueComponent={[Function]}
+                      ResizerComponent={[Function]}
+                      TableComponent={[Function]}
+                      TbodyComponent={[Function]}
+                      TdComponent={[Function]}
+                      TfootComponent={[Function]}
+                      ThComponent={[Function]}
+                      TheadComponent={[Function]}
+                      TrComponent={[Function]}
+                      TrGroupComponent={[Function]}
+                      aggregatedKey="_aggregated"
+                      allDecoratedColumns={
+                        Array [
+                          Object {
+                            "Aggregated": undefined,
+                            "Cell": undefined,
+                            "Expander": undefined,
+                            "Filter": undefined,
+                            "Footer": undefined,
+                            "Header": "ID",
+                            "Pivot": undefined,
+                            "PivotValue": undefined,
+                            "Placeholder": undefined,
+                            "accessor": [Function],
+                            "aggregate": undefined,
+                            "className": "small-2",
+                            "filterAll": false,
+                            "filterMethod": undefined,
+                            "filterable": false,
+                            "footerClassName": "",
+                            "footerStyle": Object {},
+                            "getFooterProps": [Function],
+                            "getHeaderProps": [Function],
+                            "getProps": [Function],
+                            "headerClassName": "small-2",
+                            "headerStyle": Object {},
+                            "id": "id",
+                            "minResizeWidth": 11,
+                            "minWidth": 100,
+                            "resizable": undefined,
+                            "show": false,
+                            "sortMethod": undefined,
+                            "sortable": true,
+                            "style": Object {},
+                          },
+                          Object {
+                            "Aggregated": undefined,
+                            "Cell": [Function],
+                            "Expander": undefined,
+                            "Filter": undefined,
+                            "Footer": undefined,
+                            "Header": "Name",
+                            "Pivot": undefined,
+                            "PivotValue": undefined,
+                            "Placeholder": undefined,
+                            "accessor": [Function],
+                            "aggregate": undefined,
+                            "className": "small-4",
+                            "filterAll": false,
+                            "filterMethod": undefined,
+                            "filterable": false,
+                            "footerClassName": "",
+                            "footerStyle": Object {},
+                            "getFooterProps": [Function],
+                            "getHeaderProps": [Function],
+                            "getProps": [Function],
+                            "headerClassName": "small-4",
+                            "headerStyle": Object {},
+                            "id": "name",
+                            "minResizeWidth": 11,
+                            "minWidth": 100,
+                            "resizable": undefined,
+                            "show": true,
+                            "sortMethod": undefined,
+                            "sortable": true,
+                            "style": Object {},
+                          },
+                          Object {
+                            "Aggregated": undefined,
+                            "Cell": undefined,
+                            "Expander": undefined,
+                            "Filter": undefined,
+                            "Footer": undefined,
+                            "Header": "Description",
+                            "Pivot": undefined,
+                            "PivotValue": undefined,
+                            "Placeholder": undefined,
+                            "accessor": [Function],
+                            "aggregate": undefined,
+                            "className": "small-8",
+                            "filterAll": false,
+                            "filterMethod": undefined,
+                            "filterable": false,
+                            "footerClassName": "",
+                            "footerStyle": Object {},
+                            "getFooterProps": [Function],
+                            "getHeaderProps": [Function],
+                            "getProps": [Function],
+                            "headerClassName": "small-8",
+                            "headerStyle": Object {},
+                            "id": "description",
+                            "minResizeWidth": 11,
+                            "minWidth": 100,
+                            "resizable": undefined,
+                            "show": true,
+                            "sortMethod": undefined,
+                            "sortable": true,
+                            "style": Object {},
+                          },
+                        ]
+                      }
+                      allVisibleColumns={
+                        Array [
+                          Object {
+                            "Aggregated": undefined,
+                            "Cell": [Function],
+                            "Expander": undefined,
+                            "Filter": undefined,
+                            "Footer": undefined,
+                            "Header": "Name",
+                            "Pivot": undefined,
+                            "PivotValue": undefined,
+                            "Placeholder": undefined,
+                            "accessor": [Function],
+                            "aggregate": undefined,
+                            "className": "small-4",
+                            "filterAll": false,
+                            "filterMethod": undefined,
+                            "filterable": false,
+                            "footerClassName": "",
+                            "footerStyle": Object {},
+                            "getFooterProps": [Function],
+                            "getHeaderProps": [Function],
+                            "getProps": [Function],
+                            "headerClassName": "small-4",
+                            "headerStyle": Object {},
+                            "id": "name",
+                            "minResizeWidth": 11,
+                            "minWidth": 100,
+                            "resizable": undefined,
+                            "show": true,
+                            "sortMethod": undefined,
+                            "sortable": true,
+                            "style": Object {},
+                          },
+                          Object {
+                            "Aggregated": undefined,
+                            "Cell": undefined,
+                            "Expander": undefined,
+                            "Filter": undefined,
+                            "Footer": undefined,
+                            "Header": "Description",
+                            "Pivot": undefined,
+                            "PivotValue": undefined,
+                            "Placeholder": undefined,
+                            "accessor": [Function],
+                            "aggregate": undefined,
+                            "className": "small-8",
+                            "filterAll": false,
+                            "filterMethod": undefined,
+                            "filterable": false,
+                            "footerClassName": "",
+                            "footerStyle": Object {},
+                            "getFooterProps": [Function],
+                            "getHeaderProps": [Function],
+                            "getProps": [Function],
+                            "headerClassName": "small-8",
+                            "headerStyle": Object {},
+                            "id": "description",
+                            "minResizeWidth": 11,
+                            "minWidth": 100,
+                            "resizable": undefined,
+                            "show": true,
+                            "sortMethod": undefined,
+                            "sortable": true,
+                            "style": Object {},
+                          },
+                        ]
+                      }
+                      canNext={false}
+                      canPrevious={false}
+                      collapseOnDataChange={true}
+                      collapseOnPageChange={true}
+                      collapseOnSortingChange={true}
+                      column={
+                        Object {
+                          "Aggregated": undefined,
+                          "Cell": undefined,
+                          "Expander": undefined,
+                          "Filter": undefined,
+                          "Footer": undefined,
+                          "Header": undefined,
+                          "Pivot": undefined,
+                          "PivotValue": undefined,
+                          "Placeholder": undefined,
+                          "aggregate": undefined,
+                          "className": "",
+                          "filterAll": false,
+                          "filterMethod": undefined,
+                          "filterable": undefined,
+                          "footerClassName": "",
+                          "footerStyle": Object {},
+                          "getFooterProps": [Function],
+                          "getHeaderProps": [Function],
+                          "getProps": [Function],
+                          "headerClassName": "",
+                          "headerStyle": Object {},
+                          "minResizeWidth": 11,
+                          "minWidth": 100,
+                          "resizable": undefined,
+                          "show": true,
+                          "sortMethod": undefined,
+                          "sortable": undefined,
+                          "style": Object {},
+                        }
+                      }
+                      columns={
+                        Array [
+                          Object {
+                            "Header": "ID",
+                            "accessor": "id",
+                            "className": "small-2",
+                            "filterable": false,
+                            "headerClassName": "small-2",
+                            "show": false,
+                            "sortable": true,
+                          },
+                          Object {
+                            "Cell": [Function],
+                            "Header": "Name",
+                            "accessor": "name",
+                            "className": "small-4",
+                            "filterable": false,
+                            "headerClassName": "small-4",
+                            "sortable": true,
+                          },
+                          Object {
+                            "Header": "Description",
+                            "accessor": "description",
+                            "className": "small-8",
+                            "filterable": false,
+                            "headerClassName": "small-8",
+                            "sortable": true,
+                          },
+                        ]
+                      }
+                      currentlyResizing={false}
+                      data={
+                        Array [
+                          Object {
+                            "description": "DESCRIPTION",
+                            "id": "STUDY_ID",
+                            "name": "STUDY",
+                          },
+                        ]
+                      }
+                      defaultExpanded={Object {}}
+                      defaultFilterMethod={[Function]}
+                      defaultFiltered={Array []}
+                      defaultPage={0}
+                      defaultPageSize={50}
+                      defaultResized={Array []}
+                      defaultSortDesc={false}
+                      defaultSortMethod={[Function]}
+                      defaultSorted={
+                        Array [
+                          Object {
+                            "desc": false,
+                            "id": "name",
+                          },
+                        ]
+                      }
+                      expanded={Object {}}
+                      expanderDefaults={
+                        Object {
+                          "filterable": false,
+                          "resizable": false,
+                          "sortable": false,
+                          "width": 35,
+                        }
+                      }
+                      filterable={false}
+                      filtered={Array []}
+                      freezeWhenExpanded={false}
+                      frozen={false}
+                      getLoadingProps={[Function]}
+                      getNoDataProps={[Function]}
+                      getPaginationProps={[Function]}
+                      getProps={[Function]}
+                      getResizerProps={[Function]}
+                      getTableProps={[Function]}
+                      getTbodyProps={[Function]}
+                      getTdProps={[Function]}
+                      getTfootProps={[Function]}
+                      getTfootTdProps={[Function]}
+                      getTfootTrProps={[Function]}
+                      getTheadFilterProps={[Function]}
+                      getTheadFilterThProps={[Function]}
+                      getTheadFilterTrProps={[Function]}
+                      getTheadGroupProps={[Function]}
+                      getTheadGroupThProps={[Function]}
+                      getTheadGroupTrProps={[Function]}
+                      getTheadProps={[Function]}
+                      getTheadThProps={[Function]}
+                      getTheadTrProps={[Function]}
+                      getTrGroupProps={[Function]}
+                      getTrProps={[Function]}
+                      groupedByPivotKey="_groupedByPivot"
+                      hasHeaderGroups={false}
+                      headerGroups={Array []}
+                      indexKey="_index"
+                      isTop={false}
+                      loading={false}
+                      loadingText="Loading..."
+                      minRows={0}
+                      multiSort={true}
+                      nestingLevelKey="_nestingLevel"
+                      nextText="Next"
+                      noDataText="No rows found"
+                      ofText="of"
+                      onFetchData={[Function]}
+                      onPageChange={[Function]}
+                      onPageSizeChange={[Function]}
+                      originalKey="_original"
+                      page={0}
+                      pageJumpText="jump to page"
+                      pageSize={50}
+                      pageSizeOptions={
+                        Array [
+                          10,
+                          25,
+                          50,
+                        ]
+                      }
+                      pageText="Page"
+                      pages={1}
+                      pivotDefaults={Object {}}
+                      pivotIDKey="_pivotID"
+                      pivotValKey="_pivotVal"
+                      previousText="Previous"
+                      resizable={false}
+                      resized={Array []}
+                      resolveData={[Function]}
+                      resolvedData={
+                        Array [
+                          Object {
+                            "_index": 0,
+                            "_nestingLevel": 0,
+                            "_original": Object {
+                              "description": "DESCRIPTION",
+                              "id": "STUDY_ID",
+                              "name": "STUDY",
+                            },
+                            "_subRows": undefined,
+                            "description": "DESCRIPTION",
+                            "id": "STUDY_ID",
+                            "name": "STUDY",
+                          },
+                        ]
+                      }
+                      rowsSelectorText="rows per page"
+                      rowsText="rows"
+                      showPageJump={true}
+                      showPageSizeOptions={true}
+                      showPagination={true}
+                      showPaginationBottom={true}
+                      showPaginationTop={false}
+                      skipNextSort={false}
+                      sortable={true}
+                      sorted={
+                        Array [
+                          Object {
+                            "desc": false,
+                            "id": "name",
+                          },
+                        ]
+                      }
+                      sortedData={
+                        Array [
+                          Object {
+                            "_index": 0,
+                            "_nestingLevel": 0,
+                            "_original": Object {
+                              "description": "DESCRIPTION",
+                              "id": "STUDY_ID",
+                              "name": "STUDY",
+                            },
+                            "_subRows": undefined,
+                            "description": "DESCRIPTION",
+                            "id": "STUDY_ID",
+                            "name": "STUDY",
+                          },
+                        ]
+                      }
+                      subRowsKey="_subRows"
+                    >
+                      <zf-list-footer>
+                        <div
+                          className="pager-size"
+                        >
+                          <span>
+                            Items per page: 
+                          </span>
+                          <ul>
+                            <li
+                              className="page-size-10"
+                              key="10"
+                            >
+                              <a
+                                onClick={[Function]}
+                              >
+                                10
+                              </a>
+                            </li>
+                            <li
+                              className="page-size-25"
+                              key="25"
+                            >
+                              <a
+                                onClick={[Function]}
+                              >
+                                25
+                              </a>
+                            </li>
+                            <li
+                              className="page-size-50 is-active"
+                              key="50"
+                            >
+                              <a
+                                onClick={[Function]}
+                              >
+                                50
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div
+                          className="pager-middle"
+                        />
+                        <ul
+                          className="pager"
+                        >
+                          <li
+                            className="pager-navigation-button first disabled"
+                          >
+                            <defaultButton
+                              disabled={true}
+                              onClick={[Function]}
+                            >
+                              <a
+                                disabled={true}
+                                onClick={[Function]}
+                              >
+                                <i
+                                  className="fa fa-angle-double-left"
+                                />
+                              </a>
+                            </defaultButton>
+                          </li>
+                          <li
+                            className="pager-navigation-button prev disabled"
+                          >
+                            <defaultButton
+                              disabled={true}
+                              onClick={[Function]}
+                            >
+                              <a
+                                disabled={true}
+                                onClick={[Function]}
+                              >
+                                <i
+                                  className="fa fa-angle-left"
+                                />
+                              </a>
+                            </defaultButton>
+                          </li>
+                          <li
+                            className="pager-navigation-page is-active page-1"
+                            key="pagebutton-1"
+                          >
+                            <defaultButton
+                              key="1"
+                              onClick={[Function]}
+                            >
+                              <a
+                                onClick={[Function]}
+                              >
+                                1
+                              </a>
+                            </defaultButton>
+                          </li>
+                          <li
+                            className="pager-navigation-button next disabled"
+                          >
+                            <defaultButton
+                              disabled={true}
+                              onClick={[Function]}
+                            >
+                              <a
+                                disabled={true}
+                                onClick={[Function]}
+                              >
+                                <i
+                                  className="fa fa-angle-right"
+                                />
+                              </a>
+                            </defaultButton>
+                          </li>
+                          <li
+                            className="pager-navigation-button last disabled"
+                          >
+                            <defaultButton
+                              disabled={true}
+                              onClick={[Function]}
+                            >
+                              <a
+                                disabled={true}
+                                onClick={[Function]}
+                              >
+                                <i
+                                  className="fa fa-angle-double-right"
+                                />
+                              </a>
+                            </defaultButton>
+                          </li>
+                        </ul>
+                      </zf-list-footer>
+                    </ReactTablePager>
+                  </div>
+                  <LoadingComponent
+                    loading={false}
+                    loadingText="Loading..."
+                  >
+                    <div
+                      className="-loading"
+                    >
+                      <div
+                        className="-loading-inner"
+                      >
+                        Loading...
+                      </div>
+                    </div>
+                  </LoadingComponent>
+                </div>
+              </ReactTable>
+            </StudiesOverviewTable>
+          </div>
+        </StudiesOverview>
+      </div>
+    </AllStudies>
+  </Router>
+</StaticRouter>
+`;

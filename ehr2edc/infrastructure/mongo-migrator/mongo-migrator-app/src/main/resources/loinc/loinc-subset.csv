@@ -1,0 +1,514 @@
+﻿LOINC_NUM;COMPONENT;PROPERTY;TIME_ASPCT;SYSTEM;SCALE_TYP;METHOD_TYP;CLASS;CLASSTYPE;LONG_COMMON_NAME;SHORTNAME;EXTERNAL_COPYRIGHT_NOTICE;STATUS;FASTING_STATUS;METHOD_SHORT
+1742-6;Alanine aminotransferase;CCnc;Pt;Ser/Plas;Qn;;CHEM;1;Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma;ALT SerPl-cCnc;;ACTIVE;0;
+76625-3;Alanine aminotransferase;CCnc;Pt;Bld;Qn;;CHEM;1;Alanine aminotransferase [Enzymatic activity/volume] in Blood;ALT Bld-cCnc;;ACTIVE;0;
+77144-4;Alanine aminotransferase;CCnc;Pt;Ser/Plas/Bld;Qn;;CHEM;1;Alanine aminotransferase [Enzymatic activity/volume] in Serum, Plasma or Blood;ALT SerPlBld-cCnc;;ACTIVE;0;
+1751-7;Albumin;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;Albumin [Mass/volume] in Serum or Plasma;Albumin SerPl-mCnc;;ACTIVE;0;
+54347-0;Albumin;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;Albumin [Moles/volume] in Serum or Plasma;Albumin SerPl-sCnc;;ACTIVE;0;
+61151-7;Albumin;MCnc;Pt;Ser/Plas;Qn;BCG;CHEM;1;Albumin [Mass/volume] in Serum or Plasma by Bromocresol green (BCG) dye binding method;Albumin SerPl BCG-mCnc;;ACTIVE;0;BCG
+61152-5;Albumin;MCnc;Pt;Ser/Plas;Qn;BCP;CHEM;1;Albumin [Mass/volume] in Serum or Plasma by Bromocresol purple (BCP) dye binding method;Albumin SerPl BCP-mCnc;;ACTIVE;0;BCP
+62234-0;Albumin;SCnc;Pt;Ser/Plas;Qn;BCP;CHEM;1;Albumin [Moles/volume] in Serum or Plasma by Bromocresol purple (BCP) dye binding method;Albumin SerPl BCP-sCnc;;ACTIVE;0;BCP
+62235-7;Albumin;SCnc;Pt;Ser/Plas;Qn;BCG;CHEM;1;Albumin [Moles/volume] in Serum or Plasma by Bromocresol green (BCG) dye binding method;Albumin SerPl BCG-sCnc;;ACTIVE;0;BCG
+76631-1;Albumin;MCnc;Pt;Bld;Qn;BCP;CHEM;1;Albumin [Mass/volume] in Blood by Bromocresol purple (BCP) dye binding method;Albumin Bld BCP-mCnc;;ACTIVE;0;BCP
+77148-5;Albumin;MCnc;Pt;Ser/Plas/Bld;Qn;BCP;CHEM;1;Albumin [Mass/volume] in Serum, Plasma or Blood by Bromocresol purple (BCP) dye binding method;Albumin SerPlBld BCP-mCnc;;ACTIVE;0;BCP
+1783-0;Alkaline phosphatase;CCnc;Pt;Bld;Qn;;CHEM;1;Alkaline phosphatase [Enzymatic activity/volume] in Blood;ALP Bld-cCnc;;ACTIVE;0;
+6768-6;Alkaline phosphatase;CCnc;Pt;Ser/Plas;Qn;;CHEM;1;Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma;ALP SerPl-cCnc;;ACTIVE;0;
+77141-0;Alkaline phosphatase;CCnc;Pt;Ser/Plas/Bld;Qn;;CHEM;1;Alkaline phosphatase [Enzymatic activity/volume] in Serum, Plasma or Blood;ALP SerPlBld-cCnc;;ACTIVE;0;
+2685-6;Alpha-1-Acid glycoprotein;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;Alpha-1-acid glycoprotein [Mass/volume] in Serum or Plasma;A1acid Glycoprotein SerPl-mCnc;;ACTIVE;0;
+33781-6;Alpha-1-Acid glycoprotein;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;Alpha-1-acid glycoprotein [Moles/volume] in Serum or Plasma;A1acid Glycoprotein SerPl-sCnc;;ACTIVE;0;
+14308-1;Amphetamines;PrThr;Pt;Urine;Ord;Screen>1000 ng/mL;DRUG/TOX;1;Amphetamines [Presence] in Urine by Screen method >1000 ng/mL;Amphetamines Ur Ql Scn>1000 ng/mL;;ACTIVE;0;Screen>1000 ng/mL
+14309-9;Amphetamines;PrThr;Pt;Urine;Ord;Confirm>200 ng/mL;DRUG/TOX;1;Amphetamines [Presence] in Urine by Confirm method >200 ng/mL;Amphetamines Ur Ql Cfm>200 ng/mL;;ACTIVE;0;Confirm>200 ng/mL
+16369-1;Amphetamines;PrThr;Pt;Urine;Ord;Confirm;DRUG/TOX;1;Amphetamines [Presence] in Urine by Confirmatory method;Amphetamines Ur Ql Cfm;;ACTIVE;0;Confirm
+19261-7;Amphetamines;PrThr;Pt;Urine;Ord;Screen;DRUG/TOX;1;Amphetamines [Presence] in Urine by Screen method;Amphetamines Ur Ql Scn;;ACTIVE;0;Screen
+3349-8;Amphetamines;PrThr;Pt;Urine;Ord;;DRUG/TOX;1;Amphetamines [Presence] in Urine;Amphetamines Ur Ql;;ACTIVE;0;
+43983-6;Amphetamines;PrThr;Pt;Urine;Ord;Screen>500 ng/mL;DRUG/TOX;1;Amphetamines [Presence] in Urine by Screen method >500 ng/mL;Amphetamines Ur Ql Scn>500 ng/mL;;ACTIVE;0;Screen>500 ng/mL
+8151-3;Amphetamines;PrThr;Pt;Urine;Ord;SAMHSA confirm;DRUG/TOX;1;Amphetamines [Presence] in Urine by SAMHSA confirm method;Amphetamines Ur Ql SAMHSA Cfm;;ACTIVE;0;SAMHSA confirm
+8152-1;Amphetamines;PrThr;Pt;Urine;Ord;SAMHSA screen;DRUG/TOX;1;Amphetamines [Presence] in Urine by SAMHSA screen method;Amphetamines Ur Ql SAMHSA Scn;;ACTIVE;0;SAMHSA screen
+1798-8;Amylase;CCnc;Pt;Ser/Plas;Qn;;CHEM;1;Amylase [Enzymatic activity/volume] in Serum or Plasma;Amylase SerPl-cCnc;;ACTIVE;0;
+76630-3;Amylase;CCnc;Pt;Bld;Qn;;CHEM;1;Amylase [Enzymatic activity/volume] in Blood;Amylase Bld-cCnc;;ACTIVE;0;
+77146-9;Amylase;CCnc;Pt;Ser/Plas/Bld;Qn;;CHEM;1;Amylase [Enzymatic activity/volume] in Serum, Plasma or Blood;Amylase SerPlBld-cCnc;;ACTIVE;0;
+1805-1;Amylase.pancreatic;CCnc;Pt;Ser/Plas;Qn;;CHEM;1;Amylase.pancreatic [Enzymatic activity/volume] in Serum or Plasma;Amylase P SerPl-cCnc;;ACTIVE;0;
+1920-8;Aspartate aminotransferase;CCnc;Pt;Ser/Plas;Qn;;CHEM;1;Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma;AST SerPl-cCnc;;ACTIVE;0;
+50221-1;Bacteria;PrThr;Pt;Urine;Ord;Automated;UA;1;Bacteria [Presence] in Urine by Automated;Bacteria Ur Ql Auto;;ACTIVE;0;Automated
+51480-2;Bacteria;NCnc;Pt;Urine;Qn;Automated count;UA;1;Bacteria [#/volume] in Urine by Automated count;Bacteria # Ur Auto;;ACTIVE;0;Automated count
+87829-8;Bacteria;PrThr;Pt;Urine;Ord;;UA;1;Bacteria [Presence] in Urine;Bacteria Ur Ql;;ACTIVE;0;
+16429-3;Barbiturates;PrThr;Pt;Urine;Ord;Confirm;DRUG/TOX;1;Barbiturates [Presence] in Urine by Confirmatory method;Barbiturates Ur Ql Cfm;;ACTIVE;0;Confirm
+19270-8;Barbiturates;PrThr;Pt;Urine;Ord;Screen;DRUG/TOX;1;Barbiturates [Presence] in Urine by Screen method;Barbiturates Ur Ql Scn;;ACTIVE;0;Screen
+3377-9;Barbiturates;PrThr;Pt;Urine;Ord;;DRUG/TOX;1;Barbiturates [Presence] in Urine;Barbiturates Ur Ql;;ACTIVE;0;
+70139-1;Barbiturates;PrThr;Pt;Urine;Ord;Screen>300 ng/mL;DRUG/TOX;1;Barbiturates [Presence] in Urine by Screen method >300 ng/mL;Barbiturates Ur Ql Scn>300 ng/mL;;ACTIVE;0;Screen>300 ng/mL
+70155-7;Barbiturates;PrThr;Pt;Urine;Ord;Screen>200 ng/mL;DRUG/TOX;1;Barbiturates [Presence] in Urine by Screen method >200 ng/mL;Barbiturates Ur Ql Scn>200 ng/mL;;ACTIVE;0;Screen>200 ng/mL
+26444-0;Basophils;NCnc;Pt;Bld;Qn;;HEM/BC;1;Basophils [#/volume] in Blood;Basophils # Bld;;ACTIVE;0;
+704-7;Basophils;NCnc;Pt;Bld;Qn;Automated count;HEM/BC;1;Basophils [#/volume] in Blood by Automated count;Basophils # Bld Auto;;ACTIVE;0;Automated count
+705-4;Basophils;NCnc;Pt;Bld;Qn;Manual count;HEM/BC;1;Basophils [#/volume] in Blood by Manual count;Basophils # Bld Manual;;ACTIVE;0;Manual count
+30180-4;Basophils/100 leukocytes;NFr;Pt;Bld;Qn;;HEM/BC;1;Basophils/100 leukocytes in Blood;Basophils/leuk NFr Bld;;ACTIVE;0;
+706-2;Basophils/100 leukocytes;NFr;Pt;Bld;Qn;Automated count;HEM/BC;1;Basophils/100 leukocytes in Blood by Automated count;Basophils/leuk NFr Bld Auto;;ACTIVE;0;Automated count
+707-0;Basophils/100 leukocytes;NFr;Pt;Bld;Qn;Manual count;HEM/BC;1;Basophils/100 leukocytes in Blood by Manual count;Basophils/leuk NFr Bld Manual;;ACTIVE;0;Manual count
+14316-4;Benzodiazepines;PrThr;Pt;Urine;Ord;Screen;DRUG/TOX;1;Benzodiazepines [Presence] in Urine by Screen method;Benzodiaz Ur Ql Scn;;ACTIVE;0;Screen
+16195-0;Benzodiazepines;PrThr;Pt;Urine;Ord;Confirm;DRUG/TOX;1;Benzodiazepines [Presence] in Urine by Confirmatory method;Benzodiaz Ur Ql Cfm;;ACTIVE;0;Confirm
+3390-2;Benzodiazepines;PrThr;Pt;Urine;Ord;;DRUG/TOX;1;Benzodiazepines [Presence] in Urine;Benzodiaz Ur Ql;;ACTIVE;0;
+70141-7;Benzodiazepines;PrThr;Pt;Urine;Ord;Screen>200 ng/mL;DRUG/TOX;1;Benzodiazepines [Presence] in Urine by Screen method >200 ng/mL;Benzodiaz Ur Ql Scn>200 ng/mL;;ACTIVE;0;Screen>200 ng/mL
+70142-5;Benzodiazepines;PrThr;Pt;Urine;Ord;Screen>300 ng/mL;DRUG/TOX;1;Benzodiazepines [Presence] in Urine by Screen method >300 ng/mL;Benzodiaz Ur Ql Scn>300 ng/mL;;ACTIVE;0;Screen>300 ng/mL
+14627-4;Bicarbonate;SCnc;Pt;BldV;Qn;;CHEM;1;Bicarbonate [Moles/volume] in Venous blood;HCO3 BldV-sCnc;;ACTIVE;0;
+1959-6;Bicarbonate;SCnc;Pt;Bld;Qn;;CHEM;1;Bicarbonate [Moles/volume] in Blood;HCO3 Bld-sCnc;;ACTIVE;0;
+14631-6;Bilirubin;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;Bilirubin.total [Moles/volume] in Serum or Plasma;Bilirub SerPl-sCnc;;ACTIVE;0;
+1975-2;Bilirubin;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;Bilirubin.total [Mass/volume] in Serum or Plasma;Bilirub SerPl-mCnc;;ACTIVE;0;
+1978-6;Bilirubin;MCnc;Pt;Urine;Qn;;CHEM;1;Bilirubin.total [Mass/volume] in Urine;Bilirub Ur-mCnc;;ACTIVE;0;
+20505-4;Bilirubin;MCnc;Pt;Urine;Qn;Test strip;UA;1;Bilirubin.total [Mass/volume] in Urine by Test strip;Bilirub Ur Strip-mCnc;;ACTIVE;0;Test strip
+35194-0;Bilirubin;MSCnc;Pt;Ser/Plas;Qn;;CHEM;1;Bilirubin.total [Mass or Moles/volume] in Serum or Plasma;Bilirub SerPl-msCnc;;DISCOURAGED;0;
+41016-7;Bilirubin;SCnc;Pt;Urine;Qn;Test strip;UA;1;Bilirubin.total [Moles/volume] in Urine by Test strip;Bilirub Ur Strip-sCnc;;ACTIVE;0;Test strip
+42719-5;Bilirubin;MCnc;Pt;Bld;Qn;;CHEM;1;Bilirubin.total [Mass/volume] in Blood;Bilirub Bld-mCnc;;ACTIVE;0;
+53327-3;Bilirubin;MCnc;Pt;Urine;Qn;Test strip.automated;UA;1;Bilirubin.total [Mass/volume] in Urine by Automated test strip;Bilirub Ur Strip.auto-mCnc;;ACTIVE;0;Test strip
+54363-7;Bilirubin;SCnc;Pt;Bld;Qn;;CHEM;1;Bilirubin.total [Moles/volume] in Blood;Bilirub Bld-sCnc;;ACTIVE;0;
+59828-4;Bilirubin;MCnc;Pt;BldV;Qn;;CHEM;1;Bilirubin.total [Mass/volume] in Venous blood;Bilirub BldV-mCnc;;ACTIVE;0;
+68367-2;Bilirubin;SCnc;Pt;Urine;Qn;Test strip.automated;UA;1;Bilirubin.total [Moles/volume] in Urine by Automated test strip;Bilirub Ur Strip.auto-sCnc;;ACTIVE;0;Test strip
+70199-5;Bilirubin;SCnc;Pt;Urine;Qn;;CHEM;1;Bilirubin.total [Moles/volume] in Urine;Bilirub Ur-sCnc;;ACTIVE;0;
+77137-8;Bilirubin;SCnc;Pt;Ser/Plas/Bld;Qn;;CHEM;1;Bilirubin.total [Moles/volume] in Serum, Plasma or Blood;Bilirub SerPlBld-sCnc;;ACTIVE;0;
+15152-2;Bilirubin.glucuronidated;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;Bilirubin.conjugated [Mass/volume] in Serum or Plasma;Bilirub Conj SerPl-mCnc;;ACTIVE;0;
+29760-6;Bilirubin.glucuronidated;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;Bilirubin.conjugated [Moles/volume] in Serum or Plasma;Bilirub Conj SerPl-sCnc;;ACTIVE;0;
+14630-8;Bilirubin.non-glucuronidated;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;Bilirubin.indirect [Moles/volume] in Serum or Plasma;Bilirub Indirect SerPl-sCnc;;ACTIVE;0;
+1971-1;Bilirubin.non-glucuronidated;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;Bilirubin.indirect [Mass/volume] in Serum or Plasma;Bilirub Indirect SerPl-mCnc;;ACTIVE;0;
+35192-4;Bilirubin.non-glucuronidated;MSCnc;Pt;Ser/Plas;Qn;;CHEM;1;Bilirubin.indirect [Mass or Moles/volume] in Serum or Plasma;Bilirub Indirect SerPl-msCnc;;DISCOURAGED;0;
+30376-8;Blasts;NCnc;Pt;Bld;Qn;;HEM/BC;1;Blasts [#/volume] in Blood;Blasts # Bld;;ACTIVE;0;
+708-8;Blasts;NCnc;Pt;Bld;Qn;Manual count;HEM/BC;1;Blasts [#/volume] in Blood by Manual count;Blasts # Bld Manual;;ACTIVE;0;Manual count
+16208-1;Buprenorphine;PrThr;Pt;Urine;Ord;Confirm;DRUG/TOX;1;Buprenorphine [Presence] in Urine by Confirmatory method;Buprenorphine Ur Ql Cfm;;ACTIVE;0;Confirm
+3414-0;Buprenorphine;PrThr;Pt;Urine;Ord;;DRUG/TOX;1;Buprenorphine [Presence] in Urine;Buprenorphine Ur Ql;;ACTIVE;0;
+14633-2;C peptide;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;C peptide [Moles/volume] in Serum or Plasma;C peptide SerPl-sCnc;;ACTIVE;0;
+1986-9;C peptide;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;C peptide [Mass/volume] in Serum or Plasma;C peptide SerPl-mCnc;;ACTIVE;0;
+35195-7;C peptide;MSCnc;Pt;Ser/Plas;Qn;;CHEM;1;C peptide [Mass or Moles/volume] in Serum or Plasma;C peptide SerPl-msCnc;;DISCOURAGED;0;
+13037-7;C peptide^post CFst;MCnc;Pt;Ser/Plas;Qn;;CHAL;1;C peptide [Mass/volume] in Serum or Plasma --fasting;C peptide p fast SerPl-mCnc;;ACTIVE;1;
+42180-0;C peptide^post CFst;SCnc;Pt;Ser/Plas;Qn;;CHAL;1;C peptide [Moles/volume] in Serum or Plasma --fasting;C peptide p fast SerPl-sCnc;;ACTIVE;1;
+1988-5;C reactive protein;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;C reactive protein [Mass/volume] in Serum or Plasma;CRP SerPl-mCnc;;ACTIVE;0;
+76485-2;C reactive protein;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;C reactive protein [Moles/volume] in Serum or Plasma;CRP SerPl-sCnc;;ACTIVE;0;
+17861-6;Calcium;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;Calcium [Mass/volume] in Serum or Plasma;Calcium SerPl-mCnc;;ACTIVE;0;
+1996-8;Calcium;SCnc;Pt;Bld;Qn;;CHEM;1;Calcium [Moles/volume] in Blood;Calcium Bld-sCnc;;ACTIVE;0;
+2000-8;Calcium;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;Calcium [Moles/volume] in Serum or Plasma;Calcium SerPl-sCnc;;ACTIVE;0;
+35246-8;Calcium;MSCnc;Pt;Ser/Plas;Qn;;CHEM;1;Calcium [Mass or Moles/volume] in Serum or Plasma;Calcium SerPl-msCnc;;DISCOURAGED;0;
+42857-3;Calcium;SCnc;Pt;BldV;Qn;;CHEM;1;Calcium [Moles/volume] in Venous blood;Calcium BldV-sCnc;;ACTIVE;0;
+49765-1;Calcium;MCnc;Pt;Bld;Qn;;CHEM;1;Calcium [Mass/volume] in Blood;Calcium Bld-mCnc;;ACTIVE;0;
+18282-4;Cannabinoids;PrThr;Pt;Urine;Ord;Screen;DRUG/TOX;1;Cannabinoids [Presence] in Urine by Screen method;Cannabinoids Ur Ql Scn;;ACTIVE;0;Screen
+19289-8;Cannabinoids;PrThr;Pt;Urine;Ord;Confirm;DRUG/TOX;1;Cannabinoids [Presence] in Urine by Confirmatory method;Cannabinoids Ur Ql Cfm;;ACTIVE;0;Confirm
+3427-2;Cannabinoids;PrThr;Pt;Urine;Ord;;DRUG/TOX;1;Cannabinoids [Presence] in Urine;Cannabinoids Ur Ql;;ACTIVE;0;
+70144-1;Cannabinoids;PrThr;Pt;Urine;Ord;Screen>20 ng/mL;DRUG/TOX;1;Cannabinoids [Presence] in Urine by Screen method >20 ng/mL;Cannabinoids Ur Ql Scn>20 ng/mL;;ACTIVE;0;Screen>20 ng/mL
+70145-8;Cannabinoids;PrThr;Pt;Urine;Ord;Screen>50 ng/mL;DRUG/TOX;1;Cannabinoids [Presence] in Urine by Screen method >50 ng/mL;Cannabinoids Ur Ql Scn>50 ng/mL;;ACTIVE;0;Screen>50 ng/mL
+19166-8;Carcinoembryonic Ag;ACnc;Pt;Ser/Plas;Qn;;CHEM;1;Carcinoembryonic Ag [Units/volume] in Serum or Plasma;CEA SerPl-aCnc;;ACTIVE;0;
+19167-6;Carcinoembryonic Ag;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;Carcinoembryonic Ag [Moles/volume] in Serum or Plasma;CEA SerPl-sCnc;;ACTIVE;0;
+2039-6;Carcinoembryonic Ag;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;Carcinoembryonic Ag [Mass/volume] in Serum or Plasma;CEA SerPl-mCnc;;ACTIVE;0;
+83085-1;Carcinoembryonic Ag;MCnc;Pt;Ser/Plas;Qn;IA;CHEM;1;Carcinoembryonic Ag [Mass/volume] in Serum or Plasma by Immunoassay;CEA SerPl IA-mCnc;;ACTIVE;0;IA
+53320-8;Casts;PrThr;Pt;Urine;Ord;Automated;UA;1;Casts [Presence] in Urine by Automated;Casts Ur Ql Auto;;ACTIVE;0;Automated
+87827-2;Casts;PrThr;Pt;Urine;Ord;;UA;1;Casts [Presence] in Urine;Casts Ur Ql;;ACTIVE;0;
+2069-3;Chloride;SCnc;Pt;Bld;Qn;;CHEM;1;Chloride [Moles/volume] in Blood;Chloride Bld-sCnc;;ACTIVE;0;
+2075-0;Chloride;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;Chloride [Moles/volume] in Serum or Plasma;Chloride SerPl-sCnc;;ACTIVE;0;
+41649-5;Chloride;SCnc;Pt;BldV;Qn;;CHEM;1;Chloride [Moles/volume] in Venous blood;Chloride BldV-sCnc;;ACTIVE;0;
+77138-6;Chloride;SCnc;Pt;Ser/Plas/Bld;Qn;;CHEM;1;Chloride [Moles/volume] in Serum, Plasma or Blood;Chloride SerPlBld-sCnc;;ACTIVE;0;
+14647-2;Cholesterol;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;Cholesterol [Moles/volume] in Serum or Plasma;Cholest SerPl-sCnc;;ACTIVE;0;
+2093-3;Cholesterol;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;Cholesterol [Mass/volume] in Serum or Plasma;Cholest SerPl-mCnc;;ACTIVE;0;
+35200-5;Cholesterol;MSCnc;Pt;Ser/Plas;Qn;;CHEM;1;Cholesterol [Mass or Moles/volume] in Serum or Plasma;Cholest SerPl-msCnc;;DISCOURAGED;0;
+14646-4;Cholesterol.in HDL;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;Cholesterol in HDL [Moles/volume] in Serum or Plasma;HDLc SerPl-sCnc;;ACTIVE;0;
+2085-9;Cholesterol.in HDL;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;Cholesterol in HDL [Mass/volume] in Serum or Plasma;HDLc SerPl-mCnc;;ACTIVE;0;
+35197-3;Cholesterol.in HDL;MSCnc;Pt;Ser/Plas;Qn;;CHEM;1;Cholesterol in HDL [Mass or Moles/volume] in Serum or Plasma;HDLc SerPl-msCnc;;DISCOURAGED;0;
+2089-1;Cholesterol.in LDL;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;Cholesterol in LDL [Mass/volume] in Serum or Plasma;LDLc SerPl-mCnc;;ACTIVE;1;
+22748-8;Cholesterol.in LDL;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;Cholesterol in LDL [Moles/volume] in Serum or Plasma;LDLc SerPl-sCnc;;ACTIVE;1;
+35198-1;Cholesterol.in LDL;MSCnc;Pt;Ser/Plas;Qn;;CHEM;1;Cholesterol in LDL [Mass or Moles/volume] in Serum or Plasma;LDLc SerPl-msCnc;;DISCOURAGED;1;
+2110-5;Choriogonadotropin.beta subunit (pregnancy test);PrThr;Pt;Ser/Plas;Ord;;CHEM;1;Choriogonadotropin.beta subunit (pregnancy test) [Presence] in Serum or Plasma;B-HCG Preg SerPl Ql;;ACTIVE;0;
+2112-1;Choriogonadotropin.beta subunit (pregnancy test);PrThr;Pt;Urine;Ord;;CHEM;1;Choriogonadotropin.beta subunit (pregnancy test) [Presence] in Urine;B-HCG Preg Ur Ql;;ACTIVE;0;
+14979-9;Coagulation surface induced;Time;Pt;PPP;Qn;Coag;COAG;1;aPTT in Platelet poor plasma by Coagulation assay;aPTT PPP;;ACTIVE;0;Coag
+3173-2;Coagulation surface induced;Time;Pt;Bld;Qn;Coag;COAG;1;aPTT in Blood by Coagulation assay;aPTT Bld;;ACTIVE;0;Coag
+3243-3;Coagulation thrombin induced;Time;Pt;PPP;Qn;Coag;COAG;1;Thrombin time;Thrombin time;;ACTIVE;0;Coag
+5902-2;Coagulation tissue factor induced;Time;Pt;PPP;Qn;Coag;COAG;1;Prothrombin time (PT);Prothrombin time;;ACTIVE;0;Coag
+5964-2;Coagulation tissue factor induced;Time;Pt;Bld;Qn;Coag;COAG;1;Prothrombin time (PT) in Blood by Coagulation assay;PT Bld;;ACTIVE;0;Coag
+34714-6;Coagulation tissue factor induced.INR;RelTime;Pt;Bld;Qn;Coag;COAG;1;INR in Blood by Coagulation assay;INR Bld;;ACTIVE;0;Coag
+38875-1;Coagulation tissue factor induced.INR;RelTime;Pt;PPP/Bld;Qn;Coag;COAG;1;INR in Platelet poor plasma or blood by Coagulation assay;INR PPP/Bld;;ACTIVE;0;Coag
+46418-0;Coagulation tissue factor induced.INR;RelTime;Pt;BldC;Qn;Coag;COAG;1;INR in Capillary blood by Coagulation assay;INR BldC;;ACTIVE;0;Coag
+6301-6;Coagulation tissue factor induced.INR;RelTime;Pt;PPP;Qn;Coag;COAG;1;INR in Platelet poor plasma by Coagulation assay;INR PPP;;ACTIVE;0;Coag
+52129-4;Coagulation tissue factor induced.INR^post heparin adsorption;RelTime;Pt;PPP;Qn;Coag;COAG;1;INR in Platelet poor plasma by Coagulation assay --post heparin adsorption;INR p heparin adsorption PPP;;ACTIVE;0;Coag
+19359-9;Cocaine;PrThr;Pt;Urine;Ord;Screen;DRUG/TOX;1;Cocaine [Presence] in Urine by Screen method;Cocaine Ur Ql Scn;;ACTIVE;0;Screen
+19360-7;Cocaine;PrThr;Pt;Urine;Ord;Confirm;DRUG/TOX;1;Cocaine [Presence] in Urine by Confirmatory method;Cocaine Ur Ql Cfm;;ACTIVE;0;Confirm
+3397-7;Cocaine;PrThr;Pt;Urine;Ord;;DRUG/TOX;1;Cocaine [Presence] in Urine;Cocaine Ur Ql;;ACTIVE;0;
+12293-7;Cotinine;PrThr;Pt;Urine;Ord;;DRUG/TOX;1;Cotinine [Presence] in Urine;Cotinine Ur Ql;;ACTIVE;0;
+35642-8;Cotinine;PrThr;Pt;Urine;Ord;Confirm;DRUG/TOX;1;Cotinine [Presence] in Urine by Confirmatory method;Cotinine Ur Ql Cfm;;ACTIVE;0;Confirm
+59646-0;Cotinine;PrThr;Pt;Urine;Ord;Screen;DRUG/TOX;1;Cotinine [Presence] in Urine by Screen method;Cotinine Ur Ql Scn;;ACTIVE;0;Screen
+2157-6;Creatine kinase;CCnc;Pt;Ser/Plas;Qn;;CHEM;1;Creatine kinase [Enzymatic activity/volume] in Serum or Plasma;CK SerPl-cCnc;;ACTIVE;0;
+50756-6;Creatine kinase;MCnc;Pt;Bld;Qn;;CHEM;1;Creatine kinase [Mass/volume] in Blood;CK Bld-mCnc;;DISCOURAGED;0;
+14682-9;Creatinine;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;Creatinine [Moles/volume] in Serum or Plasma;Creat SerPl-sCnc;;ACTIVE;0;
+2160-0;Creatinine;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;Creatinine [Mass/volume] in Serum or Plasma;Creat SerPl-mCnc;;ACTIVE;0;
+35203-9;Creatinine;MSCnc;Pt;Ser/Plas;Qn;;CHEM;1;Creatinine [Mass or Moles/volume] in Serum or Plasma;Creat SerPl-msCnc;;DISCOURAGED;0;
+38483-4;Creatinine;MCnc;Pt;Bld;Qn;;CHEM;1;Creatinine [Mass/volume] in Blood;Creat Bld-mCnc;;ACTIVE;0;
+59826-8;Creatinine;SCnc;Pt;Bld;Qn;;CHEM;1;Creatinine [Moles/volume] in Blood;Creat Bld-sCnc;;ACTIVE;0;
+77140-2;Creatinine;SCnc;Pt;Ser/Plas/Bld;Qn;;CHEM;1;Creatinine [Moles/volume] in Serum, Plasma or Blood;Creat SerPlBld-sCnc;;ACTIVE;0;
+53319-0;Crystals;PrThr;Pt;Urine;Ord;Automated;UA;1;Crystals [Presence] in Urine by Automated;Crystals Ur Ql Auto;;ACTIVE;0;Automated
+87828-0;Crystals;PrThr;Pt;Urine;Ord;;UA;1;Crystals [Presence] in Urine;Crystals Ur Ql;;ACTIVE;0;
+26449-9;Eosinophils;NCnc;Pt;Bld;Qn;;HEM/BC;1;Eosinophils [#/volume] in Blood;Eosinophil # Bld;;ACTIVE;0;
+711-2;Eosinophils;NCnc;Pt;Bld;Qn;Automated count;HEM/BC;1;Eosinophils [#/volume] in Blood by Automated count;Eosinophil # Bld Auto;;ACTIVE;0;Automated count
+712-0;Eosinophils;NCnc;Pt;Bld;Qn;Manual count;HEM/BC;1;Eosinophils [#/volume] in Blood by Manual count;Eosinophil # Bld Manual;;ACTIVE;0;Manual count
+26450-7;Eosinophils/100 leukocytes;NFr;Pt;Bld;Qn;;HEM/BC;1;Eosinophils/100 leukocytes in Blood;Eosinophil/leuk NFr Bld;;ACTIVE;0;
+713-8;Eosinophils/100 leukocytes;NFr;Pt;Bld;Qn;Automated count;HEM/BC;1;Eosinophils/100 leukocytes in Blood by Automated count;Eosinophil/leuk NFr Bld Auto;;ACTIVE;0;Automated count
+714-6;Eosinophils/100 leukocytes;NFr;Pt;Bld;Qn;Manual count;HEM/BC;1;Eosinophils/100 leukocytes in Blood by Manual count;Eosinophil/leuk NFr Bld Manual;;ACTIVE;0;Manual count
+53287-9;Epithelial casts;NCnc;Pt;Urine;Qn;Computer assisted;UA;1;Epithelial casts [#/volume] in Urine by Computer assisted method;Epith Casts # Ur Comp Assist;;ACTIVE;0;Computer assisted
+53291-1;Epithelial casts;Naric;Pt;Urine;Qn;Computer assisted;UA;1;Epithelial casts [#/area] in Urine by Computer assisted method;Epith Casts #/area Ur Comp Assist;;ACTIVE;0;Computer assisted
+28539-5;Erythrocyte mean corpuscular hemoglobin;EntMass;Pt;RBC;Qn;;HEM/BC;1;MCH [Entitic mass];MCH RBC Qn;;ACTIVE;0;
+59468-9;Erythrocyte mean corpuscular hemoglobin;EntSub;Pt;RBC;Qn;;HEM/BC;1;MCH [Entitic substance];MCH EntSub RBC;;ACTIVE;0;
+785-6;Erythrocyte mean corpuscular hemoglobin;EntMass;Pt;RBC;Qn;Automated count;HEM/BC;1;MCH [Entitic mass] by Automated count;MCH RBC Qn Auto;;ACTIVE;0;Automated count
+28540-3;Erythrocyte mean corpuscular hemoglobin concentration;MCnc;Pt;RBC;Qn;;HEM/BC;1;MCHC [Mass/volume];MCHC RBC-mCnc;;ACTIVE;0;
+59467-1;Erythrocyte mean corpuscular hemoglobin concentration;SCnc;Pt;RBC;Qn;;HEM/BC;1;MCHC [Moles/volume];MCHC RBC-sCnc;;ACTIVE;0;
+786-4;Erythrocyte mean corpuscular hemoglobin concentration;MCnc;Pt;RBC;Qn;Automated count;HEM/BC;1;MCHC [Mass/volume] by Automated count;MCHC RBC Auto-mCnc;;ACTIVE;0;Automated count
+30428-7;Erythrocyte mean corpuscular volume;EntVol;Pt;RBC;Qn;;HEM/BC;1;MCV [Entitic volume];MCV RBC;;ACTIVE;0;
+787-2;Erythrocyte mean corpuscular volume;EntVol;Pt;RBC;Qn;Automated count;HEM/BC;1;MCV [Entitic volume] by Automated count;MCV RBC Auto;;ACTIVE;0;Automated count
+20409-9;Erythrocytes;NCnc;Pt;Urine;Qn;Test strip;UA;1;Erythrocytes [#/volume] in Urine by Test strip;RBC # Ur Strip;;ACTIVE;0;Test strip
+26453-1;Erythrocytes;NCnc;Pt;Bld;Qn;;HEM/BC;1;Erythrocytes [#/volume] in Blood;RBC # Bld;;ACTIVE;0;
+30391-7;Erythrocytes;NCnc;Pt;Urine;Qn;;UA;1;Erythrocytes [#/volume] in Urine;RBC # Ur;;ACTIVE;0;
+33051-4;Erythrocytes;PrThr;Pt;Urine;Ord;;UA;1;Erythrocytes [Presence] in Urine;RBC Ur Ql;;ACTIVE;0;
+53292-9;Erythrocytes;PrThr;Pt;Urine;Ord;Automated;UA;1;Erythrocytes [Presence] in Urine by Automated;RBC Ur Ql Auto;;ACTIVE;0;Automated
+57747-8;Erythrocytes;NCnc;Pt;Urine;Qn;Test strip.automated;UA;1;Erythrocytes [#/volume] in Urine by Automated test strip;RBC # Ur Strip.auto;;ACTIVE;0;Test strip
+789-8;Erythrocytes;NCnc;Pt;Bld;Qn;Automated count;HEM/BC;1;Erythrocytes [#/volume] in Blood by Automated count;RBC # Bld Auto;;ACTIVE;0;Automated count
+790-6;Erythrocytes;NCnc;Pt;Bld;Qn;Manual count;HEM/BC;1;Erythrocytes [#/volume] in Blood by Manual count;RBC # Bld Manual;;ACTIVE;0;Manual count
+798-9;Erythrocytes;NCnc;Pt;Urine;Qn;Automated count;UA;1;Erythrocytes [#/volume] in Urine by Automated count;RBC # Ur Auto;;ACTIVE;0;Automated count
+799-7;Erythrocytes;NCnc;Pt;Urine;Qn;Manual count;UA;1;Erythrocytes [#/volume] in Urine by Manual count;RBC # Ur Manual;;ACTIVE;0;Manual count
+20470-1;Ethanol;PrThr;Pt;Ser/Plas;Ord;Screen;DRUG/TOX;1;Ethanol [Presence] in Serum or Plasma by Screen method;Ethanol SerPl Ql Scn;;ACTIVE;0;Screen
+34180-0;Ethanol;PrThr;Pt;Urine;Ord;Confirm;DRUG/TOX;1;Ethanol [Presence] in Urine by Confirmatory method;Ethanol Ur Ql Cfm;;ACTIVE;0;Confirm
+42242-8;Ethanol;PrThr;Pt;Urine;Ord;Screen;DRUG/TOX;1;Ethanol [Presence] in Urine by Screen method;Ethanol Ur Ql Scn;;ACTIVE;0;Screen
+50343-3;Ethanol;PrThr;Pt;Saliva;Ord;Screen;DRUG/TOX;1;Ethanol [Presence] in Saliva (oral fluid) by Screen method;Ethanol Sal Ql Scn;;ACTIVE;0;Screen
+5639-0;Ethanol;PrThr;Pt;Bld;Ord;;DRUG/TOX;1;Ethanol [Presence] in Blood;Ethanol Bld Ql;;ACTIVE;0;
+5642-4;Ethanol;PrThr;Pt;Ser/Plas;Ord;;DRUG/TOX;1;Ethanol [Presence] in Serum or Plasma;Ethanol SerPl Ql;;ACTIVE;0;
+5644-0;Ethanol;PrThr;Pt;Urine;Ord;;DRUG/TOX;1;Ethanol [Presence] in Urine;Ethanol Ur Ql;;ACTIVE;0;
+30902-1;Fibrinogen;MCnc;Pt;PPP;Qn;Heat denaturation;COAG;1;Fibrinogen [Mass/volume] in Platelet poor plasma by Heat denaturation;Fibrinogen PPP Heat Denat-mCnc;;ACTIVE;0;Heat denaturation
+3255-7;Fibrinogen;MCnc;Pt;PPP;Qn;Coag;COAG;1;Fibrinogen [Mass/volume] in Platelet poor plasma by Coagulation assay;Fibrinogen PPP-mCnc;;ACTIVE;0;Coag
+42568-6;Fibrinogen;MSCnc;Pt;PPP;Qn;Coag;COAG;1;Fibrinogen [Mass or Moles/volume] in Platelet poor plasma by Coagulation assay;Fibrinogen PPP-msCnc;;DISCOURAGED;0;Coag
+48664-7;Fibrinogen;MCnc;Pt;PPP;Qn;Coag.derived;COAG;1;Fibrinogen [Mass/volume] in Platelet poor plasma by Coagulation.derived;Fibrinogen PPP Coag.derived-mCnc;;ACTIVE;0;Coag
+55452-7;Fibrinogen;-;Pt;PPP;-;;LABORDERS;1;Deprecated Fibrinogen in Platelet poor plasma;Deprecated Fibrinogen PPP;;DEPRECATED;0;
+15067-2;Follitropin;ACnc;Pt;Ser/Plas;Qn;;CHEM;1;Follitropin [Units/volume] in Serum or Plasma;FSH SerPl-aCnc;;ACTIVE;0;
+20433-9;Follitropin;ACnc;Pt;Ser/Plas;Qn;2nd IRP;CHEM;1;Follitropin [Units/volume] in Serum or Plasma by 2nd IRP;FSH SerPl IRP2-aCnc;;ACTIVE;0;2nd IRP
+2286-3;Follitropin;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;Follitropin [Moles/volume] in Serum or Plasma;FSH SerPl-sCnc;;DISCOURAGED;0;
+27942-2;Follitropin;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;Follitropin [Mass/volume] in Serum or Plasma;FSH SerPl-mCnc;;DISCOURAGED;0;
+83098-4;Follitropin;ACnc;Pt;Ser/Plas;Qn;IA;CHEM;1;Follitropin [Units/volume] in Serum or Plasma by Immunoassay;FSH SerPl IA-aCnc;;ACTIVE;0;IA
+2324-2;Gamma glutamyl transferase;CCnc;Pt;Ser/Plas;Qn;;CHEM;1;Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma;GGT SerPl-cCnc;;ACTIVE;0;
+50210-4;Glomerular filtration rate/1.73 sq M.predicted;ArVRat;Pt;Ser/Plas/Bld;Qn;Cystatin-based formula;CHEM;1;Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Cystatin-based formula;GFR/BSA.pred SerPlBld Cys-based-ArV;;ACTIVE;0;Cystatin-based formula
+50384-7;Glomerular filtration rate/1.73 sq M.predicted;ArVRat;Pt;Ser/Plas/Bld;Qn;Creatinine-based formula (Schwartz);CHEM;1;Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (Schwartz);GFR/BSA.pred SerPlBld Schwartz-ArVRat;;ACTIVE;0;Creatinine-based formula (Schwartz)
+62238-1;Glomerular filtration rate/1.73 sq M.predicted;ArVRat;Pt;Ser/Plas/Bld;Qn;Creatinine-based formula (CKD-EPI);CHEM;1;Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (CKD-EPI);GFR/BSA.pred SerPlBld CKD-EPI-ArVRat;;ACTIVE;0;Creatinine-based formula (CKD-EPI)
+69405-9;Glomerular filtration rate/1.73 sq M.predicted;ArVRat;Pt;Ser/Plas/Bld;Qn;;CHEM;1;Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood;GFR/BSA.pred SerPlBld-ArVRat;;ACTIVE;0;
+77147-7;Glomerular filtration rate/1.73 sq M.predicted;ArVRat;Pt;Ser/Plas/Bld;Qn;Creatinine-based formula (MDRD);CHEM;1;Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD);GFR/BSA.pred SerPlBld MDRD-ArVRat;;ACTIVE;0;Creatinine-based formula (MDRD)
+14749-6;Glucose;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;Glucose [Moles/volume] in Serum or Plasma;Glucose SerPl-sCnc;;ACTIVE;0;
+15074-8;Glucose;SCnc;Pt;Bld;Qn;;CHEM;1;Glucose [Moles/volume] in Blood;Glucose Bld-sCnc;;ACTIVE;0;
+15076-3;Glucose;SCnc;Pt;Urine;Qn;;CHEM;1;Glucose [Moles/volume] in Urine;Glucose Ur-sCnc;;ACTIVE;0;
+22705-8;Glucose;SCnc;Pt;Urine;Qn;Test strip;UA;1;Glucose [Moles/volume] in Urine by Test strip;Glucose Ur Strip-sCnc;;ACTIVE;0;Test strip
+2339-0;Glucose;MCnc;Pt;Bld;Qn;;CHEM;1;Glucose [Mass/volume] in Blood;Glucose Bld-mCnc;;ACTIVE;0;
+2345-7;Glucose;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;Glucose [Mass/volume] in Serum or Plasma;Glucose SerPl-mCnc;;ACTIVE;0;
+2349-9;Glucose;PrThr;Pt;Urine;Ord;;CHEM;1;Glucose [Presence] in Urine;Glucose Ur Ql;;ACTIVE;0;
+2350-7;Glucose;MCnc;Pt;Urine;Qn;;CHEM;1;Glucose [Mass/volume] in Urine;Glucose Ur-mCnc;;ACTIVE;0;
+25428-4;Glucose;PrThr;Pt;Urine;Ord;Test strip;UA;1;Glucose [Presence] in Urine by Test strip;Glucose Ur Ql Strip;;ACTIVE;0;Test strip
+35211-2;Glucose;MSCnc;Pt;Ser/Plas;Qn;;CHEM;1;Glucose [Mass or Moles/volume] in Serum or Plasma;Glucose SerPl-msCnc;;DISCOURAGED;0;
+35212-0;Glucose;MSCnc;Pt;Urine;Qn;;CHEM;1;Glucose [Mass or Moles/volume] in Urine;Glucose Ur-msCnc;;DISCOURAGED;0;
+39480-9;Glucose;SCnc;Pt;BldV;Qn;;CHEM;1;Glucose [Moles/volume] in Venous blood;Glucose BldV-sCnc;;ACTIVE;0;
+41652-9;Glucose;MCnc;Pt;BldV;Qn;;CHEM;1;Glucose [Mass/volume] in Venous blood;Glucose BldV-mCnc;;ACTIVE;0;
+50555-2;Glucose;PrThr;Pt;Urine;Ord;Test strip.automated;UA;1;Glucose [Presence] in Urine by Automated test strip;Glucose Ur Ql Strip.auto;;ACTIVE;0;Test strip
+53328-1;Glucose;MCnc;Pt;Urine;Qn;Test strip.automated;UA;1;Glucose [Mass/volume] in Urine by Automated test strip;Glucose Ur Strip.auto-mCnc;;ACTIVE;0;Test strip
+5792-7;Glucose;MCnc;Pt;Urine;Qn;Test strip;UA;1;Glucose [Mass/volume] in Urine by Test strip;Glucose Ur Strip-mCnc;;ACTIVE;0;Test strip
+59156-0;Glucose;SCnc;Pt;Urine;Qn;Test strip.automated;UA;1;Glucose [Moles/volume] in Urine by Automated test strip;Glucose Ur Strip.auto-sCnc;;ACTIVE;0;Test strip
+74774-1;Glucose;MCnc;Pt;Ser/Plas/Bld;Qn;;CHEM;1;Glucose [Mass/volume] in Serum, Plasma or Blood;Glucose SerPlBld-mCnc;;ACTIVE;0;
+77135-2;Glucose;SCnc;Pt;Ser/Plas/Bld;Qn;;CHEM;1;Glucose [Moles/volume] in Serum, Plasma or Blood;Glucose SerPlBld-sCnc;;ACTIVE;0;
+14771-0;Glucose^post CFst;SCnc;Pt;Ser/Plas;Qn;;CHAL;1;Fasting glucose [Moles/volume] in Serum or Plasma;Glucose p fast SerPl-sCnc;;ACTIVE;1;
+1557-8;Glucose^post CFst;MCnc;Pt;BldV;Qn;;CHAL;1;Fasting glucose [Mass/volume] in Venous blood;Glucose p fast BldV-mCnc;;ACTIVE;1;
+1558-6;Glucose^post CFst;MCnc;Pt;Ser/Plas;Qn;;CHAL.ROUTINE;1;Fasting glucose [Mass/volume] in Serum or Plasma;Glucose p fast SerPl-mCnc;;ACTIVE;1;
+35184-1;Glucose^post CFst;MSCnc;Pt;Ser/Plas;Qn;;CHAL;1;Fasting glucose [Mass or Moles/volume] in Serum or Plasma;Glucose p fast SerPl-msCnc;;DISCOURAGED;1;
+76629-5;Glucose^post CFst;SCnc;Pt;Bld;Qn;;CHEM;1;Fasting glucose [Moles/volume] in Blood;Glucose p fast Bld-sCnc;;ACTIVE;1;
+77145-1;Glucose^post CFst;SCnc;Pt;Ser/Plas/Bld;Qn;;CHEM;1;Fasting glucose [Moles/volume] in Serum, Plasma or Blood;Glucose p fast SerPlBld-sCnc;;ACTIVE;1;
+40193-5;Glucose^pre-meal;SCnc;Pt;Ser/Plas;Qn;;CHAL;1;Glucose [Moles/volume] in Serum or Plasma --pre-meal;Glucose pre-meal SerPl-sCnc;;ACTIVE;1;
+53049-3;Glucose^pre-meal;MCnc;Pt;Ser/Plas;Qn;;CHAL;1;Glucose [Mass/volume] in Serum or Plasma --pre-meal;Glucose pre-meal SerPl-mCnc;;ACTIVE;1;
+20570-8;Hematocrit;VFr;Pt;Bld;Qn;;HEM/BC;1;Hematocrit [Volume Fraction] of Blood;Hct VFr Bld;;ACTIVE;0;
+31100-1;Hematocrit;VFr;Pt;Bld;Qn;Impedance;HEM/BC;1;Hematocrit [Volume Fraction] of Blood by Impedance;Hct VFr Bld Imped;;ACTIVE;0;Impedance
+32354-3;Hematocrit;VFr;Pt;BldA;Qn;;HEM/BC;1;Hematocrit [Volume Fraction] of Arterial blood;Hct VFr BldA;;ACTIVE;0;
+41654-5;Hematocrit;VFr;Pt;BldV;Qn;;HEM/BC;1;Hematocrit [Volume Fraction] of Venous blood;Hct VFr BldV;;ACTIVE;0;
+41655-2;Hematocrit;VFr;Pt;BldMV;Qn;;HEM/BC;1;Hematocrit [Volume Fraction] of Mixed venous blood;Hct VFr BldMV;;ACTIVE;0;
+42908-4;Hematocrit;VFr;Pt;BldC;Qn;;HEM/BC;1;Hematocrit [Volume Fraction] of Capillary blood;Hct VFr BldC;;ACTIVE;0;
+4544-3;Hematocrit;VFr;Pt;Bld;Qn;Automated count;HEM/BC;1;Hematocrit [Volume Fraction] of Blood by Automated count;Hct VFr Bld Auto;;ACTIVE;0;Automated count
+4545-0;Hematocrit;VFr;Pt;Bld;Qn;Spun;HEM/BC;1;Hematocrit [Volume Fraction] of Blood by Centrifugation;Hct VFr Bld Spun;;ACTIVE;0;Spun
+48703-3;Hematocrit;VFr;Pt;Bld;Qn;Estimated;HEM/BC;1;Hematocrit [Volume Fraction] of Blood by Estimated;Hct VFr Bld Est;;ACTIVE;0;Estimated
+71829-6;Hematocrit;VFr.DF;Pt;BldV;Qn;;HEM/BC;1;Hematocrit [Pure volume fraction] of Venous blood;Hct VFr.DF BldV;;ACTIVE;0;
+71830-4;Hematocrit;VFr.DF;Pt;BldMV;Qn;;HEM/BC;1;Hematocrit [Pure volume fraction] of Mixed venous blood;Hct VFr.DF BldMV;;ACTIVE;0;
+71831-2;Hematocrit;VFr.DF;Pt;BldC;Qn;;HEM/BC;1;Hematocrit [Pure volume fraction] of Capillary blood;Hct VFr.DF BldC;;ACTIVE;0;
+71832-0;Hematocrit;VFr.DF;Pt;BldA;Qn;;HEM/BC;1;Hematocrit [Pure volume fraction] of Arterial blood;Hct VFr.DF BldA;;ACTIVE;0;
+71833-8;Hematocrit;VFr.DF;Pt;Bld;Qn;Automated count;HEM/BC;1;Hematocrit [Pure volume fraction] of Blood by Automated count;Hct VFr.DF Bld Auto;;ACTIVE;0;Automated count
+30313-1;Hemoglobin;MCnc;Pt;BldA;Qn;;HEM/BC;1;Hemoglobin [Mass/volume] in Arterial blood;Hgb BldA-mCnc;;ACTIVE;0;
+30350-3;Hemoglobin;MCnc;Pt;BldV;Qn;;HEM/BC;1;Hemoglobin [Mass/volume] in Venous blood;Hgb BldV-mCnc;;ACTIVE;0;
+30352-9;Hemoglobin;MCnc;Pt;BldC;Qn;;HEM/BC;1;Hemoglobin [Mass/volume] in Capillary blood;Hgb BldC-mCnc;;ACTIVE;0;
+57751-0;Hemoglobin;PrThr;Pt;Urine;Ord;Test strip.automated;UA;1;Hemoglobin [Presence] in Urine by Automated test strip;Hgb Ur Ql Strip.auto;;ACTIVE;0;Test strip
+5794-3;Hemoglobin;PrThr;Pt;Urine;Ord;Test strip;UA;1;Hemoglobin [Presence] in Urine by Test strip;Hgb Ur Ql Strip;;ACTIVE;0;Test strip
+59260-0;Hemoglobin;SCnc;Pt;Bld;Qn;;HEM/BC;1;Hemoglobin [Moles/volume] in Blood;Hgb Bld-sCnc;;ACTIVE;0;
+718-7;Hemoglobin;MCnc;Pt;Bld;Qn;;HEM/BC;1;Hemoglobin [Mass/volume] in Blood;Hgb Bld-mCnc;;ACTIVE;0;
+725-2;Hemoglobin;PrThr;Pt;Urine;Ord;;HEM/BC;1;Hemoglobin [Presence] in Urine;Hgb Ur Ql;;ACTIVE;0;
+75928-2;Hemoglobin;SCnc;Pt;BldA;Qn;;HEM/BC;1;Hemoglobin [Moles/volume] in Arterial blood;Hgb BldA-sCnc;;ACTIVE;0;
+41995-2;Hemoglobin A1c;MCnc;Pt;Bld;Qn;;HEM/BC;1;Hemoglobin A1c [Mass/volume] in Blood;Hgb A1c Bld-mCnc;;ACTIVE;0;
+55454-3;Hemoglobin A1c;-;Pt;Bld;-;;LABORDERS;1;Deprecated Hemoglobin A1c in Blood;Deprecated Hgb A1c Bld;;DEPRECATED;0;
+17855-8;Hemoglobin A1c/Hemoglobin.total;MFr;Pt;Bld;Qn;Calculated;HEM/BC;1;Hemoglobin A1c/Hemoglobin.total in Blood by calculation;Hgb A1c MFr Bld Calc;;ACTIVE;0;Calculated
+17856-6;Hemoglobin A1c/Hemoglobin.total;MFr;Pt;Bld;Qn;HPLC;HEM/BC;1;Hemoglobin A1c/Hemoglobin.total in Blood by HPLC;Hgb A1c MFr Bld HPLC;;ACTIVE;0;HPLC
+4548-4;Hemoglobin A1c/Hemoglobin.total;MFr;Pt;Bld;Qn;;HEM/BC;1;Hemoglobin A1c/Hemoglobin.total in Blood;Hgb A1c MFr Bld;;ACTIVE;0;
+4549-2;Hemoglobin A1c/Hemoglobin.total;MFr;Pt;Bld;Qn;Electrophoresis;HEM/BC;1;Hemoglobin A1c/Hemoglobin.total in Blood by Electrophoresis;Hgb A1c MFr Bld Elph;;ACTIVE;0;Electrophoresis
+59261-8;Hemoglobin A1c/Hemoglobin.total;SFr;Pt;Bld;Qn;IFCC;HEM/BC;1;Hemoglobin A1c/Hemoglobin.total in Blood by IFCC protocol;Hgb A1c SFr Bld IFCC;;ACTIVE;0;IFCC
+62388-4;Hemoglobin A1c/Hemoglobin.total;MFr;Pt;Bld;Qn;JDS/JSCC;HEM/BC;1;Hemoglobin A1c/Hemoglobin.total in Blood by JDS/JSCC protocol;Hgb A1c MFr Bld JDS/JSCC;;ACTIVE;0;JDS/JSCC
+71875-9;Hemoglobin A1c/Hemoglobin.total;MFr.DF;Pt;Bld;Qn;;HEM/BC;1;Hemoglobin A1c/Hemoglobin.total [Pure mass fraction] in Blood;Hgb A1c MFr.DF Bld;;ACTIVE;0;
+13951-9;Hepatitis A virus Ab;PrThr;Pt;Ser;Ord;IA;MICRO;1;Hepatitis A virus Ab [Presence] in Serum by Immunoassay;HAV Ab Ser Ql IA;;ACTIVE;0;IA
+20575-7;Hepatitis A virus Ab;PrThr;Pt;Ser;Ord;;MICRO;1;Hepatitis A virus Ab [Presence] in Serum;HAV Ab Ser Ql;;ACTIVE;0;
+13952-7;Hepatitis B virus core Ab;PrThr;Pt;Ser/Plas;Ord;IA;MICRO;1;Hepatitis B virus core Ab [Presence] in Serum or Plasma by Immunoassay;HBV core Ab SerPl Ql IA;;ACTIVE;0;IA
+16933-4;Hepatitis B virus core Ab;PrThr;Pt;Ser;Ord;;MICRO;1;Hepatitis B virus core Ab [Presence] in Serum;HBV core Ab Ser Ql;;ACTIVE;0;
+75378-0;Hepatitis B virus core Ab;PrThr;Pt;Ser/Plas/Bld;Ord;IA.rapid;MICRO;1;Hepatitis B virus core Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay;HBV core Ab SerPlBld Ql IA.rapid;;ACTIVE;0;IA
+10900-9;Hepatitis B virus surface Ab;PrThr;Pt;Ser;Ord;IA;MICRO;1;Hepatitis B virus surface Ab [Presence] in Serum by Immunoassay;HBV surface Ab Ser Ql IA;;ACTIVE;0;IA
+16935-9;Hepatitis B virus surface Ab;ACnc;Pt;Ser;Qn;;MICRO;1;Hepatitis B virus surface Ab [Units/volume] in Serum;HBV surface Ab Ser-aCnc;;ACTIVE;0;
+22322-2;Hepatitis B virus surface Ab;PrThr;Pt;Ser;Ord;;MICRO;1;Hepatitis B virus surface Ab [Presence] in Serum;HBV surface Ab Ser Ql;;ACTIVE;0;
+32019-2;Hepatitis B virus surface Ab;Titr;Pt;Ser;Qn;;MICRO;1;Hepatitis B virus surface Ab [Titer] in Serum;HBV surface Ab Titr Ser;;ACTIVE;0;
+39535-0;Hepatitis B virus surface Ab;PrThr;Pt;Ser;Ord;RIA;MICRO;1;Hepatitis B virus surface Ab [Presence] in Serum by Radioimmunoassay (RIA);HBV surface Ab Ser Ql RIA;;ACTIVE;0;RIA
+5193-8;Hepatitis B virus surface Ab;ACnc;Pt;Ser/Plas;Qn;IA;MICRO;1;Hepatitis B virus surface Ab [Units/volume] in Serum or Plasma by Immunoassay;HBV surface Ab SerPl IA-aCnc;;ACTIVE;0;IA
+5194-6;Hepatitis B virus surface Ab;ACnc;Pt;Ser;Qn;RIA;MICRO;1;Hepatitis B virus surface Ab [Units/volume] in Serum by Radioimmunoassay (RIA);HBV surface Ab Ser RIA-aCnc;;ACTIVE;0;RIA
+75409-3;Hepatitis B virus surface Ab;PrThr;Pt;Ser/Plas/Bld;Ord;IA.rapid;MICRO;1;Hepatitis B virus surface Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay;HBV surface Ab SerPlBld Ql IA.rapid;;ACTIVE;0;IA
+5195-3;Hepatitis B virus surface Ag;PrThr;Pt;Ser;Ord;;MICRO;1;Hepatitis B virus surface Ag [Presence] in Serum;HBV surface Ag Ser Ql;;ACTIVE;0;
+5196-1;Hepatitis B virus surface Ag;PrThr;Pt;Ser/Plas;Ord;IA;MICRO;1;Hepatitis B virus surface Ag [Presence] in Serum or Plasma by Immunoassay;HBV surface Ag SerPl Ql IA;;ACTIVE;0;IA
+5197-9;Hepatitis B virus surface Ag;PrThr;Pt;Ser;Ord;RIA;MICRO;1;Hepatitis B virus surface Ag [Presence] in Serum by Radioimmunoassay (RIA);HBV surface Ag Ser Ql RIA;;ACTIVE;0;RIA
+65633-0;Hepatitis B virus surface Ag;PrThr;Pt;Ser/Plas;Ord;Confirm;MICRO;1;Hepatitis B virus surface Ag [Presence] in Serum or Plasma by Confirmatory method;HBV surface Ag SerPl Ql Cfm;;ACTIVE;0;Confirm
+75410-1;Hepatitis B virus surface Ag;PrThr;Pt;Ser/Plas/Bld;Ord;IA.rapid;MICRO;1;Hepatitis B virus surface Ag [Presence] in Serum, Plasma or Blood by Rapid immunoassay;HBV surface Ag SerPlBld Ql IA.rapid;;ACTIVE;0;IA
+7905-3;Hepatitis B virus surface Ag;PrThr;Pt;Ser/Plas;Ord;Neut;MICRO;1;Hepatitis B virus surface Ag [Presence] in Serum or Plasma by Neutralization test;HBV surface Ag SerPl Ql Nt;;ACTIVE;0;Neut
+13955-0;Hepatitis C virus Ab;PrThr;Pt;Ser/Plas;Ord;IA;MICRO;1;Hepatitis C virus Ab [Presence] in Serum or Plasma by Immunoassay;HCV Ab SerPl Ql IA;;ACTIVE;0;IA
+16128-1;Hepatitis C virus Ab;PrThr;Pt;Ser;Ord;;MICRO;1;Hepatitis C virus Ab [Presence] in Serum;HCV Ab Ser Ql;;ACTIVE;0;
+5199-5;Hepatitis C virus Ab;PrThr;Pt;Ser;Ord;IB;MICRO;1;Hepatitis C virus Ab [Presence] in Serum by Immunoblot;HCV Ab Ser Ql IB;;ACTIVE;0;IB
+72376-7;Hepatitis C virus Ab;PrThr;Pt;Ser/Plas/Bld;Ord;IA.rapid;MICRO;1;Hepatitis C virus Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay;HCV Ab SerPlBld Ql IA.rapid;;ACTIVE;0;IA
+13248-0;Hepatitis D virus Ab;PrThr;Pt;Ser;Ord;;MICRO;1;Hepatitis D virus Ab [Presence] in Serum;HDV Ab Ser Ql;;ACTIVE;0;
+40727-0;Hepatitis D virus Ab;PrThr;Pt;Ser;Ord;IA;MICRO;1;Hepatitis D virus Ab [Presence] in Serum by Immunoassay;HDV Ab Ser Ql IA;;ACTIVE;0;IA
+13294-4;Hepatitis E virus Ab;PrThr;Pt;Ser;Ord;;MICRO;1;Hepatitis E virus Ab [Presence] in Serum;HEV Ab Ser Ql;;ACTIVE;0;
+58936-6;Hepatitis E virus Ab;PrThr;Pt;Ser;Ord;IA;MICRO;1;Hepatitis E virus Ab [Presence] in Serum by Immunoassay;HEV Ab Ser Ql IA;;ACTIVE;0;IA
+14092-1;HIV 1 Ab;PrThr;Pt;Ser;Ord;IF;MICRO;1;HIV 1 Ab [Presence] in Serum by Immunofluorescence;HIV1 Ab Ser Ql IF;;ACTIVE;0;IF
+29893-5;HIV 1 Ab;PrThr;Pt;Ser/Plas;Ord;IA;MICRO;1;HIV 1 Ab [Presence] in Serum or Plasma by Immunoassay;HIV1 Ab SerPl Ql IA;;ACTIVE;0;IA
+5221-7;HIV 1 Ab;PrThr;Pt;Ser/Plas;Ord;IB;MICRO;1;HIV 1 Ab [Presence] in Serum or Plasma by Immunoblot;HIV1 Ab SerPl Ql IB;;ACTIVE;0;IB
+68961-2;HIV 1 Ab;PrThr;Pt;Ser/Plas/Bld;Ord;IA.rapid;MICRO;1;HIV 1 Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay;HIV1 Ab SerPlBld Ql IA.rapid;;ACTIVE;0;IA
+7917-8;HIV 1 Ab;PrThr;Pt;Ser;Ord;;MICRO;1;HIV 1 Ab [Presence] in Serum;HIV1 Ab Ser Ql;;ACTIVE;0;
+85686-4;HIV 1 Ab;PrThr;Pt;Ser/Plas/Bld;Ord;IF;MICRO;1;HIV 1 Ab [Presence] in Serum, Plasma or Blood by Immunofluorescence;HIV1 Ab SerPlBld Ql IF;;ACTIVE;0;IF
+86233-4;HIV 1 Ab;PrThr;Pt;Ser/Plas/Bld;Ord;IB;MICRO;1;HIV 1 Ab [Presence] in Serum, Plasma or Blood by Immunoblot;HIV1 Ab SerPlBld Ql IB;;ACTIVE;0;IB
+31201-7;HIV 1+2 Ab;PrThr;Pt;Ser/Plas;Ord;IA;MICRO;1;HIV 1+2 Ab [Presence] in Serum or Plasma by Immunoassay;HIV1+2 Ab SerPl Ql IA;;ACTIVE;0;IA
+44873-8;HIV 1+2 Ab;PrThr;Pt;Ser;Ord;IB;MICRO;1;HIV 1+2 Ab [Presence] in Serum by Immunoblot;HIV1+2 Ab Ser Ql IB;;ACTIVE;0;IB
+7918-6;HIV 1+2 Ab;PrThr;Pt;Ser;Ord;;MICRO;1;HIV 1+2 Ab [Presence] in Serum;HIV1+2 Ab Ser Ql;;ACTIVE;0;
+80387-4;HIV 1+2 Ab;PrThr;Pt;Ser/Plas/Bld;Ord;IA.rapid;MICRO;1;HIV 1+2 Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay;HIV1+2 Ab SerPlBld Ql IA.rapid;;ACTIVE;0;IA
+48345-3;HIV 1+O+2 Ab;PrThr;Pt;Ser/Plas;Ord;;MICRO;1;HIV 1+O+2 Ab [Presence] in Serum or Plasma;HIV 1+O+2 Ab SerPl Ql;;ACTIVE;0;
+30361-0;HIV 2 Ab;PrThr;Pt;Ser/Plas;Ord;IA;MICRO;1;HIV 2 Ab [Presence] in Serum or Plasma by Immunoassay;HIV 2 Ab SerPl Ql IA;;ACTIVE;0;IA
+5225-8;HIV 2 Ab;PrThr;Pt;Ser;Ord;IB;MICRO;1;HIV 2 Ab [Presence] in Serum by Immunoblot;HIV 2 Ab Ser Ql IB;;ACTIVE;0;IB
+7919-4;HIV 2 Ab;PrThr;Pt;Ser;Ord;;MICRO;1;HIV 2 Ab [Presence] in Serum;HIV 2 Ab Ser Ql;;ACTIVE;0;
+81641-3;HIV 2 Ab;PrThr;Pt;Ser/Plas/Bld;Ord;IA.rapid;MICRO;1;HIV 2 Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay;HIV 2 Ab SerPlBld Ql IA.rapid;;ACTIVE;0;IA
+14796-7;Insulin;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;Insulin [Moles/volume] in Serum or Plasma;Insulin SerPl-sCnc;;ACTIVE;0;
+20448-7;Insulin;ACnc;Pt;Ser/Plas;Qn;;CHEM;1;Insulin [Units/volume] in Serum or Plasma;Insulin SerPl-aCnc;;ACTIVE;0;
+3695-4;Insulin;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;Insulin [Mass/volume] in Serum or Plasma;Insulin SerPl-mCnc;;ACTIVE;0;
+27873-9;Insulin^post CFst;ACnc;Pt;Ser/Plas;Qn;;CHAL;1;Insulin [Units/volume] in Serum or Plasma --fasting;Insulin p fast SerPl-aCnc;;ACTIVE;1;
+59179-2;Insulin^post CFst;SCnc;Pt;Ser/Plas;Qn;;CHAL;1;Insulin [Moles/volume] in Serum or Plasma --fasting;Insulin p fast SerPl-sCnc;;ACTIVE;1;
+47862-8;Insulin^post meal;ACnc;Pt;Ser/Plas;Qn;;CHAL;1;Insulin [Units/volume] in Serum or Plasma --post meal;Insulin p meal SerPl-aCnc;;ACTIVE;1;
+22702-5;Ketones;SCnc;Pt;Urine;Qn;Test strip;UA;1;Ketones [Moles/volume] in Urine by Test strip;Ketones Ur Strip-sCnc;;ACTIVE;0;Test strip
+2514-8;Ketones;PrThr;Pt;Urine;Ord;Test strip;CHEM;1;Ketones [Presence] in Urine by Test strip;Ketones Ur Ql Strip;;ACTIVE;0;Test strip
+33903-6;Ketones;PrThr;Pt;Urine;Ord;;CHEM;1;Ketones [Presence] in Urine;Ketones Ur Ql;;ACTIVE;0;
+49779-2;Ketones;MCnc;Pt;Urine;Qn;;UA;1;Ketones [Mass/volume] in Urine;Ketones Ur-mCnc;;ACTIVE;0;
+50557-8;Ketones;MCnc;Pt;Urine;Qn;Test strip.automated;UA;1;Ketones [Mass/volume] in Urine by Automated test strip;Ketones Ur Strip.auto-mCnc;;ACTIVE;0;Test strip
+57734-6;Ketones;PrThr;Pt;Urine;Ord;Test strip.automated;UA;1;Ketones [Presence] in Urine by Automated test strip;Ketones Ur Ql Strip.auto;;ACTIVE;0;Test strip
+5797-6;Ketones;MCnc;Pt;Urine;Qn;Test strip;UA;1;Ketones [Mass/volume] in Urine by Test strip;Ketones Ur Strip-mCnc;;ACTIVE;0;Test strip
+59158-6;Ketones;SCnc;Pt;Urine;Qn;Test strip.automated;UA;1;Ketones [Moles/volume] in Urine by Automated test strip;Ketones Ur Strip.auto-sCnc;;ACTIVE;0;Test strip
+14804-9;Lactate dehydrogenase;CCnc;Pt;Ser/Plas;Qn;Reaction: lactate to pyruvate;CHEM;1;Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Lactate to pyruvate reaction;LDH SerPl L to P-cCnc;;ACTIVE;0;Reaction: lactate to pyruvate
+14805-6;Lactate dehydrogenase;CCnc;Pt;Ser/Plas;Qn;Reaction: pyruvate to lactate;CHEM;1;Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Pyruvate to lactate reaction;LDH SerPl P to L-cCnc;;ACTIVE;0;Reaction: pyruvate to lactate
+2532-0;Lactate dehydrogenase;CCnc;Pt;Ser/Plas;Qn;;CHEM;1;Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma;LDH SerPl-cCnc;;DISCOURAGED;0;
+27297-1;Leukocyte esterase;ACnc;Pt;Urine;Qn;;UA;1;Leukocyte esterase [Units/volume] in Urine;Leukocyte esterase Ur-aCnc;;ACTIVE;0;
+20408-1;Leukocytes;NCnc;Pt;Urine;Qn;Test strip;UA;1;Leukocytes [#/volume] in Urine by Test strip;WBC # Ur Strip;;ACTIVE;0;Test strip
+24122-4;Leukocytes;NCnc;Pt;Urine;Qn;Manual count;UA;1;Leukocytes [#/volume] in Urine by Manual count;WBC # Ur Manual;;ACTIVE;0;Manual count
+26464-8;Leukocytes;NCnc;Pt;Bld;Qn;;HEM/BC;1;Leukocytes [#/volume] in Blood;WBC # Bld;;ACTIVE;0;
+30405-5;Leukocytes;NCnc;Pt;Urine;Qn;;UA;1;Leukocytes [#/volume] in Urine;WBC # Ur;;ACTIVE;0;
+33052-2;Leukocytes;PrThr;Pt;Urine;Ord;;UA;1;Leukocytes [Presence] in Urine;WBC Ur Ql;;ACTIVE;0;
+49498-9;Leukocytes;NCnc;Pt;Bld;Qn;Estimate;HEM/BC;1;Leukocytes [#/volume] in Blood by Estimate;WBC # Bld Est;;ACTIVE;0;Estimate
+51487-7;Leukocytes;NCnc;Pt;Urine;Qn;Automated count;UA;1;Leukocytes [#/volume] in Urine by Automated count;WBC # Ur Auto;;ACTIVE;0;Automated count
+53316-6;Leukocytes;PrThr;Pt;Urine;Ord;Automated;UA;1;Leukocytes [Presence] in Urine by Automated;WBC Ur Ql Auto;;ACTIVE;0;Automated
+53964-3;Leukocytes;PrThr;Pt;Urine;Ord;Visual;UA;1;Leukocytes [Presence] in Urine by Visual;WBC Ur Ql Visual;;ACTIVE;0;Visual
+58805-3;Leukocytes;NCnc;Pt;Urine;Qn;Test strip.automated;UA;1;Leukocytes [#/volume] in Urine by Automated test strip;WBC # Ur Strip.auto;;ACTIVE;0;Test strip
+6690-2;Leukocytes;NCnc;Pt;Bld;Qn;Automated count;HEM/BC;1;Leukocytes [#/volume] in Blood by Automated count;WBC # Bld Auto;;ACTIVE;0;Automated count
+804-5;Leukocytes;NCnc;Pt;Bld;Qn;Manual count;HEM/BC;1;Leukocytes [#/volume] in Blood by Manual count;WBC # Bld Manual;;ACTIVE;0;Manual count
+26474-7;Lymphocytes;NCnc;Pt;Bld;Qn;;HEM/BC;1;Lymphocytes [#/volume] in Blood;Lymphocytes # Bld;;ACTIVE;0;
+30364-4;Lymphocytes;NCnc;Pt;Bld;Qn;Flow cytometry;CELLMARK;1;Lymphocytes [#/volume] in Blood by Flow cytometry (FC);Lymphocytes # Bld FC;;ACTIVE;0;Flow cytometry
+731-0;Lymphocytes;NCnc;Pt;Bld;Qn;Automated count;HEM/BC;1;Lymphocytes [#/volume] in Blood by Automated count;Lymphocytes # Bld Auto;;ACTIVE;0;Automated count
+732-8;Lymphocytes;NCnc;Pt;Bld;Qn;Manual count;HEM/BC;1;Lymphocytes [#/volume] in Blood by Manual count;Lymphocytes # Bld Manual;;ACTIVE;0;Manual count
+26478-8;Lymphocytes/100 leukocytes;NFr;Pt;Bld;Qn;;HEM/BC;1;Lymphocytes/100 leukocytes in Blood;Lymphocytes/leuk NFr Bld;;ACTIVE;0;
+30365-1;Lymphocytes/100 leukocytes;NFr;Pt;Bld;Qn;Flow cytometry;CELLMARK;1;Lymphocytes/100 leukocytes in Blood by Flow cytometry (FC);Lymphocytes/leuk NFr Bld FC;;ACTIVE;0;Flow cytometry
+736-9;Lymphocytes/100 leukocytes;NFr;Pt;Bld;Qn;Automated count;HEM/BC;1;Lymphocytes/100 leukocytes in Blood by Automated count;Lymphocytes/leuk NFr Bld Auto;;ACTIVE;0;Automated count
+737-7;Lymphocytes/100 leukocytes;NFr;Pt;Bld;Qn;Manual count;HEM/BC;1;Lymphocytes/100 leukocytes in Blood by Manual count;Lymphocytes/leuk NFr Bld Manual;;ACTIVE;0;Manual count
+19123-9;Magnesium;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;Magnesium [Mass/volume] in Serum or Plasma;Magnesium SerPl-mCnc;;ACTIVE;0;
+21377-7;Magnesium;MCnc;Pt;Bld;Qn;;CHEM;1;Magnesium [Mass/volume] in Blood;Magnesium Bld-mCnc;;ACTIVE;0;
+2593-2;Magnesium;SCnc;Pt;Bld;Qn;;CHEM;1;Magnesium [Moles/volume] in Blood;Magnesium Bld-sCnc;;ACTIVE;0;
+2601-3;Magnesium;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;Magnesium [Moles/volume] in Serum or Plasma;Magnesium SerPl-sCnc;;ACTIVE;0;
+35249-2;Magnesium;MSCnc;Pt;Ser/Plas;Qn;;CHEM;1;Magnesium [Mass or Moles/volume] in Serum or Plasma;Magnesium SerPl-msCnc;;DISCOURAGED;0;
+16199-2;Methadone;PrThr;Pt;Urine;Ord;Confirm;DRUG/TOX;1;Methadone [Presence] in Urine by Confirmatory method;Methadone Ur Ql Cfm;;ACTIVE;0;Confirm
+19550-3;Methadone;PrThr;Pt;Urine;Ord;Screen;DRUG/TOX;1;Methadone [Presence] in Urine by Screen method;Methadone Ur Ql Scn;;ACTIVE;0;Screen
+3773-9;Methadone;PrThr;Pt;Urine;Ord;;DRUG/TOX;1;Methadone [Presence] in Urine;Methadone Ur Ql;;ACTIVE;0;
+70148-2;Methadone;PrThr;Pt;Urine;Ord;Screen>150 ng/mL;DRUG/TOX;1;Methadone [Presence] in Urine by Screen method >150 ng/mL;Methadone Ur Ql Scn>150 ng/mL;;ACTIVE;0;Screen>150 ng/mL
+70149-0;Methadone;PrThr;Pt;Urine;Ord;Screen>300 ng/mL;DRUG/TOX;1;Methadone [Presence] in Urine by Screen method >300 ng/mL;Methadone Ur Ql Scn>300 ng/mL;;ACTIVE;0;Screen>300 ng/mL
+19554-5;Methamphetamine;PrThr;Pt;Urine;Ord;Screen;DRUG/TOX;1;Methamphetamine [Presence] in Urine by Screen method;Methamphet Ur Ql Scn;;ACTIVE;0;Screen
+19555-2;Methamphetamine;PrThr;Pt;Urine;Ord;Confirm;DRUG/TOX;1;Methamphetamine [Presence] in Urine by Confirmatory method;Methamphet Ur Ql Cfm;;ACTIVE;0;Confirm
+21386-8;Methamphetamine;PrThr;Pt;Urine;Ord;SAMHSA confirm;DRUG/TOX;1;Methamphetamine [Presence] in Urine by SAMHSA confirm method;Methamphet Ur Ql SAMHSA Cfm;;ACTIVE;0;SAMHSA confirm
+3779-6;Methamphetamine;PrThr;Pt;Urine;Ord;;DRUG/TOX;1;Methamphetamine [Presence] in Urine;Methamphet Ur Ql;;ACTIVE;0;
+14267-9;Methylenedioxymethamphetamine;PrThr;Pt;Urine;Ord;;DRUG/TOX;1;Methylenedioxymethamphetamine [Presence] in Urine;MDMA Ur Ql;;ACTIVE;0;
+19568-5;Methylenedioxymethamphetamine;PrThr;Pt;Urine;Ord;Screen;DRUG/TOX;1;Methylenedioxymethamphetamine [Presence] in Urine by Screen method;MDMA Ur Ql Scn;;ACTIVE;0;Screen
+19569-3;Methylenedioxymethamphetamine;PrThr;Pt;Urine;Ord;Confirm;DRUG/TOX;1;Methylenedioxymethamphetamine [Presence] in Urine by Confirmatory method;MDMA Ur Ql Cfm;;ACTIVE;0;Confirm
+26484-6;Monocytes;NCnc;Pt;Bld;Qn;;HEM/BC;1;Monocytes [#/volume] in Blood;Monocytes # Bld;;ACTIVE;0;
+742-7;Monocytes;NCnc;Pt;Bld;Qn;Automated count;HEM/BC;1;Monocytes [#/volume] in Blood by Automated count;Monocytes # Bld Auto;;ACTIVE;0;Automated count
+743-5;Monocytes;NCnc;Pt;Bld;Qn;Manual count;HEM/BC;1;Monocytes [#/volume] in Blood by Manual count;Monocytes # Bld Manual;;ACTIVE;0;Manual count
+26485-3;Monocytes/100 leukocytes;NFr;Pt;Bld;Qn;;HEM/BC;1;Monocytes/100 leukocytes in Blood;Monocytes/leuk NFr Bld;;ACTIVE;0;
+5905-5;Monocytes/100 leukocytes;NFr;Pt;Bld;Qn;Automated count;HEM/BC;1;Monocytes/100 leukocytes in Blood by Automated count;Monocytes/leuk NFr Bld Auto;;ACTIVE;0;Automated count
+744-3;Monocytes/100 leukocytes;NFr;Pt;Bld;Qn;Manual count;HEM/BC;1;Monocytes/100 leukocytes in Blood by Manual count;Monocytes/leuk NFr Bld Manual;;ACTIVE;0;Manual count
+21416-3;Neisseria gonorrhoeae DNA;PrThr;Pt;Urine;Ord;Probe.amp.tar;MICRO;1;Neisseria gonorrhoeae DNA [Presence] in Urine by NAA with probe detection;N gonorrhoea DNA Ur Ql NAA+probe;;ACTIVE;0;Probe
+60256-5;Neisseria gonorrhoeae rRNA;PrThr;Pt;Urine;Ord;Probe.amp.tar;MICRO;1;Neisseria gonorrhoeae rRNA [Presence] in Urine by NAA with probe detection;N gonorrhoea rRNA Ur Ql NAA+probe;;ACTIVE;0;Probe
+26499-4;Neutrophils;NCnc;Pt;Bld;Qn;;HEM/BC;1;Neutrophils [#/volume] in Blood;Neutrophils # Bld;;ACTIVE;0;
+751-8;Neutrophils;NCnc;Pt;Bld;Qn;Automated count;HEM/BC;1;Neutrophils [#/volume] in Blood by Automated count;Neutrophils # Bld Auto;;ACTIVE;0;Automated count
+753-4;Neutrophils;NCnc;Pt;Bld;Qn;Manual count;HEM/BC;1;Neutrophils [#/volume] in Blood by Manual count;Neutrophils # Bld Manual;;ACTIVE;0;Manual count
+23761-0;Neutrophils/100 leukocytes;NFr;Pt;Bld;Qn;Manual count;HEM/BC;1;Neutrophils/100 leukocytes in Blood by Manual count;Neutrophils/leuk NFr Bld Manual;;ACTIVE;0;Manual count
+26511-6;Neutrophils/100 leukocytes;NFr;Pt;Bld;Qn;;HEM/BC;1;Neutrophils/100 leukocytes in Blood;Neutrophils/leuk NFr Bld;;ACTIVE;0;
+770-8;Neutrophils/100 leukocytes;NFr;Pt;Bld;Qn;Automated count;HEM/BC;1;Neutrophils/100 leukocytes in Blood by Automated count;Neutrophils/leuk NFr Bld Auto;;ACTIVE;0;Automated count
+20407-3;Nitrite;MCnc;Pt;Urine;Qn;Test strip;UA;1;Nitrite [Mass/volume] in Urine by Test strip;Nitrite Ur Strip-mCnc;;ACTIVE;0;Test strip
+2657-5;Nitrite;MCnc;Pt;Urine;Qn;;CHEM;1;Nitrite [Mass/volume] in Urine;Nitrite Ur-mCnc;;ACTIVE;0;
+18390-5;Opiates;PrThr;Pt;Urine;Ord;Confirm;DRUG/TOX;1;Opiates [Presence] in Urine by Confirmatory method;Opiates Ur Ql Cfm;;ACTIVE;0;Confirm
+19295-5;Opiates;PrThr;Pt;Urine;Ord;Screen;DRUG/TOX;1;Opiates [Presence] in Urine by Screen method;Opiates Ur Ql Scn;;ACTIVE;0;Screen
+21431-2;Opiates;PrThr;Pt;Urine;Ord;Screen>2000 ng/mL;DRUG/TOX;1;Opiates [Presence] in Urine by Screen method >2000 ng/mL;Opiates Ur Ql Scn>2000 ng/mL;;ACTIVE;0;Screen>2000 ng/mL
+3879-4;Opiates;PrThr;Pt;Urine;Ord;;DRUG/TOX;1;Opiates [Presence] in Urine;Opiates Ur Ql;;ACTIVE;0;
+70151-6;Opiates;PrThr;Pt;Urine;Ord;Screen>300 ng/mL;DRUG/TOX;1;Opiates [Presence] in Urine by Screen method >300 ng/mL;Opiates Ur Ql Scn>300 ng/mL;;ACTIVE;0;Screen>300 ng/mL
+8221-4;Opiates;PrThr;Pt;Urine;Ord;SAMHSA confirm;DRUG/TOX;1;Opiates [Presence] in Urine by SAMHSA confirm method;Opiates Ur Ql SAMHSA Cfm;;ACTIVE;0;SAMHSA confirm
+8222-2;Opiates;PrThr;Pt;Urine;Ord;SAMHSA screen;DRUG/TOX;1;Opiates [Presence] in Urine by SAMHSA screen method;Opiates Ur Ql SAMHSA Scn;;ACTIVE;0;SAMHSA screen
+18182-6;Osmolality;Osmol;Pt;Ser/Plas;Qn;Calculated;CHEM;1;Osmolality of Serum or Plasma by calculation;Osmolality SerPl Calc;;ACTIVE;0;Calculated
+2692-2;Osmolality;Osmol;Pt;Ser/Plas;Qn;;CHEM;1;Osmolality of Serum or Plasma;Osmolality SerPl;;ACTIVE;0;
+10998-3;oxyCODONE;PrThr;Pt;Urine;Ord;;DRUG/TOX;1;oxyCODONE [Presence] in Urine;oxyCODONE Ur Ql;;ACTIVE;0;
+19642-8;oxyCODONE;PrThr;Pt;Urine;Ord;Screen;DRUG/TOX;1;oxyCODONE [Presence] in Urine by Screen method;oxyCODONE Ur Ql Scn;;ACTIVE;0;Screen
+19643-6;oxyCODONE;PrThr;Pt;Urine;Ord;Confirm;DRUG/TOX;1;oxyCODONE [Presence] in Urine by Confirmatory method;oxyCODONE Ur Ql Cfm;;ACTIVE;0;Confirm
+2756-5;pH;LsCnc;Pt;Urine;Qn;;CHEM;1;pH of Urine;pH Ur;;ACTIVE;0;
+50560-2;pH;LsCnc;Pt;Urine;Qn;Test strip.automated;UA;1;pH of Urine by Automated test strip;pH Ur Strip.auto;;ACTIVE;0;Test strip.automated
+5803-2;pH;LsCnc;Pt;Urine;Qn;Test strip;UA;1;pH of Urine by Test strip;pH Ur Strip;;ACTIVE;0;Test strip
+14310-7;Phencyclidine;PrThr;Pt;Urine;Ord;Screen>25 ng/mL;DRUG/TOX;1;Phencyclidine [Presence] in Urine by Screen method >25 ng/mL;PCP Ur Ql Scn>25 ng/mL;;ACTIVE;0;Screen>25 ng/mL
+14311-5;Phencyclidine;PrThr;Pt;Urine;Ord;Confirm>20 ng/mL;DRUG/TOX;1;Phencyclidine [Presence] in Urine by Confirm method >20 ng/mL;PCP Ur Ql Cfm>20 ng/mL;;ACTIVE;0;Confirm>20 ng/mL
+18392-1;Phencyclidine;PrThr;Pt;Urine;Ord;Confirm;DRUG/TOX;1;Phencyclidine [Presence] in Urine by Confirmatory method;PCP Ur Ql Cfm;;ACTIVE;0;Confirm
+19659-2;Phencyclidine;PrThr;Pt;Urine;Ord;Screen;DRUG/TOX;1;Phencyclidine [Presence] in Urine by Screen method;PCP Ur Ql Scn;;ACTIVE;0;Screen
+3936-2;Phencyclidine;PrThr;Pt;Urine;Ord;;DRUG/TOX;1;Phencyclidine [Presence] in Urine;PCP Ur Ql;;ACTIVE;0;
+8237-0;Phencyclidine;PrThr;Pt;Urine;Ord;SAMHSA confirm;DRUG/TOX;1;Phencyclidine [Presence] in Urine by SAMHSA confirm method;PCP Ur Ql SAMHSA Cfm;;ACTIVE;0;SAMHSA confirm
+8238-8;Phencyclidine;PrThr;Pt;Urine;Ord;SAMHSA screen;DRUG/TOX;1;Phencyclidine [Presence] in Urine by SAMHSA screen method;PCP Ur Ql SAMHSA Scn;;ACTIVE;0;SAMHSA screen
+14879-1;Phosphate;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;Phosphate [Moles/volume] in Serum or Plasma;Phosphate SerPl-sCnc;;ACTIVE;0;
+24519-1;Phosphate;SCnc;Pt;Bld;Qn;;CHEM;1;Phosphate [Moles/volume] in Blood;Phosphate Bld-sCnc;;ACTIVE;0;
+2774-8;Phosphate;MCnc;Pt;Bld;Qn;;CHEM;1;Phosphate [Mass/volume] in Blood;Phosphate Bld-mCnc;;ACTIVE;0;
+2777-1;Phosphate;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;Phosphate [Mass/volume] in Serum or Plasma;Phosphate SerPl-mCnc;;ACTIVE;0;
+35221-1;Phosphate;MSCnc;Pt;Ser/Plas;Qn;;CHEM;1;Phosphate [Mass or Moles/volume] in Serum or Plasma;Phosphate SerPl-msCnc;;DISCOURAGED;0;
+26515-7;Platelets;NCnc;Pt;Bld;Qn;;HEM/BC;1;Platelets [#/volume] in Blood;Platelet # Bld;;ACTIVE;0;
+49497-1;Platelets;NCnc;Pt;Bld;Qn;Estimate;HEM/BC;1;Platelets [#/volume] in Blood by Estimate;Platelet # Bld Est;;ACTIVE;0;Estimate
+777-3;Platelets;NCnc;Pt;Bld;Qn;Automated count;HEM/BC;1;Platelets [#/volume] in Blood by Automated count;Platelet # Bld Auto;;ACTIVE;0;Automated count
+778-1;Platelets;NCnc;Pt;Bld;Qn;Manual count;HEM/BC;1;Platelets [#/volume] in Blood by Manual count;Platelet # Bld Manual;;ACTIVE;0;Manual count
+79427-1;Platelets;Naric;Pt;Bld;Qn;Microscopy.light.HPF;HEM/BC;1;Platelets [#/area] in Blood by Microscopy high power field;Platelet #/area Bld HPF;;ACTIVE;0;Microscopy
+22760-3;Potassium;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;Potassium [Mass/volume] in Serum or Plasma;Potassium SerPl-mCnc;;DISCOURAGED;0;
+2823-3;Potassium;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;Potassium [Moles/volume] in Serum or Plasma;Potassium SerPl-sCnc;;ACTIVE;0;
+39789-3;Potassium;SCnc;Pt;BldV;Qn;;CHEM;1;Potassium [Moles/volume] in Venous blood;Potassium BldV-sCnc;;ACTIVE;0;
+42569-4;Potassium;MSCnc;Pt;Ser/Plas;Qn;;CHEM;1;Potassium [Mass or Moles/volume] in Serum or Plasma;Potassium SerPl-msCnc;;DISCOURAGED;0;
+6298-4;Potassium;SCnc;Pt;Bld;Qn;;CHEM;1;Potassium [Moles/volume] in Blood;Potassium Bld-sCnc;;ACTIVE;0;
+75940-7;Potassium;MCnc;Pt;Bld;Qn;;CHEM;1;Potassium [Mass/volume] in Blood;Potassium Bld-mCnc;;ACTIVE;0;
+77142-8;Potassium;SCnc;Pt;Ser/Plas/Bld;Qn;;CHEM;1;Potassium [Moles/volume] in Serum, Plasma or Blood;Potassium SerPlBld-sCnc;;ACTIVE;0;
+19195-7;Prostate specific Ag;ACnc;Pt;Ser/Plas;Qn;;CHEM;1;Prostate specific Ag [Units/volume] in Serum or Plasma;PSA SerPl-aCnc;;ACTIVE;0;
+19197-3;Prostate specific Ag;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;Prostate specific Ag [Moles/volume] in Serum or Plasma;PSA SerPl-sCnc;;ACTIVE;0;
+2857-1;Prostate specific Ag;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;Prostate specific Ag [Mass/volume] in Serum or Plasma;PSA SerPl-mCnc;;ACTIVE;0;
+35741-8;Prostate specific Ag;MCnc;Pt;Ser/Plas;Qn;Detection limit <= 0.01 ng/mL;CHEM;1;Prostate specific Ag [Mass/volume] in Serum or Plasma by Detection limit <= 0.01 ng/mL;PSA SerPl DL<=0.01 ng/mL-mCnc;;ACTIVE;0;Detection limit <= 0.01 ng/mL
+83112-3;Prostate specific Ag;MCnc;Pt;Ser/Plas;Qn;IA;CHEM;1;Prostate specific Ag [Mass/volume] in Serum or Plasma by Immunoassay;PSA SerPl IA-mCnc;;ACTIVE;0;IA
+20454-5;Protein;PrThr;Pt;Urine;Ord;Test strip;UA;1;Protein [Presence] in Urine by Test strip;Prot Ur Ql Strip;;ACTIVE;0;Test strip
+27298-9;Protein;ACnc;Pt;Urine;Qn;;UA;1;Protein [Units/volume] in Urine;Prot Ur-aCnc;;ACTIVE;0;
+2885-2;Protein;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;Protein [Mass/volume] in Serum or Plasma;Prot SerPl-mCnc;;ACTIVE;0;
+2887-8;Protein;PrThr;Pt;Urine;Ord;;UA;1;Protein [Presence] in Urine;Prot Ur Ql;;ACTIVE;0;
+2888-6;Protein;MCnc;Pt;Urine;Qn;;UA;1;Protein [Mass/volume] in Urine;Prot Ur-mCnc;;ACTIVE;0;
+50561-0;Protein;MCnc;Pt;Urine;Qn;Test strip.automated;UA;1;Protein [Mass/volume] in Urine by Automated test strip;Prot Ur Strip.auto-mCnc;;ACTIVE;0;Test strip
+57735-3;Protein;PrThr;Pt;Urine;Ord;Test strip.automated;UA;1;Protein [Presence] in Urine by Automated test strip;Prot Ur Ql Strip.auto;;ACTIVE;0;Test strip
+5804-0;Protein;MCnc;Pt;Urine;Qn;Test strip;UA;1;Protein [Mass/volume] in Urine by Test strip;Prot Ur Strip-mCnc;;ACTIVE;0;Test strip
+14196-0;Reticulocytes;NCnc;Pt;Bld;Qn;;HEM/BC;1;Reticulocytes [#/volume] in Blood;Retics #;;ACTIVE;0;
+40665-2;Reticulocytes;NCnc;Pt;Bld;Qn;Manual count;HEM/BC;1;Reticulocytes [#/volume] in Blood by Manual count;Retics # Manual;;ACTIVE;0;Manual count
+42758-3;Reticulocytes;NCnc;Pt;Bld;Qn;Calculated;HEM/BC;1;Reticulocytes [#/volume] in Blood by calculation;Retics # Calc;;DISCOURAGED;0;Calculated
+60474-4;Reticulocytes;NCnc;Pt;Bld;Qn;Automated count;HEM/BC;1;Reticulocytes [#/volume] in Blood by Automated count;Retics # Auto;;ACTIVE;0;Automated count
+17849-1;Reticulocytes/100 erythrocytes;NFr;Pt;Bld;Qn;Automated count;HEM/BC;1;Reticulocytes/100 erythrocytes in Blood by Automated count;Retics/100 RBC NFr Auto;;ACTIVE;0;Automated count
+31112-6;Reticulocytes/100 erythrocytes;NFr;Pt;Bld;Qn;Manual;HEM/BC;1;Reticulocytes/100 erythrocytes in Blood by Manual;Retics/100 RBC NFr Manual;;ACTIVE;0;Manual
+4679-7;Reticulocytes/100 erythrocytes;NFr;Pt;Bld;Qn;;HEM/BC;1;Reticulocytes/100 erythrocytes in Blood;Retics/100 RBC NFr;;ACTIVE;0;
+2947-0;Sodium;SCnc;Pt;Bld;Qn;;CHEM;1;Sodium [Moles/volume] in Blood;Sodium Bld-sCnc;;ACTIVE;0;
+2951-2;Sodium;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;Sodium [Moles/volume] in Serum or Plasma;Sodium SerPl-sCnc;;ACTIVE;0;
+39791-9;Sodium;SCnc;Pt;BldV;Qn;;CHEM;1;Sodium [Moles/volume] in Venous blood;Sodium BldV-sCnc;;ACTIVE;0;
+42570-2;Sodium;MSCnc;Pt;Ser/Plas;Qn;;CHEM;1;Sodium [Mass or Moles/volume] in Serum or Plasma;Sodium SerPl-msCnc;;DISCOURAGED;0;
+77139-4;Sodium;SCnc;Pt;Ser/Plas/Bld;Qn;;CHEM;1;Sodium [Moles/volume] in Serum, Plasma or Blood;Sodium SerPlBld-sCnc;;ACTIVE;0;
+2965-2;Specific gravity;Rden;Pt;Urine;Qn;;CHEM;1;Specific gravity of Urine;Sp Gr Ur;;ACTIVE;0;
+50562-8;Specific gravity;Rden;Pt;Urine;Qn;Refractometry.automated;UA;1;Specific gravity of Urine by Refractometry automated;Sp Gr Ur Refract.auto;;ACTIVE;0;Refractometry
+53326-5;Specific gravity;Rden;Pt;Urine;Qn;Test strip.automated;UA;1;Specific gravity of Urine by Automated test strip;Sp Gr Ur Strip.auto;;ACTIVE;0;Test strip
+5810-7;Specific gravity;Rden;Pt;Urine;Qn;Refractometry;UA;1;Specific gravity of Urine by Refractometry;Sp Gr Ur Refractometry;;ACTIVE;0;Refractometry
+5811-5;Specific gravity;Rden;Pt;Urine;Qn;Test strip;UA;1;Specific gravity of Urine by Test strip;Sp Gr Ur Strip;;ACTIVE;0;Test strip
+14913-8;Testosterone;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;Testosterone [Moles/volume] in Serum or Plasma;Testost SerPl-sCnc;;ACTIVE;0;
+2986-8;Testosterone;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;Testosterone [Mass/volume] in Serum or Plasma;Testost SerPl-mCnc;;ACTIVE;0;
+35224-5;Testosterone;MSCnc;Pt;Ser/Plas;Qn;;CHEM;1;Testosterone [Mass or Moles/volume] in Serum or Plasma;Testost SerPl-msCnc;;DISCOURAGED;0;
+49041-7;Testosterone;MCnc;Pt;Ser/Plas;Qn;Detection limit <= 1.0 ng/dL;CHEM;1;Testosterone [Mass/volume] in Serum or Plasma by Detection limit <= 1.0 ng/dL;Testost SerPl DL<=1.0 ng/dL-mCnc;;ACTIVE;0;Detection limit <= 1.0 ng/dL
+70239-9;Testosterone;SCnc;Pt;Ser/Plas;Qn;Detection limit <= 3.47 pmol/L;CHEM;1;Testosterone [Moles/volume] in Serum or Plasma by Detection limit <= 3.47 pmol/L;Testost SerPl DL<= 3.47 pmol/L-sCnc;;ACTIVE;0;Detection limit <= 3.47 pmol/L
+83115-6;Testosterone;SCnc;Pt;Ser/Plas;Qn;IA;CHEM;1;Testosterone [Moles/volume] in Serum or Plasma by Immunoassay;Testost SerPl IA-sCnc;;ACTIVE;0;IA
+83116-4;Testosterone;MCnc;Pt;Ser/Plas;Qn;IA;CHEM;1;Testosterone [Mass/volume] in Serum or Plasma by Immunoassay;Testost SerPl IA-mCnc;;ACTIVE;0;IA
+11579-0;Thyrotropin;ACnc;Pt;Ser/Plas;Qn;Detection limit <= 0.05 mIU/L;CHEM;1;Thyrotropin [Units/volume] in Serum or Plasma by Detection limit <= 0.05 mIU/L;TSH SerPl DL<=0.05 mIU/L-aCnc;;ACTIVE;0;Detection limit <= 0.05 mIU/L
+11580-8;Thyrotropin;ACnc;Pt;Ser/Plas;Qn;Detection limit <= 0.005 mIU/L;CHEM;1;Thyrotropin [Units/volume] in Serum or Plasma by Detection limit <= 0.005 mIU/L;TSH SerPl DL<=0.005 mIU/L-aCnc;;ACTIVE;0;Detection limit <= 0.005 mIU/L
+14297-6;Thyrotropin;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;Thyrotropin [Moles/volume] in Serum or Plasma;TSH SerPl-sCnc;;DISCOURAGED;0;
+27975-2;Thyrotropin;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;Thyrotropin [Mass/volume] in Serum or Plasma;TSH SerPl-mCnc;;DISCOURAGED;0;
+3015-5;Thyrotropin;ACnc;Pt;Bld;Qn;;CHEM;1;Thyrotropin [Units/volume] in Blood;TSH Bld-aCnc;;ACTIVE;0;
+3016-3;Thyrotropin;ACnc;Pt;Ser/Plas;Qn;;CHEM;1;Thyrotropin [Units/volume] in Serum or Plasma;TSH SerPl-aCnc;;ACTIVE;0;
+55462-6;Thyrotropin;-;Pt;Ser/Plas;-;;LABORDERS;1;Deprecated Thyrotropin in Serum or Plasma;Deprecated TSH SerPl;;DEPRECATED;0;
+14921-1;Thyroxine;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;Thyroxine (T4) [Moles/volume] in Serum or Plasma;T4 SerPl-sCnc;;ACTIVE;0;
+3025-4;Thyroxine;MCnc;Pt;Bld;Qn;;CHEM;1;Thyroxine (T4) [Mass/volume] in Blood;T4 Bld-mCnc;;ACTIVE;0;
+3026-2;Thyroxine;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;Thyroxine (T4) [Mass/volume] in Serum or Plasma;T4 SerPl-mCnc;;ACTIVE;0;
+35226-0;Thyroxine;MSCnc;Pt;Ser/Plas;Qn;;CHEM;1;Thyroxine (T4) [Mass or Moles/volume] in Serum or Plasma;T4 SerPl-msCnc;;DISCOURAGED;0;
+83119-8;Thyroxine;MCnc;Pt;Ser/Plas;Qn;IA;CHEM;1;Thyroxine (T4) [Mass/volume] in Serum or Plasma by Immunoassay;T4 SerPl IA-mCnc;;ACTIVE;0;IA
+83120-6;Thyroxine;SCnc;Pt;Ser/Plas;Qn;IA;CHEM;1;Thyroxine (T4) [Moles/volume] in Serum or Plasma by Immunoassay;T4 SerPl IA-sCnc;;ACTIVE;0;IA
+14920-3;Thyroxine.free;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;Thyroxine (T4) free [Moles/volume] in Serum or Plasma;T4 Free SerPl-sCnc;;ACTIVE;0;
+3024-7;Thyroxine.free;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;Thyroxine (T4) free [Mass/volume] in Serum or Plasma;T4 Free SerPl-mCnc;;ACTIVE;0;
+35228-6;Thyroxine.free;MSCnc;Pt;Ser/Plas;Qn;;CHEM;1;Thyroxine (T4) free [Mass or Moles/volume] in Serum or Plasma;T4 Free SerPl-msCnc;;DISCOURAGED;0;
+6892-4;Thyroxine.free;MCnc;Pt;Ser/Plas;Qn;Dialysis;CHEM;1;Thyroxine (T4) free [Mass/volume] in Serum or Plasma by Dialysis;T4 Free SerPl Dialy-mCnc;;ACTIVE;0;Dialysis
+70217-5;Thyroxine.free;SCnc;Pt;Ser/Plas;Qn;Dialysis;CHEM;1;Thyroxine (T4) free [Moles/volume] in Serum or Plasma by Dialysis;T4 Free SerPl Dialy-sCnc;;ACTIVE;0;Dialysis
+83121-4;Thyroxine.free;SCnc;Pt;Ser/Plas;Qn;IA;CHEM;1;Thyroxine (T4) free [Moles/volume] in Serum or Plasma by Immunoassay;T4 Free SerPl IA-sCnc;;ACTIVE;0;IA
+83122-2;Thyroxine.free;MCnc;Pt;Ser/Plas;Qn;IA;CHEM;1;Thyroxine (T4) free [Mass/volume] in Serum or Plasma by Immunoassay;T4 Free SerPl IA-mCnc;;ACTIVE;0;IA
+3040-3;Triacylglycerol lipase;CCnc;Pt;Ser/Plas;Qn;;CHEM;1;Lipase [Enzymatic activity/volume] in Serum or Plasma;Lipase SerPl-cCnc;;ACTIVE;0;
+32724-7;Trichomonas sp;PrThr;Pt;Urine;Ord;Microscopy.light;MICRO;1;Trichomonas sp [Presence] in Urine by Light microscopy;Trichomonas Ur Ql Micro;;ACTIVE;0;Microscopy
+50237-7;Trichomonas sp;PrThr;Pt;Urine;Ord;Computer assisted;UA;1;Trichomonas sp [Presence] in Urine by Computer assisted method;Trichomonas Ur Ql Comp Assist;;ACTIVE;0;Computer assisted
+11004-9;Tricyclic antidepressants;PrThr;Pt;Urine;Ord;;DRUG/TOX;1;Tricyclic antidepressants [Presence] in Urine;Tricyclics Ur Ql;;ACTIVE;0;
+19312-8;Tricyclic antidepressants;PrThr;Pt;Urine;Ord;Screen;DRUG/TOX;1;Tricyclic antidepressants [Presence] in Urine by Screen method;Tricyclics Ur Ql Scn;;ACTIVE;0;Screen
+19315-1;Tricyclic antidepressants;PrThr;Pt;Urine;Ord;Confirm;DRUG/TOX;1;Tricyclic antidepressants [Presence] in Urine by Confirmatory method;Tricyclics Ur Ql Cfm;;ACTIVE;0;Confirm
+6799-1;Tricyclic antidepressants;PrThr;Pt;Urine;Ord;IA;DRUG/TOX;1;Tricyclic antidepressants [Presence] in Urine by Immunoassay;Tricyclics Ur Ql IA;;ACTIVE;0;IA
+78889-3;Tricyclic antidepressants;PrThr;Pt;Urine;Ord;Screen>300 ng/mL;DRUG/TOX;1;Tricyclic antidepressants [Presence] in Urine by Screen method >300 ng/mL;Tricyclics Ur Ql Scn>300 ng/mL;;ACTIVE;0;Screen>300 ng/mL
+80149-8;Tricyclic antidepressants;PrThr;Pt;Urine;Ord;Screen>1000 ng/mL;DRUG/TOX;1;Tricyclic antidepressants [Presence] in Urine by Screen method >1000 ng/mL;Tricyclics Ur Ql Scn>1000 ng/mL;;ACTIVE;0;Screen>1000 ng/mL
+14927-8;Triglyceride;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;Triglyceride [Moles/volume] in Serum or Plasma;Trigl SerPl-sCnc;;ACTIVE;1;
+2571-8;Triglyceride;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;Triglyceride [Mass/volume] in Serum or Plasma;Trigl SerPl-mCnc;;ACTIVE;1;
+3043-7;Triglyceride;MCnc;Pt;Bld;Qn;;CHEM;1;Triglyceride [Mass/volume] in Blood;Trigl Bld-mCnc;;ACTIVE;1;
+35217-9;Triglyceride;MSCnc;Pt;Ser/Plas;Qn;;CHEM;1;Triglyceride [Mass or Moles/volume] in Serum or Plasma;Trigl SerPl-msCnc;;DISCOURAGED;1;
+70218-3;Triglyceride;SCnc;Pt;Bld;Qn;;CHEM;1;Triglyceride [Moles/volume] in Blood;Trigl Bld-sCnc;;ACTIVE;1;
+14930-2;Triiodothyronine;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;Triiodothyronine (T3) [Moles/volume] in Serum or Plasma;T3 SerPl-sCnc;;ACTIVE;0;
+3053-6;Triiodothyronine;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;Triiodothyronine (T3) [Mass/volume] in Serum or Plasma;T3 SerPl-mCnc;;ACTIVE;0;
+35231-0;Triiodothyronine;MSCnc;Pt;Ser/Plas;Qn;;CHEM;1;Triiodothyronine (T3) [Mass or Moles/volume] in Serum or Plasma;T3 SerPl-msCnc;;DISCOURAGED;0;
+83124-8;Triiodothyronine;MCnc;Pt;Ser/Plas;Qn;IA;CHEM;1;Triiodothyronine (T3) [Mass/volume] in Serum or Plasma by Immunoassay;T3 SerPl IA-mCnc;;ACTIVE;0;IA
+83125-5;Triiodothyronine;SCnc;Pt;Ser/Plas;Qn;IA;CHEM;1;Triiodothyronine (T3) [Moles/volume] in Serum or Plasma by Immunoassay;T3 SerPl IA-sCnc;;ACTIVE;0;IA
+14928-6;Triiodothyronine.free;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;Triiodothyronine (T3) Free [Moles/volume] in Serum or Plasma;T3Free SerPl-sCnc;;ACTIVE;0;
+29239-1;Triiodothyronine.free;MCnc;Pt;Ser/Plas;Qn;Dialysis;CHEM;1;Triiodothyronine (T3) Free [Mass/volume] in Serum or Plasma by Dialysis;T3Free SerPl Dialy-mCnc;;ACTIVE;0;Dialysis
+3051-0;Triiodothyronine.free;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;Triiodothyronine (T3) Free [Mass/volume] in Serum or Plasma;T3Free SerPl-mCnc;;ACTIVE;0;
+35230-2;Triiodothyronine.free;MSCnc;Pt;Ser/Plas;Qn;;CHEM;1;Triiodothyronine (T3) Free [Mass or Moles/volume] in Serum or Plasma;T3Free SerPl-msCnc;;DISCOURAGED;0;
+83126-3;Triiodothyronine.free;SCnc;Pt;Ser/Plas;Qn;IA;CHEM;1;Triiodothyronine (T3) Free [Moles/volume] in Serum or Plasma by Immunoassay;T3Free SerPl IA-sCnc;;ACTIVE;0;IA
+83127-1;Triiodothyronine.free;MCnc;Pt;Ser/Plas;Qn;IA;CHEM;1;Triiodothyronine (T3) Free [Mass/volume] in Serum or Plasma by Immunoassay;T3Free SerPl IA-mCnc;;ACTIVE;0;IA
+10839-9;Troponin I.cardiac;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;Troponin I.cardiac [Mass/volume] in Serum or Plasma;Troponin I SerPl-mCnc;;ACTIVE;0;
+16255-2;Troponin I.cardiac;ACnc;Pt;Ser/Plas;Qn;;CHEM;1;Troponin I.cardiac [Units/volume] in Serum or Plasma;Troponin I SerPl-aCnc;;DISCOURAGED;0;
+42757-5;Troponin I.cardiac;MCnc;Pt;Bld;Qn;;CHEM;1;Troponin I.cardiac [Mass/volume] in Blood;Troponin I Bld-mCnc;;ACTIVE;0;
+49563-0;Troponin I.cardiac;MCnc;Pt;Ser/Plas;Qn;Detection limit <= 0.01 ng/mL;CHEM;1;Troponin I.cardiac [Mass/volume] in Serum or Plasma by Detection limit <= 0.01 ng/mL;Troponin I SerPl DL<=0.01 ng/mL-mCnc;;ACTIVE;0;Detection limit <= 0.01 ng/mL
+48425-3;Troponin T.cardiac;MCnc;Pt;Bld;Qn;;CHEM;1;Troponin T.cardiac [Mass/volume] in Blood;Troponin T Bld-mCnc;;ACTIVE;0;
+6597-9;Troponin T.cardiac;MCnc;Pt;BldV;Qn;;CHEM;1;Troponin T.cardiac [Mass/volume] in Venous blood;Troponin T BldV-mCnc;;ACTIVE;0;
+6598-7;Troponin T.cardiac;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;Troponin T.cardiac [Mass/volume] in Serum or Plasma;Troponin T SerPl-mCnc;;ACTIVE;0;
+67151-1;Troponin T.cardiac;MCnc;Pt;Ser/Plas;Qn;High sensitivity;CHEM;1;Troponin T.cardiac [Mass/volume] in Serum or Plasma by High sensitivity method;Troponin T SerPl HS-mCnc;;ACTIVE;0;High sensitivity
+14933-6;Urate;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;Urate [Moles/volume] in Serum or Plasma;Urate SerPl-sCnc;;ACTIVE;0;
+3084-1;Urate;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;Urate [Mass/volume] in Serum or Plasma;Urate SerPl-mCnc;;ACTIVE;0;
+35232-8;Urate;MSCnc;Pt;Ser/Plas;Qn;;CHEM;1;Urate [Mass or Moles/volume] in Serum or Plasma;Urate SerPl-msCnc;;DISCOURAGED;0;
+20977-5;Urea;MCnc;Pt;Bld;Qn;;CHEM;1;Urea [Mass/volume] in Blood;Urea Bld-mCnc;;ACTIVE;0;
+22664-7;Urea;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;Urea [Moles/volume] in Serum or Plasma;Urea SerPl-sCnc;;ACTIVE;0;
+3091-6;Urea;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;Urea [Mass/volume] in Serum or Plasma;Urea SerPl-mCnc;;ACTIVE;0;
+42571-0;Urea;MSCnc;Pt;Ser/Plas;Qn;;CHEM;1;Urea [Mass or Moles/volume] in Serum or Plasma;Urea SerPl-msCnc;;DISCOURAGED;0;
+72903-8;Urea;SCnc;Pt;Bld;Qn;;CHEM;1;Urea [Moles/volume] in Blood;Urea Bld-sCnc;;ACTIVE;0;
+72926-9;Urea;SCnc;Pt;BldV;Qn;;CHEM;1;Urea [Moles/volume] in Venous blood;Urea BldV-sCnc;;ACTIVE;0;
+77136-0;Urea;SCnc;Pt;Ser/Plas/Bld;Qn;;CHEM;1;Urea [Moles/volume] in Serum, Plasma or Blood;Urea SerPlBld-sCnc;;ACTIVE;0;
+12962-7;Urea nitrogen;MCnc;Pt;BldV;Qn;;CHEM;1;Urea nitrogen [Mass/volume] in Venous blood;BUN BldV-mCnc;;ACTIVE;0;
+14937-7;Urea nitrogen;SCnc;Pt;Ser/Plas;Qn;;CHEM;1;Urea nitrogen [Moles/volume] in Serum or Plasma;BUN SerPl-sCnc;;ACTIVE;0;
+3094-0;Urea nitrogen;MCnc;Pt;Ser/Plas;Qn;;CHEM;1;Urea nitrogen [Mass/volume] in Serum or Plasma;BUN SerPl-mCnc;;ACTIVE;0;
+35234-4;Urea nitrogen;MSCnc;Pt;Ser/Plas;Qn;;CHEM;1;Urea nitrogen [Mass or Moles/volume] in Serum or Plasma;BUN SerPl-msCnc;;DISCOURAGED;0;
+59570-2;Urea nitrogen;SCnc;Pt;Bld;Qn;;CHEM;1;Urea nitrogen [Moles/volume] in Blood;BUN Bld-sCnc;;ACTIVE;0;
+6299-2;Urea nitrogen;MCnc;Pt;Bld;Qn;;CHEM;1;Urea nitrogen [Mass/volume] in Blood;BUN Bld-mCnc;;ACTIVE;0;
+19161-9;Urobilinogen;ACnc;Pt;Urine;Qn;Test strip;UA;1;Urobilinogen [Units/volume] in Urine by Test strip;Urobilinogen Ur Strip-aCnc;;ACTIVE;0;Test strip
+20405-7;Urobilinogen;MCnc;Pt;Urine;Qn;Test strip;UA;1;Urobilinogen [Mass/volume] in Urine by Test strip;Urobilinogen Ur Strip-mCnc;;ACTIVE;0;Test strip
+3107-0;Urobilinogen;MCnc;Pt;Urine;Qn;;CHEM;1;Urobilinogen [Mass/volume] in Urine;Urobilinogen Ur-mCnc;;ACTIVE;0;
+32727-0;Urobilinogen;ACnc;Pt;Urine;Qn;;CHEM;1;Urobilinogen [Units/volume] in Urine;Urobilinogen Ur-aCnc;;ACTIVE;0;
+34927-4;Urobilinogen;SCnc;Pt;Urine;Qn;;CHEM;1;Urobilinogen [Moles/volume] in Urine;Urobilinogen Ur-sCnc;;ACTIVE;0;
+34928-2;Urobilinogen;SCnc;Pt;Urine;Qn;Test strip;UA;1;Urobilinogen [Moles/volume] in Urine by Test strip;Urobilinogen Ur Strip-sCnc;;ACTIVE;0;Test strip
+35236-9;Urobilinogen;MSCnc;Pt;Urine;Qn;;CHEM;1;Urobilinogen [Mass or Moles/volume] in Urine;Urobilinogen Ur-msCnc;;DISCOURAGED;0;
+50563-6;Urobilinogen;MCnc;Pt;Urine;Qn;Test strip.automated;UA;1;Urobilinogen [Mass/volume] in Urine by Automated test strip;Urobilinogen Ur Strip.auto-mCnc;;ACTIVE;0;Test strip.automated
+60025-4;Urobilinogen;SCnc;Pt;Urine;Qn;Test strip.automated;UA;1;Urobilinogen [Moles/volume] in Urine by Automated test strip;Urobilinogen Ur Strip.auto-sCnc;;ACTIVE;0;Test strip.automated

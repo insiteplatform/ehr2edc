@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta name="_csrf" th:content="${_csrf.token}"/>
+    <meta name="_csrf_header" th:content="${_csrf.headerName}"/>
+    <div th:include="__${@environment.getProperty('web.assets.url')}__/assets/index/html/header.html"
+         th:remove="tag"></div>
+</head>
+<body>
+<div class="grid-frame vertical">
+    <div class="header grid-content shrink padding-none">
+        <div class="header-content menu-group primary">
+            <div class="menu-group left">
+                <ul class="menu-bar condense">
+                    <li class="logo">
+                        <a th:href="@{${T(eu.ehr4cr.workbench.local.WebRoutes).home}}">
+                            <img th:src="@{/assets/index/img/insite-trinetx-clinical-workbench-logo-white.svg}" alt=""
+                                 style="border: 0;"/>
+                        </a>
+                    </li>
+                    <li th:each="navigationItem : ${sections}"
+                        th:classappend="${section == navigationItem} ? is-active">
+                        <a th:href="@{${navigationItem.route}}" th:text="#{'common.menu.'+${navigationItem.name}}"></a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="menu-group right">
+                <ul class="menu-bar condense">
+                    <li class="user-menu">
+                        <a href="#" class="menu-right__trigger">
+                            <span th:text="${user.username}"></span><i class="fa fa-angle-down"></i>
+                        </a>
+                    </li>
+                    <li class="notifications-menu"><a class="notifications"><i class="fa fa-bell"></i> Notifications</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="notifications-menu" class="notifications action-sheet-container">
+        <div class="action-sheet left notifications-menu" position="left" style="visibility: hidden">
+            <ul class="notifications-list"></ul>
+        </div>
+    </div>
+    <div id="user-menu" class="action-sheet-container">
+        <div position="bottom" class="user-menu text-left action-sheet bottom">
+            <ul>
+                <li th:each="navigationItem : ${userMenu}" th:classappend="${section == navigationItem} ? is-active">
+                    <a th:href="@{${navigationItem.route}}">
+                        <i class="fa" th:classappend="${navigationItem.cssClass}"></i><span
+                            th:text="#{'common.menu.'+${navigationItem.name}}"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="grid-block">
+        <div layout:fragment="content"></div>
+    </div>
+
+    <div class="static-notification top-middle warning" id="error-dialog">
+        <a href="#" class="close-button">&times;</a>
+        <div class="notification-content">
+            <p class="ng-scope padding-rl"><i class="fa fa-exclamation-circle"></i><span id="error-dialog-text">An error occurred</span>
+            </p>
+        </div>
+    </div>
+    <div class="static-notification top-middle success" id="success-dialog">
+        <a href="#" class="close-button">&times;</a>
+        <div class="notification-content">
+            <p class="ng-scope padding-rl"><i class="fa fa-info-circle"></i><span id="success-dialog-text">Action was successful</span>
+            </p>
+        </div>
+    </div>
+    <div id="sessionExpired" class="modal hide">
+        <aside class="modal is-active">
+            <h3 class="border-bottom">Session Expired</h3>
+            <p class="margin-tb">Please <strong><a th:href="${loginRoute}" target="_blank">sign in</a></strong> again first.
+            </p>
+            <p>A new window will open. Afterwards, return to this window and continue.</p>
+            <a th:href="${loginRoute}" class="button primary no-unload" target="_blank">Sign in again</a>
+        </aside>
+    </div>
+    <div id="siteDown" class="modal hide"
+         th:with="supportMail=${@environment.getProperty('support.mail')},supportInstallId=${@environment.getProperty('support.installId')}">
+        <aside class="modal is-active">
+            <h3 class="border-bottom">Connection lost</h3>
+            <p class="margin-tb">Please check your internet connection or come back in a few moments.</p>
+            <p>Please contact
+                <a th:href="'mailto:'+${supportMail}+'?subject=InSite clinical workbench (install id: '+${supportInstallId}+') is not reachable'"
+                   th:text="${supportMail}" class="no-unload" target="_parent"></a>
+                if this problem persists.</p>
+        </aside>
+    </div>
+</div>
+<div layout:fragment="loadScripts"></div>
+</body>
+<div th:include="__${@environment.getProperty('web.assets.url')}__/assets/index/html/libs.html"
+     th:remove="tag"></div>
+<script th:inline="javascript">
+    /*<![CDATA[*/
+    var interval = [[${@environment.getProperty('notification.pooling.interval')}]];
+    var popupDuration = [[${@environment.getProperty('notification.popup.duration')}]];
+    var notificationPollingInterval = interval != null ? interval : 30000;
+    var notificationPopupDuration = popupDuration != null ? popupDuration : 5000;
+
+    var BASE_URL = [[${contextPath}]];
+    var NEW_NOTIFICATIONS_URL = BASE_URL + [[@{${T(eu.ehr4cr.workbench.local.WebRoutes).notificationsUnread}}]];
+    var READ_NOTIFICATION = BASE_URL + [[@{${T(eu.ehr4cr.workbench.local.WebRoutes).notificationsReadSingle}}]];
+
+    var page_namespace = [[${bodySegment}]];
+    page_namespace = page_namespace.substring(page_namespace.lastIndexOf('/') + 1, page_namespace.lastIndexOf("."));
+    var loadPath;
+    if (page_namespace.indexOf("cohortbuilder") != -1 || page_namespace.indexOf("patient-screening-manual") != -1 || page_namespace.indexOf("edit-screening-filters") != -1) {
+        page_namespace = "querybuilder";
+        loadPath = BASE_URL + '/public/locales/{{lng}}/{{ns}}.json';
+    } else {
+        loadPath = BASE_URL + '/locales/{{lng}}/{{ns}}.json';
+    }
+    var enableInternationalization = [[${enableInternationalization}]];
+    /*]]>*/
+</script>
+<div th:include="__${@environment.getProperty('web.assets.url')}__/assets/index/html/config.html"
+     th:remove="tag"></div>
+<script th:inline="javascript">
+    /*<![CDATA[*/
+    initAjaxHandling({
+        retryLimit: [[${@environment.getProperty('ajax.retryLimit')}]],
+        retryPeriod: [[${@environment.getProperty('ajax.retryPeriod')}]]
+    });
+    /*]]>*/
+</script>
+</html>

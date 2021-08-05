@@ -1,0 +1,12 @@
+{	
+	"approveDialog": {
+		"title"				: "Approve HCO visibility request",
+		"approve"			: "Approve",
+		"success"			: "Study successfully approved"
+	},
+	"rejectDialog": {
+		"title"				: "Reject HCO visibility request",
+		"reject"			: "Reject",
+		"success"			: "Study successfully rejected"
+	}
+}

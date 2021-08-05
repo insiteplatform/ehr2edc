@@ -1,0 +1,1 @@
+ALTER TABLE clinical_study ALTER COLUMN name TYPE varchar(400);

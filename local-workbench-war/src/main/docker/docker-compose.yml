@@ -1,0 +1,32 @@
+version: '2.1'
+services:
+  lwb-db:
+    image: dundee-postgres
+    ports:
+      - 5432:5432
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready --version"]
+      interval: 20s
+      timeout: 20s
+      retries: 3
+  local-workbench:
+    image: ${CI_REGISTRY_IMAGE}:local-workbench-${CI_BUILD_REF_NAME}
+    depends_on:
+      - lwb-db
+      - lwb-postgres
+    ports:
+      - 8080:8080
+      - 8000:8000
+    links:
+      - lwb-db
+      - lwb-postgres
+      - lwb-activemq
+  lwb-postgres:
+        image: postgres
+        ports:
+          - 5432:5432
+        environment:
+          - POSTGRES_PASSWORD=root
+          - POSTGRES_DB=lwb
+  lwb-activemq:
+        image: webcenter/activemq:5.10.0

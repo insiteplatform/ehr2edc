@@ -1,0 +1,14 @@
+{
+  "eventDefinitionsInStudy": [
+    {
+      "eventDefinitionId": "event-1",
+      "name": "Event nr. 1",
+      "formDefinitions": [],
+      "queryCount": 17,
+      "lastReferenceDate": "2018-12-10",
+      "lastPopulationTime": "2014-05-27T10:12:12Z",
+      "eventId": "eventId-1",
+      "historyAvailable": true
+    }
+  ]
+}

@@ -1,0 +1,1774 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering the component Loading the component when no subjects can be added 1`] = `
+Array [
+  <div
+    className="grid-block padding margin-small-rl shrink"
+  >
+    <div
+      className="grid-content collapse"
+    >
+      <h3
+        className="subheader"
+      >
+        Participants
+      </h3>
+    </div>
+    <div
+      title="You must be an assigned investigator in order to add participants to this study."
+    >
+      <a
+        className="button open-add-subject-form margin-none disabled"
+        data-cy="register-participant-disabled-btn"
+      >
+        <i
+          className="fa fa-plus"
+        />
+        Add Participant
+      </a>
+    </div>
+  </div>,
+  <div
+    className="margin-rl padding-bottom"
+  >
+    <div
+      className="alert-box small info margin-small-rl padding"
+    >
+      <div
+        className="expandable-text"
+      >
+        <p>
+          Here you can see all subjects registered in this study. If you are an investigator, you can register new subjects to this study by their subject identifier. This can be done either from this page (Add subject) in which case you'll have to specify the subject's patient identifier or this can be done from a cohort listing within the 
+          <a
+            href="/app/cohort/studies"
+          >
+            cohort analysis module
+          </a>
+           by selecting the patient and then selecting this study from the list of available EHR2EDC studies in the patient registration details for the selected patient. You can also deregister individual subjects from this list
+        </p>
+        <p>
+          <a
+            data-enzyme="action"
+            onClick={[Function]}
+          >
+            Show more
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>,
+  <p
+    className="padding-medium-rl"
+  >
+    No subjects present
+  </p>,
+]
+`;
+
+exports[`Rendering the component Loading the component with empty subjects 1`] = `
+Array [
+  <div
+    className="grid-block padding margin-small-rl shrink"
+  >
+    <div
+      className="grid-content collapse"
+    >
+      <h3
+        className="subheader"
+      >
+        Participants
+      </h3>
+    </div>
+    <a
+      className="button open-add-subject-form margin-none"
+      data-cy="register-participant-closed-btn"
+      onClick={[Function]}
+    >
+      <i
+        className="fa fa-plus"
+      />
+      Add Participant
+    </a>
+  </div>,
+  <div
+    className="margin-rl padding-bottom"
+  >
+    <div
+      className="alert-box small info margin-small-rl padding"
+    >
+      <div
+        className="expandable-text"
+      >
+        <p>
+          Here you can see all subjects registered in this study. If you are an investigator, you can register new subjects to this study by their subject identifier. This can be done either from this page (Add subject) in which case you'll have to specify the subject's patient identifier or this can be done from a cohort listing within the 
+          <a
+            href="/app/cohort/studies"
+          >
+            cohort analysis module
+          </a>
+           by selecting the patient and then selecting this study from the list of available EHR2EDC studies in the patient registration details for the selected patient. You can also deregister individual subjects from this list
+        </p>
+        <p>
+          <a
+            data-enzyme="action"
+            onClick={[Function]}
+          >
+            Show more
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>,
+  <p
+    className="padding-medium-rl"
+  >
+    No subjects present
+  </p>,
+]
+`;
+
+exports[`Rendering the component Loading the component with missing subjects 1`] = `
+Array [
+  <div
+    className="grid-block padding margin-small-rl shrink"
+  >
+    <div
+      className="grid-content collapse"
+    >
+      <h3
+        className="subheader"
+      >
+        Participants
+      </h3>
+    </div>
+    <a
+      className="button open-add-subject-form margin-none"
+      data-cy="register-participant-closed-btn"
+      onClick={[Function]}
+    >
+      <i
+        className="fa fa-plus"
+      />
+      Add Participant
+    </a>
+  </div>,
+  <div
+    className="margin-rl padding-bottom"
+  >
+    <div
+      className="alert-box small info margin-small-rl padding"
+    >
+      <div
+        className="expandable-text"
+      >
+        <p>
+          Here you can see all subjects registered in this study. If you are an investigator, you can register new subjects to this study by their subject identifier. This can be done either from this page (Add subject) in which case you'll have to specify the subject's patient identifier or this can be done from a cohort listing within the 
+          <a
+            href="/app/cohort/studies"
+          >
+            cohort analysis module
+          </a>
+           by selecting the patient and then selecting this study from the list of available EHR2EDC studies in the patient registration details for the selected patient. You can also deregister individual subjects from this list
+        </p>
+        <p>
+          <a
+            data-enzyme="action"
+            onClick={[Function]}
+          >
+            Show more
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>,
+  <p
+    className="padding-medium-rl"
+  >
+    No subjects present
+  </p>,
+]
+`;
+
+exports[`Rendering the component Loading the component with no subjects 1`] = `
+Array [
+  <div
+    className="grid-block padding margin-small-rl shrink"
+  >
+    <div
+      className="grid-content collapse"
+    >
+      <h3
+        className="subheader"
+      >
+        Participants
+      </h3>
+    </div>
+    <a
+      className="button open-add-subject-form margin-none"
+      data-cy="register-participant-closed-btn"
+      onClick={[Function]}
+    >
+      <i
+        className="fa fa-plus"
+      />
+      Add Participant
+    </a>
+  </div>,
+  <div
+    className="margin-rl padding-bottom"
+  >
+    <div
+      className="alert-box small info margin-small-rl padding"
+    >
+      <div
+        className="expandable-text"
+      >
+        <p>
+          Here you can see all subjects registered in this study. If you are an investigator, you can register new subjects to this study by their subject identifier. This can be done either from this page (Add subject) in which case you'll have to specify the subject's patient identifier or this can be done from a cohort listing within the 
+          <a
+            href="/app/cohort/studies"
+          >
+            cohort analysis module
+          </a>
+           by selecting the patient and then selecting this study from the list of available EHR2EDC studies in the patient registration details for the selected patient. You can also deregister individual subjects from this list
+        </p>
+        <p>
+          <a
+            data-enzyme="action"
+            onClick={[Function]}
+          >
+            Show more
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>,
+  <p
+    className="padding-medium-rl"
+  >
+    No subjects present
+  </p>,
+]
+`;
+
+exports[`Rendering the component Loading the component with response from controller 1`] = `
+Array [
+  <div
+    className="grid-block padding margin-small-rl shrink"
+  >
+    <div
+      className="grid-content collapse"
+    >
+      <h3
+        className="subheader"
+      >
+        Participants
+      </h3>
+    </div>
+    <a
+      className="button open-add-subject-form margin-none"
+      data-cy="register-participant-closed-btn"
+      onClick={[Function]}
+    >
+      <i
+        className="fa fa-plus"
+      />
+      Add Participant
+    </a>
+  </div>,
+  <div
+    className="margin-rl padding-bottom"
+  >
+    <div
+      className="alert-box small info margin-small-rl padding"
+    >
+      <div
+        className="expandable-text"
+      >
+        <p>
+          Here you can see all subjects registered in this study. If you are an investigator, you can register new subjects to this study by their subject identifier. This can be done either from this page (Add subject) in which case you'll have to specify the subject's patient identifier or this can be done from a cohort listing within the 
+          <a
+            href="/app/cohort/studies"
+          >
+            cohort analysis module
+          </a>
+           by selecting the patient and then selecting this study from the list of available EHR2EDC studies in the patient registration details for the selected patient. You can also deregister individual subjects from this list
+        </p>
+        <p>
+          <a
+            data-enzyme="action"
+            onClick={[Function]}
+          >
+            Show more
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="ReactTable"
+    style={Object {}}
+  >
+    <div
+      className="rt-table"
+      role="grid"
+    >
+      <div
+        className="rt-thead -header"
+        style={
+          Object {
+            "minWidth": "400px",
+          }
+        }
+      >
+        <div
+          className="rt-tr"
+          role="row"
+        >
+          <div
+            className="rt-th small-5"
+            onClick={[Function]}
+            role="columnheader"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className=""
+            >
+              Participant
+            </div>
+          </div>
+          <div
+            className="rt-th small-4"
+            onClick={[Function]}
+            role="columnheader"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className=""
+            >
+              Patient identifier
+            </div>
+          </div>
+          <div
+            className="rt-th small-2"
+            onClick={[Function]}
+            role="columnheader"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className=""
+            >
+              Date of Consent
+            </div>
+          </div>
+          <div
+            className="rt-th small-1 text-right"
+            onClick={[Function]}
+            role="columnheader"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className=""
+            >
+              Actions
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="rt-tbody"
+        style={
+          Object {
+            "minWidth": "400px",
+          }
+        }
+      >
+        <div
+          className="rt-tr-group"
+          role="rowgroup"
+        >
+          <div
+            className="rt-tr -odd"
+            role="row"
+          >
+            <div
+              className="rt-td small-5"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                href="/subjects/a/events"
+                onClick={[Function]}
+              >
+                b
+              </a>
+            </div>
+            <div
+              className="rt-td small-4"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <span
+                className="label info margin-small-right"
+              >
+                source
+              </span>
+              pid
+            </div>
+            <div
+              className="rt-td small-2"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              Jul 1, 2017
+            </div>
+            <div
+              className="rt-td small-1 text-right"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                className="remove-icon"
+                onClick={[Function]}
+                title="Remove subject b"
+              >
+                <i
+                  className="fa fa-minus-square-o"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="pagination-bottom"
+    >
+      <zf-list-footer>
+        <div
+          className="pager-size"
+        >
+          <span>
+            Items per page: 
+          </span>
+          <ul>
+            <li
+              className="page-size-10 is-active"
+            >
+              <a
+                onClick={[Function]}
+              >
+                10
+              </a>
+            </li>
+            <li
+              className="page-size-50"
+            >
+              <a
+                onClick={[Function]}
+              >
+                50
+              </a>
+            </li>
+            <li
+              className="page-size-100"
+            >
+              <a
+                onClick={[Function]}
+              >
+                100
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          className="pager-middle"
+        />
+        <ul
+          className="pager"
+        >
+          <li
+            className="pager-navigation-button first disabled"
+          >
+            <a
+              disabled={true}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-double-left"
+              />
+            </a>
+          </li>
+          <li
+            className="pager-navigation-button prev disabled"
+          >
+            <a
+              disabled={true}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-left"
+              />
+            </a>
+          </li>
+          <li
+            className="pager-navigation-page is-active page-1"
+          >
+            <a
+              onClick={[Function]}
+            >
+              1
+            </a>
+          </li>
+          <li
+            className="pager-navigation-button next disabled"
+          >
+            <a
+              disabled={true}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-right"
+              />
+            </a>
+          </li>
+          <li
+            className="pager-navigation-button last disabled"
+          >
+            <a
+              disabled={true}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-double-right"
+              />
+            </a>
+          </li>
+        </ul>
+      </zf-list-footer>
+    </div>
+    <div
+      className="-loading"
+    >
+      <div
+        className="-loading-inner"
+      >
+        Loading...
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Rendering the component Loading the component with subjects 1`] = `
+Array [
+  <div
+    className="grid-block padding margin-small-rl shrink"
+  >
+    <div
+      className="grid-content collapse"
+    >
+      <h3
+        className="subheader"
+      >
+        Participants
+      </h3>
+    </div>
+    <a
+      className="button open-add-subject-form margin-none"
+      data-cy="register-participant-closed-btn"
+      onClick={[Function]}
+    >
+      <i
+        className="fa fa-plus"
+      />
+      Add Participant
+    </a>
+  </div>,
+  <div
+    className="margin-rl padding-bottom"
+  >
+    <div
+      className="alert-box small info margin-small-rl padding"
+    >
+      <div
+        className="expandable-text"
+      >
+        <p>
+          Here you can see all subjects registered in this study. If you are an investigator, you can register new subjects to this study by their subject identifier. This can be done either from this page (Add subject) in which case you'll have to specify the subject's patient identifier or this can be done from a cohort listing within the 
+          <a
+            href="/app/cohort/studies"
+          >
+            cohort analysis module
+          </a>
+           by selecting the patient and then selecting this study from the list of available EHR2EDC studies in the patient registration details for the selected patient. You can also deregister individual subjects from this list
+        </p>
+        <p>
+          <a
+            data-enzyme="action"
+            onClick={[Function]}
+          >
+            Show more
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="ReactTable"
+    style={Object {}}
+  >
+    <div
+      className="rt-table"
+      role="grid"
+    >
+      <div
+        className="rt-thead -header"
+        style={
+          Object {
+            "minWidth": "400px",
+          }
+        }
+      >
+        <div
+          className="rt-tr"
+          role="row"
+        >
+          <div
+            className="rt-th small-5"
+            onClick={[Function]}
+            role="columnheader"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className=""
+            >
+              Participant
+            </div>
+          </div>
+          <div
+            className="rt-th small-4"
+            onClick={[Function]}
+            role="columnheader"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className=""
+            >
+              Patient identifier
+            </div>
+          </div>
+          <div
+            className="rt-th small-2"
+            onClick={[Function]}
+            role="columnheader"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className=""
+            >
+              Date of Consent
+            </div>
+          </div>
+          <div
+            className="rt-th small-1 text-right"
+            onClick={[Function]}
+            role="columnheader"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className=""
+            >
+              Actions
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="rt-tbody"
+        style={
+          Object {
+            "minWidth": "400px",
+          }
+        }
+      >
+        <div
+          className="rt-tr-group"
+          role="rowgroup"
+        >
+          <div
+            className="rt-tr -odd"
+            role="row"
+          >
+            <div
+              className="rt-td small-5"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                href="/subjects/subject-1/events"
+                onClick={[Function]}
+              >
+                ehr-subject-1
+              </a>
+            </div>
+            <div
+              className="rt-td small-4"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <span
+                className="label info margin-small-right"
+              >
+                patient-source
+              </span>
+              patient-1
+            </div>
+            <div
+              className="rt-td small-2"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              Jul 1, 2017
+            </div>
+            <div
+              className="rt-td small-1 text-right"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                className="remove-icon"
+                onClick={[Function]}
+                title="Remove subject ehr-subject-1"
+              >
+                <i
+                  className="fa fa-minus-square-o"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rt-tr-group"
+          role="rowgroup"
+        >
+          <div
+            className="rt-tr -even"
+            role="row"
+          >
+            <div
+              className="rt-td small-5"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                href="/subjects/subject-2/events"
+                onClick={[Function]}
+              >
+                ehr-subject-2
+              </a>
+            </div>
+            <div
+              className="rt-td small-4"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <span
+                className="label info margin-small-right"
+              >
+                patient-source
+              </span>
+              patient-2
+            </div>
+            <div
+              className="rt-td small-2"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              Jul 1, 2017
+            </div>
+            <div
+              className="rt-td small-1 text-right"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                className="remove-icon"
+                onClick={[Function]}
+                title="Remove subject ehr-subject-2"
+              >
+                <i
+                  className="fa fa-minus-square-o"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rt-tr-group"
+          role="rowgroup"
+        >
+          <div
+            className="rt-tr -odd"
+            role="row"
+          >
+            <div
+              className="rt-td small-5"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                href="/subjects/subject-3/events"
+                onClick={[Function]}
+              >
+                ehr-subject-3
+              </a>
+            </div>
+            <div
+              className="rt-td small-4"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <span
+                className="label info margin-small-right"
+              >
+                patient-source
+              </span>
+              patient-3
+            </div>
+            <div
+              className="rt-td small-2"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              Jul 1, 2017
+            </div>
+            <div
+              className="rt-td small-1 text-right"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                className="remove-icon"
+                onClick={[Function]}
+                title="Remove subject ehr-subject-3"
+              >
+                <i
+                  className="fa fa-minus-square-o"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rt-tr-group"
+          role="rowgroup"
+        >
+          <div
+            className="rt-tr -even"
+            role="row"
+          >
+            <div
+              className="rt-td small-5"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                href="/subjects/subject-4/events"
+                onClick={[Function]}
+              >
+                ehr-subject-4
+              </a>
+            </div>
+            <div
+              className="rt-td small-4"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <span
+                className="label info margin-small-right"
+              >
+                patient-source
+              </span>
+              patient-4
+            </div>
+            <div
+              className="rt-td small-2"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              Jul 1, 2017
+            </div>
+            <div
+              className="rt-td small-1 text-right"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                className="remove-icon"
+                onClick={[Function]}
+                title="Remove subject ehr-subject-4"
+              >
+                <i
+                  className="fa fa-minus-square-o"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rt-tr-group"
+          role="rowgroup"
+        >
+          <div
+            className="rt-tr -odd"
+            role="row"
+          >
+            <div
+              className="rt-td small-5"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                href="/subjects/subject-5/events"
+                onClick={[Function]}
+              >
+                ehr-subject-5
+              </a>
+            </div>
+            <div
+              className="rt-td small-4"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <span
+                className="label info margin-small-right"
+              >
+                patient-source
+              </span>
+              patient-5
+            </div>
+            <div
+              className="rt-td small-2"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              Jul 1, 2017
+            </div>
+            <div
+              className="rt-td small-1 text-right"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                className="remove-icon"
+                onClick={[Function]}
+                title="Remove subject ehr-subject-5"
+              >
+                <i
+                  className="fa fa-minus-square-o"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rt-tr-group"
+          role="rowgroup"
+        >
+          <div
+            className="rt-tr -even"
+            role="row"
+          >
+            <div
+              className="rt-td small-5"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                href="/subjects/subject-6/events"
+                onClick={[Function]}
+              >
+                ehr-subject-6
+              </a>
+            </div>
+            <div
+              className="rt-td small-4"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <span
+                className="label info margin-small-right"
+              >
+                patient-source
+              </span>
+              patient-6
+            </div>
+            <div
+              className="rt-td small-2"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              Jul 1, 2017
+            </div>
+            <div
+              className="rt-td small-1 text-right"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                className="remove-icon"
+                onClick={[Function]}
+                title="Remove subject ehr-subject-6"
+              >
+                <i
+                  className="fa fa-minus-square-o"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rt-tr-group"
+          role="rowgroup"
+        >
+          <div
+            className="rt-tr -odd"
+            role="row"
+          >
+            <div
+              className="rt-td small-5"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                href="/subjects/subject-7/events"
+                onClick={[Function]}
+              >
+                ehr-subject-7
+              </a>
+            </div>
+            <div
+              className="rt-td small-4"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <span
+                className="label info margin-small-right"
+              >
+                patient-source
+              </span>
+              patient-7
+            </div>
+            <div
+              className="rt-td small-2"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              Jul 1, 2017
+            </div>
+            <div
+              className="rt-td small-1 text-right"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                className="remove-icon"
+                onClick={[Function]}
+                title="Remove subject ehr-subject-7"
+              >
+                <i
+                  className="fa fa-minus-square-o"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rt-tr-group"
+          role="rowgroup"
+        >
+          <div
+            className="rt-tr -even"
+            role="row"
+          >
+            <div
+              className="rt-td small-5"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                href="/subjects/subject-8/events"
+                onClick={[Function]}
+              >
+                ehr-subject-8
+              </a>
+            </div>
+            <div
+              className="rt-td small-4"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <span
+                className="label info margin-small-right"
+              >
+                patient-source
+              </span>
+              patient-8
+            </div>
+            <div
+              className="rt-td small-2"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              Jul 1, 2017
+            </div>
+            <div
+              className="rt-td small-1 text-right"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                className="remove-icon"
+                onClick={[Function]}
+                title="Remove subject ehr-subject-8"
+              >
+                <i
+                  className="fa fa-minus-square-o"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rt-tr-group"
+          role="rowgroup"
+        >
+          <div
+            className="rt-tr -odd"
+            role="row"
+          >
+            <div
+              className="rt-td small-5"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                href="/subjects/subject-9/events"
+                onClick={[Function]}
+              >
+                ehr-subject-9
+              </a>
+            </div>
+            <div
+              className="rt-td small-4"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <span
+                className="label info margin-small-right"
+              >
+                patient-source
+              </span>
+              patient-9
+            </div>
+            <div
+              className="rt-td small-2"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              Jul 1, 2017
+            </div>
+            <div
+              className="rt-td small-1 text-right"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                className="remove-icon"
+                onClick={[Function]}
+                title="Remove subject ehr-subject-9"
+              >
+                <i
+                  className="fa fa-minus-square-o"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rt-tr-group"
+          role="rowgroup"
+        >
+          <div
+            className="rt-tr -even"
+            role="row"
+          >
+            <div
+              className="rt-td small-5"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                href="/subjects/subject-10/events"
+                onClick={[Function]}
+              >
+                ehr-subject-10
+              </a>
+            </div>
+            <div
+              className="rt-td small-4"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <span
+                className="label info margin-small-right"
+              >
+                patient-source
+              </span>
+              patient-10
+            </div>
+            <div
+              className="rt-td small-2"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              Jul 1, 2017
+            </div>
+            <div
+              className="rt-td small-1 text-right"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                className="remove-icon"
+                onClick={[Function]}
+                title="Remove subject ehr-subject-10"
+              >
+                <i
+                  className="fa fa-minus-square-o"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="pagination-bottom"
+    >
+      <zf-list-footer>
+        <div
+          className="pager-size"
+        >
+          <span>
+            Items per page: 
+          </span>
+          <ul>
+            <li
+              className="page-size-10 is-active"
+            >
+              <a
+                onClick={[Function]}
+              >
+                10
+              </a>
+            </li>
+            <li
+              className="page-size-50"
+            >
+              <a
+                onClick={[Function]}
+              >
+                50
+              </a>
+            </li>
+            <li
+              className="page-size-100"
+            >
+              <a
+                onClick={[Function]}
+              >
+                100
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          className="pager-middle"
+        />
+        <ul
+          className="pager"
+        >
+          <li
+            className="pager-navigation-button first disabled"
+          >
+            <a
+              disabled={true}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-double-left"
+              />
+            </a>
+          </li>
+          <li
+            className="pager-navigation-button prev disabled"
+          >
+            <a
+              disabled={true}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-left"
+              />
+            </a>
+          </li>
+          <li
+            className="pager-navigation-page is-active page-1"
+          >
+            <a
+              onClick={[Function]}
+            >
+              1
+            </a>
+          </li>
+          <li
+            className="pager-navigation-page page-2"
+          >
+            <a
+              onClick={[Function]}
+            >
+              2
+            </a>
+          </li>
+          <li
+            className="pager-navigation-page page-3"
+          >
+            <a
+              onClick={[Function]}
+            >
+              3
+            </a>
+          </li>
+          <li
+            className="pager-navigation-page page-4"
+          >
+            <a
+              onClick={[Function]}
+            >
+              4
+            </a>
+          </li>
+          <li
+            className="pager-navigation-page page-5"
+          >
+            <a
+              onClick={[Function]}
+            >
+              5
+            </a>
+          </li>
+          <li
+            className="pager-navigation-button next"
+          >
+            <a
+              disabled={false}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-right"
+              />
+            </a>
+          </li>
+          <li
+            className="pager-navigation-button last"
+          >
+            <a
+              disabled={false}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-double-right"
+              />
+            </a>
+          </li>
+        </ul>
+      </zf-list-footer>
+    </div>
+    <div
+      className="-loading"
+    >
+      <div
+        className="-loading-inner"
+      >
+        Loading...
+      </div>
+    </div>
+  </div>,
+]
+`;

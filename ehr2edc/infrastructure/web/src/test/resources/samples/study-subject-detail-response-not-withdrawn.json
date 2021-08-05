@@ -1,0 +1,8 @@
+{
+  "patientId": {
+    "source": "MASTER_PATIENT_INDEX",
+    "id": "PID_001"
+  },
+  "subjectId": "SUBJ_042_S010",
+  "dateOfConsent": "2019-05-06T00:00:00Z"
+}

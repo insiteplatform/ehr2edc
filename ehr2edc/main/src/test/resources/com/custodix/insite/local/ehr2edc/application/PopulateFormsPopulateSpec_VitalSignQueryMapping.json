@@ -1,0 +1,30 @@
+{
+  "query": {
+    "type": "vitalSign",
+    "criteria": {
+      "criteria": [
+        {
+          "type": "includeConcepts",
+          "concepts": [
+            {
+              "code": "39156-5"
+            }
+          ]
+        },
+        {
+          "type": "ordinal",
+          "ordinal": "LAST"
+        }
+      ]
+    }
+  },
+  "projectors": [
+    {
+      "type": "projectVitalSignValue",
+      "field": "VALUE"
+    },
+    {
+      "type": "toFormItem"
+    }
+  ]
+}

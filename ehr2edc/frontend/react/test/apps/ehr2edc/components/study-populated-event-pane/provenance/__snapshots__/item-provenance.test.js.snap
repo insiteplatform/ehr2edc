@@ -1,0 +1,361 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Item Provenance Component renders error state 1`] = `
+<ItemProvenance
+  item={
+    Object {
+      "name": "Lab Test or Examination Short Name",
+      "provenance": Object {
+        "data": undefined,
+        "error": Object {
+          "response": Object {
+            "data": Object {
+              "issues": Array [
+                Object {
+                  "field": null,
+                  "message": "Something happened in the back-end",
+                  "reference": null,
+                },
+              ],
+            },
+          },
+        },
+      },
+      "value": "VAL",
+    }
+  }
+>
+  <h4
+    className="facts-title"
+  >
+    Source Data Details
+  </h4>
+  <dl
+    className="margin-none"
+  >
+    <h5>
+      Name
+    </h5>
+    <dd>
+      Lab Test or Examination Short Name
+    </dd>
+    <h5>
+      Submitted Value
+    </h5>
+    <dd>
+      VAL
+    </dd>
+  </dl>
+  <h5>
+    Source Data
+  </h5>
+  <div
+    className="alert-box alert warning margin-trl"
+  >
+    <RequestError
+      error={
+        Object {
+          "response": Object {
+            "data": Object {
+              "issues": Array [
+                Object {
+                  "field": null,
+                  "message": "Something happened in the back-end",
+                  "reference": null,
+                },
+              ],
+            },
+          },
+        }
+      }
+    >
+      <Error
+        error={
+          Object {
+            "issues": Array [
+              Object {
+                "field": null,
+                "message": "Something happened in the back-end",
+                "reference": null,
+              },
+            ],
+          }
+        }
+      >
+        <Issues
+          issues={
+            Array [
+              Object {
+                "field": null,
+                "message": "Something happened in the back-end",
+                "reference": null,
+              },
+            ]
+          }
+        >
+          <ul
+            className="bullet"
+          >
+            <Issue
+              issue={
+                Object {
+                  "field": null,
+                  "message": "Something happened in the back-end",
+                  "reference": null,
+                }
+              }
+              key="0"
+            >
+              <ErrorMessage
+                message="Something happened in the back-end"
+              >
+                <li>
+                  Something happened in the back-end
+                </li>
+              </ErrorMessage>
+            </Issue>
+          </ul>
+        </Issues>
+      </Error>
+    </RequestError>
+  </div>
+</ItemProvenance>
+`;
+
+exports[`Item Provenance Component renders loading state 1`] = `
+<ItemProvenance
+  item={
+    Object {
+      "name": "Lab Test or Examination Short Name",
+      "provenance": undefined,
+      "value": "VAL",
+    }
+  }
+>
+  <h4
+    className="facts-title"
+  >
+    Source Data Details
+  </h4>
+  <dl
+    className="margin-none"
+  >
+    <h5>
+      Name
+    </h5>
+    <dd>
+      Lab Test or Examination Short Name
+    </dd>
+    <h5>
+      Submitted Value
+    </h5>
+    <dd>
+      VAL
+    </dd>
+  </dl>
+</ItemProvenance>
+`;
+
+exports[`Item Provenance Component renders success state 1`] = `
+<ItemProvenance
+  item={
+    Object {
+      "name": "Lab Test or Examination Short Name",
+      "provenance": Object {
+        "data": Object {
+          "groups": Array [
+            Object {
+              "items": Array [
+                Object {
+                  "label": "Item 1",
+                  "value": "Value 1",
+                },
+                Object {
+                  "label": "Item 2",
+                  "value": "Value 2",
+                },
+                Object {
+                  "label": "Item 3",
+                  "value": "",
+                },
+                Object {
+                  "label": "Item 4",
+                  "value": undefined,
+                },
+              ],
+              "label": "Group 1",
+            },
+          ],
+          "items": Array [
+            Object {
+              "label": "Item 1",
+              "value": "Value 1",
+            },
+            Object {
+              "label": "Item 2",
+              "value": "Value 2",
+            },
+            Object {
+              "label": "Item 3",
+              "value": "",
+            },
+            Object {
+              "label": "Item 4",
+              "value": undefined,
+            },
+          ],
+        },
+        "error": undefined,
+      },
+      "value": "VAL",
+    }
+  }
+>
+  <h4
+    className="facts-title"
+  >
+    Source Data Details
+  </h4>
+  <dl
+    className="margin-none"
+  >
+    <h5>
+      Name
+    </h5>
+    <dd>
+      Lab Test or Examination Short Name
+    </dd>
+    <h5>
+      Submitted Value
+    </h5>
+    <dd>
+      VAL
+    </dd>
+  </dl>
+  <h5>
+    Source Data
+  </h5>
+  <div>
+    <div
+      className="row"
+      key="0"
+    >
+      <h6>
+        Group 1
+      </h6>
+      <dl
+        className="responsive"
+      >
+        <div
+          className="row"
+          key="0"
+        >
+          <dt>
+            Item 1
+          </dt>
+          <dd>
+            Value 1
+          </dd>
+        </div>
+        <div
+          className="row"
+          key="1"
+        >
+          <dt>
+            Item 2
+          </dt>
+          <dd>
+            Value 2
+          </dd>
+        </div>
+        <div
+          className="row"
+          key="2"
+        >
+          <dt>
+            Item 3
+          </dt>
+          <dd>
+            <i
+              className="disabled"
+            >
+              none
+            </i>
+          </dd>
+        </div>
+        <div
+          className="row"
+          key="3"
+        >
+          <dt>
+            Item 4
+          </dt>
+          <dd>
+            <i
+              className="disabled"
+            >
+              none
+            </i>
+          </dd>
+        </div>
+      </dl>
+    </div>
+    <dl
+      className="responsive"
+    >
+      <div
+        className="row"
+        key="0"
+      >
+        <dt>
+          Item 1
+        </dt>
+        <dd>
+          Value 1
+        </dd>
+      </div>
+      <div
+        className="row"
+        key="1"
+      >
+        <dt>
+          Item 2
+        </dt>
+        <dd>
+          Value 2
+        </dd>
+      </div>
+      <div
+        className="row"
+        key="2"
+      >
+        <dt>
+          Item 3
+        </dt>
+        <dd>
+          <i
+            className="disabled"
+          >
+            none
+          </i>
+        </dd>
+      </div>
+      <div
+        className="row"
+        key="3"
+      >
+        <dt>
+          Item 4
+        </dt>
+        <dd>
+          <i
+            className="disabled"
+          >
+            none
+          </i>
+        </dd>
+      </div>
+    </dl>
+  </div>
+</ItemProvenance>
+`;

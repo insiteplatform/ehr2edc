@@ -1,0 +1,13 @@
+%TEMPLATE_MODE HTML5
+# ------------------------------------------
+%CONTEXT
+sections = {@eu.ehr4cr.workbench.local.controllers.NavigationItem@trialDesign,\
+			@eu.ehr4cr.workbench.local.controllers.NavigationItem@cohort,\
+			@eu.ehr4cr.workbench.local.controllers.NavigationItem@clinical}
+section = sections[0]
+user = #{ 'username' : 'John Doe' }
+# ------------------------------------------
+%INPUT (classpath:templates/thymeleaf/index.html)
+%FRAGMENT div.header
+# ------------------------------------------
+%OUTPUT (classpath:templates/thymeleaf/index/expected/index-menubar.html)

@@ -1,0 +1,34 @@
+<ODM FileType="Snapshot" Granularity="Metadata" CreationDateTime="2019-06-27T09:10:00.000-00:00"
+     FileOID="a87881e3-0e51-4015-973a-a45359b75cb3" ODMVersion="1.3"
+     xmlns:mdsol="http://www.mdsol.com/ns/odm/metadata" xmlns="http://www.cdisc.org/ns/odm/v1.3"
+     xmlns:insite="http://www.insiteplatform.com/schemas/ehr2edc/1.0">
+    <Study OID="EHR2EDC">
+        <GlobalVariables>
+            <StudyName>ODM with form lab reference</StudyName>
+            <StudyDescription>
+                This is an ODM to test the localLab attribute of a FormDef
+            </StudyDescription>
+            <ProtocolName>ODM</ProtocolName>
+        </GlobalVariables>
+        <MetaDataVersion OID="1" Name="1">
+            <Protocol>
+                <StudyEventRef StudyEventOID="LB_EVENT" OrderNumber="1" Mandatory="No"/>
+            </Protocol>
+            <StudyEventDef OID="LB_EVENT" Name="Laboratory" Type="Common" Repeating="Yes" mdsol:OrderNumber="1">
+                <FormRef FormOID="LB_FORM" OrderNumber="1" Mandatory="No"/>
+            </StudyEventDef>
+            <FormDef OID="LB_FORM" Name="Local Laboratory" Repeating="Yes" mdsol:OrderNumber="1"
+                     insite:localLab="LAB_1">
+                <ItemGroupRef ItemGroupOID="LB_GROUP" Mandatory="Yes"/>
+            </FormDef>
+            <ItemGroupDef OID="LB_GROUP" Name="Glucose items" Repeating="No">
+                <ItemRef ItemOID="LB_GLUC.LBTESTCD" OrderNumber="1" Mandatory="No"/>
+            </ItemGroupDef>
+            <ItemDef OID="LB_GLUC.LBTESTCD" Name="Glucose test code" DataType="text" Length="6">
+                <Question>
+                    <TranslatedText xml:lang="en">Lab Test or Examination Short Name</TranslatedText>
+                </Question>
+            </ItemDef>
+        </MetaDataVersion>
+    </Study>
+</ODM>

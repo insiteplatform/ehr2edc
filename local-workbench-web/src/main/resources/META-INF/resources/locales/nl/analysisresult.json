@@ -1,0 +1,10 @@
+{
+	"showTable"		: "toon tabel",
+	"collapseTable"	: "verberg tabel",
+	
+	"genderDistribution" : {
+		"Male"		: "Mannelijk",
+		"Female" 	: "Vrouwelijk",
+		"Unknown"	: "Onbekend"
+	}
+}

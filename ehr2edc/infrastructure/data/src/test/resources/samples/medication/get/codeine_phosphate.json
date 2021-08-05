@@ -1,0 +1,72 @@
+{
+  "resourceType": "Medication",
+  "id": "172917",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2019-05-16T06:15:09.261+00:00"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Codeine phosphate (substance) </div></div>"
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "261000",
+        "display": "Codeine phosphate (substance)"
+      }
+    ]
+  },
+  "isBrand": true,
+  "manufacturer": {
+    "reference": "Organization/114070"
+  },
+  "product": {
+    "form": {
+      "coding": [
+        {
+          "code": "385268001",
+          "display": "Oral dose form (dose form)"
+        }
+      ]
+    },
+    "ingredient": [
+      {
+        "item": {
+          "reference": "Medication/767"
+        },
+        "amount": {
+          "numerator": {
+            "value": 1,
+            "comparator": "<",
+            "unit": "no",
+            "system": "https://www.hl7.org/fhir/DSTU2/datatypes.html#Quantity",
+            "code": "123"
+          }
+        }
+      }
+    ]
+  },
+  "package": {
+    "container": {
+      "coding": [
+        {
+          "code": "404218003",
+          "display": "Drop - unit of product usage"
+        }
+      ]
+    },
+    "content": [
+      {
+        "item": {
+          "reference": "Medication/767"
+        },
+        "amount": {
+          "value": 100,
+          "unit": "no",
+          "code": "123"
+        }
+      }
+    ]
+  }
+}

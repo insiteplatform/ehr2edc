@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ODM ODMVersion="1.3" FileType="Transactional" FileOID="Example-1" CreationDateTime="2020-01-07T08:00:00Z"
+     xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:OpenClinica="http://www.openclinica.org/ns/odm_ext_v130/v3.1">
+    <ClinicalData StudyOID="studyId-123">
+        <SubjectData OpenClinica:StudySubjectID="001">
+            <StudyEventData StudyEventOID="eventDefinitionId" OpenClinica:StartDate="2020-01-07">
+                <FormData FormOID="formDefinitionId">
+                    <ItemGroupData ItemGroupOID="itemGroupId">
+                        <ItemData ItemOID="itemDefinitionId-1" Value="itemValue">
+                            <AuditRecord EditPoint="Monitoring">
+                                <UserRef UserOID="UserId"/>
+                                <LocationRef LocationOID="external-site-id"/>
+                                <DateTimeStamp>2020-01-07T08:00:00Z</DateTimeStamp>
+                                <ReasonForChange>Import from EHR on behalf of user</ReasonForChange>
+                            </AuditRecord>
+                        </ItemData>
+                        <ItemData ItemOID="itemDefinitionId-2" Value="itemValue">
+                            <AuditRecord EditPoint="Monitoring">
+                                <UserRef UserOID="UserId"/>
+                                <LocationRef LocationOID="external-site-id"/>
+                                <DateTimeStamp>2020-01-07T08:00:00Z</DateTimeStamp>
+                                <ReasonForChange>Import from EHR on behalf of user</ReasonForChange>
+                            </AuditRecord>
+                        </ItemData>
+                        <ItemData ItemOID="itemDefinitionId-3" Value="itemValue">
+                            <AuditRecord EditPoint="Monitoring">
+                                <UserRef UserOID="UserId"/>
+                                <LocationRef LocationOID="external-site-id"/>
+                                <DateTimeStamp>2020-01-07T08:00:00Z</DateTimeStamp>
+                                <ReasonForChange>Import from EHR on behalf of user</ReasonForChange>
+                            </AuditRecord>
+                        </ItemData>
+                    </ItemGroupData>
+                </FormData>
+            </StudyEventData>
+        </SubjectData>
+    </ClinicalData>
+</ODM>

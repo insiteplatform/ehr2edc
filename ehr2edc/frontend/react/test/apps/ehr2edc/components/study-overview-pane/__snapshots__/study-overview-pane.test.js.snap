@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering the component Loading the company with a study 1`] = `
+<div
+  className="grid-content margin"
+>
+  <h3
+    className="subheader"
+  >
+    study-1
+     — 
+    Test study nr. 1
+  </h3>
+  <p
+    className="margin-tb"
+  >
+    Description for 'Test study nr. 1'
+  </p>
+</div>
+`;
+
+exports[`Rendering the component Loading the company without a study 1`] = `
+<div
+  className="grid-content margin"
+>
+  <h3
+    className="subheader"
+  >
+     — 
+  </h3>
+  <p
+    className="margin-tb"
+  />
+</div>
+`;

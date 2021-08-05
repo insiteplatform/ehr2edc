@@ -1,0 +1,6 @@
+<p id="userInviteMessage">
+    Please follow the link below to accept. This invitation will expire in <span th:text="${invite_expireValue}"></span>
+    <span th:text="${invite_expireUnit}"></span>
+    <br/>
+    <a th:href="${invite_acceptUrl}" th:text="${invite_acceptUrl}"></a>
+</p>

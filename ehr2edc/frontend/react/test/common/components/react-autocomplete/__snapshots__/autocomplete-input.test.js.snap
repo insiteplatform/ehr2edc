@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Autocomplete rendering Autocomplete passes inputProps to rendered inputfield 1`] = `
+<div
+  className="autocomplete-override"
+>
+  <div
+    style={
+      Object {
+        "display": "inline-block",
+      }
+    }
+  >
+    <input
+      aria-autocomplete="list"
+      aria-expanded={false}
+      autoComplete="off"
+      className="override-autocomplete-class"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      placeholder="Select an item"
+      role="combobox"
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`Autocomplete rendering Autocomplete without options gets rendered well 1`] = `
+<div
+  className="autocomplete-override"
+>
+  <div
+    style={
+      Object {
+        "display": "inline-block",
+      }
+    }
+  >
+    <input
+      aria-autocomplete="list"
+      aria-expanded={false}
+      autoComplete="off"
+      className="autocomplete-input margin-none"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      role="combobox"
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`Autocomplete rendering Autocomplete without options, but with a placeholder text gets rendered well 1`] = `
+<div
+  className="autocomplete-override"
+>
+  <div
+    style={
+      Object {
+        "display": "inline-block",
+      }
+    }
+  >
+    <input
+      aria-autocomplete="list"
+      aria-expanded={false}
+      autoComplete="off"
+      className="autocomplete-input margin-none"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      placeholder="Select an item"
+      role="combobox"
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;

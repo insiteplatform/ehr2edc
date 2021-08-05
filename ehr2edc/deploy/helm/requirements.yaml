@@ -1,0 +1,21 @@
+dependencies:
+- name: preloaded-postgres
+  version: 1.0.0
+  repository: https://harbor.custodix.com/chartrepo/ehr2edc
+  condition: global.ehr2edc.preloaded-postgres.enabled
+- name: oidc-server
+  version: 1.0.4
+  repository: https://harbor.custodix.com/chartrepo/ehr2edc
+  condition: global.ehr2edc.oidc.enabled
+- name: local-workbench-service
+  version: 3.15.35
+  repository: https://harbor.custodix.com/chartrepo/ehr2edc
+  condition: global.ehr2edc.lwb.enabled
+- name: mongodb
+  version: 7.8.8
+  repository: https://kubernetes-charts.storage.googleapis.com/
+  condition: global.ehr2edc.mongo.enabled
+- name: mailhog
+  version: 3.1.1
+  condition: global.ehr2edc.mailhog.enabled
+  repository: https://codecentric.github.io/helm-charts

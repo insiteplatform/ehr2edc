@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering the PatientId input Renders with availablePatientIds 1`] = `
+<AutocompleteInput
+  alwaysRender={true}
+  inputProps={
+    Object {
+      "className": "patient-identifier-field",
+    }
+  }
+  onSelectionChange={[Function]}
+  openOnFocus={true}
+  options={
+    Array [
+      Object {
+        "label": "PATIENT-1",
+        "value": "PATIENT-1",
+      },
+      Object {
+        "label": "PATIENT-2",
+        "value": "PATIENT-2",
+      },
+    ]
+  }
+  placeholder="Select EHR ID"
+/>
+`;
+
+exports[`Rendering the PatientId input Renders with errors 1`] = `
+<AutocompleteInput
+  alwaysRender={true}
+  inputProps={
+    Object {
+      "className": "patient-identifier-field form-field-error",
+    }
+  }
+  onSelectionChange={[Function]}
+  openOnFocus={true}
+  options={
+    Array [
+      Object {
+        "label": "PATIENT-1",
+        "value": "PATIENT-1",
+      },
+      Object {
+        "label": "PATIENT-2",
+        "value": "PATIENT-2",
+      },
+    ]
+  }
+  placeholder="Select EHR ID"
+/>
+`;
+
+exports[`Rendering the PatientId input Renders without availablePatientIds 1`] = `
+<AutocompleteInput
+  alwaysRender={true}
+  inputProps={
+    Object {
+      "className": "patient-identifier-field",
+    }
+  }
+  onSelectionChange={[Function]}
+  openOnFocus={true}
+  options={Array []}
+  placeholder="Select EHR ID"
+/>
+`;

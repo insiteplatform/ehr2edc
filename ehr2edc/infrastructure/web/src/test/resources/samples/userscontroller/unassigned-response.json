@@ -1,0 +1,44 @@
+{
+  "potentialInvestigators": [
+    {
+      "id": "User id. 1",
+      "name": "User nr. 1"
+    },
+    {
+      "id": "User id. 2",
+      "name": "User nr. 2"
+    },
+    {
+      "id": "User id. 3",
+      "name": "User nr. 3"
+    },
+    {
+      "id": "User id. 4",
+      "name": "User nr. 4"
+    },
+    {
+      "id": "User id. 5",
+      "name": "User nr. 5"
+    },
+    {
+      "id": "User id. 6",
+      "name": "User nr. 6"
+    },
+    {
+      "id": "User id. 7",
+      "name": "User nr. 7"
+    },
+    {
+      "id": "User id. 8",
+      "name": "User nr. 8"
+    },
+    {
+      "id": "User id. 9",
+      "name": "User nr. 9"
+    },
+    {
+      "id": "User id. 10",
+      "name": "User nr. 10"
+    }
+  ]
+}

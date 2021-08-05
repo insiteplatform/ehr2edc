@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Configuration monitorInterval="10">
+    <Appenders>
+        <Console name="CONSOLE" target="SYSTEM_OUT">
+            <PatternLayout>
+                <pattern>
+                    %p | %c | %m%n
+                </pattern>
+            </PatternLayout>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Logger name="com.custodix.insite.mongodb.export.patient.infrastructure.batch.exportsubjects.ExportActiveSubjectItemWriter" level="DEBUG"/>
+        <Logger name="com.custodix.insite.local.ehr2edc.query.executor.common.query" level="TRACE"/>
+        <Logger name="com.custodix.insite.local.ehr2edc.populator" level="TRACE"/>
+        <Logger name="com.custodix.insite.local.ehr2edc.infra.edc.openclinica.LoggingRequestInterceptor" level="TRACE"/>
+        <Logger name="com.custodix.insite.local.ehr2edc.infra.edc.rave.LoggingRequestInterceptor" level="TRACE"/>
+        <Root level="INFO">
+            <AppenderRef ref="CONSOLE"/>
+        </Root>
+    </Loggers>
+</Configuration>

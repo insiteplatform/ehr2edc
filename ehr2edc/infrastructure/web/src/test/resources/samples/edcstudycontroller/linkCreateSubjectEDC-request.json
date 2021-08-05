@@ -1,0 +1,10 @@
+{
+  "studyId": "56021927PCR3011",
+  "type" : "WRITE_SUBJECT",
+  "edcSystem": "RAVE",
+  "externalSiteId": "123456",
+  "clinicalDataURI": "http:/localhost:8081/RaveWebServices/studies/raveStudyId/Subjects",
+  "username": "user1",
+  "password": "user1Pass",
+  "enabled": true
+}

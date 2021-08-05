@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>ehr2edc</artifactId>
+        <groupId>com.custodix.insite</groupId>
+        <version>3.15.50-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>ehr2edc-infrastructure</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>audit</module>
+        <module>time</module>
+        <module>odm</module>
+        <module>edc</module>
+        <module>ehr</module>
+        <module>data</module>
+        <module>app-mongo</module>
+        <module>mongo-migrator</module>
+        <module>web</module>
+        <module>validation</module>
+        <module>ehr2edc-local-workbench</module>
+        <module>vocabulary-jackson</module>
+        <module>data-extraction-model-jackson</module>
+        <module>security</module>
+        <module>exception-handling</module>
+        <module>concurrency</module>
+        <module>events-incoming</module>
+        <module>events-outgoing</module>
+        <module>jms</module>
+        <module>users</module>
+    </modules>
+</project>

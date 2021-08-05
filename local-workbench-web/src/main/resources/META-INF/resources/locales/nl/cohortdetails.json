@@ -1,0 +1,17 @@
+{
+	"editDialog" : {
+		"title"			: "Wijzig cohorte"
+	},
+	
+	"sidebar" : {
+		"title"			: "Observaties voor patient",
+		"age"			: "leeftijd",
+		"male"			: "mannelijk",
+		"female"		: "vrouwelijk",
+		"unknown"		: "geslacht onbekend",
+		"failedLoad"	: "Ophalen van patientgegevens mislukt",
+		"loadingFacts"	: "Gegevens aan het laden&hellip;",
+		"displaySummary" : "Weergave van {{observations}} observaties, {{facts}} feiten",
+		"noFactsAvailable": "Geen observaties voor de geselecteerde patient beschikbaar"
+	}
+}

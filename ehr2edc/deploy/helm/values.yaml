@@ -1,0 +1,86 @@
+commit: manual
+
+global:
+  ehr2edc:
+    oidc:
+      enabled: true
+    mailhog:
+      enabled: false
+    preloaded-postgres:
+      enabled: false
+
+application:
+  track: ehr2edc-service
+  commit: manual
+
+deployment:
+  managementPort: 8081
+  javaOpts: ""
+  springOpts: ""
+  replicaCount: 1
+  health:
+    enabled: true
+    path: /actuator/health
+    port: 8081
+    successThreshold: 1
+    failureThreshold: 2
+    initialDelaySeconds: 45
+    periodSeconds: 5
+    timeoutSeconds: 10
+  ready:
+    enabled: true
+    path: /actuator/health
+    port: 8081
+    successThreshold: 1
+    failureThreshold: 1
+    initialDelaySeconds: 60
+    periodSeconds: 5
+    timeoutSeconds: 5
+  strategy:
+    maxUnavailable: 50%
+    maxSurge: 30%
+  imagePullSecret: gitlab-registry-ehr2edc
+  lwb:
+    baseUrl: http://hph-sta-insite.internal.custodix.com
+
+image:
+  repository: docker-registry.internal.custodix.com/insite/local-workbench-service/ehr2edc-snapshots
+  tag: master
+  pullPolicy: Always
+
+service:
+  type: ClusterIP
+  internalPort: 8080
+  externalPort: 8080
+  internalManagementPort: 8081
+  externalManagementPort: 8081
+  name: ehr2edc-service
+  loadBalancerSourceRanges: []
+
+ingress:
+  application:
+    enabled: true
+    annotations:
+      kubernetes.io/ingress.class: "nginx"
+    paths: []
+  management:
+    enabled: true
+    annotations:
+      kubernetes.io/ingress.class: "nginx"
+  host: ehr2edc.custodix.tech
+  tls: true
+  tlsSecret: custodix-tls
+
+definedResources:
+  memory: 512
+  cpu: 500
+  request:
+    enabled: true
+  limit:
+    enabled: false
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}

@@ -1,0 +1,28 @@
+{
+  "id": "STUDY-1-inv",
+  "name": "Test study name with inv",
+  "description": "Description of the test study with inv",
+  "investigators": [
+    {
+      "id": "1",
+      "name": "Gert",
+      "removable": false
+    }
+  ],
+  "subjects": [
+    {
+      "subjectId": "a",
+      "edcSubjectReference": "b",
+      "patientId": {
+        "id": "pid",
+        "source": "source"
+      },
+      "consentDateTime": "2017-07-01"
+    }
+  ],
+  "permissions": {
+    "canSubjectsBeAdded": true,
+    "canSubjectsBeViewed":true,
+    "canSendToEDC": true
+  }
+}

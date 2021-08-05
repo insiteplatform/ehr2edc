@@ -1,0 +1,465 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering the component The page is rendered 1`] = `
+Array [
+  <div
+    className="grid-block vertical shrink margin-medium-top padding-none"
+  >
+    <div
+      className="grid-block shrink border-bottom"
+    >
+      <h6
+        className="padding-rl padding-small-bottom margin-small-tb"
+      >
+        Registered EHR2EDC studies
+      </h6>
+    </div>
+    <div
+      className="grid-block vertical shrink margin-rl"
+    >
+      <div
+        className="padding"
+      >
+        There are no registered studies for the patient
+      </div>
+    </div>
+  </div>,
+  <div
+    className="grid-block vertical shrink margin-medium-top padding-none"
+  >
+    <div
+      className="grid-block shrink border-bottom"
+    >
+      <h6
+        className="padding-rl padding-small-bottom margin-small-tb"
+      >
+        Assign patient to EHR2EDC study 
+        <i
+          className="fa fa-info-circle"
+          title="Click the study that you want to assign the selected patient to"
+        />
+      </h6>
+    </div>
+    <div
+      className="grid-block vertical margin-bottom padding-rl"
+    >
+      <div
+        className="padding"
+      >
+        There are no available studies for the patient
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Rendering the component The page is rendered with a patientId 1`] = `
+Array [
+  <div
+    className="grid-block vertical shrink margin-medium-top padding-none"
+  >
+    <div
+      className="grid-block shrink border-bottom"
+    >
+      <h6
+        className="padding-rl padding-small-bottom margin-small-tb"
+      >
+        Registered EHR2EDC studies
+      </h6>
+    </div>
+    <div
+      className="grid-block vertical shrink margin-rl"
+    >
+      <div
+        className="ReactTable shrink"
+        style={Object {}}
+      >
+        <div
+          className="rt-table"
+          role="grid"
+        >
+          <div
+            className="rt-thead -header"
+            style={
+              Object {
+                "minWidth": "400px",
+              }
+            }
+          >
+            <div
+              className="rt-tr"
+              role="row"
+            >
+              <div
+                className="rt-th rt-resizable-header -cursor-pointer"
+                onClick={[Function]}
+                role="columnheader"
+                style={
+                  Object {
+                    "flex": "100 0 auto",
+                    "maxWidth": null,
+                    "width": "100px",
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  className="rt-resizable-header-content"
+                >
+                  Name
+                </div>
+                <div
+                  className="rt-resizer"
+                  onMouseDown={[Function]}
+                  onTouchStart={[Function]}
+                />
+              </div>
+              <div
+                className="rt-th rt-resizable-header -cursor-pointer"
+                onClick={[Function]}
+                role="columnheader"
+                style={
+                  Object {
+                    "flex": "100 0 auto",
+                    "maxWidth": null,
+                    "width": "100px",
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  className="rt-resizable-header-content"
+                >
+                  Description
+                </div>
+                <div
+                  className="rt-resizer"
+                  onMouseDown={[Function]}
+                  onTouchStart={[Function]}
+                />
+              </div>
+              <div
+                className="rt-th rt-resizable-header -cursor-pointer"
+                onClick={[Function]}
+                role="columnheader"
+                style={
+                  Object {
+                    "flex": "100 0 auto",
+                    "maxWidth": null,
+                    "width": "100px",
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  className="rt-resizable-header-content"
+                >
+                  Subject ID
+                </div>
+                <div
+                  className="rt-resizer"
+                  onMouseDown={[Function]}
+                  onTouchStart={[Function]}
+                />
+              </div>
+              <div
+                className="rt-th rt-resizable-header -cursor-pointer"
+                onClick={[Function]}
+                role="columnheader"
+                style={
+                  Object {
+                    "flex": "100 0 auto",
+                    "maxWidth": null,
+                    "width": "100px",
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  className="rt-resizable-header-content"
+                >
+                  Date Of Consent
+                </div>
+                <div
+                  className="rt-resizer"
+                  onMouseDown={[Function]}
+                  onTouchStart={[Function]}
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="rt-tbody"
+            style={
+              Object {
+                "minWidth": "400px",
+              }
+            }
+          >
+            <div
+              className="rt-tr-group"
+              role="rowgroup"
+            >
+              <div
+                className="rt-tr -odd"
+                role="row"
+              >
+                <div
+                  className="rt-td"
+                  onClick={[Function]}
+                  role="gridcell"
+                  style={
+                    Object {
+                      "flex": "100 0 auto",
+                      "maxWidth": null,
+                      "width": "100px",
+                    }
+                  }
+                >
+                  A Study
+                </div>
+                <div
+                  className="rt-td"
+                  onClick={[Function]}
+                  role="gridcell"
+                  style={
+                    Object {
+                      "flex": "100 0 auto",
+                      "maxWidth": null,
+                      "width": "100px",
+                    }
+                  }
+                >
+                  A very serious study
+                </div>
+                <div
+                  className="rt-td"
+                  onClick={[Function]}
+                  role="gridcell"
+                  style={
+                    Object {
+                      "flex": "100 0 auto",
+                      "maxWidth": null,
+                      "width": "100px",
+                    }
+                  }
+                >
+                  SUBJ_001_REF
+                </div>
+                <div
+                  className="rt-td"
+                  onClick={[Function]}
+                  role="gridcell"
+                  style={
+                    Object {
+                      "flex": "100 0 auto",
+                      "maxWidth": null,
+                      "width": "100px",
+                    }
+                  }
+                >
+                  April 18, 2019
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="-loading"
+        >
+          <div
+            className="-loading-inner"
+          >
+            Loading...
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="grid-block vertical shrink margin-medium-top padding-none"
+  >
+    <div
+      className="grid-block shrink border-bottom"
+    >
+      <h6
+        className="padding-rl padding-small-bottom margin-small-tb"
+      >
+        Assign patient to EHR2EDC study 
+        <i
+          className="fa fa-info-circle"
+          title="Click the study that you want to assign the selected patient to"
+        />
+      </h6>
+    </div>
+    <div
+      className="grid-block vertical margin-bottom padding-rl"
+    >
+      <div
+        className="ReactTable shrink"
+        style={Object {}}
+      >
+        <div
+          className="rt-table"
+          role="grid"
+        >
+          <div
+            className="rt-thead -header"
+            style={
+              Object {
+                "minWidth": "235px",
+              }
+            }
+          >
+            <div
+              className="rt-tr"
+              role="row"
+            >
+              <div
+                className="rt-th"
+                onClick={[Function]}
+                role="columnheader"
+                style={
+                  Object {
+                    "flex": "35 0 auto",
+                    "maxWidth": "35px",
+                    "width": "35px",
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  className=""
+                />
+              </div>
+              <div
+                className="rt-th rt-resizable-header -cursor-pointer"
+                onClick={[Function]}
+                role="columnheader"
+                style={
+                  Object {
+                    "flex": "100 0 auto",
+                    "maxWidth": null,
+                    "width": "100px",
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  className="rt-resizable-header-content"
+                >
+                  Name
+                </div>
+                <div
+                  className="rt-resizer"
+                  onMouseDown={[Function]}
+                  onTouchStart={[Function]}
+                />
+              </div>
+              <div
+                className="rt-th rt-resizable-header -cursor-pointer"
+                onClick={[Function]}
+                role="columnheader"
+                style={
+                  Object {
+                    "flex": "100 0 auto",
+                    "maxWidth": null,
+                    "width": "100px",
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  className="rt-resizable-header-content"
+                >
+                  Description
+                </div>
+                <div
+                  className="rt-resizer"
+                  onMouseDown={[Function]}
+                  onTouchStart={[Function]}
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="rt-tbody"
+            style={
+              Object {
+                "minWidth": "235px",
+              }
+            }
+          >
+            <div
+              className="rt-tr-group"
+              role="rowgroup"
+            >
+              <div
+                className="rt-tr -odd"
+                onClick={[Function]}
+                role="row"
+              >
+                <div
+                  className="rt-td rt-expandable"
+                  onClick={[Function]}
+                  role="gridcell"
+                  style={
+                    Object {
+                      "flex": "35 0 auto",
+                      "maxWidth": "35px",
+                      "width": "35px",
+                    }
+                  }
+                >
+                  <div
+                    className="rt-expander"
+                  >
+                    •
+                  </div>
+                </div>
+                <div
+                  className="rt-td"
+                  onClick={[Function]}
+                  role="gridcell"
+                  style={
+                    Object {
+                      "flex": "100 0 auto",
+                      "maxWidth": null,
+                      "width": "100px",
+                    }
+                  }
+                >
+                  Another Study
+                </div>
+                <div
+                  className="rt-td"
+                  onClick={[Function]}
+                  role="gridcell"
+                  style={
+                    Object {
+                      "flex": "100 0 auto",
+                      "maxWidth": null,
+                      "width": "100px",
+                    }
+                  }
+                >
+                  Another very serious study
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="-loading"
+        >
+          <div
+            className="-loading-inner"
+          >
+            Loading...
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

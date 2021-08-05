@@ -1,0 +1,35 @@
+{
+  "xDASID": "XDASv2CIAM",
+  "xDASVersion": "http://www.custodix.com/xdasv2/2017/v2",
+  "eventId": "4b49b946-fa93-4148-94bf-971b38cd7721",
+  "source": "local-workbench",
+  "initiator": {
+    "account": {
+      "name": "system",
+      "identifier": "system",
+      "assertions": []
+    },
+    "entity": {
+      "systemAddress": "localhost",
+      "systemName": "system"
+    },
+    "attributes": []
+  },
+  "observer": {
+    "entity": {
+      "systemAddress": "10.32.2.197",
+      "systemName": "System"
+    }
+  },
+  "action": {
+    "event": {
+      "identifier": "OTHER",
+      "name": "TestAuditedMethods:failureMethod"
+    },
+    "time": {
+      "offset": 1529587743715
+    },
+    "outcome": "FAIL",
+    "extendedOutcome": "An error occurred"
+  }
+}

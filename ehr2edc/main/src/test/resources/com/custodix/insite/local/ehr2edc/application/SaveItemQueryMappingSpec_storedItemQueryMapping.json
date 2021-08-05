@@ -1,0 +1,24 @@
+{
+  "projectors": [
+    {
+      "type": "dateOfBirthToAge",
+      "unit": "YEARS"
+    },
+    {
+      "type": "gender"
+    }
+  ],
+  "query": {
+    "type": "demographic",
+    "criteria": {
+      "criteria": [
+        {
+          "type": "subject",
+          "subjectId": {
+            "id": "subjectId-679"
+          }
+        }
+      ]
+    }
+  }
+}

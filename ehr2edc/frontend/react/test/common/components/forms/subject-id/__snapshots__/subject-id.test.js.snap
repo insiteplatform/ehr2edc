@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering the SubjectId input Renders disabled field with availableSubjectIds 1`] = `
+<input
+  autoFocus={false}
+  className="subject-identifier-field"
+  disabled={true}
+  name="subjectIdentifier"
+  onBlur={[Function]}
+  onChange={[Function]}
+  placeholder="Subject identifier"
+  required={true}
+  type="text"
+  value=""
+/>
+`;
+
+exports[`Rendering the SubjectId input Renders with availableSubjectIds 1`] = `
+<AutocompleteInput
+  alwaysRender={false}
+  inputProps={
+    Object {
+      "autoFocus": false,
+      "className": "subject-identifier-field",
+    }
+  }
+  menuStyle={Object {}}
+  onSelectionChange={[Function]}
+  openOnFocus={true}
+  options={
+    Array [
+      Object {
+        "label": "SUB-1",
+        "value": "SUB-1",
+      },
+      Object {
+        "label": "SUB-2",
+        "value": "SUB-2",
+      },
+    ]
+  }
+  placeholder="Select EDC ID"
+/>
+`;
+
+exports[`Rendering the SubjectId input Renders without availableSubjectIds 1`] = `
+<input
+  autoFocus={false}
+  className="subject-identifier-field"
+  disabled={false}
+  name="subjectIdentifier"
+  onBlur={[Function]}
+  onChange={[Function]}
+  placeholder="Subject identifier"
+  required={true}
+  type="text"
+  value=""
+/>
+`;

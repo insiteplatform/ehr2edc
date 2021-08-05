@@ -1,0 +1,1234 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component gets rendered well Closed state gets rendered well 1`] = `
+<div
+  className="grid-content collapse shrink"
+>
+  <a
+    className="button open-add-investigator"
+    onClick={[Function]}
+  >
+    <i
+      className="fa fa-plus"
+    />
+     Add investigator
+  </a>
+</div>
+`;
+
+exports[`Component gets rendered well Open state gets rendered well 1`] = `
+<div
+  className="grid-content collapse shrink"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <span
+      className="inline-label"
+    >
+      <div
+        className="autocomplete-override"
+      >
+        <div
+          style={
+            Object {
+              "display": "inline-block",
+            }
+          }
+        >
+          <input
+            aria-autocomplete="list"
+            aria-expanded={false}
+            autoComplete="off"
+            autoFocus={true}
+            className="autocomplete-input margin-none"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Add investigator ..."
+            role="combobox"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <a
+        className="button disabled add-investigator"
+      >
+        <i
+          className="fa fa-plus margin-small-right"
+        />
+         Add
+      </a>
+      <a
+        className="button secondary close-add-investigator"
+        onClick={[Function]}
+      >
+        <i
+          className="fa fa-times margin-small-right"
+        />
+        Cancel
+      </a>
+    </span>
+  </form>
+</div>
+`;
+
+exports[`Component gets rendered well The component is closed by default 1`] = `
+<div
+  className="grid-content collapse shrink"
+>
+  <a
+    className="button open-add-investigator"
+    onClick={[Function]}
+  >
+    <i
+      className="fa fa-plus"
+    />
+     Add investigator
+  </a>
+</div>
+`;
+
+exports[`Component gets rendered well The empty state is rendered when an empty list is passed 1`] = `
+<div
+  className="grid-content collapse shrink"
+  title="All available users have been assigned as investigator"
+>
+  <a
+    className="button open-add-investigator disabled"
+  >
+    <i
+      className="fa fa-plus"
+    />
+     Add investigator
+  </a>
+</div>
+`;
+
+exports[`Component gets rendered well The empty state is rendered when no investigators are passed 1`] = `
+<div
+  className="grid-content collapse shrink"
+  title="All available users have been assigned as investigator"
+>
+  <a
+    className="button open-add-investigator disabled"
+  >
+    <i
+      className="fa fa-plus"
+    />
+     Add investigator
+  </a>
+</div>
+`;
+
+exports[`Interactions with the form Giving the autocomplete box focus opens the full list of investigators that can be added 1`] = `
+<AddInvestigator
+  isOpen={true}
+  onInvestigatorAdd={[MockFunction]}
+  potentialInvestigators={
+    Array [
+      Object {
+        "id": "User id. 1",
+        "name": "User nr. 1",
+      },
+      Object {
+        "id": "User id. 2",
+        "name": "User nr. 2",
+      },
+      Object {
+        "id": "User id. 3",
+        "name": "User nr. 3",
+      },
+      Object {
+        "id": "User id. 4",
+        "name": "User nr. 4",
+      },
+      Object {
+        "id": "User id. 5",
+        "name": "User nr. 5",
+      },
+      Object {
+        "id": "User id. 6",
+        "name": "User nr. 6",
+      },
+      Object {
+        "id": "User id. 7",
+        "name": "User nr. 7",
+      },
+      Object {
+        "id": "User id. 8",
+        "name": "User nr. 8",
+      },
+      Object {
+        "id": "User id. 9",
+        "name": "User nr. 9",
+      },
+      Object {
+        "id": "User id. 10",
+        "name": "User nr. 10",
+      },
+    ]
+  }
+>
+  <div
+    className="grid-content collapse shrink"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <span
+        className="inline-label"
+      >
+        <AutocompleteInput
+          alwaysRender={false}
+          inputProps={
+            Object {
+              "autoFocus": true,
+            }
+          }
+          onSelectionChange={[Function]}
+          openOnFocus={false}
+          options={
+            Array [
+              Object {
+                "label": "User nr. 1",
+                "value": "User id. 1",
+              },
+              Object {
+                "label": "User nr. 2",
+                "value": "User id. 2",
+              },
+              Object {
+                "label": "User nr. 3",
+                "value": "User id. 3",
+              },
+              Object {
+                "label": "User nr. 4",
+                "value": "User id. 4",
+              },
+              Object {
+                "label": "User nr. 5",
+                "value": "User id. 5",
+              },
+              Object {
+                "label": "User nr. 6",
+                "value": "User id. 6",
+              },
+              Object {
+                "label": "User nr. 7",
+                "value": "User id. 7",
+              },
+              Object {
+                "label": "User nr. 8",
+                "value": "User id. 8",
+              },
+              Object {
+                "label": "User nr. 9",
+                "value": "User id. 9",
+              },
+              Object {
+                "label": "User nr. 10",
+                "value": "User id. 10",
+              },
+            ]
+          }
+          placeholder="Add investigator ..."
+        >
+          <div
+            className="autocomplete-override"
+          >
+            <Autocomplete
+              autoHighlight={true}
+              getItemValue={[Function]}
+              inputProps={
+                Object {
+                  "autoFocus": true,
+                }
+              }
+              isItemSelectable={[Function]}
+              items={Array []}
+              menuStyle={
+                Object {
+                  "background": "rgba(255, 255, 255, 0.9)",
+                  "borderRadius": "3px",
+                  "boxShadow": "0 2px 12px rgba(0, 0, 0, 0.1)",
+                  "fontSize": "90%",
+                  "maxHeight": "50%",
+                  "overflow": "auto",
+                  "padding": "2px 0",
+                  "position": "fixed",
+                }
+              }
+              onChange={[Function]}
+              onMenuVisibilityChange={[Function]}
+              onSelect={[Function]}
+              renderInput={[Function]}
+              renderItem={[Function]}
+              renderMenu={[Function]}
+              selectOnBlur={false}
+              shouldItemRender={[Function]}
+              value=""
+              wrapperProps={Object {}}
+              wrapperStyle={
+                Object {
+                  "display": "inline-block",
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                  }
+                }
+              >
+                <input
+                  aria-autocomplete="list"
+                  aria-expanded={true}
+                  autoComplete="off"
+                  autoFocus={true}
+                  className="autocomplete-input margin-none"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  placeholder="Add investigator ..."
+                  role="combobox"
+                  type="text"
+                  value=""
+                />
+                <div
+                  className="autocomplete-menu"
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onTouchStart={[Function]}
+                  style={
+                    Object {
+                      "left": 0,
+                      "minWidth": 0,
+                      "top": 0,
+                    }
+                  }
+                />
+              </div>
+            </Autocomplete>
+          </div>
+        </AutocompleteInput>
+        <a
+          className="button disabled add-investigator"
+        >
+          <i
+            className="fa fa-plus margin-small-right"
+          />
+           Add
+        </a>
+        <a
+          className="button secondary close-add-investigator"
+          onClick={[Function]}
+        >
+          <i
+            className="fa fa-times margin-small-right"
+          />
+          Cancel
+        </a>
+      </span>
+    </form>
+  </div>
+</AddInvestigator>
+`;
+
+exports[`Interactions with the form Taking away the autocomplete box's focus hides the list of investigators that can be added 1`] = `
+<AddInvestigator
+  isOpen={true}
+  onInvestigatorAdd={[MockFunction]}
+  potentialInvestigators={
+    Array [
+      Object {
+        "id": "User id. 1",
+        "name": "User nr. 1",
+      },
+      Object {
+        "id": "User id. 2",
+        "name": "User nr. 2",
+      },
+      Object {
+        "id": "User id. 3",
+        "name": "User nr. 3",
+      },
+      Object {
+        "id": "User id. 4",
+        "name": "User nr. 4",
+      },
+      Object {
+        "id": "User id. 5",
+        "name": "User nr. 5",
+      },
+      Object {
+        "id": "User id. 6",
+        "name": "User nr. 6",
+      },
+      Object {
+        "id": "User id. 7",
+        "name": "User nr. 7",
+      },
+      Object {
+        "id": "User id. 8",
+        "name": "User nr. 8",
+      },
+      Object {
+        "id": "User id. 9",
+        "name": "User nr. 9",
+      },
+      Object {
+        "id": "User id. 10",
+        "name": "User nr. 10",
+      },
+    ]
+  }
+>
+  <div
+    className="grid-content collapse shrink"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <span
+        className="inline-label"
+      >
+        <AutocompleteInput
+          alwaysRender={false}
+          inputProps={
+            Object {
+              "autoFocus": true,
+            }
+          }
+          onSelectionChange={[Function]}
+          openOnFocus={false}
+          options={
+            Array [
+              Object {
+                "label": "User nr. 1",
+                "value": "User id. 1",
+              },
+              Object {
+                "label": "User nr. 2",
+                "value": "User id. 2",
+              },
+              Object {
+                "label": "User nr. 3",
+                "value": "User id. 3",
+              },
+              Object {
+                "label": "User nr. 4",
+                "value": "User id. 4",
+              },
+              Object {
+                "label": "User nr. 5",
+                "value": "User id. 5",
+              },
+              Object {
+                "label": "User nr. 6",
+                "value": "User id. 6",
+              },
+              Object {
+                "label": "User nr. 7",
+                "value": "User id. 7",
+              },
+              Object {
+                "label": "User nr. 8",
+                "value": "User id. 8",
+              },
+              Object {
+                "label": "User nr. 9",
+                "value": "User id. 9",
+              },
+              Object {
+                "label": "User nr. 10",
+                "value": "User id. 10",
+              },
+            ]
+          }
+          placeholder="Add investigator ..."
+        >
+          <div
+            className="autocomplete-override"
+          >
+            <Autocomplete
+              autoHighlight={true}
+              getItemValue={[Function]}
+              inputProps={
+                Object {
+                  "autoFocus": true,
+                }
+              }
+              isItemSelectable={[Function]}
+              items={Array []}
+              menuStyle={
+                Object {
+                  "background": "rgba(255, 255, 255, 0.9)",
+                  "borderRadius": "3px",
+                  "boxShadow": "0 2px 12px rgba(0, 0, 0, 0.1)",
+                  "fontSize": "90%",
+                  "maxHeight": "50%",
+                  "overflow": "auto",
+                  "padding": "2px 0",
+                  "position": "fixed",
+                }
+              }
+              onChange={[Function]}
+              onMenuVisibilityChange={[Function]}
+              onSelect={[Function]}
+              renderInput={[Function]}
+              renderItem={[Function]}
+              renderMenu={[Function]}
+              selectOnBlur={false}
+              shouldItemRender={[Function]}
+              value=""
+              wrapperProps={Object {}}
+              wrapperStyle={
+                Object {
+                  "display": "inline-block",
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                  }
+                }
+              >
+                <input
+                  aria-autocomplete="list"
+                  aria-expanded={false}
+                  autoComplete="off"
+                  autoFocus={true}
+                  className="autocomplete-input margin-none"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  placeholder="Add investigator ..."
+                  role="combobox"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </Autocomplete>
+          </div>
+        </AutocompleteInput>
+        <a
+          className="button disabled add-investigator"
+        >
+          <i
+            className="fa fa-plus margin-small-right"
+          />
+           Add
+        </a>
+        <a
+          className="button secondary close-add-investigator"
+          onClick={[Function]}
+        >
+          <i
+            className="fa fa-times margin-small-right"
+          />
+          Cancel
+        </a>
+      </span>
+    </form>
+  </div>
+</AddInvestigator>
+`;
+
+exports[`Interactions with the form The autocomplete component doesn't show anything when no interactions have happened 1`] = `
+<AddInvestigator
+  isOpen={true}
+  onInvestigatorAdd={[MockFunction]}
+  potentialInvestigators={
+    Array [
+      Object {
+        "id": "User id. 1",
+        "name": "User nr. 1",
+      },
+      Object {
+        "id": "User id. 2",
+        "name": "User nr. 2",
+      },
+      Object {
+        "id": "User id. 3",
+        "name": "User nr. 3",
+      },
+      Object {
+        "id": "User id. 4",
+        "name": "User nr. 4",
+      },
+      Object {
+        "id": "User id. 5",
+        "name": "User nr. 5",
+      },
+      Object {
+        "id": "User id. 6",
+        "name": "User nr. 6",
+      },
+      Object {
+        "id": "User id. 7",
+        "name": "User nr. 7",
+      },
+      Object {
+        "id": "User id. 8",
+        "name": "User nr. 8",
+      },
+      Object {
+        "id": "User id. 9",
+        "name": "User nr. 9",
+      },
+      Object {
+        "id": "User id. 10",
+        "name": "User nr. 10",
+      },
+    ]
+  }
+>
+  <div
+    className="grid-content collapse shrink"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <span
+        className="inline-label"
+      >
+        <AutocompleteInput
+          alwaysRender={false}
+          inputProps={
+            Object {
+              "autoFocus": true,
+            }
+          }
+          onSelectionChange={[Function]}
+          openOnFocus={false}
+          options={
+            Array [
+              Object {
+                "label": "User nr. 1",
+                "value": "User id. 1",
+              },
+              Object {
+                "label": "User nr. 2",
+                "value": "User id. 2",
+              },
+              Object {
+                "label": "User nr. 3",
+                "value": "User id. 3",
+              },
+              Object {
+                "label": "User nr. 4",
+                "value": "User id. 4",
+              },
+              Object {
+                "label": "User nr. 5",
+                "value": "User id. 5",
+              },
+              Object {
+                "label": "User nr. 6",
+                "value": "User id. 6",
+              },
+              Object {
+                "label": "User nr. 7",
+                "value": "User id. 7",
+              },
+              Object {
+                "label": "User nr. 8",
+                "value": "User id. 8",
+              },
+              Object {
+                "label": "User nr. 9",
+                "value": "User id. 9",
+              },
+              Object {
+                "label": "User nr. 10",
+                "value": "User id. 10",
+              },
+            ]
+          }
+          placeholder="Add investigator ..."
+        >
+          <div
+            className="autocomplete-override"
+          >
+            <Autocomplete
+              autoHighlight={true}
+              getItemValue={[Function]}
+              inputProps={
+                Object {
+                  "autoFocus": true,
+                }
+              }
+              isItemSelectable={[Function]}
+              items={Array []}
+              menuStyle={
+                Object {
+                  "background": "rgba(255, 255, 255, 0.9)",
+                  "borderRadius": "3px",
+                  "boxShadow": "0 2px 12px rgba(0, 0, 0, 0.1)",
+                  "fontSize": "90%",
+                  "maxHeight": "50%",
+                  "overflow": "auto",
+                  "padding": "2px 0",
+                  "position": "fixed",
+                }
+              }
+              onChange={[Function]}
+              onMenuVisibilityChange={[Function]}
+              onSelect={[Function]}
+              renderInput={[Function]}
+              renderItem={[Function]}
+              renderMenu={[Function]}
+              selectOnBlur={false}
+              shouldItemRender={[Function]}
+              value=""
+              wrapperProps={Object {}}
+              wrapperStyle={
+                Object {
+                  "display": "inline-block",
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                  }
+                }
+              >
+                <input
+                  aria-autocomplete="list"
+                  aria-expanded={false}
+                  autoComplete="off"
+                  autoFocus={true}
+                  className="autocomplete-input margin-none"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  placeholder="Add investigator ..."
+                  role="combobox"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </Autocomplete>
+          </div>
+        </AutocompleteInput>
+        <a
+          className="button disabled add-investigator"
+        >
+          <i
+            className="fa fa-plus margin-small-right"
+          />
+           Add
+        </a>
+        <a
+          className="button secondary close-add-investigator"
+          onClick={[Function]}
+        >
+          <i
+            className="fa fa-times margin-small-right"
+          />
+          Cancel
+        </a>
+      </span>
+    </form>
+  </div>
+</AddInvestigator>
+`;
+
+exports[`Interactions with the form Typing in the autocomplete box filters the list of investigators that can be added 1`] = `
+<AddInvestigator
+  isOpen={true}
+  onInvestigatorAdd={[MockFunction]}
+  potentialInvestigators={
+    Array [
+      Object {
+        "id": "User id. 1",
+        "name": "User nr. 1",
+      },
+      Object {
+        "id": "User id. 2",
+        "name": "User nr. 2",
+      },
+      Object {
+        "id": "User id. 3",
+        "name": "User nr. 3",
+      },
+      Object {
+        "id": "User id. 4",
+        "name": "User nr. 4",
+      },
+      Object {
+        "id": "User id. 5",
+        "name": "User nr. 5",
+      },
+      Object {
+        "id": "User id. 6",
+        "name": "User nr. 6",
+      },
+      Object {
+        "id": "User id. 7",
+        "name": "User nr. 7",
+      },
+      Object {
+        "id": "User id. 8",
+        "name": "User nr. 8",
+      },
+      Object {
+        "id": "User id. 9",
+        "name": "User nr. 9",
+      },
+      Object {
+        "id": "User id. 10",
+        "name": "User nr. 10",
+      },
+    ]
+  }
+>
+  <div
+    className="grid-content collapse shrink"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <span
+        className="inline-label"
+      >
+        <AutocompleteInput
+          alwaysRender={false}
+          inputProps={
+            Object {
+              "autoFocus": true,
+            }
+          }
+          onSelectionChange={[Function]}
+          openOnFocus={false}
+          options={
+            Array [
+              Object {
+                "label": "User nr. 1",
+                "value": "User id. 1",
+              },
+              Object {
+                "label": "User nr. 2",
+                "value": "User id. 2",
+              },
+              Object {
+                "label": "User nr. 3",
+                "value": "User id. 3",
+              },
+              Object {
+                "label": "User nr. 4",
+                "value": "User id. 4",
+              },
+              Object {
+                "label": "User nr. 5",
+                "value": "User id. 5",
+              },
+              Object {
+                "label": "User nr. 6",
+                "value": "User id. 6",
+              },
+              Object {
+                "label": "User nr. 7",
+                "value": "User id. 7",
+              },
+              Object {
+                "label": "User nr. 8",
+                "value": "User id. 8",
+              },
+              Object {
+                "label": "User nr. 9",
+                "value": "User id. 9",
+              },
+              Object {
+                "label": "User nr. 10",
+                "value": "User id. 10",
+              },
+            ]
+          }
+          placeholder="Add investigator ..."
+        >
+          <div
+            className="autocomplete-override"
+          >
+            <Autocomplete
+              autoHighlight={true}
+              getItemValue={[Function]}
+              inputProps={
+                Object {
+                  "autoFocus": true,
+                }
+              }
+              isItemSelectable={[Function]}
+              items={Array []}
+              menuStyle={
+                Object {
+                  "background": "rgba(255, 255, 255, 0.9)",
+                  "borderRadius": "3px",
+                  "boxShadow": "0 2px 12px rgba(0, 0, 0, 0.1)",
+                  "fontSize": "90%",
+                  "maxHeight": "50%",
+                  "overflow": "auto",
+                  "padding": "2px 0",
+                  "position": "fixed",
+                }
+              }
+              onChange={[Function]}
+              onMenuVisibilityChange={[Function]}
+              onSelect={[Function]}
+              renderInput={[Function]}
+              renderItem={[Function]}
+              renderMenu={[Function]}
+              selectOnBlur={false}
+              shouldItemRender={[Function]}
+              value="1"
+              wrapperProps={Object {}}
+              wrapperStyle={
+                Object {
+                  "display": "inline-block",
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                  }
+                }
+              >
+                <input
+                  aria-autocomplete="list"
+                  aria-expanded={true}
+                  autoComplete="off"
+                  autoFocus={true}
+                  className="autocomplete-input margin-none"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  placeholder="Add investigator ..."
+                  role="combobox"
+                  type="text"
+                  value="1"
+                />
+                <div
+                  className="autocomplete-menu"
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onTouchStart={[Function]}
+                  style={
+                    Object {
+                      "left": 0,
+                      "minWidth": 0,
+                      "top": 0,
+                    }
+                  }
+                />
+              </div>
+            </Autocomplete>
+          </div>
+        </AutocompleteInput>
+        <a
+          className="button disabled add-investigator"
+        >
+          <i
+            className="fa fa-plus margin-small-right"
+          />
+           Add
+        </a>
+        <a
+          className="button secondary close-add-investigator"
+          onClick={[Function]}
+        >
+          <i
+            className="fa fa-times margin-small-right"
+          />
+          Cancel
+        </a>
+      </span>
+    </form>
+  </div>
+</AddInvestigator>
+`;
+
+exports[`Switching between the open and closed state manually Clicking the add button in the closed state switches to the open state 1`] = `
+<AddInvestigator
+  isOpen={false}
+  potentialInvestigators={
+    Array [
+      Object {
+        "id": "User id. 1",
+        "name": "User nr. 1",
+      },
+      Object {
+        "id": "User id. 2",
+        "name": "User nr. 2",
+      },
+      Object {
+        "id": "User id. 3",
+        "name": "User nr. 3",
+      },
+      Object {
+        "id": "User id. 4",
+        "name": "User nr. 4",
+      },
+      Object {
+        "id": "User id. 5",
+        "name": "User nr. 5",
+      },
+      Object {
+        "id": "User id. 6",
+        "name": "User nr. 6",
+      },
+      Object {
+        "id": "User id. 7",
+        "name": "User nr. 7",
+      },
+      Object {
+        "id": "User id. 8",
+        "name": "User nr. 8",
+      },
+      Object {
+        "id": "User id. 9",
+        "name": "User nr. 9",
+      },
+      Object {
+        "id": "User id. 10",
+        "name": "User nr. 10",
+      },
+    ]
+  }
+>
+  <div
+    className="grid-content collapse shrink"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <span
+        className="inline-label"
+      >
+        <AutocompleteInput
+          alwaysRender={false}
+          inputProps={
+            Object {
+              "autoFocus": true,
+            }
+          }
+          onSelectionChange={[Function]}
+          openOnFocus={false}
+          options={
+            Array [
+              Object {
+                "label": "User nr. 1",
+                "value": "User id. 1",
+              },
+              Object {
+                "label": "User nr. 2",
+                "value": "User id. 2",
+              },
+              Object {
+                "label": "User nr. 3",
+                "value": "User id. 3",
+              },
+              Object {
+                "label": "User nr. 4",
+                "value": "User id. 4",
+              },
+              Object {
+                "label": "User nr. 5",
+                "value": "User id. 5",
+              },
+              Object {
+                "label": "User nr. 6",
+                "value": "User id. 6",
+              },
+              Object {
+                "label": "User nr. 7",
+                "value": "User id. 7",
+              },
+              Object {
+                "label": "User nr. 8",
+                "value": "User id. 8",
+              },
+              Object {
+                "label": "User nr. 9",
+                "value": "User id. 9",
+              },
+              Object {
+                "label": "User nr. 10",
+                "value": "User id. 10",
+              },
+            ]
+          }
+          placeholder="Add investigator ..."
+        >
+          <div
+            className="autocomplete-override"
+          >
+            <Autocomplete
+              autoHighlight={true}
+              getItemValue={[Function]}
+              inputProps={
+                Object {
+                  "autoFocus": true,
+                }
+              }
+              isItemSelectable={[Function]}
+              items={Array []}
+              menuStyle={
+                Object {
+                  "background": "rgba(255, 255, 255, 0.9)",
+                  "borderRadius": "3px",
+                  "boxShadow": "0 2px 12px rgba(0, 0, 0, 0.1)",
+                  "fontSize": "90%",
+                  "maxHeight": "50%",
+                  "overflow": "auto",
+                  "padding": "2px 0",
+                  "position": "fixed",
+                }
+              }
+              onChange={[Function]}
+              onMenuVisibilityChange={[Function]}
+              onSelect={[Function]}
+              renderInput={[Function]}
+              renderItem={[Function]}
+              renderMenu={[Function]}
+              selectOnBlur={false}
+              shouldItemRender={[Function]}
+              value=""
+              wrapperProps={Object {}}
+              wrapperStyle={
+                Object {
+                  "display": "inline-block",
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "display": "inline-block",
+                  }
+                }
+              >
+                <input
+                  aria-autocomplete="list"
+                  aria-expanded={false}
+                  autoComplete="off"
+                  autoFocus={true}
+                  className="autocomplete-input margin-none"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  placeholder="Add investigator ..."
+                  role="combobox"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </Autocomplete>
+          </div>
+        </AutocompleteInput>
+        <a
+          className="button disabled add-investigator"
+        >
+          <i
+            className="fa fa-plus margin-small-right"
+          />
+           Add
+        </a>
+        <a
+          className="button secondary close-add-investigator"
+          onClick={[Function]}
+        >
+          <i
+            className="fa fa-times margin-small-right"
+          />
+          Cancel
+        </a>
+      </span>
+    </form>
+  </div>
+</AddInvestigator>
+`;
+
+exports[`Switching between the open and closed state manually Clicking the cancel button in the open state switches to the closed state 1`] = `
+<AddInvestigator
+  isOpen={true}
+  potentialInvestigators={
+    Array [
+      Object {
+        "id": "User id. 1",
+        "name": "User nr. 1",
+      },
+      Object {
+        "id": "User id. 2",
+        "name": "User nr. 2",
+      },
+      Object {
+        "id": "User id. 3",
+        "name": "User nr. 3",
+      },
+      Object {
+        "id": "User id. 4",
+        "name": "User nr. 4",
+      },
+      Object {
+        "id": "User id. 5",
+        "name": "User nr. 5",
+      },
+      Object {
+        "id": "User id. 6",
+        "name": "User nr. 6",
+      },
+      Object {
+        "id": "User id. 7",
+        "name": "User nr. 7",
+      },
+      Object {
+        "id": "User id. 8",
+        "name": "User nr. 8",
+      },
+      Object {
+        "id": "User id. 9",
+        "name": "User nr. 9",
+      },
+      Object {
+        "id": "User id. 10",
+        "name": "User nr. 10",
+      },
+    ]
+  }
+>
+  <div
+    className="grid-content collapse shrink"
+  >
+    <a
+      className="button open-add-investigator"
+      onClick={[Function]}
+    >
+      <i
+        className="fa fa-plus"
+      />
+       Add investigator
+    </a>
+  </div>
+</AddInvestigator>
+`;

@@ -1,0 +1,74 @@
+.study-form-container {
+    overflow-y: auto;
+}
+
+.study-form-error-container {
+    overflow-y: auto;
+    max-height: 5em;
+}
+
+.study-form-container input[type="checkbox"].collapsed {
+    display: none;
+}
+
+.study-form-container input[type="checkbox"].collapsed + label.collapsible-toggle:before {
+    content: "\f0d7";
+    top: 9px;
+    left: 3px;
+    position: absolute;
+}
+
+.study-form-container input[type="checkbox"].collapsed:checked + label.collapsible-toggle:before {
+    content: "\f0da";
+}
+
+.study-form-container input[type="checkbox"].collapsed:checked + label + .study-form-header ~ .itemGroup {
+    max-height: 0;
+    display: none;
+    transition: all .5s ease-out;
+}
+
+.study-form-container .invalid > .border-bottom {
+    border-color: #FFBA5A;
+}
+
+.study-form-container .invalid > .border-bottom *:not(.tooltip-text),
+.study-form-container .itemGroup .invalid *:not(.tooltip-text) {
+    color: #FFBA5A !important;
+}
+.toggle-element, .toggle-show, .toggle-hide,
+input[type="checkbox"] + label.toggle-label-hide,
+input[type="checkbox"] + label.toggle-label-show {
+    display: none;
+    visibility: hidden;
+}
+.toggle-element:checked ~ .toggle-show {
+    display: inherit;
+    visibility: inherit;
+}
+.toggle-element:not(:checked) ~ .toggle-hide {
+    display: inherit;
+    visibility: inherit;
+}
+.toggle-label-hide, .toggle-label-show {
+    padding-left: 2rem;
+}
+.toggle-label-hide:before {
+    content: "\f0d7" !important;
+    left: 3px;
+    position: absolute;
+    font-family: "FontAwesome";
+}
+.toggle-label-show:before {
+    content: "\f0da";
+    left: 3px;
+    position: absolute;
+    font-family: "FontAwesome";
+}
+.open-item-details {
+    display: inline-flex;
+    pointer-events: auto;
+}
+.item.is-active {
+    background-color: #eaeaea;
+}

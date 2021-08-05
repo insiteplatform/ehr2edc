@@ -1,0 +1,188 @@
+###
+# THIS FILE CAN BE OUT DATED IF IT DOES NOT WORK USE THE https://gitlab.internal.custodix.com/insite/ehr2edc-studies REPO (check read me for instructions)
+###
+#    Tested running LWB on a local Tomcat
+###
+#    Create new Study
+###
+POST /ehr2edc/study HTTP/1.1
+Host: localhost:8080
+Content-Type: multipart/form-data; boundary=----boundary
+
+------boundary
+Content-Disposition: form-data; name="file"; filename="samples/min-sample-study.xml"
+Content-Type: text/xml
+
+< ./samples/min-sample-study.xml
+------boundary--
+
+###
+#    Create ItemQueryMapping for Date of Birth
+###
+POST /ehr2edc/studies/EHR2EDC/item-query-mappings HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+{
+  "itemId": "DM_DOB.BRTHDAT",
+  "query": {
+    "type": "demographic",
+    "criteria": {
+      "criteria": [
+        {
+          "type": "demographicType",
+          "demographicType": "BIRTH_DATE"
+        }
+      ]
+    }
+  },
+  "projectors": [
+    {
+      "type": "dateOfBirth"
+    },
+    {
+      "type": "dateOfBirthToDate"
+    },
+    {
+      "type": "dateToString",
+      "pattern": "dd MMM yyyy"
+    }
+  ]
+}
+
+
+###
+#    Create ItemQueryMapping for Gender
+###
+POST /ehr2edc/studies/EHR2EDC/item-query-mappings HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+{
+  "itemId": "DM_DOB.SEX",
+  "query": {
+    "type": "demographic",
+    "criteria": {
+      "criteria": [
+        {
+          "type": "demographicType",
+          "demographicType": "GENDER"
+        }
+      ]
+    }
+  },
+  "projectors": [
+    {
+      "type": "gender"
+    },
+    {
+      "type": "kotlinScript",
+      "script": "value.getSdtmCode()"
+    },
+    {
+      "type": "mapToLabeledValue",
+      "mapping": {
+        "F": [
+          {
+            "locale": "en",
+            "text": "Female"
+          },
+          {
+            "locale": "nl",
+            "text": "Vrouwelijk"
+          }
+        ],
+        "M": [
+          {
+            "locale": "en",
+            "text": "Male"
+          },
+          {
+            "locale": "nl",
+            "text": "Mannelijk"
+          }
+        ],
+        "U": [
+          {
+            "locale": "en",
+            "text": "Unknown"
+          },
+          {
+            "locale": "nl",
+            "text": "Onbekend"
+          }
+        ]
+      }
+    }
+  ]
+}
+
+
+###
+#    Link get subject EDC
+#        http://localhost:8080/ehr2edc/study/EHR2EDC/edc
+###
+POST /ehr2edc/edc/connection HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+{
+  "studyId": "EHR2EDC",
+  "type": "SUBMIT_EVENT",
+  "externalSiteId": "123456",
+  "clinicalDataURI": "http://localhost:9090/RaveWebServices/webservice.aspx?PostODMClinicalData",
+  "username": "user1",
+  "password": "user1Pass",
+  "enabled": true
+}
+
+###
+#    Link get subject EDC
+#        http://localhost:8080/ehr2edc/study/EHR2EDC/edc
+###
+POST /ehr2edc/edc/connection HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+{
+  "studyId": "EHR2EDC",
+  "type": "READ_SUBJECTS",
+  "externalSiteId": "123456",
+  "clinicalDataURI": "http://localhost:9090/RaveWebServices/studies/EHR2EDC/Subjects",
+  "username": "user1",
+  "password": "user1Pass",
+  "enabled": true
+}
+
+### THE FOLLOWING CALLS DO NOT WORK BECAUSE YOU NEED TO BE AUTHENTICATED
+
+###
+#    Add Investigator
+#        http://localhost:8080/app/ehr2edc/studies/EHR2EDC/investigators
+###
+PUT /ehr2edc/study/EHR2EDC/investigators HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+{
+  "id": "Administrator",
+  "name": "Administrator"
+}
+
+###
+#    Add Subject
+#       http://localhost:8080/app/ehr2edc/studies/EHR2EDC/subjects
+#          > Subject Identifier: SUBJ-01
+#          > Patient Identifier: 100
+#
+#    Events in Study for Subject
+#        http://localhost:8080/app/ehr2edc/studies/EHR2EDC/subjects/SUBJ-01/events
+#
+#    Extract Data Points
+#        'fetch Data Points' on 'Events in Study for Subject' screen
+###
+POST /ehr2edc/study/EHR2EDC/subjects/SUBJ-01/eventdefinitions/00?referenceDate=2019-05-28 HTTP/1.1
+Host: localhost:8080
+
+###
+

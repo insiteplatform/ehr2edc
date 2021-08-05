@@ -1,0 +1,25 @@
+version: '2.1'
+services:
+  lwb-mongo:
+    image: mongo:4.2.0
+    ports:
+      - 27017-27019:27017-27019
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=insite
+      - MONGO_INITDB_ROOT_PASSWORD=password
+    command: mongod --replSet insite-mongo-set --port 27017
+  lwb-edc:
+    image: docker-registry.internal.custodix.com/insite/test-edc:master
+    ports:
+      - 9090:8080
+  lwb-postgres:
+    image: docker-registry.internal.custodix.com/containers/preloaded-postgres:review-irst-demo-data
+    ports:
+      - 5432:5432
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready --version"]
+      interval: 20s
+      timeout: 20s
+      retries: 3
+  lwb-activemq:
+        image: webcenter/activemq:5.10.0

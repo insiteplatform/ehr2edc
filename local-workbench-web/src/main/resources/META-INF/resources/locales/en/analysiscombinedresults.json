@@ -1,0 +1,10 @@
+{
+	"showTable"		: "show table",
+	"collapseTable"	: "collapse table",
+	
+	"genderDistribution" : {
+		"male"		: "Male",
+		"female" 	: "Female",
+		"unknown"	: "Unknown"
+	}
+}

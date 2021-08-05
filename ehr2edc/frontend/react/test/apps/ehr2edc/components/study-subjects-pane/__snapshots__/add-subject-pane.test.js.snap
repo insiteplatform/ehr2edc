@@ -1,0 +1,2879 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering the component Rendering the closed state 1`] = `
+<AddSubjectPane
+  dateOfBirthInfoText="The participant's date of birth"
+  dateOfConsentInfoText="Date at which the patient has given informed consent to enter the study"
+  disabled={false}
+  errorMessages={Array []}
+  firstNameInfoText="The participant's first name"
+  lastNameInfoText="The participant's last name"
+  open={false}
+  patientIdentifierInfoText="Identifier used to reference the participant within the healthcare source systems. The patient id is only visible to investigators and is not exported to the linked sponsor's EDC system"
+  patientIdentifierSourceInfoText="Domain in which the patient identifier was issued by the patient identification management system (MPI)"
+  patientIdentifierSources={
+    Array [
+      "HIS_01",
+    ]
+  }
+  subjectIdentifierInfoText="Identifier used to reference the participant in this study (as issued by the IVRS or a similar system)"
+>
+  <ClosedState>
+    <a
+      className="button open-add-subject-form margin-none"
+      data-cy="register-participant-closed-btn"
+    >
+      <i
+        className="fa fa-plus"
+      />
+      Add Participant
+    </a>
+  </ClosedState>
+</AddSubjectPane>
+`;
+
+exports[`Rendering the component Rendering the disabled state 1`] = `
+<DisabledState
+  disabledMessage="This component is disabled."
+/>
+`;
+
+exports[`Rendering the component Rendering the open state with multiple patient identifier sources 1`] = `
+<AddSubjectPane
+  dateOfBirthInfoText="The participant's date of birth"
+  dateOfConsentInfoText="Date at which the patient has given informed consent to enter the study"
+  disabled={false}
+  errorMessages={Array []}
+  firstNameInfoText="The participant's first name"
+  lastNameInfoText="The participant's last name"
+  open={true}
+  patientIdentifierInfoText="Identifier used to reference the participant within the healthcare source systems. The patient id is only visible to investigators and is not exported to the linked sponsor's EDC system"
+  patientIdentifierSourceInfoText="Domain in which the patient identifier was issued by the patient identification management system (MPI)"
+  patientIdentifierSources={
+    Array [
+      "HIS_01",
+      "source-2",
+      "source-3",
+    ]
+  }
+  subjectIdentifierInfoText="Identifier used to reference the participant in this study (as issued by the IVRS or a similar system)"
+>
+  <OpenState
+    dateOfBirthInfoText="The participant's date of birth"
+    dateOfConsentInfoText="Date at which the patient has given informed consent to enter the study"
+    errorMessages={Array []}
+    firstNameInfoText="The participant's first name"
+    lastNameInfoText="The participant's last name"
+    patientIdentifierInfoText="Identifier used to reference the participant within the healthcare source systems. The patient id is only visible to investigators and is not exported to the linked sponsor's EDC system"
+    patientIdentifierSourceInfoText="Domain in which the patient identifier was issued by the patient identification management system (MPI)"
+    patientIdentifierSources={
+      Array [
+        "HIS_01",
+        "source-2",
+        "source-3",
+      ]
+    }
+    subjectIdentifierInfoText="Identifier used to reference the participant in this study (as issued by the IVRS or a similar system)"
+  >
+    <Modal
+      open={true}
+      title="Register participant"
+    >
+      <Modal
+        ariaHideApp={true}
+        bodyOpenClassName="ReactModal__Body--open"
+        closeTimeoutMS={0}
+        isOpen={true}
+        onRequestClose={[Function]}
+        parentSelector={[Function]}
+        portalClassName="react-modal"
+        role="dialog"
+        shouldCloseOnEsc={true}
+        shouldCloseOnOverlayClick={false}
+        shouldFocusAfterRender={true}
+        shouldReturnFocusAfterClose={true}
+        style={
+          Object {
+            "content": Object {
+              "maxHeight": "688px",
+              "width": "450px",
+            },
+          }
+        }
+        title="Register participant"
+      >
+        <Portal
+          containerInfo={
+            <div
+              class="react-modal"
+            >
+              <div
+                class="ReactModal__Overlay ReactModal__Overlay--after-open"
+              >
+                <div
+                  class="ReactModal__Content ReactModal__Content--after-open"
+                  role="dialog"
+                  style="width: 450px; max-height: 688px;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="modal-titlebar"
+                  >
+                    <div
+                      class="modal-title"
+                    >
+                      Register participant
+                    </div>
+                    <div
+                      class="modal-close-icon"
+                    >
+                      <i
+                        class="fa fa-times"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="modal-content"
+                  >
+                    <form>
+                      <table>
+                        <tbody>
+                          <tr>
+                            <th>
+                              First name 
+                              <i
+                                class="fa fa-info-circle"
+                                title="The participant's first name"
+                              />
+                            </th>
+                            <td>
+                              <input
+                                class="margin-none first-name-field"
+                                name="firstName"
+                                placeholder="First name"
+                                type="text"
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <th>
+                              Last name 
+                              <i
+                                class="fa fa-info-circle"
+                                title="The participant's last name"
+                              />
+                            </th>
+                            <td>
+                              <input
+                                class="margin-none last-name-field"
+                                name="lastName"
+                                placeholder="Last name"
+                                type="text"
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <th>
+                              Date of birth 
+                              <i
+                                class="fa fa-info-circle"
+                                title="The participant's date of birth"
+                              />
+                            </th>
+                            <td>
+                              <div
+                                class="calendar-icon"
+                              >
+                                <div
+                                  class="react-datepicker-wrapper"
+                                >
+                                  <div
+                                    class="react-datepicker__input-container"
+                                  >
+                                    <input
+                                      class="birth-date-field form-field-error"
+                                      type="text"
+                                      value=""
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th>
+                              EDC identifier 
+                              <i
+                                class="fa fa-info-circle"
+                                title="Identifier used to reference the participant in this study (as issued by the IVRS or a similar system)"
+                              />
+                            </th>
+                            <td>
+                              <input
+                                class="subject-identifier-field"
+                                name="subjectIdentifier"
+                                placeholder="Subject identifier"
+                                required=""
+                                type="text"
+                                value=""
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <th>
+                              EHR system 
+                              <i
+                                class="fa fa-info-circle"
+                                title="Domain in which the patient identifier was issued by the patient identification management system (MPI)"
+                              />
+                            </th>
+                            <td>
+                              <select
+                                class="patient-identifier-source-field"
+                              >
+                                <option
+                                  value="HIS_01"
+                                >
+                                  HIS_01
+                                </option>
+                                <option
+                                  value="source-2"
+                                >
+                                  source-2
+                                </option>
+                                <option
+                                  value="source-3"
+                                >
+                                  source-3
+                                </option>
+                              </select>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th>
+                              EHR identifier 
+                              <i
+                                class="fa fa-info-circle"
+                                title="Identifier used to reference the participant within the healthcare source systems. The patient id is only visible to investigators and is not exported to the linked sponsor's EDC system"
+                              />
+                            </th>
+                            <td>
+                              <div
+                                class="autocomplete-override"
+                              >
+                                <div
+                                  style="display: inline-block;"
+                                >
+                                  <input
+                                    aria-autocomplete="list"
+                                    aria-expanded="false"
+                                    autocomplete="off"
+                                    class="patient-identifier-field"
+                                    placeholder="Select EHR ID"
+                                    role="combobox"
+                                    type="text"
+                                    value=""
+                                  />
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th>
+                              Date of consent 
+                              <i
+                                class="fa fa-info-circle"
+                                title="Date at which the patient has given informed consent to enter the study"
+                              />
+                            </th>
+                            <td>
+                              <div
+                                class="calendar-icon"
+                              >
+                                <div
+                                  class="react-datepicker-wrapper"
+                                >
+                                  <div
+                                    class="react-datepicker__input-container"
+                                  >
+                                    <input
+                                      class="consent-date-field form-field-error"
+                                      type="text"
+                                      value=""
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <button
+                        style="display: none;"
+                        type="submit"
+                      />
+                    </form>
+                  </div>
+                  <div
+                    class="modal-buttons"
+                  >
+                    <a
+                      class="button modal-ok "
+                      data-cy="modal-ok-button"
+                    >
+                      OK
+                      <div
+                        class="bar"
+                      />
+                    </a>
+                    <a
+                      class="button secondary modal-cancel"
+                    >
+                      Cancel
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          }
+        >
+          <ModalPortal
+            ariaHideApp={true}
+            bodyOpenClassName="ReactModal__Body--open"
+            closeTimeoutMS={0}
+            defaultStyles={Object {}}
+            isOpen={true}
+            onRequestClose={[Function]}
+            parentSelector={[Function]}
+            portalClassName="react-modal"
+            role="dialog"
+            shouldCloseOnEsc={true}
+            shouldCloseOnOverlayClick={false}
+            shouldFocusAfterRender={true}
+            shouldReturnFocusAfterClose={true}
+            style={
+              Object {
+                "content": Object {
+                  "maxHeight": "688px",
+                  "width": "450px",
+                },
+              }
+            }
+            title="Register participant"
+          >
+            <div
+              className="ReactModal__Overlay ReactModal__Overlay--after-open"
+              onClick={[Function]}
+              onMouseDown={[Function]}
+              style={Object {}}
+            >
+              <div
+                className="ReactModal__Content ReactModal__Content--after-open"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                onMouseDown={[Function]}
+                onMouseUp={[Function]}
+                role="dialog"
+                style={
+                  Object {
+                    "maxHeight": "688px",
+                    "width": "450px",
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  className="modal-titlebar"
+                >
+                  <div
+                    className="modal-title"
+                  >
+                    Register participant
+                  </div>
+                  <div
+                    className="modal-close-icon"
+                    onClick={[Function]}
+                  >
+                    <i
+                      className="fa fa-times"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="modal-content"
+                >
+                  <Form
+                    dateOfBirthInfoText="The participant's date of birth"
+                    dateOfConsentInfoText="Date at which the patient has given informed consent to enter the study"
+                    firstNameInfoText="The participant's first name"
+                    lastNameInfoText="The participant's last name"
+                    patientIdentifierInfoText="Identifier used to reference the participant within the healthcare source systems. The patient id is only visible to investigators and is not exported to the linked sponsor's EDC system"
+                    patientIdentifierSourceInfoText="Domain in which the patient identifier was issued by the patient identification management system (MPI)"
+                    patientIdentifierSources={
+                      Array [
+                        "HIS_01",
+                        "source-2",
+                        "source-3",
+                      ]
+                    }
+                    subjectIdentifierInfoText="Identifier used to reference the participant in this study (as issued by the IVRS or a similar system)"
+                  >
+                    <form
+                      onSubmit={[Function]}
+                    >
+                      <table>
+                        <tbody>
+                          <FirstNameRow
+                            firstNameInfoText="The participant's first name"
+                          >
+                            <tr>
+                              <FirstNameHeader
+                                firstNameInfoText="The participant's first name"
+                              >
+                                <th>
+                                  First name 
+                                  <i
+                                    className="fa fa-info-circle"
+                                    title="The participant's first name"
+                                  />
+                                </th>
+                              </FirstNameHeader>
+                              <FirstNameCell>
+                                <td>
+                                  <FirstNameField
+                                    focus={false}
+                                  >
+                                    <input
+                                      autoFocus={false}
+                                      className="margin-none first-name-field"
+                                      name="firstName"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      placeholder="First name"
+                                      type="text"
+                                    />
+                                  </FirstNameField>
+                                </td>
+                              </FirstNameCell>
+                            </tr>
+                          </FirstNameRow>
+                          <LastNameRow
+                            lastNameInfoText="The participant's last name"
+                          >
+                            <tr>
+                              <LastNameHeader
+                                lastNameInfoText="The participant's last name"
+                              >
+                                <th>
+                                  Last name 
+                                  <i
+                                    className="fa fa-info-circle"
+                                    title="The participant's last name"
+                                  />
+                                </th>
+                              </LastNameHeader>
+                              <LastNameCell>
+                                <td>
+                                  <LastNameField
+                                    focus={false}
+                                  >
+                                    <input
+                                      autoFocus={false}
+                                      className="margin-none last-name-field"
+                                      name="lastName"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      placeholder="Last name"
+                                      type="text"
+                                    />
+                                  </LastNameField>
+                                </td>
+                              </LastNameCell>
+                            </tr>
+                          </LastNameRow>
+                          <DateOfBirthRow
+                            dateOfBirthInfoText="The participant's date of birth"
+                          >
+                            <tr>
+                              <DateOfBirthHeader
+                                dateOfBirthInfoText="The participant's date of birth"
+                              >
+                                <th>
+                                  Date of birth 
+                                  <i
+                                    className="fa fa-info-circle"
+                                    title="The participant's date of birth"
+                                  />
+                                </th>
+                              </DateOfBirthHeader>
+                              <DateOfBirthCell>
+                                <td>
+                                  <div
+                                    className="calendar-icon"
+                                  >
+                                    <t
+                                      allowSameDay={false}
+                                      className="birth-date-field form-field-error"
+                                      dateFormat="d LLL yyyy"
+                                      dateFormatCalendar="LLLL yyyy"
+                                      disabled={false}
+                                      disabledKeyboardNavigation={false}
+                                      dropdownMode="scroll"
+                                      inlineFocusSelectedMonth={false}
+                                      maxDate={2019-03-02T23:00:00.000Z}
+                                      monthsShown={1}
+                                      nextMonthButtonLabel="Next Month"
+                                      nextYearButtonLabel="Next Year"
+                                      onBlur={[Function]}
+                                      onCalendarClose={[Function]}
+                                      onCalendarOpen={[Function]}
+                                      onChange={[Function]}
+                                      onClickOutside={[Function]}
+                                      onFocus={[Function]}
+                                      onInputClick={[Function]}
+                                      onInputError={[Function]}
+                                      onKeyDown={[Function]}
+                                      onMonthChange={[Function]}
+                                      onSelect={[Function]}
+                                      onYearChange={[Function]}
+                                      popperContainer={[Function]}
+                                      preventOpenOnFocus={false}
+                                      previousMonthButtonLabel="Previous Month"
+                                      previousYearButtonLabel="Previous Year"
+                                      readOnly={false}
+                                      renderDayContents={[Function]}
+                                      shouldCloseOnSelect={true}
+                                      showMonthYearPicker={false}
+                                      showPopperArrow={true}
+                                      showPreviousMonths={false}
+                                      showQuarterYearPicker={false}
+                                      showTimeInput={false}
+                                      showTimeSelect={false}
+                                      strictParsing={false}
+                                      timeCaption="Time"
+                                      timeInputLabel="Time"
+                                      timeIntervals={30}
+                                      withPortal={false}
+                                    >
+                                      <t
+                                        hidePopper={true}
+                                        popperComponent={null}
+                                        popperContainer={[Function]}
+                                        popperModifiers={
+                                          Object {
+                                            "preventOverflow": Object {
+                                              "boundariesElement": "viewport",
+                                              "enabled": true,
+                                              "escapeWithReference": true,
+                                            },
+                                          }
+                                        }
+                                        popperPlacement="bottom-start"
+                                        popperProps={Object {}}
+                                        targetComponent={
+                                          <div
+                                            className="react-datepicker__input-container"
+                                          >
+                                            <input
+                                              className="birth-date-field form-field-error"
+                                              disabled={false}
+                                              onBlur={[Function]}
+                                              onChange={[Function]}
+                                              onClick={[Function]}
+                                              onFocus={[Function]}
+                                              onKeyDown={[Function]}
+                                              readOnly={false}
+                                              type="text"
+                                              value=""
+                                            />
+                                          </div>
+                                        }
+                                      >
+                                        <Manager
+                                          className="react-datepicker-manager"
+                                        >
+                                          <Reference>
+                                            <InnerReference
+                                              setReferenceNode={[Function]}
+                                            >
+                                              <div
+                                                className="react-datepicker-wrapper"
+                                              >
+                                                <div
+                                                  className="react-datepicker__input-container"
+                                                >
+                                                  <input
+                                                    className="birth-date-field form-field-error"
+                                                    disabled={false}
+                                                    onBlur={[Function]}
+                                                    onChange={[Function]}
+                                                    onClick={[Function]}
+                                                    onFocus={[Function]}
+                                                    onKeyDown={[Function]}
+                                                    readOnly={false}
+                                                    type="text"
+                                                    value=""
+                                                  />
+                                                </div>
+                                              </div>
+                                            </InnerReference>
+                                          </Reference>
+                                          <CalendarContainer>
+                                            <Portal
+                                              container={null}
+                                            />
+                                          </CalendarContainer>
+                                        </Manager>
+                                      </t>
+                                    </t>
+                                  </div>
+                                </td>
+                              </DateOfBirthCell>
+                            </tr>
+                          </DateOfBirthRow>
+                          <EdcIdentifierRow
+                            subjectIdentifierInfoText="Identifier used to reference the participant in this study (as issued by the IVRS or a similar system)"
+                          >
+                            <tr>
+                              <EdcIdentifierHeader
+                                subjectIdentifierInfoText="Identifier used to reference the participant in this study (as issued by the IVRS or a similar system)"
+                              >
+                                <th>
+                                  EDC identifier 
+                                  <i
+                                    className="fa fa-info-circle"
+                                    title="Identifier used to reference the participant in this study (as issued by the IVRS or a similar system)"
+                                  />
+                                </th>
+                              </EdcIdentifierHeader>
+                              <EdcIdentifierCell>
+                                <td>
+                                  <SubjectIdField
+                                    disabled={false}
+                                    inputProps={
+                                      Object {
+                                        "autoFocus": false,
+                                      }
+                                    }
+                                    menuStyle={
+                                      Object {
+                                        "maxHeight": "16em",
+                                      }
+                                    }
+                                    onChange={[Function]}
+                                    openOnFocus={true}
+                                    valid={true}
+                                    value=""
+                                  >
+                                    <input
+                                      autoFocus={false}
+                                      className="subject-identifier-field"
+                                      disabled={false}
+                                      name="subjectIdentifier"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      placeholder="Subject identifier"
+                                      required={true}
+                                      type="text"
+                                      value=""
+                                    />
+                                  </SubjectIdField>
+                                </td>
+                              </EdcIdentifierCell>
+                            </tr>
+                          </EdcIdentifierRow>
+                          <EhrIdentifierSourceRow
+                            patientIdentifierSourceInfoText="Domain in which the patient identifier was issued by the patient identification management system (MPI)"
+                            patientIdentifierSources={
+                              Array [
+                                "HIS_01",
+                                "source-2",
+                                "source-3",
+                              ]
+                            }
+                          >
+                            <tr>
+                              <EhrIdentifierSourceHeader
+                                patientIdentifierSourceInfoText="Domain in which the patient identifier was issued by the patient identification management system (MPI)"
+                              >
+                                <th>
+                                  EHR system 
+                                  <i
+                                    className="fa fa-info-circle"
+                                    title="Domain in which the patient identifier was issued by the patient identification management system (MPI)"
+                                  />
+                                </th>
+                              </EhrIdentifierSourceHeader>
+                              <EhrIdentifierSourceCell
+                                patientIdentifierSources={
+                                  Array [
+                                    "HIS_01",
+                                    "source-2",
+                                    "source-3",
+                                  ]
+                                }
+                              >
+                                <td>
+                                  <select
+                                    className="patient-identifier-source-field"
+                                    onChange={[Function]}
+                                  >
+                                    <option
+                                      key="0"
+                                      value="HIS_01"
+                                    >
+                                      HIS_01
+                                    </option>
+                                    <option
+                                      key="1"
+                                      value="source-2"
+                                    >
+                                      source-2
+                                    </option>
+                                    <option
+                                      key="2"
+                                      value="source-3"
+                                    >
+                                      source-3
+                                    </option>
+                                  </select>
+                                </td>
+                              </EhrIdentifierSourceCell>
+                            </tr>
+                          </EhrIdentifierSourceRow>
+                          <EhrIdentifierRow
+                            patientIdentifierInfoText="Identifier used to reference the participant within the healthcare source systems. The patient id is only visible to investigators and is not exported to the linked sponsor's EDC system"
+                          >
+                            <tr>
+                              <EhrIdentifierHeader
+                                patientIdentifierInfoText="Identifier used to reference the participant within the healthcare source systems. The patient id is only visible to investigators and is not exported to the linked sponsor's EDC system"
+                              >
+                                <th>
+                                  EHR identifier 
+                                  <i
+                                    className="fa fa-info-circle"
+                                    title="Identifier used to reference the participant within the healthcare source systems. The patient id is only visible to investigators and is not exported to the linked sponsor's EDC system"
+                                  />
+                                </th>
+                              </EhrIdentifierHeader>
+                              <EhrIdentifierCell>
+                                <td>
+                                  <PatientIdField
+                                    availablePatients={
+                                      Object {
+                                        "patientIds": Array [],
+                                      }
+                                    }
+                                    menuStyle={
+                                      Object {
+                                        "maxHeight": "8em",
+                                      }
+                                    }
+                                    onChange={[Function]}
+                                    valid={true}
+                                    value=""
+                                  >
+                                    <AutocompleteInput
+                                      alwaysRender={true}
+                                      inputProps={
+                                        Object {
+                                          "className": "patient-identifier-field",
+                                        }
+                                      }
+                                      menuStyle={
+                                        Object {
+                                          "maxHeight": "8em",
+                                        }
+                                      }
+                                      onSelectionChange={[Function]}
+                                      openOnFocus={true}
+                                      options={Array []}
+                                      placeholder="Select EHR ID"
+                                    >
+                                      <div
+                                        className="autocomplete-override"
+                                      >
+                                        <Autocomplete
+                                          autoHighlight={true}
+                                          getItemValue={[Function]}
+                                          inputProps={
+                                            Object {
+                                              "className": "patient-identifier-field",
+                                            }
+                                          }
+                                          isItemSelectable={[Function]}
+                                          items={Array []}
+                                          menuStyle={
+                                            Object {
+                                              "background": "rgba(255, 255, 255, 0.9)",
+                                              "borderRadius": "3px",
+                                              "boxShadow": "0 2px 12px rgba(0, 0, 0, 0.1)",
+                                              "fontSize": "90%",
+                                              "maxHeight": "50%",
+                                              "overflow": "auto",
+                                              "padding": "2px 0",
+                                              "position": "fixed",
+                                            }
+                                          }
+                                          onChange={[Function]}
+                                          onMenuVisibilityChange={[Function]}
+                                          onSelect={[Function]}
+                                          renderInput={[Function]}
+                                          renderItem={[Function]}
+                                          renderMenu={[Function]}
+                                          selectOnBlur={false}
+                                          shouldItemRender={[Function]}
+                                          value=""
+                                          wrapperProps={Object {}}
+                                          wrapperStyle={
+                                            Object {
+                                              "display": "inline-block",
+                                            }
+                                          }
+                                        >
+                                          <div
+                                            style={
+                                              Object {
+                                                "display": "inline-block",
+                                              }
+                                            }
+                                          >
+                                            <input
+                                              aria-autocomplete="list"
+                                              aria-expanded={false}
+                                              autoComplete="off"
+                                              className="patient-identifier-field"
+                                              onBlur={[Function]}
+                                              onChange={[Function]}
+                                              onClick={[Function]}
+                                              onFocus={[Function]}
+                                              onKeyDown={[Function]}
+                                              placeholder="Select EHR ID"
+                                              role="combobox"
+                                              type="text"
+                                              value=""
+                                            />
+                                          </div>
+                                        </Autocomplete>
+                                      </div>
+                                    </AutocompleteInput>
+                                  </PatientIdField>
+                                </td>
+                              </EhrIdentifierCell>
+                            </tr>
+                          </EhrIdentifierRow>
+                          <DateOfConsentRow
+                            dateOfConsentInfoText="Date at which the patient has given informed consent to enter the study"
+                          >
+                            <tr>
+                              <DateOfConsentHeader
+                                dateOfConsentInfoText="Date at which the patient has given informed consent to enter the study"
+                              >
+                                <th>
+                                  Date of consent 
+                                  <i
+                                    className="fa fa-info-circle"
+                                    title="Date at which the patient has given informed consent to enter the study"
+                                  />
+                                </th>
+                              </DateOfConsentHeader>
+                              <DateOfConsentCell>
+                                <td>
+                                  <div
+                                    className="calendar-icon"
+                                  >
+                                    <t
+                                      allowSameDay={false}
+                                      className="consent-date-field form-field-error"
+                                      dateFormat="d LLL yyyy"
+                                      dateFormatCalendar="LLLL yyyy"
+                                      disabled={false}
+                                      disabledKeyboardNavigation={false}
+                                      dropdownMode="scroll"
+                                      inlineFocusSelectedMonth={false}
+                                      maxDate={2019-03-02T23:00:00.000Z}
+                                      monthsShown={1}
+                                      nextMonthButtonLabel="Next Month"
+                                      nextYearButtonLabel="Next Year"
+                                      onBlur={[Function]}
+                                      onCalendarClose={[Function]}
+                                      onCalendarOpen={[Function]}
+                                      onChange={[Function]}
+                                      onClickOutside={[Function]}
+                                      onFocus={[Function]}
+                                      onInputClick={[Function]}
+                                      onInputError={[Function]}
+                                      onKeyDown={[Function]}
+                                      onMonthChange={[Function]}
+                                      onSelect={[Function]}
+                                      onYearChange={[Function]}
+                                      popperContainer={[Function]}
+                                      preventOpenOnFocus={false}
+                                      previousMonthButtonLabel="Previous Month"
+                                      previousYearButtonLabel="Previous Year"
+                                      readOnly={false}
+                                      renderDayContents={[Function]}
+                                      shouldCloseOnSelect={true}
+                                      showMonthYearPicker={false}
+                                      showPopperArrow={true}
+                                      showPreviousMonths={false}
+                                      showQuarterYearPicker={false}
+                                      showTimeInput={false}
+                                      showTimeSelect={false}
+                                      strictParsing={false}
+                                      timeCaption="Time"
+                                      timeInputLabel="Time"
+                                      timeIntervals={30}
+                                      withPortal={false}
+                                    >
+                                      <t
+                                        hidePopper={true}
+                                        popperComponent={null}
+                                        popperContainer={[Function]}
+                                        popperModifiers={
+                                          Object {
+                                            "preventOverflow": Object {
+                                              "boundariesElement": "viewport",
+                                              "enabled": true,
+                                              "escapeWithReference": true,
+                                            },
+                                          }
+                                        }
+                                        popperPlacement="bottom-start"
+                                        popperProps={Object {}}
+                                        targetComponent={
+                                          <div
+                                            className="react-datepicker__input-container"
+                                          >
+                                            <input
+                                              className="consent-date-field form-field-error"
+                                              disabled={false}
+                                              onBlur={[Function]}
+                                              onChange={[Function]}
+                                              onClick={[Function]}
+                                              onFocus={[Function]}
+                                              onKeyDown={[Function]}
+                                              readOnly={false}
+                                              type="text"
+                                              value=""
+                                            />
+                                          </div>
+                                        }
+                                      >
+                                        <Manager
+                                          className="react-datepicker-manager"
+                                        >
+                                          <Reference>
+                                            <InnerReference
+                                              setReferenceNode={[Function]}
+                                            >
+                                              <div
+                                                className="react-datepicker-wrapper"
+                                              >
+                                                <div
+                                                  className="react-datepicker__input-container"
+                                                >
+                                                  <input
+                                                    className="consent-date-field form-field-error"
+                                                    disabled={false}
+                                                    onBlur={[Function]}
+                                                    onChange={[Function]}
+                                                    onClick={[Function]}
+                                                    onFocus={[Function]}
+                                                    onKeyDown={[Function]}
+                                                    readOnly={false}
+                                                    type="text"
+                                                    value=""
+                                                  />
+                                                </div>
+                                              </div>
+                                            </InnerReference>
+                                          </Reference>
+                                          <CalendarContainer>
+                                            <Portal
+                                              container={null}
+                                            />
+                                          </CalendarContainer>
+                                        </Manager>
+                                      </t>
+                                    </t>
+                                  </div>
+                                </td>
+                              </DateOfConsentCell>
+                            </tr>
+                          </DateOfConsentRow>
+                        </tbody>
+                      </table>
+                      <button
+                        style={
+                          Object {
+                            "display": "none",
+                          }
+                        }
+                        type="submit"
+                      />
+                    </form>
+                  </Form>
+                  <Errors
+                    errorMessages={Array []}
+                  />
+                </div>
+                <div
+                  className="modal-buttons"
+                >
+                  <a
+                    className="button modal-ok "
+                    data-cy="modal-ok-button"
+                    onClick={[Function]}
+                  >
+                    OK
+                    <div
+                      className="bar"
+                    />
+                  </a>
+                  <a
+                    className="button secondary modal-cancel"
+                    onClick={[Function]}
+                  >
+                    Cancel
+                  </a>
+                </div>
+              </div>
+            </div>
+          </ModalPortal>
+        </Portal>
+      </Modal>
+    </Modal>
+  </OpenState>
+</AddSubjectPane>
+`;
+
+exports[`Rendering the component Rendering the open state with no patient identifier sources 1`] = `
+<AddSubjectPane
+  dateOfBirthInfoText="The participant's date of birth"
+  dateOfConsentInfoText="Date at which the patient has given informed consent to enter the study"
+  disabled={false}
+  errorMessages={Array []}
+  firstNameInfoText="The participant's first name"
+  lastNameInfoText="The participant's last name"
+  open={true}
+  patientIdentifierInfoText="Identifier used to reference the participant within the healthcare source systems. The patient id is only visible to investigators and is not exported to the linked sponsor's EDC system"
+  patientIdentifierSourceInfoText="Domain in which the patient identifier was issued by the patient identification management system (MPI)"
+  patientIdentifierSources={Array []}
+  subjectIdentifierInfoText="Identifier used to reference the participant in this study (as issued by the IVRS or a similar system)"
+>
+  <OpenState
+    dateOfBirthInfoText="The participant's date of birth"
+    dateOfConsentInfoText="Date at which the patient has given informed consent to enter the study"
+    errorMessages={Array []}
+    firstNameInfoText="The participant's first name"
+    lastNameInfoText="The participant's last name"
+    patientIdentifierInfoText="Identifier used to reference the participant within the healthcare source systems. The patient id is only visible to investigators and is not exported to the linked sponsor's EDC system"
+    patientIdentifierSourceInfoText="Domain in which the patient identifier was issued by the patient identification management system (MPI)"
+    patientIdentifierSources={Array []}
+    subjectIdentifierInfoText="Identifier used to reference the participant in this study (as issued by the IVRS or a similar system)"
+  >
+    <Modal
+      open={true}
+      title="Register participant"
+    >
+      <Modal
+        ariaHideApp={true}
+        bodyOpenClassName="ReactModal__Body--open"
+        closeTimeoutMS={0}
+        isOpen={true}
+        onRequestClose={[Function]}
+        parentSelector={[Function]}
+        portalClassName="react-modal"
+        role="dialog"
+        shouldCloseOnEsc={true}
+        shouldCloseOnOverlayClick={false}
+        shouldFocusAfterRender={true}
+        shouldReturnFocusAfterClose={true}
+        style={
+          Object {
+            "content": Object {
+              "maxHeight": "688px",
+              "width": "450px",
+            },
+          }
+        }
+        title="Register participant"
+      >
+        <Portal
+          containerInfo={
+            <div
+              class="react-modal"
+            >
+              <div
+                class="ReactModal__Overlay ReactModal__Overlay--after-open"
+              >
+                <div
+                  class="ReactModal__Content ReactModal__Content--after-open"
+                  role="dialog"
+                  style="width: 450px; max-height: 688px;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="modal-titlebar"
+                  >
+                    <div
+                      class="modal-title"
+                    >
+                      Register participant
+                    </div>
+                    <div
+                      class="modal-close-icon"
+                    >
+                      <i
+                        class="fa fa-times"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="modal-content"
+                  >
+                    <form>
+                      <table>
+                        <tbody>
+                          <tr>
+                            <th>
+                              First name 
+                              <i
+                                class="fa fa-info-circle"
+                                title="The participant's first name"
+                              />
+                            </th>
+                            <td>
+                              <input
+                                class="margin-none first-name-field"
+                                name="firstName"
+                                placeholder="First name"
+                                type="text"
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <th>
+                              Last name 
+                              <i
+                                class="fa fa-info-circle"
+                                title="The participant's last name"
+                              />
+                            </th>
+                            <td>
+                              <input
+                                class="margin-none last-name-field"
+                                name="lastName"
+                                placeholder="Last name"
+                                type="text"
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <th>
+                              Date of birth 
+                              <i
+                                class="fa fa-info-circle"
+                                title="The participant's date of birth"
+                              />
+                            </th>
+                            <td>
+                              <div
+                                class="calendar-icon"
+                              >
+                                <div
+                                  class="react-datepicker-wrapper"
+                                >
+                                  <div
+                                    class="react-datepicker__input-container"
+                                  >
+                                    <input
+                                      class="birth-date-field form-field-error"
+                                      type="text"
+                                      value=""
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th>
+                              EDC identifier 
+                              <i
+                                class="fa fa-info-circle"
+                                title="Identifier used to reference the participant in this study (as issued by the IVRS or a similar system)"
+                              />
+                            </th>
+                            <td>
+                              <input
+                                class="subject-identifier-field"
+                                name="subjectIdentifier"
+                                placeholder="Subject identifier"
+                                required=""
+                                type="text"
+                                value=""
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <th>
+                              EHR identifier 
+                              <i
+                                class="fa fa-info-circle"
+                                title="Identifier used to reference the participant within the healthcare source systems. The patient id is only visible to investigators and is not exported to the linked sponsor's EDC system"
+                              />
+                            </th>
+                            <td>
+                              <div
+                                class="autocomplete-override"
+                              >
+                                <div
+                                  style="display: inline-block;"
+                                >
+                                  <input
+                                    aria-autocomplete="list"
+                                    aria-expanded="false"
+                                    autocomplete="off"
+                                    class="patient-identifier-field"
+                                    placeholder="Select EHR ID"
+                                    role="combobox"
+                                    type="text"
+                                    value=""
+                                  />
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th>
+                              Date of consent 
+                              <i
+                                class="fa fa-info-circle"
+                                title="Date at which the patient has given informed consent to enter the study"
+                              />
+                            </th>
+                            <td>
+                              <div
+                                class="calendar-icon"
+                              >
+                                <div
+                                  class="react-datepicker-wrapper"
+                                >
+                                  <div
+                                    class="react-datepicker__input-container"
+                                  >
+                                    <input
+                                      class="consent-date-field form-field-error"
+                                      type="text"
+                                      value=""
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <button
+                        style="display: none;"
+                        type="submit"
+                      />
+                    </form>
+                  </div>
+                  <div
+                    class="modal-buttons"
+                  >
+                    <a
+                      class="button modal-ok "
+                      data-cy="modal-ok-button"
+                    >
+                      OK
+                      <div
+                        class="bar"
+                      />
+                    </a>
+                    <a
+                      class="button secondary modal-cancel"
+                    >
+                      Cancel
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          }
+        >
+          <ModalPortal
+            ariaHideApp={true}
+            bodyOpenClassName="ReactModal__Body--open"
+            closeTimeoutMS={0}
+            defaultStyles={Object {}}
+            isOpen={true}
+            onRequestClose={[Function]}
+            parentSelector={[Function]}
+            portalClassName="react-modal"
+            role="dialog"
+            shouldCloseOnEsc={true}
+            shouldCloseOnOverlayClick={false}
+            shouldFocusAfterRender={true}
+            shouldReturnFocusAfterClose={true}
+            style={
+              Object {
+                "content": Object {
+                  "maxHeight": "688px",
+                  "width": "450px",
+                },
+              }
+            }
+            title="Register participant"
+          >
+            <div
+              className="ReactModal__Overlay ReactModal__Overlay--after-open"
+              onClick={[Function]}
+              onMouseDown={[Function]}
+              style={Object {}}
+            >
+              <div
+                className="ReactModal__Content ReactModal__Content--after-open"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                onMouseDown={[Function]}
+                onMouseUp={[Function]}
+                role="dialog"
+                style={
+                  Object {
+                    "maxHeight": "688px",
+                    "width": "450px",
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  className="modal-titlebar"
+                >
+                  <div
+                    className="modal-title"
+                  >
+                    Register participant
+                  </div>
+                  <div
+                    className="modal-close-icon"
+                    onClick={[Function]}
+                  >
+                    <i
+                      className="fa fa-times"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="modal-content"
+                >
+                  <Form
+                    dateOfBirthInfoText="The participant's date of birth"
+                    dateOfConsentInfoText="Date at which the patient has given informed consent to enter the study"
+                    firstNameInfoText="The participant's first name"
+                    lastNameInfoText="The participant's last name"
+                    patientIdentifierInfoText="Identifier used to reference the participant within the healthcare source systems. The patient id is only visible to investigators and is not exported to the linked sponsor's EDC system"
+                    patientIdentifierSourceInfoText="Domain in which the patient identifier was issued by the patient identification management system (MPI)"
+                    patientIdentifierSources={Array []}
+                    subjectIdentifierInfoText="Identifier used to reference the participant in this study (as issued by the IVRS or a similar system)"
+                  >
+                    <form
+                      onSubmit={[Function]}
+                    >
+                      <table>
+                        <tbody>
+                          <FirstNameRow
+                            firstNameInfoText="The participant's first name"
+                          >
+                            <tr>
+                              <FirstNameHeader
+                                firstNameInfoText="The participant's first name"
+                              >
+                                <th>
+                                  First name 
+                                  <i
+                                    className="fa fa-info-circle"
+                                    title="The participant's first name"
+                                  />
+                                </th>
+                              </FirstNameHeader>
+                              <FirstNameCell>
+                                <td>
+                                  <FirstNameField
+                                    focus={false}
+                                  >
+                                    <input
+                                      autoFocus={false}
+                                      className="margin-none first-name-field"
+                                      name="firstName"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      placeholder="First name"
+                                      type="text"
+                                    />
+                                  </FirstNameField>
+                                </td>
+                              </FirstNameCell>
+                            </tr>
+                          </FirstNameRow>
+                          <LastNameRow
+                            lastNameInfoText="The participant's last name"
+                          >
+                            <tr>
+                              <LastNameHeader
+                                lastNameInfoText="The participant's last name"
+                              >
+                                <th>
+                                  Last name 
+                                  <i
+                                    className="fa fa-info-circle"
+                                    title="The participant's last name"
+                                  />
+                                </th>
+                              </LastNameHeader>
+                              <LastNameCell>
+                                <td>
+                                  <LastNameField
+                                    focus={false}
+                                  >
+                                    <input
+                                      autoFocus={false}
+                                      className="margin-none last-name-field"
+                                      name="lastName"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      placeholder="Last name"
+                                      type="text"
+                                    />
+                                  </LastNameField>
+                                </td>
+                              </LastNameCell>
+                            </tr>
+                          </LastNameRow>
+                          <DateOfBirthRow
+                            dateOfBirthInfoText="The participant's date of birth"
+                          >
+                            <tr>
+                              <DateOfBirthHeader
+                                dateOfBirthInfoText="The participant's date of birth"
+                              >
+                                <th>
+                                  Date of birth 
+                                  <i
+                                    className="fa fa-info-circle"
+                                    title="The participant's date of birth"
+                                  />
+                                </th>
+                              </DateOfBirthHeader>
+                              <DateOfBirthCell>
+                                <td>
+                                  <div
+                                    className="calendar-icon"
+                                  >
+                                    <t
+                                      allowSameDay={false}
+                                      className="birth-date-field form-field-error"
+                                      dateFormat="d LLL yyyy"
+                                      dateFormatCalendar="LLLL yyyy"
+                                      disabled={false}
+                                      disabledKeyboardNavigation={false}
+                                      dropdownMode="scroll"
+                                      inlineFocusSelectedMonth={false}
+                                      maxDate={2019-03-02T23:00:00.000Z}
+                                      monthsShown={1}
+                                      nextMonthButtonLabel="Next Month"
+                                      nextYearButtonLabel="Next Year"
+                                      onBlur={[Function]}
+                                      onCalendarClose={[Function]}
+                                      onCalendarOpen={[Function]}
+                                      onChange={[Function]}
+                                      onClickOutside={[Function]}
+                                      onFocus={[Function]}
+                                      onInputClick={[Function]}
+                                      onInputError={[Function]}
+                                      onKeyDown={[Function]}
+                                      onMonthChange={[Function]}
+                                      onSelect={[Function]}
+                                      onYearChange={[Function]}
+                                      popperContainer={[Function]}
+                                      preventOpenOnFocus={false}
+                                      previousMonthButtonLabel="Previous Month"
+                                      previousYearButtonLabel="Previous Year"
+                                      readOnly={false}
+                                      renderDayContents={[Function]}
+                                      shouldCloseOnSelect={true}
+                                      showMonthYearPicker={false}
+                                      showPopperArrow={true}
+                                      showPreviousMonths={false}
+                                      showQuarterYearPicker={false}
+                                      showTimeInput={false}
+                                      showTimeSelect={false}
+                                      strictParsing={false}
+                                      timeCaption="Time"
+                                      timeInputLabel="Time"
+                                      timeIntervals={30}
+                                      withPortal={false}
+                                    >
+                                      <t
+                                        hidePopper={true}
+                                        popperComponent={null}
+                                        popperContainer={[Function]}
+                                        popperModifiers={
+                                          Object {
+                                            "preventOverflow": Object {
+                                              "boundariesElement": "viewport",
+                                              "enabled": true,
+                                              "escapeWithReference": true,
+                                            },
+                                          }
+                                        }
+                                        popperPlacement="bottom-start"
+                                        popperProps={Object {}}
+                                        targetComponent={
+                                          <div
+                                            className="react-datepicker__input-container"
+                                          >
+                                            <input
+                                              className="birth-date-field form-field-error"
+                                              disabled={false}
+                                              onBlur={[Function]}
+                                              onChange={[Function]}
+                                              onClick={[Function]}
+                                              onFocus={[Function]}
+                                              onKeyDown={[Function]}
+                                              readOnly={false}
+                                              type="text"
+                                              value=""
+                                            />
+                                          </div>
+                                        }
+                                      >
+                                        <Manager
+                                          className="react-datepicker-manager"
+                                        >
+                                          <Reference>
+                                            <InnerReference
+                                              setReferenceNode={[Function]}
+                                            >
+                                              <div
+                                                className="react-datepicker-wrapper"
+                                              >
+                                                <div
+                                                  className="react-datepicker__input-container"
+                                                >
+                                                  <input
+                                                    className="birth-date-field form-field-error"
+                                                    disabled={false}
+                                                    onBlur={[Function]}
+                                                    onChange={[Function]}
+                                                    onClick={[Function]}
+                                                    onFocus={[Function]}
+                                                    onKeyDown={[Function]}
+                                                    readOnly={false}
+                                                    type="text"
+                                                    value=""
+                                                  />
+                                                </div>
+                                              </div>
+                                            </InnerReference>
+                                          </Reference>
+                                          <CalendarContainer>
+                                            <Portal
+                                              container={null}
+                                            />
+                                          </CalendarContainer>
+                                        </Manager>
+                                      </t>
+                                    </t>
+                                  </div>
+                                </td>
+                              </DateOfBirthCell>
+                            </tr>
+                          </DateOfBirthRow>
+                          <EdcIdentifierRow
+                            subjectIdentifierInfoText="Identifier used to reference the participant in this study (as issued by the IVRS or a similar system)"
+                          >
+                            <tr>
+                              <EdcIdentifierHeader
+                                subjectIdentifierInfoText="Identifier used to reference the participant in this study (as issued by the IVRS or a similar system)"
+                              >
+                                <th>
+                                  EDC identifier 
+                                  <i
+                                    className="fa fa-info-circle"
+                                    title="Identifier used to reference the participant in this study (as issued by the IVRS or a similar system)"
+                                  />
+                                </th>
+                              </EdcIdentifierHeader>
+                              <EdcIdentifierCell>
+                                <td>
+                                  <SubjectIdField
+                                    disabled={false}
+                                    inputProps={
+                                      Object {
+                                        "autoFocus": false,
+                                      }
+                                    }
+                                    menuStyle={
+                                      Object {
+                                        "maxHeight": "16em",
+                                      }
+                                    }
+                                    onChange={[Function]}
+                                    openOnFocus={true}
+                                    valid={true}
+                                    value=""
+                                  >
+                                    <input
+                                      autoFocus={false}
+                                      className="subject-identifier-field"
+                                      disabled={false}
+                                      name="subjectIdentifier"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      placeholder="Subject identifier"
+                                      required={true}
+                                      type="text"
+                                      value=""
+                                    />
+                                  </SubjectIdField>
+                                </td>
+                              </EdcIdentifierCell>
+                            </tr>
+                          </EdcIdentifierRow>
+                          <EhrIdentifierSourceRow
+                            patientIdentifierSourceInfoText="Domain in which the patient identifier was issued by the patient identification management system (MPI)"
+                            patientIdentifierSources={Array []}
+                          />
+                          <EhrIdentifierRow
+                            patientIdentifierInfoText="Identifier used to reference the participant within the healthcare source systems. The patient id is only visible to investigators and is not exported to the linked sponsor's EDC system"
+                          >
+                            <tr>
+                              <EhrIdentifierHeader
+                                patientIdentifierInfoText="Identifier used to reference the participant within the healthcare source systems. The patient id is only visible to investigators and is not exported to the linked sponsor's EDC system"
+                              >
+                                <th>
+                                  EHR identifier 
+                                  <i
+                                    className="fa fa-info-circle"
+                                    title="Identifier used to reference the participant within the healthcare source systems. The patient id is only visible to investigators and is not exported to the linked sponsor's EDC system"
+                                  />
+                                </th>
+                              </EhrIdentifierHeader>
+                              <EhrIdentifierCell>
+                                <td>
+                                  <PatientIdField
+                                    availablePatients={
+                                      Object {
+                                        "patientIds": Array [],
+                                      }
+                                    }
+                                    menuStyle={
+                                      Object {
+                                        "maxHeight": "8em",
+                                      }
+                                    }
+                                    onChange={[Function]}
+                                    valid={true}
+                                    value=""
+                                  >
+                                    <AutocompleteInput
+                                      alwaysRender={true}
+                                      inputProps={
+                                        Object {
+                                          "className": "patient-identifier-field",
+                                        }
+                                      }
+                                      menuStyle={
+                                        Object {
+                                          "maxHeight": "8em",
+                                        }
+                                      }
+                                      onSelectionChange={[Function]}
+                                      openOnFocus={true}
+                                      options={Array []}
+                                      placeholder="Select EHR ID"
+                                    >
+                                      <div
+                                        className="autocomplete-override"
+                                      >
+                                        <Autocomplete
+                                          autoHighlight={true}
+                                          getItemValue={[Function]}
+                                          inputProps={
+                                            Object {
+                                              "className": "patient-identifier-field",
+                                            }
+                                          }
+                                          isItemSelectable={[Function]}
+                                          items={Array []}
+                                          menuStyle={
+                                            Object {
+                                              "background": "rgba(255, 255, 255, 0.9)",
+                                              "borderRadius": "3px",
+                                              "boxShadow": "0 2px 12px rgba(0, 0, 0, 0.1)",
+                                              "fontSize": "90%",
+                                              "maxHeight": "50%",
+                                              "overflow": "auto",
+                                              "padding": "2px 0",
+                                              "position": "fixed",
+                                            }
+                                          }
+                                          onChange={[Function]}
+                                          onMenuVisibilityChange={[Function]}
+                                          onSelect={[Function]}
+                                          renderInput={[Function]}
+                                          renderItem={[Function]}
+                                          renderMenu={[Function]}
+                                          selectOnBlur={false}
+                                          shouldItemRender={[Function]}
+                                          value=""
+                                          wrapperProps={Object {}}
+                                          wrapperStyle={
+                                            Object {
+                                              "display": "inline-block",
+                                            }
+                                          }
+                                        >
+                                          <div
+                                            style={
+                                              Object {
+                                                "display": "inline-block",
+                                              }
+                                            }
+                                          >
+                                            <input
+                                              aria-autocomplete="list"
+                                              aria-expanded={false}
+                                              autoComplete="off"
+                                              className="patient-identifier-field"
+                                              onBlur={[Function]}
+                                              onChange={[Function]}
+                                              onClick={[Function]}
+                                              onFocus={[Function]}
+                                              onKeyDown={[Function]}
+                                              placeholder="Select EHR ID"
+                                              role="combobox"
+                                              type="text"
+                                              value=""
+                                            />
+                                          </div>
+                                        </Autocomplete>
+                                      </div>
+                                    </AutocompleteInput>
+                                  </PatientIdField>
+                                </td>
+                              </EhrIdentifierCell>
+                            </tr>
+                          </EhrIdentifierRow>
+                          <DateOfConsentRow
+                            dateOfConsentInfoText="Date at which the patient has given informed consent to enter the study"
+                          >
+                            <tr>
+                              <DateOfConsentHeader
+                                dateOfConsentInfoText="Date at which the patient has given informed consent to enter the study"
+                              >
+                                <th>
+                                  Date of consent 
+                                  <i
+                                    className="fa fa-info-circle"
+                                    title="Date at which the patient has given informed consent to enter the study"
+                                  />
+                                </th>
+                              </DateOfConsentHeader>
+                              <DateOfConsentCell>
+                                <td>
+                                  <div
+                                    className="calendar-icon"
+                                  >
+                                    <t
+                                      allowSameDay={false}
+                                      className="consent-date-field form-field-error"
+                                      dateFormat="d LLL yyyy"
+                                      dateFormatCalendar="LLLL yyyy"
+                                      disabled={false}
+                                      disabledKeyboardNavigation={false}
+                                      dropdownMode="scroll"
+                                      inlineFocusSelectedMonth={false}
+                                      maxDate={2019-03-02T23:00:00.000Z}
+                                      monthsShown={1}
+                                      nextMonthButtonLabel="Next Month"
+                                      nextYearButtonLabel="Next Year"
+                                      onBlur={[Function]}
+                                      onCalendarClose={[Function]}
+                                      onCalendarOpen={[Function]}
+                                      onChange={[Function]}
+                                      onClickOutside={[Function]}
+                                      onFocus={[Function]}
+                                      onInputClick={[Function]}
+                                      onInputError={[Function]}
+                                      onKeyDown={[Function]}
+                                      onMonthChange={[Function]}
+                                      onSelect={[Function]}
+                                      onYearChange={[Function]}
+                                      popperContainer={[Function]}
+                                      preventOpenOnFocus={false}
+                                      previousMonthButtonLabel="Previous Month"
+                                      previousYearButtonLabel="Previous Year"
+                                      readOnly={false}
+                                      renderDayContents={[Function]}
+                                      shouldCloseOnSelect={true}
+                                      showMonthYearPicker={false}
+                                      showPopperArrow={true}
+                                      showPreviousMonths={false}
+                                      showQuarterYearPicker={false}
+                                      showTimeInput={false}
+                                      showTimeSelect={false}
+                                      strictParsing={false}
+                                      timeCaption="Time"
+                                      timeInputLabel="Time"
+                                      timeIntervals={30}
+                                      withPortal={false}
+                                    >
+                                      <t
+                                        hidePopper={true}
+                                        popperComponent={null}
+                                        popperContainer={[Function]}
+                                        popperModifiers={
+                                          Object {
+                                            "preventOverflow": Object {
+                                              "boundariesElement": "viewport",
+                                              "enabled": true,
+                                              "escapeWithReference": true,
+                                            },
+                                          }
+                                        }
+                                        popperPlacement="bottom-start"
+                                        popperProps={Object {}}
+                                        targetComponent={
+                                          <div
+                                            className="react-datepicker__input-container"
+                                          >
+                                            <input
+                                              className="consent-date-field form-field-error"
+                                              disabled={false}
+                                              onBlur={[Function]}
+                                              onChange={[Function]}
+                                              onClick={[Function]}
+                                              onFocus={[Function]}
+                                              onKeyDown={[Function]}
+                                              readOnly={false}
+                                              type="text"
+                                              value=""
+                                            />
+                                          </div>
+                                        }
+                                      >
+                                        <Manager
+                                          className="react-datepicker-manager"
+                                        >
+                                          <Reference>
+                                            <InnerReference
+                                              setReferenceNode={[Function]}
+                                            >
+                                              <div
+                                                className="react-datepicker-wrapper"
+                                              >
+                                                <div
+                                                  className="react-datepicker__input-container"
+                                                >
+                                                  <input
+                                                    className="consent-date-field form-field-error"
+                                                    disabled={false}
+                                                    onBlur={[Function]}
+                                                    onChange={[Function]}
+                                                    onClick={[Function]}
+                                                    onFocus={[Function]}
+                                                    onKeyDown={[Function]}
+                                                    readOnly={false}
+                                                    type="text"
+                                                    value=""
+                                                  />
+                                                </div>
+                                              </div>
+                                            </InnerReference>
+                                          </Reference>
+                                          <CalendarContainer>
+                                            <Portal
+                                              container={null}
+                                            />
+                                          </CalendarContainer>
+                                        </Manager>
+                                      </t>
+                                    </t>
+                                  </div>
+                                </td>
+                              </DateOfConsentCell>
+                            </tr>
+                          </DateOfConsentRow>
+                        </tbody>
+                      </table>
+                      <button
+                        style={
+                          Object {
+                            "display": "none",
+                          }
+                        }
+                        type="submit"
+                      />
+                    </form>
+                  </Form>
+                  <Errors
+                    errorMessages={Array []}
+                  />
+                </div>
+                <div
+                  className="modal-buttons"
+                >
+                  <a
+                    className="button modal-ok "
+                    data-cy="modal-ok-button"
+                    onClick={[Function]}
+                  >
+                    OK
+                    <div
+                      className="bar"
+                    />
+                  </a>
+                  <a
+                    className="button secondary modal-cancel"
+                    onClick={[Function]}
+                  >
+                    Cancel
+                  </a>
+                </div>
+              </div>
+            </div>
+          </ModalPortal>
+        </Portal>
+      </Modal>
+    </Modal>
+  </OpenState>
+</AddSubjectPane>
+`;
+
+exports[`Rendering the component Rendering the open state with one patient identifier source 1`] = `
+<AddSubjectPane
+  dateOfBirthInfoText="The participant's date of birth"
+  dateOfConsentInfoText="Date at which the patient has given informed consent to enter the study"
+  disabled={false}
+  errorMessages={Array []}
+  firstNameInfoText="The participant's first name"
+  lastNameInfoText="The participant's last name"
+  open={true}
+  patientIdentifierInfoText="Identifier used to reference the participant within the healthcare source systems. The patient id is only visible to investigators and is not exported to the linked sponsor's EDC system"
+  patientIdentifierSourceInfoText="Domain in which the patient identifier was issued by the patient identification management system (MPI)"
+  patientIdentifierSources={
+    Array [
+      "HIS_01",
+    ]
+  }
+  subjectIdentifierInfoText="Identifier used to reference the participant in this study (as issued by the IVRS or a similar system)"
+>
+  <OpenState
+    dateOfBirthInfoText="The participant's date of birth"
+    dateOfConsentInfoText="Date at which the patient has given informed consent to enter the study"
+    errorMessages={Array []}
+    firstNameInfoText="The participant's first name"
+    lastNameInfoText="The participant's last name"
+    patientIdentifierInfoText="Identifier used to reference the participant within the healthcare source systems. The patient id is only visible to investigators and is not exported to the linked sponsor's EDC system"
+    patientIdentifierSourceInfoText="Domain in which the patient identifier was issued by the patient identification management system (MPI)"
+    patientIdentifierSources={
+      Array [
+        "HIS_01",
+      ]
+    }
+    subjectIdentifierInfoText="Identifier used to reference the participant in this study (as issued by the IVRS or a similar system)"
+  >
+    <Modal
+      open={true}
+      title="Register participant"
+    >
+      <Modal
+        ariaHideApp={true}
+        bodyOpenClassName="ReactModal__Body--open"
+        closeTimeoutMS={0}
+        isOpen={true}
+        onRequestClose={[Function]}
+        parentSelector={[Function]}
+        portalClassName="react-modal"
+        role="dialog"
+        shouldCloseOnEsc={true}
+        shouldCloseOnOverlayClick={false}
+        shouldFocusAfterRender={true}
+        shouldReturnFocusAfterClose={true}
+        style={
+          Object {
+            "content": Object {
+              "maxHeight": "688px",
+              "width": "450px",
+            },
+          }
+        }
+        title="Register participant"
+      >
+        <Portal
+          containerInfo={
+            <div
+              class="react-modal"
+            >
+              <div
+                class="ReactModal__Overlay ReactModal__Overlay--after-open"
+              >
+                <div
+                  class="ReactModal__Content ReactModal__Content--after-open"
+                  role="dialog"
+                  style="width: 450px; max-height: 688px;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="modal-titlebar"
+                  >
+                    <div
+                      class="modal-title"
+                    >
+                      Register participant
+                    </div>
+                    <div
+                      class="modal-close-icon"
+                    >
+                      <i
+                        class="fa fa-times"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="modal-content"
+                  >
+                    <form>
+                      <table>
+                        <tbody>
+                          <tr>
+                            <th>
+                              First name 
+                              <i
+                                class="fa fa-info-circle"
+                                title="The participant's first name"
+                              />
+                            </th>
+                            <td>
+                              <input
+                                class="margin-none first-name-field"
+                                name="firstName"
+                                placeholder="First name"
+                                type="text"
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <th>
+                              Last name 
+                              <i
+                                class="fa fa-info-circle"
+                                title="The participant's last name"
+                              />
+                            </th>
+                            <td>
+                              <input
+                                class="margin-none last-name-field"
+                                name="lastName"
+                                placeholder="Last name"
+                                type="text"
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <th>
+                              Date of birth 
+                              <i
+                                class="fa fa-info-circle"
+                                title="The participant's date of birth"
+                              />
+                            </th>
+                            <td>
+                              <div
+                                class="calendar-icon"
+                              >
+                                <div
+                                  class="react-datepicker-wrapper"
+                                >
+                                  <div
+                                    class="react-datepicker__input-container"
+                                  >
+                                    <input
+                                      class="birth-date-field form-field-error"
+                                      type="text"
+                                      value=""
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th>
+                              EDC identifier 
+                              <i
+                                class="fa fa-info-circle"
+                                title="Identifier used to reference the participant in this study (as issued by the IVRS or a similar system)"
+                              />
+                            </th>
+                            <td>
+                              <input
+                                class="subject-identifier-field"
+                                name="subjectIdentifier"
+                                placeholder="Subject identifier"
+                                required=""
+                                type="text"
+                                value=""
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <th>
+                              EHR identifier 
+                              <i
+                                class="fa fa-info-circle"
+                                title="Identifier used to reference the participant within the healthcare source systems. The patient id is only visible to investigators and is not exported to the linked sponsor's EDC system"
+                              />
+                            </th>
+                            <td>
+                              <div
+                                class="autocomplete-override"
+                              >
+                                <div
+                                  style="display: inline-block;"
+                                >
+                                  <input
+                                    aria-autocomplete="list"
+                                    aria-expanded="false"
+                                    autocomplete="off"
+                                    class="patient-identifier-field"
+                                    placeholder="Select EHR ID"
+                                    role="combobox"
+                                    type="text"
+                                    value=""
+                                  />
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th>
+                              Date of consent 
+                              <i
+                                class="fa fa-info-circle"
+                                title="Date at which the patient has given informed consent to enter the study"
+                              />
+                            </th>
+                            <td>
+                              <div
+                                class="calendar-icon"
+                              >
+                                <div
+                                  class="react-datepicker-wrapper"
+                                >
+                                  <div
+                                    class="react-datepicker__input-container"
+                                  >
+                                    <input
+                                      class="consent-date-field form-field-error"
+                                      type="text"
+                                      value=""
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <button
+                        style="display: none;"
+                        type="submit"
+                      />
+                    </form>
+                  </div>
+                  <div
+                    class="modal-buttons"
+                  >
+                    <a
+                      class="button modal-ok "
+                      data-cy="modal-ok-button"
+                    >
+                      OK
+                      <div
+                        class="bar"
+                      />
+                    </a>
+                    <a
+                      class="button secondary modal-cancel"
+                    >
+                      Cancel
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          }
+        >
+          <ModalPortal
+            ariaHideApp={true}
+            bodyOpenClassName="ReactModal__Body--open"
+            closeTimeoutMS={0}
+            defaultStyles={Object {}}
+            isOpen={true}
+            onRequestClose={[Function]}
+            parentSelector={[Function]}
+            portalClassName="react-modal"
+            role="dialog"
+            shouldCloseOnEsc={true}
+            shouldCloseOnOverlayClick={false}
+            shouldFocusAfterRender={true}
+            shouldReturnFocusAfterClose={true}
+            style={
+              Object {
+                "content": Object {
+                  "maxHeight": "688px",
+                  "width": "450px",
+                },
+              }
+            }
+            title="Register participant"
+          >
+            <div
+              className="ReactModal__Overlay ReactModal__Overlay--after-open"
+              onClick={[Function]}
+              onMouseDown={[Function]}
+              style={Object {}}
+            >
+              <div
+                className="ReactModal__Content ReactModal__Content--after-open"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                onMouseDown={[Function]}
+                onMouseUp={[Function]}
+                role="dialog"
+                style={
+                  Object {
+                    "maxHeight": "688px",
+                    "width": "450px",
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  className="modal-titlebar"
+                >
+                  <div
+                    className="modal-title"
+                  >
+                    Register participant
+                  </div>
+                  <div
+                    className="modal-close-icon"
+                    onClick={[Function]}
+                  >
+                    <i
+                      className="fa fa-times"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="modal-content"
+                >
+                  <Form
+                    dateOfBirthInfoText="The participant's date of birth"
+                    dateOfConsentInfoText="Date at which the patient has given informed consent to enter the study"
+                    firstNameInfoText="The participant's first name"
+                    lastNameInfoText="The participant's last name"
+                    patientIdentifierInfoText="Identifier used to reference the participant within the healthcare source systems. The patient id is only visible to investigators and is not exported to the linked sponsor's EDC system"
+                    patientIdentifierSourceInfoText="Domain in which the patient identifier was issued by the patient identification management system (MPI)"
+                    patientIdentifierSources={
+                      Array [
+                        "HIS_01",
+                      ]
+                    }
+                    subjectIdentifierInfoText="Identifier used to reference the participant in this study (as issued by the IVRS or a similar system)"
+                  >
+                    <form
+                      onSubmit={[Function]}
+                    >
+                      <table>
+                        <tbody>
+                          <FirstNameRow
+                            firstNameInfoText="The participant's first name"
+                          >
+                            <tr>
+                              <FirstNameHeader
+                                firstNameInfoText="The participant's first name"
+                              >
+                                <th>
+                                  First name 
+                                  <i
+                                    className="fa fa-info-circle"
+                                    title="The participant's first name"
+                                  />
+                                </th>
+                              </FirstNameHeader>
+                              <FirstNameCell>
+                                <td>
+                                  <FirstNameField
+                                    focus={false}
+                                  >
+                                    <input
+                                      autoFocus={false}
+                                      className="margin-none first-name-field"
+                                      name="firstName"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      placeholder="First name"
+                                      type="text"
+                                    />
+                                  </FirstNameField>
+                                </td>
+                              </FirstNameCell>
+                            </tr>
+                          </FirstNameRow>
+                          <LastNameRow
+                            lastNameInfoText="The participant's last name"
+                          >
+                            <tr>
+                              <LastNameHeader
+                                lastNameInfoText="The participant's last name"
+                              >
+                                <th>
+                                  Last name 
+                                  <i
+                                    className="fa fa-info-circle"
+                                    title="The participant's last name"
+                                  />
+                                </th>
+                              </LastNameHeader>
+                              <LastNameCell>
+                                <td>
+                                  <LastNameField
+                                    focus={false}
+                                  >
+                                    <input
+                                      autoFocus={false}
+                                      className="margin-none last-name-field"
+                                      name="lastName"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      placeholder="Last name"
+                                      type="text"
+                                    />
+                                  </LastNameField>
+                                </td>
+                              </LastNameCell>
+                            </tr>
+                          </LastNameRow>
+                          <DateOfBirthRow
+                            dateOfBirthInfoText="The participant's date of birth"
+                          >
+                            <tr>
+                              <DateOfBirthHeader
+                                dateOfBirthInfoText="The participant's date of birth"
+                              >
+                                <th>
+                                  Date of birth 
+                                  <i
+                                    className="fa fa-info-circle"
+                                    title="The participant's date of birth"
+                                  />
+                                </th>
+                              </DateOfBirthHeader>
+                              <DateOfBirthCell>
+                                <td>
+                                  <div
+                                    className="calendar-icon"
+                                  >
+                                    <t
+                                      allowSameDay={false}
+                                      className="birth-date-field form-field-error"
+                                      dateFormat="d LLL yyyy"
+                                      dateFormatCalendar="LLLL yyyy"
+                                      disabled={false}
+                                      disabledKeyboardNavigation={false}
+                                      dropdownMode="scroll"
+                                      inlineFocusSelectedMonth={false}
+                                      maxDate={2019-03-02T23:00:00.000Z}
+                                      monthsShown={1}
+                                      nextMonthButtonLabel="Next Month"
+                                      nextYearButtonLabel="Next Year"
+                                      onBlur={[Function]}
+                                      onCalendarClose={[Function]}
+                                      onCalendarOpen={[Function]}
+                                      onChange={[Function]}
+                                      onClickOutside={[Function]}
+                                      onFocus={[Function]}
+                                      onInputClick={[Function]}
+                                      onInputError={[Function]}
+                                      onKeyDown={[Function]}
+                                      onMonthChange={[Function]}
+                                      onSelect={[Function]}
+                                      onYearChange={[Function]}
+                                      popperContainer={[Function]}
+                                      preventOpenOnFocus={false}
+                                      previousMonthButtonLabel="Previous Month"
+                                      previousYearButtonLabel="Previous Year"
+                                      readOnly={false}
+                                      renderDayContents={[Function]}
+                                      shouldCloseOnSelect={true}
+                                      showMonthYearPicker={false}
+                                      showPopperArrow={true}
+                                      showPreviousMonths={false}
+                                      showQuarterYearPicker={false}
+                                      showTimeInput={false}
+                                      showTimeSelect={false}
+                                      strictParsing={false}
+                                      timeCaption="Time"
+                                      timeInputLabel="Time"
+                                      timeIntervals={30}
+                                      withPortal={false}
+                                    >
+                                      <t
+                                        hidePopper={true}
+                                        popperComponent={null}
+                                        popperContainer={[Function]}
+                                        popperModifiers={
+                                          Object {
+                                            "preventOverflow": Object {
+                                              "boundariesElement": "viewport",
+                                              "enabled": true,
+                                              "escapeWithReference": true,
+                                            },
+                                          }
+                                        }
+                                        popperPlacement="bottom-start"
+                                        popperProps={Object {}}
+                                        targetComponent={
+                                          <div
+                                            className="react-datepicker__input-container"
+                                          >
+                                            <input
+                                              className="birth-date-field form-field-error"
+                                              disabled={false}
+                                              onBlur={[Function]}
+                                              onChange={[Function]}
+                                              onClick={[Function]}
+                                              onFocus={[Function]}
+                                              onKeyDown={[Function]}
+                                              readOnly={false}
+                                              type="text"
+                                              value=""
+                                            />
+                                          </div>
+                                        }
+                                      >
+                                        <Manager
+                                          className="react-datepicker-manager"
+                                        >
+                                          <Reference>
+                                            <InnerReference
+                                              setReferenceNode={[Function]}
+                                            >
+                                              <div
+                                                className="react-datepicker-wrapper"
+                                              >
+                                                <div
+                                                  className="react-datepicker__input-container"
+                                                >
+                                                  <input
+                                                    className="birth-date-field form-field-error"
+                                                    disabled={false}
+                                                    onBlur={[Function]}
+                                                    onChange={[Function]}
+                                                    onClick={[Function]}
+                                                    onFocus={[Function]}
+                                                    onKeyDown={[Function]}
+                                                    readOnly={false}
+                                                    type="text"
+                                                    value=""
+                                                  />
+                                                </div>
+                                              </div>
+                                            </InnerReference>
+                                          </Reference>
+                                          <CalendarContainer>
+                                            <Portal
+                                              container={null}
+                                            />
+                                          </CalendarContainer>
+                                        </Manager>
+                                      </t>
+                                    </t>
+                                  </div>
+                                </td>
+                              </DateOfBirthCell>
+                            </tr>
+                          </DateOfBirthRow>
+                          <EdcIdentifierRow
+                            subjectIdentifierInfoText="Identifier used to reference the participant in this study (as issued by the IVRS or a similar system)"
+                          >
+                            <tr>
+                              <EdcIdentifierHeader
+                                subjectIdentifierInfoText="Identifier used to reference the participant in this study (as issued by the IVRS or a similar system)"
+                              >
+                                <th>
+                                  EDC identifier 
+                                  <i
+                                    className="fa fa-info-circle"
+                                    title="Identifier used to reference the participant in this study (as issued by the IVRS or a similar system)"
+                                  />
+                                </th>
+                              </EdcIdentifierHeader>
+                              <EdcIdentifierCell>
+                                <td>
+                                  <SubjectIdField
+                                    disabled={false}
+                                    inputProps={
+                                      Object {
+                                        "autoFocus": false,
+                                      }
+                                    }
+                                    menuStyle={
+                                      Object {
+                                        "maxHeight": "16em",
+                                      }
+                                    }
+                                    onChange={[Function]}
+                                    openOnFocus={true}
+                                    valid={true}
+                                    value=""
+                                  >
+                                    <input
+                                      autoFocus={false}
+                                      className="subject-identifier-field"
+                                      disabled={false}
+                                      name="subjectIdentifier"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      placeholder="Subject identifier"
+                                      required={true}
+                                      type="text"
+                                      value=""
+                                    />
+                                  </SubjectIdField>
+                                </td>
+                              </EdcIdentifierCell>
+                            </tr>
+                          </EdcIdentifierRow>
+                          <EhrIdentifierSourceRow
+                            patientIdentifierSourceInfoText="Domain in which the patient identifier was issued by the patient identification management system (MPI)"
+                            patientIdentifierSources={
+                              Array [
+                                "HIS_01",
+                              ]
+                            }
+                          />
+                          <EhrIdentifierRow
+                            patientIdentifierInfoText="Identifier used to reference the participant within the healthcare source systems. The patient id is only visible to investigators and is not exported to the linked sponsor's EDC system"
+                          >
+                            <tr>
+                              <EhrIdentifierHeader
+                                patientIdentifierInfoText="Identifier used to reference the participant within the healthcare source systems. The patient id is only visible to investigators and is not exported to the linked sponsor's EDC system"
+                              >
+                                <th>
+                                  EHR identifier 
+                                  <i
+                                    className="fa fa-info-circle"
+                                    title="Identifier used to reference the participant within the healthcare source systems. The patient id is only visible to investigators and is not exported to the linked sponsor's EDC system"
+                                  />
+                                </th>
+                              </EhrIdentifierHeader>
+                              <EhrIdentifierCell>
+                                <td>
+                                  <PatientIdField
+                                    availablePatients={
+                                      Object {
+                                        "patientIds": Array [],
+                                      }
+                                    }
+                                    menuStyle={
+                                      Object {
+                                        "maxHeight": "8em",
+                                      }
+                                    }
+                                    onChange={[Function]}
+                                    valid={true}
+                                    value=""
+                                  >
+                                    <AutocompleteInput
+                                      alwaysRender={true}
+                                      inputProps={
+                                        Object {
+                                          "className": "patient-identifier-field",
+                                        }
+                                      }
+                                      menuStyle={
+                                        Object {
+                                          "maxHeight": "8em",
+                                        }
+                                      }
+                                      onSelectionChange={[Function]}
+                                      openOnFocus={true}
+                                      options={Array []}
+                                      placeholder="Select EHR ID"
+                                    >
+                                      <div
+                                        className="autocomplete-override"
+                                      >
+                                        <Autocomplete
+                                          autoHighlight={true}
+                                          getItemValue={[Function]}
+                                          inputProps={
+                                            Object {
+                                              "className": "patient-identifier-field",
+                                            }
+                                          }
+                                          isItemSelectable={[Function]}
+                                          items={Array []}
+                                          menuStyle={
+                                            Object {
+                                              "background": "rgba(255, 255, 255, 0.9)",
+                                              "borderRadius": "3px",
+                                              "boxShadow": "0 2px 12px rgba(0, 0, 0, 0.1)",
+                                              "fontSize": "90%",
+                                              "maxHeight": "50%",
+                                              "overflow": "auto",
+                                              "padding": "2px 0",
+                                              "position": "fixed",
+                                            }
+                                          }
+                                          onChange={[Function]}
+                                          onMenuVisibilityChange={[Function]}
+                                          onSelect={[Function]}
+                                          renderInput={[Function]}
+                                          renderItem={[Function]}
+                                          renderMenu={[Function]}
+                                          selectOnBlur={false}
+                                          shouldItemRender={[Function]}
+                                          value=""
+                                          wrapperProps={Object {}}
+                                          wrapperStyle={
+                                            Object {
+                                              "display": "inline-block",
+                                            }
+                                          }
+                                        >
+                                          <div
+                                            style={
+                                              Object {
+                                                "display": "inline-block",
+                                              }
+                                            }
+                                          >
+                                            <input
+                                              aria-autocomplete="list"
+                                              aria-expanded={false}
+                                              autoComplete="off"
+                                              className="patient-identifier-field"
+                                              onBlur={[Function]}
+                                              onChange={[Function]}
+                                              onClick={[Function]}
+                                              onFocus={[Function]}
+                                              onKeyDown={[Function]}
+                                              placeholder="Select EHR ID"
+                                              role="combobox"
+                                              type="text"
+                                              value=""
+                                            />
+                                          </div>
+                                        </Autocomplete>
+                                      </div>
+                                    </AutocompleteInput>
+                                  </PatientIdField>
+                                </td>
+                              </EhrIdentifierCell>
+                            </tr>
+                          </EhrIdentifierRow>
+                          <DateOfConsentRow
+                            dateOfConsentInfoText="Date at which the patient has given informed consent to enter the study"
+                          >
+                            <tr>
+                              <DateOfConsentHeader
+                                dateOfConsentInfoText="Date at which the patient has given informed consent to enter the study"
+                              >
+                                <th>
+                                  Date of consent 
+                                  <i
+                                    className="fa fa-info-circle"
+                                    title="Date at which the patient has given informed consent to enter the study"
+                                  />
+                                </th>
+                              </DateOfConsentHeader>
+                              <DateOfConsentCell>
+                                <td>
+                                  <div
+                                    className="calendar-icon"
+                                  >
+                                    <t
+                                      allowSameDay={false}
+                                      className="consent-date-field form-field-error"
+                                      dateFormat="d LLL yyyy"
+                                      dateFormatCalendar="LLLL yyyy"
+                                      disabled={false}
+                                      disabledKeyboardNavigation={false}
+                                      dropdownMode="scroll"
+                                      inlineFocusSelectedMonth={false}
+                                      maxDate={2019-03-02T23:00:00.000Z}
+                                      monthsShown={1}
+                                      nextMonthButtonLabel="Next Month"
+                                      nextYearButtonLabel="Next Year"
+                                      onBlur={[Function]}
+                                      onCalendarClose={[Function]}
+                                      onCalendarOpen={[Function]}
+                                      onChange={[Function]}
+                                      onClickOutside={[Function]}
+                                      onFocus={[Function]}
+                                      onInputClick={[Function]}
+                                      onInputError={[Function]}
+                                      onKeyDown={[Function]}
+                                      onMonthChange={[Function]}
+                                      onSelect={[Function]}
+                                      onYearChange={[Function]}
+                                      popperContainer={[Function]}
+                                      preventOpenOnFocus={false}
+                                      previousMonthButtonLabel="Previous Month"
+                                      previousYearButtonLabel="Previous Year"
+                                      readOnly={false}
+                                      renderDayContents={[Function]}
+                                      shouldCloseOnSelect={true}
+                                      showMonthYearPicker={false}
+                                      showPopperArrow={true}
+                                      showPreviousMonths={false}
+                                      showQuarterYearPicker={false}
+                                      showTimeInput={false}
+                                      showTimeSelect={false}
+                                      strictParsing={false}
+                                      timeCaption="Time"
+                                      timeInputLabel="Time"
+                                      timeIntervals={30}
+                                      withPortal={false}
+                                    >
+                                      <t
+                                        hidePopper={true}
+                                        popperComponent={null}
+                                        popperContainer={[Function]}
+                                        popperModifiers={
+                                          Object {
+                                            "preventOverflow": Object {
+                                              "boundariesElement": "viewport",
+                                              "enabled": true,
+                                              "escapeWithReference": true,
+                                            },
+                                          }
+                                        }
+                                        popperPlacement="bottom-start"
+                                        popperProps={Object {}}
+                                        targetComponent={
+                                          <div
+                                            className="react-datepicker__input-container"
+                                          >
+                                            <input
+                                              className="consent-date-field form-field-error"
+                                              disabled={false}
+                                              onBlur={[Function]}
+                                              onChange={[Function]}
+                                              onClick={[Function]}
+                                              onFocus={[Function]}
+                                              onKeyDown={[Function]}
+                                              readOnly={false}
+                                              type="text"
+                                              value=""
+                                            />
+                                          </div>
+                                        }
+                                      >
+                                        <Manager
+                                          className="react-datepicker-manager"
+                                        >
+                                          <Reference>
+                                            <InnerReference
+                                              setReferenceNode={[Function]}
+                                            >
+                                              <div
+                                                className="react-datepicker-wrapper"
+                                              >
+                                                <div
+                                                  className="react-datepicker__input-container"
+                                                >
+                                                  <input
+                                                    className="consent-date-field form-field-error"
+                                                    disabled={false}
+                                                    onBlur={[Function]}
+                                                    onChange={[Function]}
+                                                    onClick={[Function]}
+                                                    onFocus={[Function]}
+                                                    onKeyDown={[Function]}
+                                                    readOnly={false}
+                                                    type="text"
+                                                    value=""
+                                                  />
+                                                </div>
+                                              </div>
+                                            </InnerReference>
+                                          </Reference>
+                                          <CalendarContainer>
+                                            <Portal
+                                              container={null}
+                                            />
+                                          </CalendarContainer>
+                                        </Manager>
+                                      </t>
+                                    </t>
+                                  </div>
+                                </td>
+                              </DateOfConsentCell>
+                            </tr>
+                          </DateOfConsentRow>
+                        </tbody>
+                      </table>
+                      <button
+                        style={
+                          Object {
+                            "display": "none",
+                          }
+                        }
+                        type="submit"
+                      />
+                    </form>
+                  </Form>
+                  <Errors
+                    errorMessages={Array []}
+                  />
+                </div>
+                <div
+                  className="modal-buttons"
+                >
+                  <a
+                    className="button modal-ok "
+                    data-cy="modal-ok-button"
+                    onClick={[Function]}
+                  >
+                    OK
+                    <div
+                      className="bar"
+                    />
+                  </a>
+                  <a
+                    className="button secondary modal-cancel"
+                    onClick={[Function]}
+                  >
+                    Cancel
+                  </a>
+                </div>
+              </div>
+            </div>
+          </ModalPortal>
+        </Portal>
+      </Modal>
+    </Modal>
+  </OpenState>
+</AddSubjectPane>
+`;

@@ -1,0 +1,19 @@
+{
+  "id": "STUDY-1-inv",
+  "name": "Test study name with inv",
+  "description": "Description of the test study with inv",
+  "investigators": [
+    {
+      "id": "1",
+      "name": "Gert",
+      "removable": true
+    }
+  ],
+  "subjects": [
+    {
+      "subjectId": "a",
+      "detailViewable": true
+    }
+  ],
+  "subjectsAddable": true
+}

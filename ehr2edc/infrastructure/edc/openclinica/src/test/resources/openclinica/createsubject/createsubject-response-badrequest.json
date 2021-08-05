@@ -1,0 +1,7 @@
+{
+  "message": "<ERROR_CODE>",
+  "params": {
+    "siteOid": "S_SITE_1",
+    "studyOid": "studyId-123"
+  }
+}

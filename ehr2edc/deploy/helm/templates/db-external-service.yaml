@@ -1,0 +1,12 @@
+{{ if .Values.service.database.external.enabled }}
+apiVersion: v1
+kind: Service
+metadata:
+    name: ehr2edc-db-svc
+spec:
+    externalName: {{ .Values.service.database.external.url }}
+    type: ExternalName
+    ports:
+        - port: {{ .Values.service.database.port }}
+          name: database
+{{ end }}

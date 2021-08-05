@@ -1,0 +1,19 @@
+{
+  "issues": [
+    {
+      "reference": null,
+      "field": "field",
+      "message": "Field validation failed."
+    },
+    {
+      "reference": null,
+      "field": "field",
+      "message": "And something else is wrong with this field too"
+    },
+    {
+      "reference": null,
+      "field": "another-field",
+      "message": "Another field validation failed."
+    }
+  ]
+}

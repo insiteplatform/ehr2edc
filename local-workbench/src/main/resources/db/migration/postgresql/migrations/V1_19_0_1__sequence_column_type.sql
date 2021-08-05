@@ -1,0 +1,1 @@
+ALTER TABLE hibernate_sequences ALTER COLUMN sequence_next_hi_value TYPE BIGINT;

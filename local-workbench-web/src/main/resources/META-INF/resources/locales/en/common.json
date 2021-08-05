@@ -1,0 +1,17 @@
+{
+	"confirm"				: "confirm",
+	"Confirm"				: "Confirm",
+	"cancel"				: "cancel",
+	"Cancel"				: "Cancel",
+	"discardChanges"		: "Discard changes",
+	"No"					: "No",
+	"Yes"					: "Yes",
+	"Remove"				: "Remove",
+	"save"					: "save",
+	"Save"					: "Save",
+	"error"					: "An unexpected error occurred",
+
+	"querySummary" : {
+		"queryTypeUnavailable"		: "Unspecified"
+	}
+}

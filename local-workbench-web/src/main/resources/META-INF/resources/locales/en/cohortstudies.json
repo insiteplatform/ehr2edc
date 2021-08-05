@@ -1,0 +1,7 @@
+{
+	"createDialog" : {
+		"title"							: "New cohort study",
+		"createStudy"					: "Create cohort study",
+		"editTitle"						: "Edit cohort study"
+	}
+}

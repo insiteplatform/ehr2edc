@@ -1,0 +1,24 @@
+.expandable-text > *:not(p) {
+    display: none;
+}
+
+.expandable-text > p:first-child {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow-x: hidden;
+    margin-bottom: 0 !important;
+}
+
+.expandable-text > p:not(:first-child):not(:last-child) {
+    display: none;
+}
+
+.expandable-text.expanded > p:first-child {
+    text-overflow: unset;
+    white-space: normal;
+    overflow-x: auto;
+}
+
+.expandable-text.expanded > p:not(:first-child):not(:last-child) {
+    display: unset;
+}

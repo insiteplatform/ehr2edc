@@ -1,0 +1,9 @@
+apiVersion: v1
+appVersion: "latest"
+description: A Helm chart for Kubernetes that creates ehr2edc deployment and service
+name: ehr2edc-service
+version: 1.0.0
+sources:
+  - https://gitlab.internal.custodix.com/insite/local-workbench-service
+maintainers:
+  - name: Custodix

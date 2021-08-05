@@ -1,0 +1,1 @@
+update usergroup set name = 'Data Relationship Managers' where name = 'Database Relational Managers';

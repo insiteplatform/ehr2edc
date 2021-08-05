@@ -1,0 +1,14 @@
+%TEMPLATE_MODE HTML5
+# ------------------------------------------
+%CONTEXT
+userMenu = {@eu.ehr4cr.workbench.local.controllers.NavigationItem@about,\
+			@eu.ehr4cr.workbench.local.controllers.NavigationItem@feasibility,\
+			@eu.ehr4cr.workbench.local.controllers.NavigationItem@members,\
+			@eu.ehr4cr.workbench.local.controllers.NavigationItem@myAccount,\
+			@eu.ehr4cr.workbench.local.controllers.NavigationItem@settings,\
+			@eu.ehr4cr.workbench.local.controllers.NavigationItem@logout}
+# ------------------------------------------
+%INPUT (classpath:templates/thymeleaf/index.html)
+%FRAGMENT div[@id='user-menu']
+# ------------------------------------------
+%OUTPUT (classpath:templates/thymeleaf/index/expected/index-usermenu.html)

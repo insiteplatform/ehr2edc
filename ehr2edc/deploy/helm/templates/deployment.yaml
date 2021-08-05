@@ -1,0 +1,123 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ template "ehr2edc-service.name" . }}-deployment
+  labels:
+    app: {{ template "ehr2edc-service.name" . }}
+    track: {{ .Values.application.track }}
+    chart: {{ .Chart.Name }}-{{ .Chart.Version | replace "+" "_" }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+spec:
+  selector:
+    matchLabels:
+      app: {{ template "ehr2edc-service.name" . }}
+  replicas: {{ .Values.deployment.replicaCount }}
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: {{ .Values.deployment.strategy.maxUnavailable }}
+      maxSurge: {{ .Values.deployment.strategy.maxSurge }}
+  template:
+    metadata:
+      annotations:
+        commit: {{ .Values.application.commit }}
+      labels:
+        app: {{ template "ehr2edc-service.name" . }}
+        release: {{ .Release.Name }}
+    spec:
+      imagePullSecrets:
+      - name: {{ .Values.deployment.imagePullSecret }}
+      containers:
+      - name: {{ .Chart.Name }}
+        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+        imagePullPolicy: {{ .Values.image.pullPolicy }}
+        ports:
+          - containerPort: {{ .Values.service.internalPort }}
+        env:
+        - name: JAVA_OPTS
+          value: {{ .Values.deployment.javaOpts }} {{ template "memoryToXmx" . }}
+        - name: SPRING_BOOT_OPTS
+          value: "{{ .Values.deployment.springOpts }}"
+        - name: "SPRING_CONFIG_LOCATION"
+          value: "file:/config-override/override.properties"
+        - name: "APPLICATION_CREDENTIALS_LOCATION"
+          value: "file:/credentials/credentials.properties"
+{{- if .Values.deployment.health.enabled }}
+        livenessProbe:
+          httpGet:
+            path: {{ .Values.deployment.health.path }}
+            port: {{ .Values.deployment.health.port }}
+            scheme: HTTP
+          successThreshold: {{ .Values.deployment.health.successThreshold }}
+          failureThreshold: {{ .Values.deployment.health.failureThreshold }}
+          initialDelaySeconds: {{ .Values.deployment.health.initialDelaySeconds }}
+          periodSeconds: {{ .Values.deployment.health.periodSeconds }}
+          timeoutSeconds: {{ .Values.deployment.health.timeoutSeconds }}
+{{- end }}
+{{- if .Values.deployment.ready.enabled }}
+        readinessProbe:
+          httpGet:
+            path: {{ .Values.deployment.ready.path }}
+            port: {{ .Values.deployment.ready.port }}
+            scheme: HTTP
+          successThreshold: {{ .Values.deployment.ready.successThreshold }}
+          failureThreshold: {{ .Values.deployment.ready.failureThreshold }}
+          initialDelaySeconds: {{ .Values.deployment.ready.initialDelaySeconds }}
+          periodSeconds: {{ .Values.deployment.ready.periodSeconds }}
+          timeoutSeconds: {{ .Values.deployment.ready.timeoutSeconds }}
+{{- end }}
+        volumeMounts:
+          - name: config-override-volume
+            mountPath: /config-override/
+            readOnly: true
+          - name: config-logging-volume
+            mountPath: /config-logging/
+            readOnly: true
+          - name: credentials-volume
+            mountPath: /credentials/
+            readOnly: true
+          - name: keystores-volume
+            mountPath: /keystores/
+            readOnly: true
+        resources:
+{{- if .Values.resources }}
+{{ toYaml .Values.resources | indent 12 }}
+{{- else }}
+{{- if .Values.definedResources.request.enabled }}
+          requests:
+            memory: {{ template "memoryRequest" . }}
+            cpu: {{ template "cpuRequest" . }}
+{{- end }}
+{{- if .Values.definedResources.limit.enabled }}
+          limits:
+            memory: {{ template "memoryLimit" . }}
+            cpu: {{ template "cpuLimit" . }}
+{{- end }}
+{{- end }}
+      volumes:
+        - name: config-override-volume
+          configMap:
+            name: ehr2edc-override-config
+        - name: config-logging-volume
+          configMap:
+            name: ehr2edc-logging-config
+        - name: credentials-volume
+          secret:
+            secretName: ehr2edc-credentials
+        - name: keystores-volume
+          secret:
+            secretName: ehr2edc-keystores
+{{- with .Values.nodeSelector }}
+      nodeSelector:
+{{ toYaml . | indent 8 }}
+  {{- end }}
+  {{- with .Values.affinity }}
+      affinity:
+{{ toYaml . | indent 8 }}
+  {{- end }}
+  {{- with .Values.tolerations }}
+      tolerations:
+{{ toYaml . | indent 8 }}
+  {{- end }}
+

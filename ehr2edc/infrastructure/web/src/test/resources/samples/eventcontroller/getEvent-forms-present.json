@@ -1,0 +1,276 @@
+{
+  "event": {
+    "lastSubmissionTime": null,
+    "name": "eventName",
+    "forms": [
+      {
+        "id": "form-1",
+        "name": "Form nr. 1",
+        "populationTime": "2019-03-04T05:06:07Z",
+        "referenceDate": "2015-03-09",
+        "itemGroups": [
+          {
+            "id": "group-1",
+            "name": "Group nr. 1",
+            "items": [
+              {
+                "id": "item-1",
+                "name": "Item nr. 1",
+                "value": "885347987",
+                "valueLabel": null,
+                "exportable": true,
+                "unit": "kg"
+              },
+              {
+                "id": "item-2",
+                "name": "Item nr. 2",
+                "value": "-1900032498",
+                "valueLabel": null,
+                "exportable": true,
+                "unit": "kg"
+              },
+              {
+                "id": "item-3",
+                "name": "Item nr. 3",
+                "value": "-283055754",
+                "valueLabel": null,
+                "exportable": true,
+                "unit": "kg"
+              },
+              {
+                "id": "item-4",
+                "name": "Item nr. 4",
+                "value": "-242617884",
+                "valueLabel": null,
+                "exportable": true,
+                "unit": "kg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "form-2",
+        "name": "Form nr. 2",
+        "populationTime": "2019-03-04T05:06:07Z",
+        "referenceDate": "2015-03-09",
+        "itemGroups": [
+          {
+            "id": "group-1",
+            "name": "Group nr. 1",
+            "items": [
+              {
+                "id": "item-1",
+                "name": "Item nr. 1",
+                "value": "-286401916",
+                "valueLabel": null,
+                "exportable": true,
+                "unit": "kg"
+              },
+              {
+                "id": "item-2",
+                "name": "Item nr. 2",
+                "value": "1786366764",
+                "valueLabel": null,
+                "exportable": true,
+                "unit": "kg"
+              },
+              {
+                "id": "item-3",
+                "name": "Item nr. 3",
+                "value": "1058152965",
+                "valueLabel": null,
+                "exportable": true,
+                "unit": "kg"
+              },
+              {
+                "id": "item-4",
+                "name": "Item nr. 4",
+                "value": "1230816645",
+                "valueLabel": null,
+                "exportable": true,
+                "unit": "kg"
+              },
+              {
+                "id": "item-5",
+                "name": "Item nr. 5",
+                "value": "-630691301",
+                "valueLabel": null,
+                "exportable": true,
+                "unit": "kg"
+              },
+              {
+                "id": "item-6",
+                "name": "Item nr. 6",
+                "value": "583736375",
+                "valueLabel": null,
+                "exportable": true,
+                "unit": "kg"
+              },
+              {
+                "id": "item-7",
+                "name": "Item nr. 7",
+                "value": "-111516148",
+                "valueLabel": null,
+                "exportable": true,
+                "unit": "kg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "form-3",
+        "name": "Form nr. 3",
+        "populationTime": "2019-03-04T05:06:07Z",
+        "referenceDate": "2015-03-09",
+        "itemGroups": [
+          {
+            "id": "group-1",
+            "name": "Group nr. 1",
+            "items": [
+              {
+                "id": "item-1",
+                "name": "Item nr. 1",
+                "value": "-941080874",
+                "valueLabel": null,
+                "exportable": true,
+                "unit": "kg"
+              },
+              {
+                "id": "item-2",
+                "name": "Item nr. 2",
+                "value": "-1654817937",
+                "valueLabel": null,
+                "exportable": true,
+                "unit": "kg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "form-4",
+        "name": "Form nr. 4",
+        "populationTime": "2019-03-04T05:06:07Z",
+        "referenceDate": "2015-03-09",
+        "itemGroups": [
+          {
+            "id": "group-1",
+            "name": "Group nr. 1",
+            "items": [
+              {
+                "id": "item-1",
+                "name": "Item nr. 1",
+                "value": "1644091062",
+                "valueLabel": null,
+                "exportable": true,
+                "unit": "kg"
+              },
+              {
+                "id": "item-2",
+                "name": "Item nr. 2",
+                "value": "663821416",
+                "valueLabel": null,
+                "exportable": true,
+                "unit": "kg"
+              },
+              {
+                "id": "item-3",
+                "name": "Item nr. 3",
+                "value": "-607233035",
+                "valueLabel": null,
+                "exportable": true,
+                "unit": "kg"
+              },
+              {
+                "id": "item-4",
+                "name": "Item nr. 4",
+                "value": "1142806699",
+                "valueLabel": null,
+                "exportable": true,
+                "unit": "kg"
+              },
+              {
+                "id": "item-5",
+                "name": "Item nr. 5",
+                "value": "-424473169",
+                "valueLabel": null,
+                "exportable": true,
+                "unit": "kg"
+              },
+              {
+                "id": "item-6",
+                "name": "Item nr. 6",
+                "value": "1537592314",
+                "valueLabel": null,
+                "exportable": true,
+                "unit": "kg"
+              },
+              {
+                "id": "item-7",
+                "name": "Item nr. 7",
+                "value": "-1405740800",
+                "valueLabel": null,
+                "exportable": true,
+                "unit": "kg"
+              }
+            ]
+          },
+          {
+            "id": "group-2",
+            "name": "Group nr. 2",
+            "items": [
+              {
+                "id": "item-1",
+                "name": "Item nr. 1",
+                "value": "-455491234",
+                "valueLabel": null,
+                "exportable": true,
+                "unit": "kg"
+              },
+              {
+                "id": "item-2",
+                "name": "Item nr. 2",
+                "value": "-2077280786",
+                "valueLabel": null,
+                "exportable": true,
+                "unit": "kg"
+              },
+              {
+                "id": "item-3",
+                "name": "Item nr. 3",
+                "value": "1732870599",
+                "valueLabel": null,
+                "exportable": true,
+                "unit": "kg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "form-5",
+        "name": "Form nr. 5",
+        "populationTime": "2019-03-04T05:06:07Z",
+        "referenceDate": "2015-03-09",
+        "itemGroups": [
+          {
+            "id": "group-1",
+            "name": "Group nr. 1",
+            "items": [
+              {
+                "id": "item-1",
+                "name": "Item nr. 1",
+                "value": "86248216",
+                "valueLabel": null,
+                "exportable": true,
+                "unit": "kg"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

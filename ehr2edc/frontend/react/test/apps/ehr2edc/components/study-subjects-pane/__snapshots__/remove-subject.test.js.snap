@@ -1,0 +1,753 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Handling server-side responses After successful registration, the onPatientRegistered gets executed 1`] = `
+<RemoveSubject
+  onPatientDeregistered={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <Modal
+    inProgress={true}
+    onClose={[Function]}
+    onOkButtonClick={[Function]}
+    open={false}
+    title="Deregister participant"
+    width="450px"
+  >
+    <Modal
+      ariaHideApp={true}
+      bodyOpenClassName="ReactModal__Body--open"
+      closeTimeoutMS={0}
+      isOpen={false}
+      onRequestClose={[Function]}
+      parentSelector={[Function]}
+      portalClassName="react-modal"
+      role="dialog"
+      shouldCloseOnEsc={true}
+      shouldCloseOnOverlayClick={false}
+      shouldFocusAfterRender={true}
+      shouldReturnFocusAfterClose={true}
+      style={
+        Object {
+          "content": Object {
+            "maxHeight": "688px",
+            "width": "450px",
+          },
+        }
+      }
+      title="Deregister participant"
+    >
+      <Portal
+        containerInfo={
+          <div
+            class="react-modal"
+          />
+        }
+      >
+        <ModalPortal
+          ariaHideApp={true}
+          bodyOpenClassName="ReactModal__Body--open"
+          closeTimeoutMS={0}
+          defaultStyles={Object {}}
+          isOpen={false}
+          onRequestClose={[Function]}
+          parentSelector={[Function]}
+          portalClassName="react-modal"
+          role="dialog"
+          shouldCloseOnEsc={true}
+          shouldCloseOnOverlayClick={false}
+          shouldFocusAfterRender={true}
+          shouldReturnFocusAfterClose={true}
+          style={
+            Object {
+              "content": Object {
+                "maxHeight": "688px",
+                "width": "450px",
+              },
+            }
+          }
+          title="Deregister participant"
+        />
+      </Portal>
+    </Modal>
+  </Modal>
+</RemoveSubject>
+`;
+
+exports[`Handling server-side responses Handling a server side error 1`] = `
+<RemoveSubject
+  onPatientDeregistered={[MockFunction]}
+>
+  <Modal
+    inProgress={true}
+    onClose={[Function]}
+    onOkButtonClick={[Function]}
+    open={true}
+    title="Deregister participant"
+    width="450px"
+  >
+    <Modal
+      ariaHideApp={true}
+      bodyOpenClassName="ReactModal__Body--open"
+      closeTimeoutMS={0}
+      isOpen={true}
+      onRequestClose={[Function]}
+      parentSelector={[Function]}
+      portalClassName="react-modal"
+      role="dialog"
+      shouldCloseOnEsc={true}
+      shouldCloseOnOverlayClick={false}
+      shouldFocusAfterRender={true}
+      shouldReturnFocusAfterClose={true}
+      style={
+        Object {
+          "content": Object {
+            "maxHeight": "688px",
+            "width": "450px",
+          },
+        }
+      }
+      title="Deregister participant"
+    >
+      <Portal
+        containerInfo={
+          <div
+            class="react-modal"
+          >
+            <div
+              class="ReactModal__Overlay ReactModal__Overlay--after-open"
+            >
+              <div
+                class="ReactModal__Content ReactModal__Content--after-open"
+                role="dialog"
+                style="width: 450px; max-height: 688px;"
+                tabindex="-1"
+              >
+                <div
+                  class="modal-titlebar"
+                >
+                  <div
+                    class="modal-title"
+                  >
+                    Deregister participant
+                  </div>
+                  <div
+                    class="modal-close-icon"
+                  >
+                    <i
+                      class="fa fa-times"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="modal-content"
+                >
+                  <table>
+                    <tbody>
+                      <tr>
+                        <th>
+                          Date of deregistration 
+                          <i
+                            class="fa fa-info-circle"
+                            title="Date at which the patient will be removed from the study"
+                          />
+                        </th>
+                        <td>
+                          <div
+                            class="calendar-icon"
+                          >
+                            <div
+                              class="react-datepicker-wrapper"
+                            >
+                              <div
+                                class="react-datepicker__input-container"
+                              >
+                                <input
+                                  class="consent-date-field"
+                                  type="text"
+                                  value="3 Mar 2019"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>
+                          Reason for deregistration 
+                          <i
+                            class="fa fa-info-circle"
+                            title="The reason for removal from the study"
+                          />
+                        </th>
+                        <td>
+                          <select
+                            class=""
+                          >
+                            <option
+                              value="CONSENT_RETRACTED"
+                            >
+                              Consent Retracted
+                            </option>
+                          </select>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div
+                    class="alert-box alert margin-top"
+                  >
+                    The form returned some errors
+                    <ul
+                      class="bullet"
+                    />
+                    <ul
+                      class="bullet"
+                    >
+                      <li>
+                        A SERVER SIDE ERROR
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  class="modal-buttons"
+                >
+                  <a
+                    class="button modal-ok in-progress"
+                    data-cy="modal-ok-button"
+                  >
+                    OK
+                    <div
+                      class="bar"
+                    />
+                  </a>
+                  <a
+                    class="button secondary modal-cancel"
+                  >
+                    Cancel
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        }
+      >
+        <ModalPortal
+          ariaHideApp={true}
+          bodyOpenClassName="ReactModal__Body--open"
+          closeTimeoutMS={0}
+          defaultStyles={Object {}}
+          isOpen={true}
+          onRequestClose={[Function]}
+          parentSelector={[Function]}
+          portalClassName="react-modal"
+          role="dialog"
+          shouldCloseOnEsc={true}
+          shouldCloseOnOverlayClick={false}
+          shouldFocusAfterRender={true}
+          shouldReturnFocusAfterClose={true}
+          style={
+            Object {
+              "content": Object {
+                "maxHeight": "688px",
+                "width": "450px",
+              },
+            }
+          }
+          title="Deregister participant"
+        >
+          <div
+            className="ReactModal__Overlay ReactModal__Overlay--after-open"
+            onClick={[Function]}
+            onMouseDown={[Function]}
+            style={Object {}}
+          >
+            <div
+              className="ReactModal__Content ReactModal__Content--after-open"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              onMouseDown={[Function]}
+              onMouseUp={[Function]}
+              role="dialog"
+              style={
+                Object {
+                  "maxHeight": "688px",
+                  "width": "450px",
+                }
+              }
+              tabIndex="-1"
+            >
+              <div
+                className="modal-titlebar"
+              >
+                <div
+                  className="modal-title"
+                >
+                  Deregister participant
+                </div>
+                <div
+                  className="modal-close-icon"
+                  onClick={[Function]}
+                >
+                  <i
+                    className="fa fa-times"
+                  />
+                </div>
+              </div>
+              <div
+                className="modal-content"
+              >
+                <table>
+                  <tbody>
+                    <tr>
+                      <th>
+                        Date of deregistration 
+                        <i
+                          className="fa fa-info-circle"
+                          title="Date at which the patient will be removed from the study"
+                        />
+                      </th>
+                      <td>
+                        <div
+                          className="calendar-icon"
+                        >
+                          <t
+                            allowSameDay={false}
+                            className="consent-date-field"
+                            dateFormat="d LLL yyyy"
+                            dateFormatCalendar="LLLL yyyy"
+                            disabled={false}
+                            disabledKeyboardNavigation={false}
+                            dropdownMode="scroll"
+                            inlineFocusSelectedMonth={false}
+                            maxDate={2019-03-02T23:00:00.000Z}
+                            monthsShown={1}
+                            nextMonthButtonLabel="Next Month"
+                            nextYearButtonLabel="Next Year"
+                            onBlur={[Function]}
+                            onCalendarClose={[Function]}
+                            onCalendarOpen={[Function]}
+                            onChange={[Function]}
+                            onClickOutside={[Function]}
+                            onFocus={[Function]}
+                            onInputClick={[Function]}
+                            onInputError={[Function]}
+                            onKeyDown={[Function]}
+                            onMonthChange={[Function]}
+                            onSelect={[Function]}
+                            onYearChange={[Function]}
+                            popperContainer={[Function]}
+                            preventOpenOnFocus={false}
+                            previousMonthButtonLabel="Previous Month"
+                            previousYearButtonLabel="Previous Year"
+                            readOnly={false}
+                            renderDayContents={[Function]}
+                            selected={2019-03-02T23:00:00.000Z}
+                            shouldCloseOnSelect={true}
+                            showMonthYearPicker={false}
+                            showPopperArrow={true}
+                            showPreviousMonths={false}
+                            showQuarterYearPicker={false}
+                            showTimeInput={false}
+                            showTimeSelect={false}
+                            strictParsing={false}
+                            timeCaption="Time"
+                            timeInputLabel="Time"
+                            timeIntervals={30}
+                            withPortal={false}
+                          >
+                            <t
+                              hidePopper={true}
+                              popperComponent={null}
+                              popperContainer={[Function]}
+                              popperModifiers={
+                                Object {
+                                  "preventOverflow": Object {
+                                    "boundariesElement": "viewport",
+                                    "enabled": true,
+                                    "escapeWithReference": true,
+                                  },
+                                }
+                              }
+                              popperPlacement="bottom-start"
+                              popperProps={Object {}}
+                              targetComponent={
+                                <div
+                                  className="react-datepicker__input-container"
+                                >
+                                  <input
+                                    className="consent-date-field"
+                                    disabled={false}
+                                    onBlur={[Function]}
+                                    onChange={[Function]}
+                                    onClick={[Function]}
+                                    onFocus={[Function]}
+                                    onKeyDown={[Function]}
+                                    readOnly={false}
+                                    type="text"
+                                    value="3 Mar 2019"
+                                  />
+                                </div>
+                              }
+                            >
+                              <Manager
+                                className="react-datepicker-manager"
+                              >
+                                <Reference>
+                                  <InnerReference
+                                    setReferenceNode={[Function]}
+                                  >
+                                    <div
+                                      className="react-datepicker-wrapper"
+                                    >
+                                      <div
+                                        className="react-datepicker__input-container"
+                                      >
+                                        <input
+                                          className="consent-date-field"
+                                          disabled={false}
+                                          onBlur={[Function]}
+                                          onChange={[Function]}
+                                          onClick={[Function]}
+                                          onFocus={[Function]}
+                                          onKeyDown={[Function]}
+                                          readOnly={false}
+                                          type="text"
+                                          value="3 Mar 2019"
+                                        />
+                                      </div>
+                                    </div>
+                                  </InnerReference>
+                                </Reference>
+                                <CalendarContainer>
+                                  <Portal
+                                    container={null}
+                                  />
+                                </CalendarContainer>
+                              </Manager>
+                            </t>
+                          </t>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>
+                        Reason for deregistration 
+                        <i
+                          className="fa fa-info-circle"
+                          title="The reason for removal from the study"
+                        />
+                      </th>
+                      <td>
+                        <select
+                          className=""
+                          onClick={[Function]}
+                        >
+                          <option
+                            value="CONSENT_RETRACTED"
+                          >
+                            Consent Retracted
+                          </option>
+                        </select>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <ModalErrors
+                  requestError={
+                    Object {
+                      "response": Object {
+                        "data": Object {
+                          "issues": Array [
+                            Object {
+                              "field": null,
+                              "message": "A SERVER SIDE ERROR",
+                              "reference": null,
+                            },
+                          ],
+                        },
+                      },
+                    }
+                  }
+                  validationErrors={Array []}
+                >
+                  <div
+                    className="alert-box alert margin-top"
+                  >
+                    The form returned some errors
+                    <ul
+                      className="bullet"
+                    />
+                    <RequestError
+                      error={
+                        Object {
+                          "response": Object {
+                            "data": Object {
+                              "issues": Array [
+                                Object {
+                                  "field": null,
+                                  "message": "A SERVER SIDE ERROR",
+                                  "reference": null,
+                                },
+                              ],
+                            },
+                          },
+                        }
+                      }
+                    >
+                      <Error
+                        error={
+                          Object {
+                            "issues": Array [
+                              Object {
+                                "field": null,
+                                "message": "A SERVER SIDE ERROR",
+                                "reference": null,
+                              },
+                            ],
+                          }
+                        }
+                      >
+                        <Issues
+                          issues={
+                            Array [
+                              Object {
+                                "field": null,
+                                "message": "A SERVER SIDE ERROR",
+                                "reference": null,
+                              },
+                            ]
+                          }
+                        >
+                          <ul
+                            className="bullet"
+                          >
+                            <Issue
+                              issue={
+                                Object {
+                                  "field": null,
+                                  "message": "A SERVER SIDE ERROR",
+                                  "reference": null,
+                                }
+                              }
+                              key="0"
+                            >
+                              <ErrorMessage
+                                message="A SERVER SIDE ERROR"
+                              >
+                                <li>
+                                  A SERVER SIDE ERROR
+                                </li>
+                              </ErrorMessage>
+                            </Issue>
+                          </ul>
+                        </Issues>
+                      </Error>
+                    </RequestError>
+                  </div>
+                </ModalErrors>
+              </div>
+              <div
+                className="modal-buttons"
+              >
+                <a
+                  className="button modal-ok in-progress"
+                  data-cy="modal-ok-button"
+                  onClick={null}
+                >
+                  OK
+                  <div
+                    className="bar"
+                  />
+                </a>
+                <a
+                  className="button secondary modal-cancel"
+                  onClick={[Function]}
+                >
+                  Cancel
+                </a>
+              </div>
+            </div>
+          </div>
+        </ModalPortal>
+      </Portal>
+    </Modal>
+  </Modal>
+</RemoveSubject>
+`;
+
+exports[`Rendering the component Rendering the closed state 1`] = `
+<RemoveSubject>
+  <Modal
+    onClose={[Function]}
+    onOkButtonClick={[Function]}
+    open={false}
+    title="Deregister participant"
+    width="450px"
+  >
+    <Modal
+      ariaHideApp={true}
+      bodyOpenClassName="ReactModal__Body--open"
+      closeTimeoutMS={0}
+      isOpen={false}
+      onRequestClose={[Function]}
+      parentSelector={[Function]}
+      portalClassName="react-modal"
+      role="dialog"
+      shouldCloseOnEsc={true}
+      shouldCloseOnOverlayClick={false}
+      shouldFocusAfterRender={true}
+      shouldReturnFocusAfterClose={true}
+      style={
+        Object {
+          "content": Object {
+            "maxHeight": "688px",
+            "width": "450px",
+          },
+        }
+      }
+      title="Deregister participant"
+    >
+      <Portal
+        containerInfo={
+          <div
+            class="react-modal"
+          />
+        }
+      >
+        <ModalPortal
+          ariaHideApp={true}
+          bodyOpenClassName="ReactModal__Body--open"
+          closeTimeoutMS={0}
+          defaultStyles={Object {}}
+          isOpen={false}
+          onRequestClose={[Function]}
+          parentSelector={[Function]}
+          portalClassName="react-modal"
+          role="dialog"
+          shouldCloseOnEsc={true}
+          shouldCloseOnOverlayClick={false}
+          shouldFocusAfterRender={true}
+          shouldReturnFocusAfterClose={true}
+          style={
+            Object {
+              "content": Object {
+                "maxHeight": "688px",
+                "width": "450px",
+              },
+            }
+          }
+          title="Deregister participant"
+        />
+      </Portal>
+    </Modal>
+  </Modal>
+</RemoveSubject>
+`;
+
+exports[`Rendering the component Rendering the opened state 1`] = `
+<Modal
+  onClose={[Function]}
+  onOkButtonClick={[Function]}
+  open={true}
+  title="Deregister participant"
+  width="450px"
+>
+  <table>
+    <tbody>
+      <tr>
+        <th>
+          Date of deregistration 
+          <i
+            className="fa fa-info-circle"
+            title="Date at which the patient will be removed from the study"
+          />
+        </th>
+        <td>
+          <div
+            className="calendar-icon"
+          >
+            <t
+              allowSameDay={false}
+              className="consent-date-field"
+              dateFormat="d LLL yyyy"
+              dateFormatCalendar="LLLL yyyy"
+              disabled={false}
+              disabledKeyboardNavigation={false}
+              dropdownMode="scroll"
+              inlineFocusSelectedMonth={false}
+              maxDate={2019-03-02T23:00:00.000Z}
+              monthsShown={1}
+              nextMonthButtonLabel="Next Month"
+              nextYearButtonLabel="Next Year"
+              onBlur={[Function]}
+              onCalendarClose={[Function]}
+              onCalendarOpen={[Function]}
+              onChange={[Function]}
+              onClickOutside={[Function]}
+              onFocus={[Function]}
+              onInputClick={[Function]}
+              onInputError={[Function]}
+              onKeyDown={[Function]}
+              onMonthChange={[Function]}
+              onSelect={[Function]}
+              onYearChange={[Function]}
+              popperContainer={[Function]}
+              preventOpenOnFocus={false}
+              previousMonthButtonLabel="Previous Month"
+              previousYearButtonLabel="Previous Year"
+              readOnly={false}
+              renderDayContents={[Function]}
+              selected={2019-03-02T23:00:00.000Z}
+              shouldCloseOnSelect={true}
+              showMonthYearPicker={false}
+              showPopperArrow={true}
+              showPreviousMonths={false}
+              showQuarterYearPicker={false}
+              showTimeInput={false}
+              showTimeSelect={false}
+              strictParsing={false}
+              timeCaption="Time"
+              timeInputLabel="Time"
+              timeIntervals={30}
+              withPortal={false}
+            />
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <th>
+          Reason for deregistration 
+          <i
+            className="fa fa-info-circle"
+            title="The reason for removal from the study"
+          />
+        </th>
+        <td>
+          <select
+            className=""
+            onClick={[Function]}
+          >
+            <option
+              value="CONSENT_RETRACTED"
+            >
+              Consent Retracted
+            </option>
+          </select>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</Modal>
+`;

@@ -1,0 +1,9 @@
+{
+  "issues": [
+    {
+      "reference": null,
+      "field": null,
+      "message": "Cannot find subject migration for subject with id 'subject-1'."
+    }
+  ]
+}

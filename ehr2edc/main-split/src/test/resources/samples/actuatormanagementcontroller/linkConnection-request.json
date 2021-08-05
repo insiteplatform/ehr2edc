@@ -1,0 +1,10 @@
+{
+  "studyId": "SID_001",
+  "type": "READ_SUBJECTS",
+  "edcSystem": "RAVE",
+  "externalSiteId" : "123456",
+  "clinicalDataURI" : "http:/localhost:8081/RaveWebServices/studies/raveStudyId/Subjects",
+  "username": "user1",
+  "password": "user1Pass",
+  "enabled": false
+}

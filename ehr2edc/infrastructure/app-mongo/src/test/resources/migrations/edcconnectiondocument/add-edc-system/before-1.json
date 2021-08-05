@@ -1,0 +1,12 @@
+{
+  "_id": {
+    "studyId": "TEST_STUDY_1",
+    "connectionType": "SUBMIT_EVENT"
+  },
+  "externalSiteId": "SITE_1",
+  "clinicalDataURI": "https://test-edc-sta-insite.internal.custodix.com/RaveWebServices/webservice.aspx?PostODMClinicalData",
+  "username": "johndoe",
+  "password": "hunter2",
+  "enabled": true,
+  "studyIdOverride": "TEST_STUDY_1_OVERRIDE"
+}

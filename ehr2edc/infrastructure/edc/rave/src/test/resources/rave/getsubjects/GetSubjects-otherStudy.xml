@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ODM CreationDateTime="2008-01-01T00:00:00" FileOID="Example-1" FileType="Snapshot" ODMVersion="1.3" xmlns="http://www.cdisc.org/ns/odm/v1.3">
+    <ClinicalData MetaDataVersionOID="1" StudyOID="SOME_OTHER_STUDY_ID">
+        <SubjectData SubjectKey="123456000001">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000002">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000003">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000004">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000005">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000006">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000007">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000008">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000009">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000010">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000011">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000012">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000013">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000014">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000015">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000016">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000017">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000018">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000019">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000020">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000021">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000022">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000023">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000024">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000025">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000026">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000027">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000028">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000029">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000030">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000031">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000032">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000033">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000034">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000035">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000036">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000037">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000038">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000039">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000040">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000041">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000042">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000043">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000044">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000045">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000046">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000047">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000048">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000049">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000050">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000051">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000052">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000053">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000054">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000055">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000056">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000057">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000058">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000059">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000060">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000061">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000062">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000063">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000064">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000065">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000066">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000067">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000068">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000069">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000070">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000071">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000072">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000073">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000074">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000075">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000076">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000077">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000078">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000079">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000080">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000081">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000082">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000083">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000084">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000085">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000086">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000087">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000088">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000089">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000090">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000091">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000092">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000093">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000094">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000095">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000096">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000097">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000098">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000099">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+        <SubjectData SubjectKey="123456000100">
+            <SiteRef LocationOID="123456"/>
+        </SubjectData>
+    </ClinicalData>
+</ODM>

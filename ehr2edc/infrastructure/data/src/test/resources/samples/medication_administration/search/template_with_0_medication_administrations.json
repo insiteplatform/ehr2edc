@@ -1,0 +1,15 @@
+{
+  "resourceType": "Bundle",
+  "id": "971417ad-52e0-4904-9742-3e323758ef2f",
+  "meta": {
+    "lastUpdated": "2019-12-23T15:42:08.269+00:00"
+  },
+  "type": "searchset",
+  "total": 0,
+  "link": [
+    {
+      "relation": "self",
+      "url": "http://localhost:${serverPort}/baseDstu2/MedicationAdministration?_format=json&_pretty=true&patient=${patientResourceId}"
+    }
+  ]
+}

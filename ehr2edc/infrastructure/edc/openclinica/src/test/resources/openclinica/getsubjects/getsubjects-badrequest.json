@@ -1,0 +1,7 @@
+{
+  "message": "errorCode.studyNotExist",
+  "params": {
+    "siteOid": null,
+    "studyOid": "studyId-123"
+  }
+}

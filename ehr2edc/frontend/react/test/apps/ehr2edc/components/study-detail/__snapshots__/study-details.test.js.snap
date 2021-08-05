@@ -1,0 +1,1001 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering the component Error state 1`] = `
+Array [
+  <div
+    className="sidebar grid-block vertical collapsible shrink sidebar-nav border-right"
+  >
+    <div
+      className="grid-content padding shrink border-bottom"
+    >
+      <h4 />
+    </div>
+    <div
+      className="grid-block vertical"
+    >
+      <ul
+        className="side-bar-navigation"
+      >
+        <li>
+          <a
+            href="/STUDY-1/"
+            onClick={[Function]}
+          >
+            <input
+              className="radioTab"
+              id="radioTabOverview"
+              name="radioTab"
+              type="radio"
+              value="true"
+            />
+            <label
+              htmlFor="radioTabOverview"
+            >
+              Overview
+            </label>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/STUDY-1/investigators"
+            onClick={[Function]}
+          >
+            <input
+              className="radioTab"
+              id="radioTabInvestigators"
+              name="radioTab"
+              type="radio"
+              value="true"
+            />
+            <label
+              htmlFor="radioTabInvestigators"
+            >
+              Investigators
+            </label>
+          </a>
+        </li>
+        <li>
+          <div>
+            <input
+              className="radioTab disabled"
+              id="radioTabParticipants"
+              name="radioTab"
+              type="radio"
+            />
+            <label
+              htmlFor="radioTabParticipants"
+            >
+              Participants
+            </label>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="toggle border-top"
+      onClick={[Function]}
+    >
+      <i
+        className="fa fa-angle-double-left"
+        title="Hide"
+      />
+      <span>
+        Hide
+      </span>
+    </div>
+  </div>,
+  <div
+    className="grid-block vertical"
+    id="study-details-main-pane"
+  >
+    <ul
+      className="bread-crumbs shrink grid-block border-bottom"
+      id="page-bread-crumbs"
+    >
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          EHR2EDC Studies
+        </a>
+      </li>
+    </ul>
+    <div
+      className="grid-block"
+      id="study-details-content-pane"
+    >
+      <div
+        className="grid-block vertical"
+      >
+        <div
+          className="grid-block search-results-loading"
+        >
+          <span
+            className="search-results-loading-icon"
+          >
+            <i
+              className="fa fa-circle-o-notch fa-spin"
+            />
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Rendering the component Error state when only the patient identifier sources call fails 1`] = `
+Array [
+  <div
+    className="sidebar grid-block vertical collapsible shrink sidebar-nav border-right"
+  >
+    <div
+      className="grid-content padding shrink border-bottom"
+    >
+      <h4 />
+    </div>
+    <div
+      className="grid-block vertical"
+    >
+      <ul
+        className="side-bar-navigation"
+      >
+        <li>
+          <a
+            href="/STUDY-1/"
+            onClick={[Function]}
+          >
+            <input
+              className="radioTab"
+              id="radioTabOverview"
+              name="radioTab"
+              type="radio"
+              value="true"
+            />
+            <label
+              htmlFor="radioTabOverview"
+            >
+              Overview
+            </label>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/STUDY-1/investigators"
+            onClick={[Function]}
+          >
+            <input
+              className="radioTab"
+              id="radioTabInvestigators"
+              name="radioTab"
+              type="radio"
+              value="true"
+            />
+            <label
+              htmlFor="radioTabInvestigators"
+            >
+              Investigators
+            </label>
+          </a>
+        </li>
+        <li>
+          <div>
+            <input
+              className="radioTab disabled"
+              id="radioTabParticipants"
+              name="radioTab"
+              type="radio"
+            />
+            <label
+              htmlFor="radioTabParticipants"
+            >
+              Participants
+            </label>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="toggle border-top"
+      onClick={[Function]}
+    >
+      <i
+        className="fa fa-angle-double-left"
+        title="Hide"
+      />
+      <span>
+        Hide
+      </span>
+    </div>
+  </div>,
+  <div
+    className="grid-block vertical"
+    id="study-details-main-pane"
+  >
+    <ul
+      className="bread-crumbs shrink grid-block border-bottom"
+      id="page-bread-crumbs"
+    >
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          EHR2EDC Studies
+        </a>
+      </li>
+    </ul>
+    <div
+      className="grid-block"
+      id="study-details-content-pane"
+    >
+      <div
+        className="grid-block vertical"
+      >
+        <div
+          className="grid-block search-results-loading"
+        >
+          <span
+            className="search-results-loading-icon"
+          >
+            <i
+              className="fa fa-circle-o-notch fa-spin"
+            />
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Rendering the component Error state when only the potential investigators call fails 1`] = `
+Array [
+  <div
+    className="sidebar grid-block vertical collapsible shrink sidebar-nav border-right"
+  >
+    <div
+      className="grid-content padding shrink border-bottom"
+    >
+      <h4 />
+    </div>
+    <div
+      className="grid-block vertical"
+    >
+      <ul
+        className="side-bar-navigation"
+      >
+        <li>
+          <a
+            href="/STUDY-1/"
+            onClick={[Function]}
+          >
+            <input
+              className="radioTab"
+              id="radioTabOverview"
+              name="radioTab"
+              type="radio"
+              value="true"
+            />
+            <label
+              htmlFor="radioTabOverview"
+            >
+              Overview
+            </label>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/STUDY-1/investigators"
+            onClick={[Function]}
+          >
+            <input
+              className="radioTab"
+              id="radioTabInvestigators"
+              name="radioTab"
+              type="radio"
+              value="true"
+            />
+            <label
+              htmlFor="radioTabInvestigators"
+            >
+              Investigators
+            </label>
+          </a>
+        </li>
+        <li>
+          <div>
+            <input
+              className="radioTab disabled"
+              id="radioTabParticipants"
+              name="radioTab"
+              type="radio"
+            />
+            <label
+              htmlFor="radioTabParticipants"
+            >
+              Participants
+            </label>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="toggle border-top"
+      onClick={[Function]}
+    >
+      <i
+        className="fa fa-angle-double-left"
+        title="Hide"
+      />
+      <span>
+        Hide
+      </span>
+    </div>
+  </div>,
+  <div
+    className="grid-block vertical"
+    id="study-details-main-pane"
+  >
+    <ul
+      className="bread-crumbs shrink grid-block border-bottom"
+      id="page-bread-crumbs"
+    >
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          EHR2EDC Studies
+        </a>
+      </li>
+    </ul>
+    <div
+      className="grid-block"
+      id="study-details-content-pane"
+    >
+      <div
+        className="grid-block vertical"
+      >
+        <div
+          className="grid-block search-results-loading"
+        >
+          <span
+            className="search-results-loading-icon"
+          >
+            <i
+              className="fa fa-circle-o-notch fa-spin"
+            />
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Rendering the component Error state with custom error message 1`] = `
+Array [
+  <div
+    className="sidebar grid-block vertical collapsible shrink sidebar-nav border-right"
+  >
+    <div
+      className="grid-content padding shrink border-bottom"
+    >
+      <h4 />
+    </div>
+    <div
+      className="grid-block vertical"
+    >
+      <ul
+        className="side-bar-navigation"
+      >
+        <li>
+          <a
+            href="/STUDY-1/"
+            onClick={[Function]}
+          >
+            <input
+              className="radioTab"
+              id="radioTabOverview"
+              name="radioTab"
+              type="radio"
+              value="true"
+            />
+            <label
+              htmlFor="radioTabOverview"
+            >
+              Overview
+            </label>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/STUDY-1/investigators"
+            onClick={[Function]}
+          >
+            <input
+              className="radioTab"
+              id="radioTabInvestigators"
+              name="radioTab"
+              type="radio"
+              value="true"
+            />
+            <label
+              htmlFor="radioTabInvestigators"
+            >
+              Investigators
+            </label>
+          </a>
+        </li>
+        <li>
+          <div>
+            <input
+              className="radioTab disabled"
+              id="radioTabParticipants"
+              name="radioTab"
+              type="radio"
+            />
+            <label
+              htmlFor="radioTabParticipants"
+            >
+              Participants
+            </label>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="toggle border-top"
+      onClick={[Function]}
+    >
+      <i
+        className="fa fa-angle-double-left"
+        title="Hide"
+      />
+      <span>
+        Hide
+      </span>
+    </div>
+  </div>,
+  <div
+    className="grid-block vertical"
+    id="study-details-main-pane"
+  >
+    <ul
+      className="bread-crumbs shrink grid-block border-bottom"
+      id="page-bread-crumbs"
+    >
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          EHR2EDC Studies
+        </a>
+      </li>
+    </ul>
+    <div
+      className="grid-block"
+      id="study-details-content-pane"
+    >
+      <div
+        className="grid-block vertical"
+      >
+        <div
+          className="grid-block search-results-loading"
+        >
+          <span
+            className="search-results-loading-icon"
+          >
+            <i
+              className="fa fa-circle-o-notch fa-spin"
+            />
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Rendering the component Loading state 1`] = `
+Array [
+  <div
+    className="sidebar grid-block vertical collapsible shrink sidebar-nav border-right"
+  >
+    <div
+      className="grid-content padding shrink border-bottom"
+    >
+      <h4 />
+    </div>
+    <div
+      className="grid-block vertical"
+    >
+      <ul
+        className="side-bar-navigation"
+      >
+        <li>
+          <a
+            href="/STUDY-1/"
+            onClick={[Function]}
+          >
+            <input
+              className="radioTab"
+              id="radioTabOverview"
+              name="radioTab"
+              type="radio"
+              value="true"
+            />
+            <label
+              htmlFor="radioTabOverview"
+            >
+              Overview
+            </label>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/STUDY-1/investigators"
+            onClick={[Function]}
+          >
+            <input
+              className="radioTab"
+              id="radioTabInvestigators"
+              name="radioTab"
+              type="radio"
+              value="true"
+            />
+            <label
+              htmlFor="radioTabInvestigators"
+            >
+              Investigators
+            </label>
+          </a>
+        </li>
+        <li>
+          <div>
+            <input
+              className="radioTab disabled"
+              id="radioTabParticipants"
+              name="radioTab"
+              type="radio"
+            />
+            <label
+              htmlFor="radioTabParticipants"
+            >
+              Participants
+            </label>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="toggle border-top"
+      onClick={[Function]}
+    >
+      <i
+        className="fa fa-angle-double-left"
+        title="Hide"
+      />
+      <span>
+        Hide
+      </span>
+    </div>
+  </div>,
+  <div
+    className="grid-block vertical"
+    id="study-details-main-pane"
+  >
+    <ul
+      className="bread-crumbs shrink grid-block border-bottom"
+      id="page-bread-crumbs"
+    >
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          EHR2EDC Studies
+        </a>
+      </li>
+    </ul>
+    <div
+      className="grid-block"
+      id="study-details-content-pane"
+    >
+      <div
+        className="grid-block vertical"
+      >
+        <div
+          className="grid-block search-results-loading"
+        >
+          <span
+            className="search-results-loading-icon"
+          >
+            <i
+              className="fa fa-circle-o-notch fa-spin"
+            />
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Rendering the component Loading state when the study data is retrieved and the potential investigators aren't 1`] = `
+Array [
+  <div
+    className="sidebar grid-block vertical collapsible shrink sidebar-nav border-right"
+  >
+    <div
+      className="grid-content padding shrink border-bottom"
+    >
+      <h4 />
+    </div>
+    <div
+      className="grid-block vertical"
+    >
+      <ul
+        className="side-bar-navigation"
+      >
+        <li>
+          <a
+            href="/STUDY-1/"
+            onClick={[Function]}
+          >
+            <input
+              className="radioTab"
+              id="radioTabOverview"
+              name="radioTab"
+              type="radio"
+              value="true"
+            />
+            <label
+              htmlFor="radioTabOverview"
+            >
+              Overview
+            </label>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/STUDY-1/investigators"
+            onClick={[Function]}
+          >
+            <input
+              className="radioTab"
+              id="radioTabInvestigators"
+              name="radioTab"
+              type="radio"
+              value="true"
+            />
+            <label
+              htmlFor="radioTabInvestigators"
+            >
+              Investigators
+            </label>
+          </a>
+        </li>
+        <li>
+          <div>
+            <input
+              className="radioTab disabled"
+              id="radioTabParticipants"
+              name="radioTab"
+              type="radio"
+            />
+            <label
+              htmlFor="radioTabParticipants"
+            >
+              Participants
+            </label>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="toggle border-top"
+      onClick={[Function]}
+    >
+      <i
+        className="fa fa-angle-double-left"
+        title="Hide"
+      />
+      <span>
+        Hide
+      </span>
+    </div>
+  </div>,
+  <div
+    className="grid-block vertical"
+    id="study-details-main-pane"
+  >
+    <ul
+      className="bread-crumbs shrink grid-block border-bottom"
+      id="page-bread-crumbs"
+    >
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          EHR2EDC Studies
+        </a>
+      </li>
+    </ul>
+    <div
+      className="grid-block"
+      id="study-details-content-pane"
+    >
+      <div
+        className="grid-block vertical"
+      >
+        <div
+          className="grid-block search-results-loading"
+        >
+          <span
+            className="search-results-loading-icon"
+          >
+            <i
+              className="fa fa-circle-o-notch fa-spin"
+            />
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Rendering the component Valid study data json gets rendered well 1`] = `
+Array [
+  <div
+    className="sidebar grid-block vertical collapsible shrink sidebar-nav border-right"
+  >
+    <div
+      className="grid-content padding shrink border-bottom"
+    >
+      <h4 />
+    </div>
+    <div
+      className="grid-block vertical"
+    >
+      <ul
+        className="side-bar-navigation"
+      >
+        <li>
+          <a
+            href="/STUDY-1/"
+            onClick={[Function]}
+          >
+            <input
+              className="radioTab"
+              id="radioTabOverview"
+              name="radioTab"
+              type="radio"
+              value="true"
+            />
+            <label
+              htmlFor="radioTabOverview"
+            >
+              Overview
+            </label>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/STUDY-1/investigators"
+            onClick={[Function]}
+          >
+            <input
+              className="radioTab"
+              id="radioTabInvestigators"
+              name="radioTab"
+              type="radio"
+              value="true"
+            />
+            <label
+              htmlFor="radioTabInvestigators"
+            >
+              Investigators
+            </label>
+          </a>
+        </li>
+        <li>
+          <div>
+            <input
+              className="radioTab disabled"
+              id="radioTabParticipants"
+              name="radioTab"
+              type="radio"
+            />
+            <label
+              htmlFor="radioTabParticipants"
+            >
+              Participants
+            </label>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="toggle border-top"
+      onClick={[Function]}
+    >
+      <i
+        className="fa fa-angle-double-left"
+        title="Hide"
+      />
+      <span>
+        Hide
+      </span>
+    </div>
+  </div>,
+  <div
+    className="grid-block vertical"
+    id="study-details-main-pane"
+  >
+    <ul
+      className="bread-crumbs shrink grid-block border-bottom"
+      id="page-bread-crumbs"
+    >
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          EHR2EDC Studies
+        </a>
+      </li>
+    </ul>
+    <div
+      className="grid-block"
+      id="study-details-content-pane"
+    >
+      <div
+        className="grid-block vertical"
+      >
+        <div
+          className="grid-block search-results-loading"
+        >
+          <span
+            className="search-results-loading-icon"
+          >
+            <i
+              className="fa fa-circle-o-notch fa-spin"
+            />
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Rendering the component Valid study data json gets rendered well with a custom studyPageUrl 1`] = `
+Array [
+  <div
+    className="sidebar grid-block vertical collapsible shrink sidebar-nav border-right"
+  >
+    <div
+      className="grid-content padding shrink border-bottom"
+    >
+      <h4 />
+    </div>
+    <div
+      className="grid-block vertical"
+    >
+      <ul
+        className="side-bar-navigation"
+      >
+        <li>
+          <a
+            href="/STUDY-1/"
+            onClick={[Function]}
+          >
+            <input
+              className="radioTab"
+              id="radioTabOverview"
+              name="radioTab"
+              type="radio"
+              value="true"
+            />
+            <label
+              htmlFor="radioTabOverview"
+            >
+              Overview
+            </label>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/STUDY-1/investigators"
+            onClick={[Function]}
+          >
+            <input
+              className="radioTab"
+              id="radioTabInvestigators"
+              name="radioTab"
+              type="radio"
+              value="true"
+            />
+            <label
+              htmlFor="radioTabInvestigators"
+            >
+              Investigators
+            </label>
+          </a>
+        </li>
+        <li>
+          <div>
+            <input
+              className="radioTab disabled"
+              id="radioTabParticipants"
+              name="radioTab"
+              type="radio"
+            />
+            <label
+              htmlFor="radioTabParticipants"
+            >
+              Participants
+            </label>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="toggle border-top"
+      onClick={[Function]}
+    >
+      <i
+        className="fa fa-angle-double-left"
+        title="Hide"
+      />
+      <span>
+        Hide
+      </span>
+    </div>
+  </div>,
+  <div
+    className="grid-block vertical"
+    id="study-details-main-pane"
+  >
+    <ul
+      className="bread-crumbs shrink grid-block border-bottom"
+      id="page-bread-crumbs"
+    >
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          EHR2EDC Studies
+        </a>
+      </li>
+    </ul>
+    <div
+      className="grid-block"
+      id="study-details-content-pane"
+    >
+      <div
+        className="grid-block vertical"
+      >
+        <div
+          className="grid-block search-results-loading"
+        >
+          <span
+            className="search-results-loading-icon"
+          >
+            <i
+              className="fa fa-circle-o-notch fa-spin"
+            />
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

@@ -1,0 +1,1 @@
+ALTER TABLE app_user ADD COLUMN passwordStatus character varying(255) DEFAULT 'ACTIVE';

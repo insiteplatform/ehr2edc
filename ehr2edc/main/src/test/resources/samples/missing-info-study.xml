@@ -1,0 +1,391 @@
+<ODM FileType="Snapshot" Granularity="Metadata" CreationDateTime="2019-04-01T10:21:51.739-00:00"
+     FileOID="9b9357de-1693-483a-abdd-b6e4e75f6331" ODMVersion="1.3" xmlns:mdsol="http://www.mdsol.com/ns/odm/metadata"
+     xmlns="http://www.cdisc.org/ns/odm/v1.3">
+    <Study>
+        <GlobalVariables>
+            <ProtocolName>EHR2EDC</ProtocolName>
+        </GlobalVariables>
+        <BasicDefinitions>
+            <MeasurementUnit OID="cm" Name="cm">
+                <Symbol>
+                    <TranslatedText xml:lang="en">cm</TranslatedText>
+                    <TranslatedText xml:lang="ja">cm</TranslatedText>
+                </Symbol>
+            </MeasurementUnit>
+            <MeasurementUnit OID="kg" Name="kg">
+                <Symbol>
+                    <TranslatedText xml:lang="en">kg</TranslatedText>
+                    <TranslatedText xml:lang="ja">kg</TranslatedText>
+                </Symbol>
+            </MeasurementUnit>
+            <MeasurementUnit OID="mmHg" Name="mmHg">
+                <Symbol>
+                    <TranslatedText xml:lang="en">mmHg</TranslatedText>
+                    <TranslatedText xml:lang="ja">mmHg</TranslatedText>
+                </Symbol>
+            </MeasurementUnit>
+            <MeasurementUnit OID="BEATS/MIN" Name="BEATS/MIN">
+                <Symbol>
+                    <TranslatedText xml:lang="en">BEATS/MIN</TranslatedText>
+                    <TranslatedText xml:lang="ja">BEATS/MIN</TranslatedText>
+                </Symbol>
+            </MeasurementUnit>
+            <MeasurementUnit OID="°C" Name="°C">
+                <Symbol>
+                    <TranslatedText xml:lang="en">°C</TranslatedText>
+                    <TranslatedText xml:lang="ja">°C</TranslatedText>
+                </Symbol>
+            </MeasurementUnit>
+            <MeasurementUnit OID="BREATHS/MIN" Name="BREATHS/MIN">
+                <Symbol>
+                    <TranslatedText xml:lang="en">BREATHS/MIN</TranslatedText>
+                    <TranslatedText xml:lang="ja">BREATHS/MIN</TranslatedText>
+                </Symbol>
+            </MeasurementUnit>
+            <MeasurementUnit OID="%" Name="%">
+                <Symbol>
+                    <TranslatedText xml:lang="en">%</TranslatedText>
+                    <TranslatedText xml:lang="ja">%</TranslatedText>
+                </Symbol>
+            </MeasurementUnit>
+            <MeasurementUnit OID="mg" Name="mg">
+                <Symbol>
+                    <TranslatedText xml:lang="en">mg</TranslatedText>
+                    <TranslatedText xml:lang="ja">mg</TranslatedText>
+                </Symbol>
+            </MeasurementUnit>
+            <MeasurementUnit OID="mg/h" Name="mg/h">
+                <Symbol>
+                    <TranslatedText xml:lang="en">mg/h</TranslatedText>
+                    <TranslatedText xml:lang="ja">mg/h</TranslatedText>
+                </Symbol>
+            </MeasurementUnit>
+            <MeasurementUnit OID="mg/kg" Name="mg/kg">
+                <Symbol>
+                    <TranslatedText xml:lang="en">mg/kg</TranslatedText>
+                    <TranslatedText xml:lang="ja">mg/kg</TranslatedText>
+                </Symbol>
+            </MeasurementUnit>
+            <MeasurementUnit OID="mm" Name="mm">
+                <Symbol>
+                    <TranslatedText xml:lang="en">mm</TranslatedText>
+                    <TranslatedText xml:lang="ja">mm</TranslatedText>
+                </Symbol>
+            </MeasurementUnit>
+        </BasicDefinitions>
+        <MetaDataVersion OID="2788" Name="D1.0_DEV_117MAR2019" mdsol:PrimaryFormOID="SUB_ID"
+                         mdsol:DefaultMatrixOID="DEFAULT"
+                         mdsol:SignaturePrompt="By my dated signature below, I verify that data recorded in the CRF(s) provided prior to my electronic signature accurately displays the results of the examinations, tests, evaluations and treatments performed on this subject. I certify that I intend that this electronic signature is to be the legally binding equivalent of my handwritten signature.">
+            <Protocol>
+                <StudyEventRef StudyEventOID="00" OrderNumber="1" Mandatory="No"/>
+            </Protocol>
+            <StudyEventDef OID="00" Name="Screening" Type="Common" Repeating="Yes" mdsol:OrderNumber="1"
+                           mdsol:TargetDays="0" mdsol:OverDueDays="5">
+                <FormRef FormOID="DM_DOB" OrderNumber="6" Mandatory="No"/>
+            </StudyEventDef>
+            <FormDef OID="DM_DOB" Name="Demographics" Repeating="Yes" mdsol:OrderNumber="6"
+                     mdsol:SignatureRequired="Yes" mdsol:LogDirection="Portrait" mdsol:DoubleDataEntry="MustNotDDE"
+                     mdsol:ConfirmationStyle="LinkNext">
+                <ItemGroupRef ItemGroupOID="DM_DOB" Mandatory="Yes"/>
+                <mdsol:HelpText xml:lang="en">
+                    %%/MedidataRave/Help/Modules/Helpfile/ACT15377_CRF_Completions_Instruction.pdf#nameddest=DM_DOB&amp;DefaultItemOpen==1
+                </mdsol:HelpText>
+                <mdsol:HelpText xml:lang="ja">
+                    %%/MedidataRave/Help/Modules/Helpfile/ACT15377_CRF_Completions_Instruction.pdf#nameddest=DM_DOB&amp;DefaultItemOpen==1
+                </mdsol:HelpText>
+                <mdsol:EntryRestriction>Data Manager</mdsol:EntryRestriction>
+                <mdsol:EntryRestriction>Data Acquisition Specialist</mdsol:EntryRestriction>
+            </FormDef>
+            <ItemGroupDef OID="DM_DOB" Name="DM_DOB" Repeating="No">
+                <ItemRef ItemOID="DM_DOB.BRTHYR" OrderNumber="1" Mandatory="Yes"/>
+                <ItemRef ItemOID="DM_DOB.BRTHDAT" OrderNumber="2" Mandatory="No"/>
+                <ItemRef ItemOID="DM_DOB.AGEC" OrderNumber="3" Mandatory="Yes"/>
+                <ItemRef ItemOID="DM_DOB.AGE" OrderNumber="4" Mandatory="No"/>
+                <ItemRef ItemOID="DM_DOB.AGEU" OrderNumber="5" Mandatory="No"/>
+                <ItemRef ItemOID="DM_DOB.SEX" OrderNumber="6" Mandatory="Yes"/>
+                <ItemRef ItemOID="DM_DOB.ETHNIC" OrderNumber="7" Mandatory="Yes"/>
+                <ItemRef ItemOID="DM_DOB.RAIAN" OrderNumber="9" Mandatory="No"/>
+                <ItemRef ItemOID="DM_DOB.RASIAN" OrderNumber="10" Mandatory="No"/>
+                <ItemRef ItemOID="DM_DOB.RBLACK" OrderNumber="11" Mandatory="No"/>
+                <ItemRef ItemOID="DM_DOB.RNHOPI" OrderNumber="12" Mandatory="No"/>
+                <ItemRef ItemOID="DM_DOB.RWHITE" OrderNumber="13" Mandatory="No"/>
+                <ItemRef ItemOID="DM_DOB.RNREP" OrderNumber="14" Mandatory="No"/>
+                <ItemRef ItemOID="DM_DOB.RUNK" OrderNumber="15" Mandatory="No"/>
+                <ItemRef ItemOID="DM_DOB.DSPRSTUD" OrderNumber="17" Mandatory="No"/>
+                <ItemRef ItemOID="DM_DOB.DSPRSUBJ" OrderNumber="19" Mandatory="No"/>
+            </ItemGroupDef>
+            <ItemDef OID="DM_DOB.BRTHYR" Name="BRTHYR" DataType="date" mdsol:DateTimeFormat="yyyy"
+                     mdsol:VariableOID="BRTHYR" mdsol:Active="Yes" mdsol:ControlType="DateTime"
+                     mdsol:SourceDocument="Yes" mdsol:QueryFutureDate="Yes" mdsol:Visible="Yes"
+                     mdsol:QueryNonConformance="Yes">
+                <Question>
+                    <TranslatedText xml:lang="en">Year of Birth</TranslatedText>
+                    <TranslatedText xml:lang="ja">Year of Birth</TranslatedText>
+                </Question>
+                <mdsol:EntryRestriction>Data Manager</mdsol:EntryRestriction>
+                <mdsol:EntryRestriction>Data Acquisition Specialist</mdsol:EntryRestriction>
+                <mdsol:ReviewGroup>Data Management Review</mdsol:ReviewGroup>
+            </ItemDef>
+            <ItemDef OID="DM_DOB.BRTHDAT" Name="BRTHDAT" DataType="date" mdsol:DateTimeFormat="dd- MMM- yyyy"
+                     mdsol:VariableOID="BRTHDAT" mdsol:Active="Yes" mdsol:ControlType="DateTime" mdsol:Visible="Yes"
+                     mdsol:DoesNotBreakSignature="Yes">
+                <Question>
+                    <TranslatedText xml:lang="en">Date of Birth</TranslatedText>
+                    <TranslatedText xml:lang="ja">Date of Birth</TranslatedText>
+                </Question>
+                <mdsol:ViewRestriction>Clinical Research Associate</mdsol:ViewRestriction>
+                <mdsol:ViewRestriction>Investigator</mdsol:ViewRestriction>
+                <mdsol:ViewRestriction>Records Manager</mdsol:ViewRestriction>
+                <mdsol:ViewRestriction>Site Staff</mdsol:ViewRestriction>
+                <mdsol:ViewRestriction>Investigator - Blinded</mdsol:ViewRestriction>
+                <mdsol:ViewRestriction>Site Staff - Blinded</mdsol:ViewRestriction>
+                <mdsol:EntryRestriction>Data Manager</mdsol:EntryRestriction>
+                <mdsol:EntryRestriction>Data Acquisition Specialist</mdsol:EntryRestriction>
+            </ItemDef>
+            <ItemDef OID="DM_DOB.AGEC" Name="AGEC" DataType="integer" mdsol:VariableOID="AGEC" Length="5"
+                     mdsol:Active="Yes" mdsol:ControlType="Text" mdsol:SourceDocument="Yes" mdsol:Visible="Yes">
+                <Question>
+                    <TranslatedText xml:lang="en">Age</TranslatedText>
+                    <TranslatedText xml:lang="ja">Age</TranslatedText>
+                </Question>
+                <mdsol:EntryRestriction>Data Manager</mdsol:EntryRestriction>
+                <mdsol:ReviewGroup>Data Management Review</mdsol:ReviewGroup>
+            </ItemDef>
+            <ItemDef OID="DM_DOB.AGE" Name="AGE" DataType="integer" mdsol:VariableOID="AGE" Length="5"
+                     mdsol:Active="Yes" mdsol:ControlType="Text" mdsol:Visible="Yes" mdsol:DoesNotBreakSignature="Yes">
+                <Question>
+                    <TranslatedText xml:lang="en">Age</TranslatedText>
+                    <TranslatedText xml:lang="ja">Age</TranslatedText>
+                </Question>
+                <mdsol:ViewRestriction>Clinical Research Associate</mdsol:ViewRestriction>
+                <mdsol:ViewRestriction>Investigator</mdsol:ViewRestriction>
+                <mdsol:ViewRestriction>Records Manager</mdsol:ViewRestriction>
+                <mdsol:ViewRestriction>Site Staff</mdsol:ViewRestriction>
+                <mdsol:ViewRestriction>Investigator - Blinded</mdsol:ViewRestriction>
+                <mdsol:ViewRestriction>Site Staff - Blinded</mdsol:ViewRestriction>
+                <mdsol:EntryRestriction>Data Manager</mdsol:EntryRestriction>
+            </ItemDef>
+            <ItemDef OID="DM_DOB.AGEU" Name="AGEU" DataType="text" mdsol:VariableOID="AGEU" Length="6"
+                     mdsol:Active="Yes" mdsol:ControlType="DropDownList" mdsol:DefaultValue="YEARS" mdsol:Visible="Yes"
+                     mdsol:DoesNotBreakSignature="Yes">
+                <Question>
+                    <TranslatedText xml:lang="en">Unit</TranslatedText>
+                    <TranslatedText xml:lang="ja">Unit</TranslatedText>
+                </Question>
+                <CodeListRef CodeListOID="AGEU"/>
+                <mdsol:EntryRestriction>Data Manager</mdsol:EntryRestriction>
+                <mdsol:EntryRestriction>Investigator</mdsol:EntryRestriction>
+                <mdsol:EntryRestriction>Data Acquisition Specialist</mdsol:EntryRestriction>
+                <mdsol:EntryRestriction>Site Staff</mdsol:EntryRestriction>
+                <mdsol:EntryRestriction>Investigator - Blinded</mdsol:EntryRestriction>
+                <mdsol:EntryRestriction>Site Staff - Blinded</mdsol:EntryRestriction>
+            </ItemDef>
+            <ItemDef OID="DM_DOB.SEX" Name="SEX" DataType="text" mdsol:VariableOID="SEX" Length="1" mdsol:Active="Yes"
+                     mdsol:ControlType="RadioButton" mdsol:SourceDocument="Yes" mdsol:Visible="Yes">
+                <Question>
+                    <TranslatedText xml:lang="en">Sex</TranslatedText>
+                    <TranslatedText xml:lang="ja">Sex</TranslatedText>
+                </Question>
+                <CodeListRef CodeListOID="SEX"/>
+                <mdsol:EntryRestriction>Data Manager</mdsol:EntryRestriction>
+                <mdsol:EntryRestriction>Data Acquisition Specialist</mdsol:EntryRestriction>
+                <mdsol:ReviewGroup>Data Management Review</mdsol:ReviewGroup>
+            </ItemDef>
+            <ItemDef OID="DM_DOB.ETHNIC" Name="ETHNIC" DataType="text" mdsol:VariableOID="ETHNIC" Length="22"
+                     mdsol:Active="Yes" mdsol:ControlType="RadioButton" mdsol:SourceDocument="Yes" mdsol:Visible="Yes">
+                <Question>
+                    <TranslatedText xml:lang="en">Ethnicity</TranslatedText>
+                    <TranslatedText xml:lang="ja">Ethnicity</TranslatedText>
+                </Question>
+                <CodeListRef CodeListOID="ETHNIC"/>
+                <mdsol:EntryRestriction>Data Manager</mdsol:EntryRestriction>
+                <mdsol:EntryRestriction>Data Acquisition Specialist</mdsol:EntryRestriction>
+                <mdsol:ReviewGroup>Data Management Review</mdsol:ReviewGroup>
+            </ItemDef>
+            <ItemDef OID="DM_DOB.RAIAN" Name="RAIAN" DataType="integer" mdsol:VariableOID="RAIAN" Length="1"
+                     mdsol:Active="Yes" mdsol:ControlType="CheckBox" mdsol:IndentLevel="2" mdsol:SourceDocument="Yes"
+                     mdsol:Visible="Yes">
+                <Question>
+                    <TranslatedText xml:lang="en">American Indian or Alaska Native</TranslatedText>
+                    <TranslatedText xml:lang="ja">American Indian or Alaska Native</TranslatedText>
+                </Question>
+                <mdsol:EntryRestriction>Data Manager</mdsol:EntryRestriction>
+                <mdsol:EntryRestriction>Data Acquisition Specialist</mdsol:EntryRestriction>
+                <mdsol:ReviewGroup>Data Management Review</mdsol:ReviewGroup>
+                <mdsol:Label Position="Above" xml:lang="en">&lt;i&gt;Race (Check all that apply):&lt;/i&gt;
+                </mdsol:Label>
+                <mdsol:Label Position="Above" xml:lang="ja">&lt;i&gt;Race (Check all that apply):&lt;/i&gt;
+                </mdsol:Label>
+            </ItemDef>
+            <ItemDef OID="DM_DOB.RASIAN" Name="RASIAN" DataType="integer" mdsol:VariableOID="RASIAN" Length="1"
+                     mdsol:Active="Yes" mdsol:ControlType="CheckBox" mdsol:IndentLevel="2" mdsol:SourceDocument="Yes"
+                     mdsol:Visible="Yes">
+                <Question>
+                    <TranslatedText xml:lang="en">Asian</TranslatedText>
+                    <TranslatedText xml:lang="ja">Asian</TranslatedText>
+                </Question>
+                <mdsol:EntryRestriction>Data Manager</mdsol:EntryRestriction>
+                <mdsol:EntryRestriction>Data Acquisition Specialist</mdsol:EntryRestriction>
+                <mdsol:ReviewGroup>Data Management Review</mdsol:ReviewGroup>
+            </ItemDef>
+            <ItemDef OID="DM_DOB.RBLACK" Name="RBLACK" DataType="integer" mdsol:VariableOID="RBLACK" Length="1"
+                     mdsol:Active="Yes" mdsol:ControlType="CheckBox" mdsol:IndentLevel="2" mdsol:SourceDocument="Yes"
+                     mdsol:Visible="Yes">
+                <Question>
+                    <TranslatedText xml:lang="en">Black or African American</TranslatedText>
+                    <TranslatedText xml:lang="ja">Black or African American</TranslatedText>
+                </Question>
+                <mdsol:EntryRestriction>Data Manager</mdsol:EntryRestriction>
+                <mdsol:EntryRestriction>Data Acquisition Specialist</mdsol:EntryRestriction>
+                <mdsol:ReviewGroup>Data Management Review</mdsol:ReviewGroup>
+            </ItemDef>
+            <ItemDef OID="DM_DOB.RNHOPI" Name="RNHOPI" DataType="integer" mdsol:VariableOID="RNHOPI" Length="1"
+                     mdsol:Active="Yes" mdsol:ControlType="CheckBox" mdsol:IndentLevel="2" mdsol:SourceDocument="Yes"
+                     mdsol:Visible="Yes">
+                <Question>
+                    <TranslatedText xml:lang="en">Native Hawaiian or Other Pacific Islander</TranslatedText>
+                    <TranslatedText xml:lang="ja">Native Hawaiian or Other Pacific Islander</TranslatedText>
+                </Question>
+                <mdsol:EntryRestriction>Data Manager</mdsol:EntryRestriction>
+                <mdsol:EntryRestriction>Data Acquisition Specialist</mdsol:EntryRestriction>
+                <mdsol:ReviewGroup>Data Management Review</mdsol:ReviewGroup>
+            </ItemDef>
+            <ItemDef OID="DM_DOB.RWHITE" Name="RWHITE" DataType="integer" mdsol:VariableOID="RWHITE" Length="1"
+                     mdsol:Active="Yes" mdsol:ControlType="CheckBox" mdsol:IndentLevel="2" mdsol:SourceDocument="Yes"
+                     mdsol:Visible="Yes">
+                <Question>
+                    <TranslatedText xml:lang="en">White</TranslatedText>
+                    <TranslatedText xml:lang="ja">White</TranslatedText>
+                </Question>
+                <mdsol:EntryRestriction>Data Manager</mdsol:EntryRestriction>
+                <mdsol:EntryRestriction>Data Acquisition Specialist</mdsol:EntryRestriction>
+                <mdsol:ReviewGroup>Data Management Review</mdsol:ReviewGroup>
+            </ItemDef>
+            <ItemDef OID="DM_DOB.RNREP" Name="RNREP" DataType="integer" mdsol:VariableOID="RNREP" Length="1"
+                     mdsol:Active="Yes" mdsol:ControlType="CheckBox" mdsol:IndentLevel="2" mdsol:SourceDocument="Yes"
+                     mdsol:Visible="Yes">
+                <Question>
+                    <TranslatedText xml:lang="en">Not Reported</TranslatedText>
+                    <TranslatedText xml:lang="ja">Not Reported</TranslatedText>
+                </Question>
+                <mdsol:EntryRestriction>Data Manager</mdsol:EntryRestriction>
+                <mdsol:EntryRestriction>Data Acquisition Specialist</mdsol:EntryRestriction>
+                <mdsol:ReviewGroup>Data Management Review</mdsol:ReviewGroup>
+            </ItemDef>
+            <ItemDef OID="DM_DOB.RUNK" Name="RUNK" DataType="integer" mdsol:VariableOID="RUNK" Length="1"
+                     mdsol:Active="Yes" mdsol:ControlType="CheckBox" mdsol:IndentLevel="2" mdsol:SourceDocument="Yes"
+                     mdsol:Visible="Yes">
+                <Question>
+                    <TranslatedText xml:lang="en">Unknown</TranslatedText>
+                    <TranslatedText xml:lang="ja">Unknown</TranslatedText>
+                </Question>
+                <mdsol:EntryRestriction>Data Manager</mdsol:EntryRestriction>
+                <mdsol:EntryRestriction>Data Acquisition Specialist</mdsol:EntryRestriction>
+                <mdsol:ReviewGroup>Data Management Review</mdsol:ReviewGroup>
+            </ItemDef>
+            <ItemDef OID="DM_DOB.DSPRSTUD" Name="DSPRSTUD" DataType="text" mdsol:VariableOID="DSPRSTUD" Length="15"
+                     mdsol:Active="Yes" mdsol:ControlType="Text" mdsol:SourceDocument="Yes" mdsol:Visible="Yes">
+                <Question>
+                    <TranslatedText xml:lang="en">Previous Study</TranslatedText>
+                    <TranslatedText xml:lang="ja">Previous Study</TranslatedText>
+                </Question>
+                <mdsol:EntryRestriction>Data Manager</mdsol:EntryRestriction>
+                <mdsol:EntryRestriction>Data Acquisition Specialist</mdsol:EntryRestriction>
+                <mdsol:ReviewGroup>Data Management Review</mdsol:ReviewGroup>
+                <mdsol:Label Position="Above" xml:lang="en">&lt;i&gt;If the subject already participated in a study of
+                    the same product, enter the 'previous study' and the 'previous study subject ID'.&lt;br/&gt;For
+                    Re-screened subjects, let 'previous study' empty and enter the 'previous study subject ID'.&lt;/i&gt;
+                </mdsol:Label>
+                <mdsol:Label Position="Above" xml:lang="ja">&lt;i&gt;If the subject already participated in a study of
+                    the same product, enter the 'previous study' and the 'previous study subject ID'.&lt;br/&gt;For
+                    Re-screened subjects, let 'previous study' empty and enter the 'previous study subject ID'.&lt;/i&gt;
+                </mdsol:Label>
+            </ItemDef>
+            <ItemDef OID="DM_DOB.DSPRSUBJ" Name="DSPRSUBJ" DataType="text" mdsol:VariableOID="DSPRSUBJ" Length="12"
+                     mdsol:Active="Yes" mdsol:ControlType="Text" mdsol:SourceDocument="Yes" mdsol:Visible="Yes">
+                <Question>
+                    <TranslatedText xml:lang="en">Previous Study Subject ID</TranslatedText>
+                    <TranslatedText xml:lang="ja">Previous Study Subject ID</TranslatedText>
+                </Question>
+                <mdsol:EntryRestriction>Data Manager</mdsol:EntryRestriction>
+                <mdsol:EntryRestriction>Data Acquisition Specialist</mdsol:EntryRestriction>
+                <mdsol:ReviewGroup>Data Management Review</mdsol:ReviewGroup>
+            </ItemDef>
+            <CodeList OID="SEX" Name="SEX" DataType="text">
+                <CodeListItem CodedValue="M" mdsol:OrderNumber="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Male</TranslatedText>
+                        <TranslatedText xml:lang="ja">Male</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="F" mdsol:OrderNumber="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Female</TranslatedText>
+                        <TranslatedText xml:lang="ja">Female</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList OID="ETHNIC" Name="ETHNIC" DataType="text">
+                <CodeListItem CodedValue="HISPANIC OR LATINO" mdsol:OrderNumber="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Hispanic or Latino</TranslatedText>
+                        <TranslatedText xml:lang="ja">Hispanic or Latino</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="NOT HISPANIC OR LATINO" mdsol:OrderNumber="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Not Hispanic or Latino</TranslatedText>
+                        <TranslatedText xml:lang="ja">Not Hispanic or Latino</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="UNKNOWN" mdsol:OrderNumber="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Unknown</TranslatedText>
+                        <TranslatedText xml:lang="ja">Unknown</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="NOT REPORTED" mdsol:OrderNumber="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Not Reported</TranslatedText>
+                        <TranslatedText xml:lang="ja">Not Reported</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList OID="AGEU" Name="AGEU" DataType="text">
+                <CodeListItem CodedValue="HOURS" mdsol:OrderNumber="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Hour</TranslatedText>
+                        <TranslatedText xml:lang="ja">Hour</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="DAYS" mdsol:OrderNumber="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Day</TranslatedText>
+                        <TranslatedText xml:lang="ja">Day</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="WEEKS" mdsol:OrderNumber="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Week</TranslatedText>
+                        <TranslatedText xml:lang="ja">Week</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="MONTHS" mdsol:OrderNumber="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Month</TranslatedText>
+                        <TranslatedText xml:lang="ja">Month</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="YEARS" mdsol:OrderNumber="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Year</TranslatedText>
+                        <TranslatedText xml:lang="ja">Year</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <mdsol:ConfirmationMessage xml:lang="en">Data saved</mdsol:ConfirmationMessage>
+            <mdsol:ConfirmationMessage xml:lang="ja">Data saved</mdsol:ConfirmationMessage>
+            <mdsol:LabSettings StandardUnits="SI_SA_01"/>
+        </MetaDataVersion>
+    </Study>
+</ODM>

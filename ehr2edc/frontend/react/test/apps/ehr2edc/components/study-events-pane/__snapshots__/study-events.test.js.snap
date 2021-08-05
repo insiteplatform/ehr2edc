@@ -1,0 +1,2279 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component gets rendered well Component in the error state and a custom error message gets rendered well 1`] = `
+Array [
+  <h3
+    className="subheader padding-tb margin-medium-rl"
+  >
+    Events
+  </h3>,
+  <div
+    className="margin-rl padding-bottom"
+  >
+    <div
+      className="alert-box small info margin-small-rl padding"
+    >
+      <div
+        className="expandable-text"
+      >
+        <p>
+          This list contains all the events (scheduled visits and unscheduled events) for which data points can be automatically extracted. The number of data points that can be used to populate is displayed for each listed event. When populating the event it is possible to select a date in the past to allow retrospective data extraction. If the event is a scheduled visit, the selected date is typically equal to or immediately following the date at which the visit was performed. The date used for the last population for a given event is displayed next to the event name. Select the event name in order to review the data points that were used to populate.
+        </p>
+        <p>
+          <a
+            data-enzyme="action"
+            onClick={[Function]}
+          >
+            Show more
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="search-results-none-icon error-center"
+  >
+    <i
+      className="fa fa-times warning"
+    />
+    <div
+      className="align-center error-message"
+    >
+      <ul
+        className="bullet"
+      >
+        <li>
+          Events failed to load.
+        </li>
+      </ul>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Component gets rendered well Component in the error state gets rendered well 1`] = `
+Array [
+  <h3
+    className="subheader padding-tb margin-medium-rl"
+  >
+    Events
+  </h3>,
+  <div
+    className="margin-rl padding-bottom"
+  >
+    <div
+      className="alert-box small info margin-small-rl padding"
+    >
+      <div
+        className="expandable-text"
+      >
+        <p>
+          This list contains all the events (scheduled visits and unscheduled events) for which data points can be automatically extracted. The number of data points that can be used to populate is displayed for each listed event. When populating the event it is possible to select a date in the past to allow retrospective data extraction. If the event is a scheduled visit, the selected date is typically equal to or immediately following the date at which the visit was performed. The date used for the last population for a given event is displayed next to the event name. Select the event name in order to review the data points that were used to populate.
+        </p>
+        <p>
+          <a
+            data-enzyme="action"
+            onClick={[Function]}
+          >
+            Show more
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="search-results-none-icon error-center"
+  >
+    <i
+      className="fa fa-times warning"
+    />
+    <div
+      className="align-center error-message"
+    >
+      <ul
+        className="bullet"
+      >
+        <li>
+          Events failed to load.
+        </li>
+      </ul>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Component gets rendered well Component in the loading state gets rendered well 1`] = `
+Array [
+  <h3
+    className="subheader padding-tb margin-medium-rl"
+  >
+    Events
+  </h3>,
+  <div
+    className="margin-rl padding-bottom"
+  >
+    <div
+      className="alert-box small info margin-small-rl padding"
+    >
+      <div
+        className="expandable-text"
+      >
+        <p>
+          This list contains all the events (scheduled visits and unscheduled events) for which data points can be automatically extracted. The number of data points that can be used to populate is displayed for each listed event. When populating the event it is possible to select a date in the past to allow retrospective data extraction. If the event is a scheduled visit, the selected date is typically equal to or immediately following the date at which the visit was performed. The date used for the last population for a given event is displayed next to the event name. Select the event name in order to review the data points that were used to populate.
+        </p>
+        <p>
+          <a
+            data-enzyme="action"
+            onClick={[Function]}
+          >
+            Show more
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="grid-block search-results-loading"
+  >
+    <span
+      className="search-results-loading-icon"
+    >
+      <i
+        className="fa fa-circle-o-notch fa-spin"
+      />
+    </span>
+  </div>,
+]
+`;
+
+exports[`Component gets rendered well Component with no events and a custom empty message gets rendered well 1`] = `
+Array [
+  <h3
+    className="subheader padding-tb margin-medium-rl"
+  >
+    Events
+  </h3>,
+  <div
+    className="margin-rl padding-bottom"
+  >
+    <div
+      className="alert-box small info margin-small-rl padding"
+    >
+      <div
+        className="expandable-text"
+      >
+        <p>
+          This list contains all the events (scheduled visits and unscheduled events) for which data points can be automatically extracted. The number of data points that can be used to populate is displayed for each listed event. When populating the event it is possible to select a date in the past to allow retrospective data extraction. If the event is a scheduled visit, the selected date is typically equal to or immediately following the date at which the visit was performed. The date used for the last population for a given event is displayed next to the event name. Select the event name in order to review the data points that were used to populate.
+        </p>
+        <p>
+          <a
+            data-enzyme="action"
+            onClick={[Function]}
+          >
+            Show more
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="search-results-none-icon error-center"
+  >
+    <i
+      className="fa fa-times warning"
+    />
+    <div
+      className="align-center error-message"
+    >
+      <p
+        className="text-center"
+      >
+        Test empty message
+      </p>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Component gets rendered well Component with no events and a custom studyPageUrl gets rendered well 1`] = `
+Array [
+  <h3
+    className="subheader padding-tb margin-medium-rl"
+  >
+    Events
+  </h3>,
+  <div
+    className="margin-rl padding-bottom"
+  >
+    <div
+      className="alert-box small info margin-small-rl padding"
+    >
+      <div
+        className="expandable-text"
+      >
+        <p>
+          This list contains all the events (scheduled visits and unscheduled events) for which data points can be automatically extracted. The number of data points that can be used to populate is displayed for each listed event. When populating the event it is possible to select a date in the past to allow retrospective data extraction. If the event is a scheduled visit, the selected date is typically equal to or immediately following the date at which the visit was performed. The date used for the last population for a given event is displayed next to the event name. Select the event name in order to review the data points that were used to populate.
+        </p>
+        <p>
+          <a
+            data-enzyme="action"
+            onClick={[Function]}
+          >
+            Show more
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="search-results-none-icon error-center"
+  >
+    <i
+      className="fa fa-times warning"
+    />
+    <div
+      className="align-center error-message"
+    >
+      <p
+        className="text-center"
+      >
+        No events present for the study
+      </p>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Component gets rendered well Component with no events gets rendered well 1`] = `
+Array [
+  <h3
+    className="subheader padding-tb margin-medium-rl"
+  >
+    Events
+  </h3>,
+  <div
+    className="margin-rl padding-bottom"
+  >
+    <div
+      className="alert-box small info margin-small-rl padding"
+    >
+      <div
+        className="expandable-text"
+      >
+        <p>
+          This list contains all the events (scheduled visits and unscheduled events) for which data points can be automatically extracted. The number of data points that can be used to populate is displayed for each listed event. When populating the event it is possible to select a date in the past to allow retrospective data extraction. If the event is a scheduled visit, the selected date is typically equal to or immediately following the date at which the visit was performed. The date used for the last population for a given event is displayed next to the event name. Select the event name in order to review the data points that were used to populate.
+        </p>
+        <p>
+          <a
+            data-enzyme="action"
+            onClick={[Function]}
+          >
+            Show more
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="search-results-none-icon error-center"
+  >
+    <i
+      className="fa fa-times warning"
+    />
+    <div
+      className="align-center error-message"
+    >
+      <p
+        className="text-center"
+      >
+        No events present for the study
+      </p>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Component gets rendered well Component with unpopulated events gets rendered well 1`] = `
+Array [
+  <h3
+    className="subheader padding-tb margin-medium-rl"
+  >
+    Events
+  </h3>,
+  <div
+    className="margin-rl padding-bottom"
+  >
+    <div
+      className="alert-box small info margin-small-rl padding"
+    >
+      <div
+        className="expandable-text"
+      >
+        <p>
+          This list contains all the events (scheduled visits and unscheduled events) for which data points can be automatically extracted. The number of data points that can be used to populate is displayed for each listed event. When populating the event it is possible to select a date in the past to allow retrospective data extraction. If the event is a scheduled visit, the selected date is typically equal to or immediately following the date at which the visit was performed. The date used for the last population for a given event is displayed next to the event name. Select the event name in order to review the data points that were used to populate.
+        </p>
+        <p>
+          <a
+            data-enzyme="action"
+            onClick={[Function]}
+          >
+            Show more
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="ReactTable"
+    style={Object {}}
+  >
+    <div
+      className="rt-table"
+      role="grid"
+    >
+      <div
+        className="rt-thead -header"
+        style={
+          Object {
+            "minWidth": "500px",
+          }
+        }
+      >
+        <div
+          className="rt-tr"
+          role="row"
+        >
+          <div
+            className="rt-th"
+            onClick={[Function]}
+            role="columnheader"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className=""
+            >
+              Event
+            </div>
+          </div>
+          <div
+            className="rt-th small-2"
+            onClick={[Function]}
+            role="columnheader"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className=""
+            >
+              No. of forms
+            </div>
+          </div>
+          <div
+            className="rt-th small-2"
+            onClick={[Function]}
+            role="columnheader"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className=""
+            >
+              No. of data points
+            </div>
+          </div>
+          <div
+            className="rt-th small-2"
+            onClick={[Function]}
+            role="columnheader"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className=""
+            >
+              Last Populated
+            </div>
+          </div>
+          <div
+            className="rt-th small-3"
+            onClick={[Function]}
+            role="columnheader"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className=""
+            >
+              Actions
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="rt-tbody"
+        style={
+          Object {
+            "minWidth": "500px",
+          }
+        }
+      >
+        <div
+          className="rt-tr-group"
+          role="rowgroup"
+        >
+          <div
+            className="rt-tr -odd"
+            role="row"
+          >
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <span
+                title="No data points have been fetched for the event yet"
+              >
+                Event nr. 1
+              </span>
+            </div>
+            <div
+              className="rt-td small-2"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              6
+            </div>
+            <div
+              className="rt-td small-2"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              30
+            </div>
+            <div
+              className="rt-td small-2"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            />
+            <div
+              className="rt-td small-3 button-cell"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                className="button tiny fetch-event fetch-event-event-1"
+                data-cy="populate-event-btn"
+                onClick={[Function]}
+              >
+                <i
+                  className="fa fa-plus"
+                />
+                Populate Event
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="pagination-bottom"
+    >
+      <zf-list-footer>
+        <div
+          className="pager-size"
+        >
+          <span>
+            Items per page: 
+          </span>
+          <ul>
+            <li
+              className="page-size-50"
+            >
+              <a
+                onClick={[Function]}
+              >
+                50
+              </a>
+            </li>
+            <li
+              className="page-size-100 is-active"
+            >
+              <a
+                onClick={[Function]}
+              >
+                100
+              </a>
+            </li>
+            <li
+              className="page-size-150"
+            >
+              <a
+                onClick={[Function]}
+              >
+                150
+              </a>
+            </li>
+            <li
+              className="page-size-200"
+            >
+              <a
+                onClick={[Function]}
+              >
+                200
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          className="pager-middle"
+        />
+        <ul
+          className="pager"
+        >
+          <li
+            className="pager-navigation-button first disabled"
+          >
+            <a
+              disabled={true}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-double-left"
+              />
+            </a>
+          </li>
+          <li
+            className="pager-navigation-button prev disabled"
+          >
+            <a
+              disabled={true}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-left"
+              />
+            </a>
+          </li>
+          <li
+            className="pager-navigation-page is-active page-1"
+          >
+            <a
+              onClick={[Function]}
+            >
+              1
+            </a>
+          </li>
+          <li
+            className="pager-navigation-button next disabled"
+          >
+            <a
+              disabled={true}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-right"
+              />
+            </a>
+          </li>
+          <li
+            className="pager-navigation-button last disabled"
+          >
+            <a
+              disabled={true}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-double-right"
+              />
+            </a>
+          </li>
+        </ul>
+      </zf-list-footer>
+    </div>
+    <div
+      className="-loading"
+    >
+      <div
+        className="-loading-inner"
+      >
+        Loading...
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Component gets rendered well Component with valid events gets rendered well 1`] = `
+Array [
+  <h3
+    className="subheader padding-tb margin-medium-rl"
+  >
+    Events
+  </h3>,
+  <div
+    className="margin-rl padding-bottom"
+  >
+    <div
+      className="alert-box small info margin-small-rl padding"
+    >
+      <div
+        className="expandable-text"
+      >
+        <p>
+          This list contains all the events (scheduled visits and unscheduled events) for which data points can be automatically extracted. The number of data points that can be used to populate is displayed for each listed event. When populating the event it is possible to select a date in the past to allow retrospective data extraction. If the event is a scheduled visit, the selected date is typically equal to or immediately following the date at which the visit was performed. The date used for the last population for a given event is displayed next to the event name. Select the event name in order to review the data points that were used to populate.
+        </p>
+        <p>
+          <a
+            data-enzyme="action"
+            onClick={[Function]}
+          >
+            Show more
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="ReactTable"
+    style={Object {}}
+  >
+    <div
+      className="rt-table"
+      role="grid"
+    >
+      <div
+        className="rt-thead -header"
+        style={
+          Object {
+            "minWidth": "500px",
+          }
+        }
+      >
+        <div
+          className="rt-tr"
+          role="row"
+        >
+          <div
+            className="rt-th"
+            onClick={[Function]}
+            role="columnheader"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className=""
+            >
+              Event
+            </div>
+          </div>
+          <div
+            className="rt-th small-2"
+            onClick={[Function]}
+            role="columnheader"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className=""
+            >
+              No. of forms
+            </div>
+          </div>
+          <div
+            className="rt-th small-2"
+            onClick={[Function]}
+            role="columnheader"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className=""
+            >
+              No. of data points
+            </div>
+          </div>
+          <div
+            className="rt-th small-2"
+            onClick={[Function]}
+            role="columnheader"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className=""
+            >
+              Last Populated
+            </div>
+          </div>
+          <div
+            className="rt-th small-3"
+            onClick={[Function]}
+            role="columnheader"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className=""
+            >
+              Actions
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="rt-tbody"
+        style={
+          Object {
+            "minWidth": "500px",
+          }
+        }
+      >
+        <div
+          className="rt-tr-group"
+          role="rowgroup"
+        >
+          <div
+            className="rt-tr -odd"
+            role="row"
+          >
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                href="/events/event-1"
+                onClick={[Function]}
+              >
+                Event nr. 1
+                 
+                <small>
+                  (
+                  December 10, 2018
+                  )
+                </small>
+              </a>
+            </div>
+            <div
+              className="rt-td small-2"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              6
+            </div>
+            <div
+              className="rt-td small-2"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              30
+            </div>
+            <div
+              className="rt-td small-2"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              May 27, 2014 at 12:12
+            </div>
+            <div
+              className="rt-td small-3 button-cell"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                className="button tiny fetch-event fetch-event-event-1"
+                data-cy="populate-event-btn"
+                onClick={[Function]}
+              >
+                <i
+                  className="fa fa-plus"
+                />
+                Populate Event
+              </a>
+              <a
+                className="button tiny secondary"
+                href="/events/event-1/eventId-1/reviewed"
+                onClick={[Function]}
+              >
+                <i
+                  className="fa fa-history"
+                />
+                Submission History
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rt-tr-group"
+          role="rowgroup"
+        >
+          <div
+            className="rt-tr -even"
+            role="row"
+          >
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                href="/events/event-2"
+                onClick={[Function]}
+              >
+                Event nr. 2
+                 
+                <small>
+                  (
+                  December 10, 2018
+                  )
+                </small>
+              </a>
+            </div>
+            <div
+              className="rt-td small-2"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              6
+            </div>
+            <div
+              className="rt-td small-2"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              30
+            </div>
+            <div
+              className="rt-td small-2"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              May 27, 2014 at 12:12
+            </div>
+            <div
+              className="rt-td small-3 button-cell"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                className="button tiny fetch-event fetch-event-event-2"
+                data-cy="populate-event-btn"
+                onClick={[Function]}
+              >
+                <i
+                  className="fa fa-plus"
+                />
+                Populate Event
+              </a>
+              <a
+                className="button tiny secondary"
+                href="/events/event-2/eventId-2/reviewed"
+                onClick={[Function]}
+              >
+                <i
+                  className="fa fa-history"
+                />
+                Submission History
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rt-tr-group"
+          role="rowgroup"
+        >
+          <div
+            className="rt-tr -odd"
+            role="row"
+          >
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                href="/events/event-3"
+                onClick={[Function]}
+              >
+                Event nr. 3
+                 
+                <small>
+                  (
+                  December 10, 2018
+                  )
+                </small>
+              </a>
+            </div>
+            <div
+              className="rt-td small-2"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              6
+            </div>
+            <div
+              className="rt-td small-2"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              30
+            </div>
+            <div
+              className="rt-td small-2"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              May 27, 2014 at 12:12
+            </div>
+            <div
+              className="rt-td small-3 button-cell"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                className="button tiny fetch-event fetch-event-event-3"
+                data-cy="populate-event-btn"
+                onClick={[Function]}
+              >
+                <i
+                  className="fa fa-plus"
+                />
+                Populate Event
+              </a>
+              <a
+                className="button tiny secondary"
+                href="/events/event-3/eventId-3/reviewed"
+                onClick={[Function]}
+              >
+                <i
+                  className="fa fa-history"
+                />
+                Submission History
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="pagination-bottom"
+    >
+      <zf-list-footer>
+        <div
+          className="pager-size"
+        >
+          <span>
+            Items per page: 
+          </span>
+          <ul>
+            <li
+              className="page-size-50"
+            >
+              <a
+                onClick={[Function]}
+              >
+                50
+              </a>
+            </li>
+            <li
+              className="page-size-100 is-active"
+            >
+              <a
+                onClick={[Function]}
+              >
+                100
+              </a>
+            </li>
+            <li
+              className="page-size-150"
+            >
+              <a
+                onClick={[Function]}
+              >
+                150
+              </a>
+            </li>
+            <li
+              className="page-size-200"
+            >
+              <a
+                onClick={[Function]}
+              >
+                200
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          className="pager-middle"
+        />
+        <ul
+          className="pager"
+        >
+          <li
+            className="pager-navigation-button first disabled"
+          >
+            <a
+              disabled={true}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-double-left"
+              />
+            </a>
+          </li>
+          <li
+            className="pager-navigation-button prev disabled"
+          >
+            <a
+              disabled={true}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-left"
+              />
+            </a>
+          </li>
+          <li
+            className="pager-navigation-page is-active page-1"
+          >
+            <a
+              onClick={[Function]}
+            >
+              1
+            </a>
+          </li>
+          <li
+            className="pager-navigation-button next disabled"
+          >
+            <a
+              disabled={true}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-right"
+              />
+            </a>
+          </li>
+          <li
+            className="pager-navigation-button last disabled"
+          >
+            <a
+              disabled={true}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-double-right"
+              />
+            </a>
+          </li>
+        </ul>
+      </zf-list-footer>
+    </div>
+    <div
+      className="-loading"
+    >
+      <div
+        className="-loading-inner"
+      >
+        Loading...
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Component gets rendered well Component with valid events without forms 1`] = `
+Array [
+  <h3
+    className="subheader padding-tb margin-medium-rl"
+  >
+    Events
+  </h3>,
+  <div
+    className="margin-rl padding-bottom"
+  >
+    <div
+      className="alert-box small info margin-small-rl padding"
+    >
+      <div
+        className="expandable-text"
+      >
+        <p>
+          This list contains all the events (scheduled visits and unscheduled events) for which data points can be automatically extracted. The number of data points that can be used to populate is displayed for each listed event. When populating the event it is possible to select a date in the past to allow retrospective data extraction. If the event is a scheduled visit, the selected date is typically equal to or immediately following the date at which the visit was performed. The date used for the last population for a given event is displayed next to the event name. Select the event name in order to review the data points that were used to populate.
+        </p>
+        <p>
+          <a
+            data-enzyme="action"
+            onClick={[Function]}
+          >
+            Show more
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="ReactTable"
+    style={Object {}}
+  >
+    <div
+      className="rt-table"
+      role="grid"
+    >
+      <div
+        className="rt-thead -header"
+        style={
+          Object {
+            "minWidth": "500px",
+          }
+        }
+      >
+        <div
+          className="rt-tr"
+          role="row"
+        >
+          <div
+            className="rt-th"
+            onClick={[Function]}
+            role="columnheader"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className=""
+            >
+              Event
+            </div>
+          </div>
+          <div
+            className="rt-th small-2"
+            onClick={[Function]}
+            role="columnheader"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className=""
+            >
+              No. of forms
+            </div>
+          </div>
+          <div
+            className="rt-th small-2"
+            onClick={[Function]}
+            role="columnheader"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className=""
+            >
+              No. of data points
+            </div>
+          </div>
+          <div
+            className="rt-th small-2"
+            onClick={[Function]}
+            role="columnheader"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className=""
+            >
+              Last Populated
+            </div>
+          </div>
+          <div
+            className="rt-th small-3"
+            onClick={[Function]}
+            role="columnheader"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className=""
+            >
+              Actions
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="rt-tbody"
+        style={
+          Object {
+            "minWidth": "500px",
+          }
+        }
+      >
+        <div
+          className="rt-tr-group"
+          role="rowgroup"
+        >
+          <div
+            className="rt-tr -odd"
+            role="row"
+          >
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                href="/events/event-1"
+                onClick={[Function]}
+              >
+                Event nr. 1
+                 
+                <small>
+                  (
+                  December 10, 2018
+                  )
+                </small>
+              </a>
+            </div>
+            <div
+              className="rt-td small-2"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              0
+            </div>
+            <div
+              className="rt-td small-2"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              17
+            </div>
+            <div
+              className="rt-td small-2"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              May 27, 2014 at 12:12
+            </div>
+            <div
+              className="rt-td small-3 button-cell"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                className="button tiny fetch-event fetch-event-event-1"
+                data-cy="populate-event-btn"
+                onClick={[Function]}
+              >
+                <i
+                  className="fa fa-plus"
+                />
+                Populate Event
+              </a>
+              <a
+                className="button tiny secondary"
+                href="/events/event-1/eventId-1/reviewed"
+                onClick={[Function]}
+              >
+                <i
+                  className="fa fa-history"
+                />
+                Submission History
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="pagination-bottom"
+    >
+      <zf-list-footer>
+        <div
+          className="pager-size"
+        >
+          <span>
+            Items per page: 
+          </span>
+          <ul>
+            <li
+              className="page-size-50"
+            >
+              <a
+                onClick={[Function]}
+              >
+                50
+              </a>
+            </li>
+            <li
+              className="page-size-100 is-active"
+            >
+              <a
+                onClick={[Function]}
+              >
+                100
+              </a>
+            </li>
+            <li
+              className="page-size-150"
+            >
+              <a
+                onClick={[Function]}
+              >
+                150
+              </a>
+            </li>
+            <li
+              className="page-size-200"
+            >
+              <a
+                onClick={[Function]}
+              >
+                200
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          className="pager-middle"
+        />
+        <ul
+          className="pager"
+        >
+          <li
+            className="pager-navigation-button first disabled"
+          >
+            <a
+              disabled={true}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-double-left"
+              />
+            </a>
+          </li>
+          <li
+            className="pager-navigation-button prev disabled"
+          >
+            <a
+              disabled={true}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-left"
+              />
+            </a>
+          </li>
+          <li
+            className="pager-navigation-page is-active page-1"
+          >
+            <a
+              onClick={[Function]}
+            >
+              1
+            </a>
+          </li>
+          <li
+            className="pager-navigation-button next disabled"
+          >
+            <a
+              disabled={true}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-right"
+              />
+            </a>
+          </li>
+          <li
+            className="pager-navigation-button last disabled"
+          >
+            <a
+              disabled={true}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-double-right"
+              />
+            </a>
+          </li>
+        </ul>
+      </zf-list-footer>
+    </div>
+    <div
+      className="-loading"
+    >
+      <div
+        className="-loading-inner"
+      >
+        Loading...
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Component gets rendered well Component with valid events without queries 1`] = `
+Array [
+  <h3
+    className="subheader padding-tb margin-medium-rl"
+  >
+    Events
+  </h3>,
+  <div
+    className="margin-rl padding-bottom"
+  >
+    <div
+      className="alert-box small info margin-small-rl padding"
+    >
+      <div
+        className="expandable-text"
+      >
+        <p>
+          This list contains all the events (scheduled visits and unscheduled events) for which data points can be automatically extracted. The number of data points that can be used to populate is displayed for each listed event. When populating the event it is possible to select a date in the past to allow retrospective data extraction. If the event is a scheduled visit, the selected date is typically equal to or immediately following the date at which the visit was performed. The date used for the last population for a given event is displayed next to the event name. Select the event name in order to review the data points that were used to populate.
+        </p>
+        <p>
+          <a
+            data-enzyme="action"
+            onClick={[Function]}
+          >
+            Show more
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="ReactTable"
+    style={Object {}}
+  >
+    <div
+      className="rt-table"
+      role="grid"
+    >
+      <div
+        className="rt-thead -header"
+        style={
+          Object {
+            "minWidth": "500px",
+          }
+        }
+      >
+        <div
+          className="rt-tr"
+          role="row"
+        >
+          <div
+            className="rt-th"
+            onClick={[Function]}
+            role="columnheader"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className=""
+            >
+              Event
+            </div>
+          </div>
+          <div
+            className="rt-th small-2"
+            onClick={[Function]}
+            role="columnheader"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className=""
+            >
+              No. of forms
+            </div>
+          </div>
+          <div
+            className="rt-th small-2"
+            onClick={[Function]}
+            role="columnheader"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className=""
+            >
+              No. of data points
+            </div>
+          </div>
+          <div
+            className="rt-th small-2"
+            onClick={[Function]}
+            role="columnheader"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className=""
+            >
+              Last Populated
+            </div>
+          </div>
+          <div
+            className="rt-th small-3"
+            onClick={[Function]}
+            role="columnheader"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className=""
+            >
+              Actions
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="rt-tbody"
+        style={
+          Object {
+            "minWidth": "500px",
+          }
+        }
+      >
+        <div
+          className="rt-tr-group"
+          role="rowgroup"
+        >
+          <div
+            className="rt-tr -odd"
+            role="row"
+          >
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                href="/events/event-1"
+                onClick={[Function]}
+              >
+                Event nr. 1
+                 
+                <small>
+                  (
+                  December 10, 2018
+                  )
+                </small>
+              </a>
+            </div>
+            <div
+              className="rt-td small-2"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              7
+            </div>
+            <div
+              className="rt-td small-2"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              0
+            </div>
+            <div
+              className="rt-td small-2"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              May 27, 2014 at 12:12
+            </div>
+            <div
+              className="rt-td small-3 button-cell"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <div
+                title="This event has no associated data points to be extracted"
+              >
+                <a
+                  className="button tiny disabled fetch-event fetch-event-event-1"
+                >
+                  <i
+                    className="fa fa-plus"
+                  />
+                  Populate Event
+                </a>
+              </div>
+              <a
+                className="button tiny secondary"
+                href="/events/event-1/eventId-1/reviewed"
+                onClick={[Function]}
+              >
+                <i
+                  className="fa fa-history"
+                />
+                Submission History
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="pagination-bottom"
+    >
+      <zf-list-footer>
+        <div
+          className="pager-size"
+        >
+          <span>
+            Items per page: 
+          </span>
+          <ul>
+            <li
+              className="page-size-50"
+            >
+              <a
+                onClick={[Function]}
+              >
+                50
+              </a>
+            </li>
+            <li
+              className="page-size-100 is-active"
+            >
+              <a
+                onClick={[Function]}
+              >
+                100
+              </a>
+            </li>
+            <li
+              className="page-size-150"
+            >
+              <a
+                onClick={[Function]}
+              >
+                150
+              </a>
+            </li>
+            <li
+              className="page-size-200"
+            >
+              <a
+                onClick={[Function]}
+              >
+                200
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          className="pager-middle"
+        />
+        <ul
+          className="pager"
+        >
+          <li
+            className="pager-navigation-button first disabled"
+          >
+            <a
+              disabled={true}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-double-left"
+              />
+            </a>
+          </li>
+          <li
+            className="pager-navigation-button prev disabled"
+          >
+            <a
+              disabled={true}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-left"
+              />
+            </a>
+          </li>
+          <li
+            className="pager-navigation-page is-active page-1"
+          >
+            <a
+              onClick={[Function]}
+            >
+              1
+            </a>
+          </li>
+          <li
+            className="pager-navigation-button next disabled"
+          >
+            <a
+              disabled={true}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-right"
+              />
+            </a>
+          </li>
+          <li
+            className="pager-navigation-button last disabled"
+          >
+            <a
+              disabled={true}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-double-right"
+              />
+            </a>
+          </li>
+        </ul>
+      </zf-list-footer>
+    </div>
+    <div
+      className="-loading"
+    >
+      <div
+        className="-loading-inner"
+      >
+        Loading...
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Handling the onFetchCompleted event When the fetch is completed with populated items, a success notification is shown 1`] = `
+<Notification
+  timeout={10000}
+>
+  <NotificationPortal
+    message="Successfully populated 10 data points."
+    onClose={[Function]}
+    portal={
+      <div
+        id="notifications"
+      >
+        <div
+          class="static-notification top-right  is-active"
+        >
+          <a
+            class="close-button"
+          >
+            ×
+          </a>
+          <div
+            class="notification-content"
+          >
+            <div
+              class="padding-rl"
+            >
+              <i
+                class="fa fa-info-circle"
+              />
+              Successfully populated 10 data points.
+            </div>
+          </div>
+        </div>
+      </div>
+    }
+    show={true}
+    type=""
+  >
+    <Portal
+      containerInfo={
+        <div
+          id="notifications"
+        >
+          <div
+            class="static-notification top-right  is-active"
+          >
+            <a
+              class="close-button"
+            >
+              ×
+            </a>
+            <div
+              class="notification-content"
+            >
+              <div
+                class="padding-rl"
+              >
+                <i
+                  class="fa fa-info-circle"
+                />
+                Successfully populated 10 data points.
+              </div>
+            </div>
+          </div>
+        </div>
+      }
+    >
+      <div
+        className="static-notification top-right  is-active"
+      >
+        <CloseNotification
+          onClose={[Function]}
+        >
+          <a
+            className="close-button"
+            onClick={[Function]}
+          >
+            ×
+          </a>
+        </CloseNotification>
+        <NotificationContent
+          message="Successfully populated 10 data points."
+        >
+          <div
+            className="notification-content"
+          >
+            <div
+              className="padding-rl"
+            >
+              <i
+                className="fa fa-info-circle"
+              />
+              Successfully populated 10 data points.
+            </div>
+          </div>
+        </NotificationContent>
+      </div>
+    </Portal>
+  </NotificationPortal>
+</Notification>
+`;
+
+exports[`Handling the onFetchCompleted event When the fetch is completed without any populated items, a warning notification is shown 1`] = `
+<Notification
+  timeout={10000}
+>
+  <NotificationPortal
+    message="Insufficient data for this subject relative to the selected reference date to populate forms."
+    onClose={[Function]}
+    portal={
+      <div
+        id="notifications"
+      >
+        <div
+          class="static-notification top-right warning is-active"
+        >
+          <a
+            class="close-button"
+          >
+            ×
+          </a>
+          <div
+            class="notification-content"
+          >
+            <div
+              class="padding-rl"
+            >
+              <i
+                class="fa fa-info-circle"
+              />
+              Insufficient data for this subject relative to the selected reference date to populate forms.
+            </div>
+          </div>
+        </div>
+      </div>
+    }
+    show={true}
+    type="warning"
+  >
+    <Portal
+      containerInfo={
+        <div
+          id="notifications"
+        >
+          <div
+            class="static-notification top-right warning is-active"
+          >
+            <a
+              class="close-button"
+            >
+              ×
+            </a>
+            <div
+              class="notification-content"
+            >
+              <div
+                class="padding-rl"
+              >
+                <i
+                  class="fa fa-info-circle"
+                />
+                Insufficient data for this subject relative to the selected reference date to populate forms.
+              </div>
+            </div>
+          </div>
+        </div>
+      }
+    >
+      <div
+        className="static-notification top-right warning is-active"
+      >
+        <CloseNotification
+          onClose={[Function]}
+        >
+          <a
+            className="close-button"
+            onClick={[Function]}
+          >
+            ×
+          </a>
+        </CloseNotification>
+        <NotificationContent
+          message="Insufficient data for this subject relative to the selected reference date to populate forms."
+        >
+          <div
+            className="notification-content"
+          >
+            <div
+              className="padding-rl"
+            >
+              <i
+                className="fa fa-info-circle"
+              />
+              Insufficient data for this subject relative to the selected reference date to populate forms.
+            </div>
+          </div>
+        </NotificationContent>
+      </div>
+    </Portal>
+  </NotificationPortal>
+</Notification>
+`;

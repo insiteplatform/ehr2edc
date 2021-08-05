@@ -1,0 +1,19 @@
+{	
+	"sidebar" : {
+		"patient"		: "patient",
+		"patients"		: "patients"
+	},
+	
+	"editDialog" : {
+		"title"							: "Edit cohort"
+	},
+	
+	"recalculateDialog" : {
+		"title"							: "Recalculate cohort"
+	},
+	
+	"importDialog" : {
+		"title"							: "Import cohort",
+		"create"						: "Create"
+	}
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>EHR2EDC Cypress</title>
+    <link rel="stylesheet" href="/app.css">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/fira-sans/font.css">
+    <link rel="stylesheet" href="/fontawesome/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="grid-frame vertical">
+    <div class="grid-block ehr2edc-studies">
+        <!-- EHR2EDC React app -->
+    </div>
+</div>
+<script>
+    var data = {
+        emptyMessage: "No EHR2EDC studies are found.",
+        errorMessage: "EHR2EDC Studies failed to load.",
+        contactAddress: "insite-support@custodix.com",
+        studyListUrl: "/ehr2edc/study/",
+    };
+    $(document).ready(function () {
+        appendEhr2EdcStudies($(".ehr2edc-studies")[0], data);
+    });
+</script>
+</body>

@@ -1,0 +1,39 @@
+/* nothing */
+
+/* .inner_content { */
+/*     padding: 50px; */
+/* } */
+
+.button_create_new {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 1.3em;
+}
+
+.button_link_icon_bigger {
+    height: 32px;
+    line-height: 32px;
+    padding: 10px ! important;
+}
+
+.action_button_icon_bigger {    
+    float: left;
+    border: 0px;
+    padding-right: 5px;
+    width: 32px;
+}
+
+.dialog_content {
+    padding: 15px;
+}
+
+input[type=radio], input.radio {
+    display: none;
+    float:left; 
+    clear:none; 
+    margin: 2px 0 0 2px;
+}
+
+#footer img{
+	height:22px;
+}

@@ -1,0 +1,56 @@
+{
+  "resourceType": "MedicationAdministration",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2019-09-25T05:25:58.068+00:00"
+  },
+  "status": "completed",
+  "patient": {
+    "reference": "Patient/${patientId}"
+  },
+  "effectiveTimePeriod": {
+    "start": "${startDate}",
+    "end": "${endDate}"
+  },
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "123455",
+        "display": "Some Oral Tablet"
+      }
+    ],
+    "text": "Some Oral Oral Tablet"
+  },
+  "dosage": {
+    "route": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "47625008",
+          "display": "Intravenous route"
+        }
+      ]
+    },
+    "quantity": {
+      "value": 80,
+      "unit": "mg",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg"
+    },
+    "rateRatio": {
+      "numerator": {
+        "value": 80,
+        "unit": "mg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      },
+      "denominator": {
+        "value": 60,
+        "unit": "minutes",
+        "system": "http://snomed.info/sct",
+        "code": "258702006"
+      }
+    }
+  }
+}

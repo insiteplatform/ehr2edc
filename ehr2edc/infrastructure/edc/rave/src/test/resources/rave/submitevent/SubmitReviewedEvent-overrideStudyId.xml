@@ -1,0 +1,37 @@
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" CreationDateTime="${xmlunit.ignore}" FileOID="Example-1" FileType="Transactional" ODMVersion="1.3">
+    <ClinicalData StudyOID="overridden-study-id">
+        <SubjectData SubjectKey="subjectId" TransactionType="Update">
+            <SiteRef LocationOID="123456"/>
+            <StudyEventData StudyEventOID="EVT">
+                <FormData FormOID="FORM-1" TransactionType="Update">
+                    <ItemGroupData ItemGroupOID="GROUP-1">
+                        <ItemData ItemOID="ITEM-1" Value="VALUE-1">
+                            <AuditRecord EditPoint="Monitoring">
+                                <UserRef UserOID="UserId"/>
+                                <LocationRef LocationOID="123456"/>
+                                <DateTimeStamp>2020-01-07T08:00:00Z</DateTimeStamp>
+                                <ReasonForChange>Import from EHR on behalf of user</ReasonForChange>
+                            </AuditRecord>
+                        </ItemData>
+                        <ItemData ItemOID="ITEM-2" Value="VALUE-2">
+                            <AuditRecord EditPoint="Monitoring">
+                                <UserRef UserOID="UserId"/>
+                                <LocationRef LocationOID="123456"/>
+                                <DateTimeStamp>2020-01-07T08:00:00Z</DateTimeStamp>
+                                <ReasonForChange>Import from EHR on behalf of user</ReasonForChange>
+                            </AuditRecord>
+                        </ItemData>
+                        <ItemData ItemOID="ITEM-3" Value="VALUE-3">
+                            <AuditRecord EditPoint="Monitoring">
+                                <UserRef UserOID="UserId"/>
+                                <LocationRef LocationOID="123456"/>
+                                <DateTimeStamp>2020-01-07T08:00:00Z</DateTimeStamp>
+                                <ReasonForChange>Import from EHR on behalf of user</ReasonForChange>
+                            </AuditRecord>
+                        </ItemData>
+                    </ItemGroupData>
+                </FormData>
+            </StudyEventData>
+        </SubjectData>
+    </ClinicalData>
+</ODM>

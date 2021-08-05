@@ -1,0 +1,45 @@
+{
+  "eventDefinitionsInStudy": [
+    {
+      "eventDefinitionId": "event-1",
+      "name": "Event nr. 1",
+      "formDefinitions": [
+        {
+          "formDefinitionId": "formDefinitions 0",
+          "name": "form name 0",
+          "queryCount": 5
+        },
+        {
+          "formDefinitionId": "formDefinitions 1",
+          "name": "form name 1",
+          "queryCount": 5
+        },
+        {
+          "formDefinitionId": "formDefinitions 2",
+          "name": "form name 2",
+          "queryCount": 5
+        },
+        {
+          "formDefinitionId": "formDefinitions 3",
+          "name": "form name 3",
+          "queryCount": 5
+        },
+        {
+          "formDefinitionId": "formDefinitions 4",
+          "name": "form name 4",
+          "queryCount": 5
+        },
+        {
+          "formDefinitionId": "formDefinitions 5",
+          "name": "form name 5",
+          "queryCount": 5
+        }
+      ],
+      "queryCount": 30,
+      "lastReferenceDate": null,
+      "lastPopulationTime": null,
+      "eventId": null,
+      "historyAvailable": false
+    }
+  ]
+}

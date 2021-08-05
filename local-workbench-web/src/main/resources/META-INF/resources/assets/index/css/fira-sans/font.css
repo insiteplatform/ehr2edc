@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('FiraSans-Light.eot'); /* IE9 Compat Modes */
+  src: url('FiraSans-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('FiraSans-Light.woff') format('woff'), /* Modern Browsers */
+       url('FiraSans-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('FiraSans-Light.svg#3d0cc20c3fb21118c172b047b979716b') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  300;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('FiraSans-Regular.eot'); /* IE9 Compat Modes */
+  src: url('FiraSans-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('FiraSans-Regular.woff') format('woff'), /* Modern Browsers */
+       url('FiraSans-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('FiraSans-Regular.svg#3d0cc20c3fb21118c172b047b979716b') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('FiraSans-Italic.eot'); /* IE9 Compat Modes */
+  src: url('FiraSans-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('FiraSans-Italic.woff') format('woff'), /* Modern Browsers */
+       url('FiraSans-Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('FiraSans-Italic.svg#3d0cc20c3fb21118c172b047b979716b') format('svg'); /* Legacy iOS */
+
+  font-style:   italic;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('FiraSans-Medium.eot'); /* IE9 Compat Modes */
+  src: url('FiraSans-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('FiraSans-Medium.woff') format('woff'), /* Modern Browsers */
+       url('FiraSans-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('FiraSans-Medium.svg#3d0cc20c3fb21118c172b047b979716b') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  500;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('FiraSans-Bold.eot'); /* IE9 Compat Modes */
+  src: url('FiraSans-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('FiraSans-Bold.woff') format('woff'), /* Modern Browsers */
+       url('FiraSans-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('FiraSans-Bold.svg#3d0cc20c3fb21118c172b047b979716b') format('svg'); /* Legacy iOS */
+
+  font-style:   italic;
+  font-weight:  700;
+}
+
+body {
+	font-family: 'Fira Sans';
+}
+
+.light {
+  font-weight: 300;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: 600;
+}

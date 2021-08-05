@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Configuration monitorInterval="10">
+    <Appenders>
+        <Console name="EHR2EDC" target="SYSTEM_OUT">
+            <PatternLayout>
+                <pattern>
+                    %d{HH:mm:ss,SSS} | %X{trackingId} | %X{subjectId} | %m%n
+                </pattern>
+            </PatternLayout>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Logger name="com.custodix.insite.local.ehr2edc.query.executor.common.query.ProjectionLogger" level="TRACE">
+            <AppenderRef ref="EHR2EDC"/>
+        </Logger>
+        <Logger name="com.custodix.insite.local.ehr2edc.populator.FormPopulatorLogger" level="TRACE">
+            <AppenderRef ref="EHR2EDC"/>
+        </Logger>
+
+        <Logger name="org.springframework.data.mongodb.core.MongoTemplate" level="ERROR">
+            <AppenderRef ref="EHR2EDC"/>
+        </Logger>
+        <Logger name="com.mongodb.client" level="ERROR">
+            <AppenderRef ref="EHR2EDC"/>
+        </Logger>
+        <Root level="ERROR">
+            <AppenderRef ref="EHR2EDC"/>
+        </Root>
+    </Loggers>
+</Configuration>

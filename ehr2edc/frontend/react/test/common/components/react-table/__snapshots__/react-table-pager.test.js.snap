@@ -1,0 +1,576 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pager rendering A pager with a small amount of pages gets rendered well 1`] = `
+<zf-list-footer>
+  <div
+    className="pager-size"
+  >
+    <span>
+      Items per page: 
+    </span>
+    <ul>
+      <li
+        className="page-size-2"
+      >
+        <a
+          onClick={[Function]}
+        >
+          2
+        </a>
+      </li>
+      <li
+        className="page-size-5"
+      >
+        <a
+          onClick={[Function]}
+        >
+          5
+        </a>
+      </li>
+      <li
+        className="page-size-10 is-active"
+      >
+        <a
+          onClick={[Function]}
+        >
+          10
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div
+    className="pager-middle"
+  />
+  <ul
+    className="pager"
+  >
+    <li
+      className="pager-navigation-button first"
+    >
+      <a
+        disabled={false}
+        onClick={[Function]}
+      >
+        <i
+          className="fa fa-angle-double-left"
+        />
+      </a>
+    </li>
+    <li
+      className="pager-navigation-button prev"
+    >
+      <a
+        disabled={false}
+        onClick={[Function]}
+      >
+        <i
+          className="fa fa-angle-left"
+        />
+      </a>
+    </li>
+    <li
+      className="pager-navigation-page page-1"
+    >
+      <a
+        onClick={[Function]}
+      >
+        1
+      </a>
+    </li>
+    <li
+      className="pager-navigation-page is-active page-2"
+    >
+      <a
+        onClick={[Function]}
+      >
+        2
+      </a>
+    </li>
+    <li
+      className="pager-navigation-page page-3"
+    >
+      <a
+        onClick={[Function]}
+      >
+        3
+      </a>
+    </li>
+    <li
+      className="pager-navigation-button next"
+    >
+      <a
+        disabled={false}
+        onClick={[Function]}
+      >
+        <i
+          className="fa fa-angle-right"
+        />
+      </a>
+    </li>
+    <li
+      className="pager-navigation-button last"
+    >
+      <a
+        disabled={false}
+        onClick={[Function]}
+      >
+        <i
+          className="fa fa-angle-double-right"
+        />
+      </a>
+    </li>
+  </ul>
+</zf-list-footer>
+`;
+
+exports[`Pager rendering First page selected gets rendered well 1`] = `
+<zf-list-footer>
+  <div
+    className="pager-size"
+  >
+    <span>
+      Items per page: 
+    </span>
+    <ul>
+      <li
+        className="page-size-2"
+      >
+        <a
+          onClick={[Function]}
+        >
+          2
+        </a>
+      </li>
+      <li
+        className="page-size-5"
+      >
+        <a
+          onClick={[Function]}
+        >
+          5
+        </a>
+      </li>
+      <li
+        className="page-size-10 is-active"
+      >
+        <a
+          onClick={[Function]}
+        >
+          10
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div
+    className="pager-middle"
+  />
+  <ul
+    className="pager"
+  >
+    <li
+      className="pager-navigation-button first disabled"
+    >
+      <a
+        disabled={true}
+        onClick={[Function]}
+      >
+        <i
+          className="fa fa-angle-double-left"
+        />
+      </a>
+    </li>
+    <li
+      className="pager-navigation-button prev disabled"
+    >
+      <a
+        disabled={true}
+        onClick={[Function]}
+      >
+        <i
+          className="fa fa-angle-left"
+        />
+      </a>
+    </li>
+    <li
+      className="pager-navigation-page is-active page-1"
+    >
+      <a
+        onClick={[Function]}
+      >
+        1
+      </a>
+    </li>
+    <li
+      className="pager-navigation-page page-2"
+    >
+      <a
+        onClick={[Function]}
+      >
+        2
+      </a>
+    </li>
+    <li
+      className="pager-navigation-page page-3"
+    >
+      <a
+        onClick={[Function]}
+      >
+        3
+      </a>
+    </li>
+    <li
+      className="pager-navigation-page page-4"
+    >
+      <a
+        onClick={[Function]}
+      >
+        4
+      </a>
+    </li>
+    <li
+      className="pager-navigation-page page-5"
+    >
+      <a
+        onClick={[Function]}
+      >
+        5
+      </a>
+    </li>
+    <a
+      className="pager-navigation-page"
+    >
+      ...
+    </a>
+    <li
+      className="pager-navigation-page page-30"
+    >
+      <a
+        onClick={[Function]}
+      >
+        30
+      </a>
+    </li>
+    <li
+      className="pager-navigation-button next"
+    >
+      <a
+        disabled={false}
+        onClick={[Function]}
+      >
+        <i
+          className="fa fa-angle-right"
+        />
+      </a>
+    </li>
+    <li
+      className="pager-navigation-button last"
+    >
+      <a
+        disabled={false}
+        onClick={[Function]}
+      >
+        <i
+          className="fa fa-angle-double-right"
+        />
+      </a>
+    </li>
+  </ul>
+</zf-list-footer>
+`;
+
+exports[`Pager rendering Last page selected gets rendered well 1`] = `
+<zf-list-footer>
+  <div
+    className="pager-size"
+  >
+    <span>
+      Items per page: 
+    </span>
+    <ul>
+      <li
+        className="page-size-2"
+      >
+        <a
+          onClick={[Function]}
+        >
+          2
+        </a>
+      </li>
+      <li
+        className="page-size-5"
+      >
+        <a
+          onClick={[Function]}
+        >
+          5
+        </a>
+      </li>
+      <li
+        className="page-size-10 is-active"
+      >
+        <a
+          onClick={[Function]}
+        >
+          10
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div
+    className="pager-middle"
+  />
+  <ul
+    className="pager"
+  >
+    <li
+      className="pager-navigation-button first"
+    >
+      <a
+        disabled={false}
+        onClick={[Function]}
+      >
+        <i
+          className="fa fa-angle-double-left"
+        />
+      </a>
+    </li>
+    <li
+      className="pager-navigation-button prev"
+    >
+      <a
+        disabled={false}
+        onClick={[Function]}
+      >
+        <i
+          className="fa fa-angle-left"
+        />
+      </a>
+    </li>
+    <li
+      className="pager-navigation-page page-1"
+    >
+      <a
+        onClick={[Function]}
+      >
+        1
+      </a>
+    </li>
+    <a
+      className="pager-navigation-page"
+    >
+      ...
+    </a>
+    <li
+      className="pager-navigation-page page-27"
+    >
+      <a
+        onClick={[Function]}
+      >
+        27
+      </a>
+    </li>
+    <li
+      className="pager-navigation-page page-28"
+    >
+      <a
+        onClick={[Function]}
+      >
+        28
+      </a>
+    </li>
+    <li
+      className="pager-navigation-page page-29"
+    >
+      <a
+        onClick={[Function]}
+      >
+        29
+      </a>
+    </li>
+    <li
+      className="pager-navigation-page is-active page-30"
+    >
+      <a
+        onClick={[Function]}
+      >
+        30
+      </a>
+    </li>
+    <li
+      className="pager-navigation-button next disabled"
+    >
+      <a
+        disabled={true}
+        onClick={[Function]}
+      >
+        <i
+          className="fa fa-angle-right"
+        />
+      </a>
+    </li>
+    <li
+      className="pager-navigation-button last disabled"
+    >
+      <a
+        disabled={true}
+        onClick={[Function]}
+      >
+        <i
+          className="fa fa-angle-double-right"
+        />
+      </a>
+    </li>
+  </ul>
+</zf-list-footer>
+`;
+
+exports[`Pager rendering Pager arguments get rendered well 1`] = `
+<zf-list-footer>
+  <div
+    className="pager-size"
+  >
+    <span>
+      Items per page: 
+    </span>
+    <ul>
+      <li
+        className="page-size-2"
+      >
+        <a
+          onClick={[Function]}
+        >
+          2
+        </a>
+      </li>
+      <li
+        className="page-size-5"
+      >
+        <a
+          onClick={[Function]}
+        >
+          5
+        </a>
+      </li>
+      <li
+        className="page-size-10 is-active"
+      >
+        <a
+          onClick={[Function]}
+        >
+          10
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div
+    className="pager-middle"
+  />
+  <ul
+    className="pager"
+  >
+    <li
+      className="pager-navigation-button first"
+    >
+      <a
+        disabled={false}
+        onClick={[Function]}
+      >
+        <i
+          className="fa fa-angle-double-left"
+        />
+      </a>
+    </li>
+    <li
+      className="pager-navigation-button prev"
+    >
+      <a
+        disabled={false}
+        onClick={[Function]}
+      >
+        <i
+          className="fa fa-angle-left"
+        />
+      </a>
+    </li>
+    <li
+      className="pager-navigation-page page-1"
+    >
+      <a
+        onClick={[Function]}
+      >
+        1
+      </a>
+    </li>
+    <a
+      className="pager-navigation-page"
+    >
+      ...
+    </a>
+    <li
+      className="pager-navigation-page page-11"
+    >
+      <a
+        onClick={[Function]}
+      >
+        11
+      </a>
+    </li>
+    <li
+      className="pager-navigation-page page-12"
+    >
+      <a
+        onClick={[Function]}
+      >
+        12
+      </a>
+    </li>
+    <li
+      className="pager-navigation-page is-active page-13"
+    >
+      <a
+        onClick={[Function]}
+      >
+        13
+      </a>
+    </li>
+    <a
+      className="pager-navigation-page"
+    >
+      ...
+    </a>
+    <li
+      className="pager-navigation-page page-30"
+    >
+      <a
+        onClick={[Function]}
+      >
+        30
+      </a>
+    </li>
+    <li
+      className="pager-navigation-button next"
+    >
+      <a
+        disabled={false}
+        onClick={[Function]}
+      >
+        <i
+          className="fa fa-angle-right"
+        />
+      </a>
+    </li>
+    <li
+      className="pager-navigation-button last"
+    >
+      <a
+        disabled={false}
+        onClick={[Function]}
+      >
+        <i
+          className="fa fa-angle-double-right"
+        />
+      </a>
+    </li>
+  </ul>
+</zf-list-footer>
+`;

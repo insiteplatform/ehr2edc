@@ -1,0 +1,52 @@
+.ehr2edc-pane label[for=inputSubjectId] .autocomplete-override {
+    position: relative !important;
+    margin-bottom: 1rem;
+}
+
+.ehr2edc-pane .autocomplete-override > div > input[type="text"] {
+    margin-bottom: 0 !important;
+}
+
+.ehr2edc-pane .autocomplete-menu {
+    position: fixed !important;
+}
+
+.ehr2edc-studies .autocomplete-menu,
+.ehr2edc-study .autocomplete-menu,
+.react-modal .autocomplete-menu {
+    top: 100% !important;
+    left: 0 !important;
+}
+
+label[for=inputSubjectId] .autocomplete-override {
+    position: fixed;
+}
+
+.autocomplete-menu {
+    position: absolute;
+}
+
+.autocomplete-override > div {
+    display: block !important;
+    position: relative;
+}
+
+.autocomplete-menu {
+    z-index: 10;
+    border-radius: 3px;
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 12px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2px 0px;
+    font-size: 90%;
+    overflow: auto;
+    min-width: 179px;
+}
+
+.autocomplete-menu .autocomplete-menu-item {
+    padding: 0.5em 1em;
+}
+
+.autocomplete-menu .autocomplete-menu-item.highlighted {
+    background-color: #F7F7F7;
+}

@@ -1,0 +1,25 @@
+{
+  "availableStudies": [
+    {
+      "studyId": "STUD_002",
+      "name": "Another Study",
+      "description": "Another very serious study"
+    }
+  ],
+  "registeredStudies": [
+    {
+      "studyId": "STUD_001",
+      "name": "A Study",
+      "description": "A very serious study",
+      "subject": {
+        "subjectId": "SUBJ_001_ID",
+        "edcSubjectReference": "SUBJ_001_REF",
+        "patientId": {
+          "source": "HIS_01",
+          "id": "PID_042"
+        },
+        "dateOfConsent": "2019-04-18"
+      }
+    }
+  ]
+}

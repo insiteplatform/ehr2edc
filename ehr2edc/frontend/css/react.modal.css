@@ -1,0 +1,67 @@
+.react-modal .ReactModal__Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 5
+}
+
+.react-modal .ReactModal__Content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+    z-index: 10;
+
+    background-color: #FFF;
+    opacity: 1;
+
+    overflow: auto;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.react-modal .modal-titlebar {
+    background-color: #4978B9;
+    color: #FFF;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+}
+
+.react-modal .modal-title {
+    font-weight: bold;
+    flex: 1;
+}
+
+.react-modal .modal-close-icon {
+    flex: 0 0 auto;
+    cursor: pointer;
+}
+
+.react-modal .modal-content {
+    flex: 1 1 auto;
+    padding: 1em 1em 0 1em;
+    overflow-y: auto;
+}
+
+.react-modal .modal-content table input {
+    margin-bottom: 0;
+}
+
+.react-modal .modal-content table th {
+    padding-top: 1.25em;
+}
+
+.react-modal .modal-buttons {
+    flex: 0 0 auto;
+    padding: 1em;
+}
+
+.react-modal .modal-buttons a {
+    margin-bottom: 0;
+}

@@ -1,0 +1,14 @@
+{
+  "historyItems": [
+    {
+      "reviewedEventId": "edc9bfbc-ec43-4894-bc1c-c0871b935407",
+      "reviewDateTime": "2017-10-19T08:43:00Z",
+      "reviewer": "Test user"
+    },
+    {
+      "reviewedEventId": "eced7cb3-c74e-42c7-b702-1f4810618968",
+      "reviewDateTime": "2016-05-07T15:01:00Z",
+      "reviewer": "Test user"
+    }
+  ]
+}

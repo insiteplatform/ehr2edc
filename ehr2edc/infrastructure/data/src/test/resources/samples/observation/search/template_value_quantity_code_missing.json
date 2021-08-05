@@ -1,0 +1,62 @@
+{
+  "resourceType": "Bundle",
+  "id": "3031d2d8-ea4d-4719-9ac2-f63f5b75ed77",
+  "meta": {
+    "lastUpdated": "2020-01-24T08:32:22.130+00:00"
+  },
+  "type": "searchset",
+  "total": 1,
+  "link": [
+    {
+      "relation": "self",
+      "url": "http://localhost:${serverPort}/baseDstu2/Observation?_pretty=true&patient=${patientResourceId}"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "http://hapi.fhir.org/baseDstu2/Observation/1862",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1862",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2018-11-19T12:29:04.646+00:00"
+        },
+        "status": "final",
+        "category": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "laboratory"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2339-0",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "subject": {
+          "reference": "Patient/1834"
+        },
+        "encounter": {
+          "reference": "Encounter/1855"
+        },
+        "effectiveDateTime": "2008-07-10T10:38:49+01:00",
+        "issued": "2008-07-10T10:38:49+01:00",
+        "valueQuantity": {
+          "value": 66,
+          "unit": "milligrams per decilitre"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}

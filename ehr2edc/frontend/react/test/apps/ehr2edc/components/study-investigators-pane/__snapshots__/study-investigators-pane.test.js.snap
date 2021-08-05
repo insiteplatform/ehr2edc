@@ -1,0 +1,1955 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering the component As an DRM user, I can unassign investigator from a study 1`] = `
+<StudyInvestigatorsPane
+  investigators={
+    Array [
+      Object {
+        "id": "1",
+        "name": "Gert",
+        "removable": true,
+      },
+    ]
+  }
+  onInvestigatorUnassign={[MockFunction]}
+>
+  <div
+    className="grid-block padding margin-small-rl shrink"
+  >
+    <div
+      className="grid-content collapse"
+    >
+      <h3
+        className="subheader"
+      >
+        Investigators
+      </h3>
+    </div>
+    <AddInvestigator>
+      <div
+        className="grid-content collapse shrink"
+        title="All available users have been assigned as investigator"
+      >
+        <a
+          className="button open-add-investigator disabled"
+        >
+          <i
+            className="fa fa-plus"
+          />
+           Add investigator
+        </a>
+      </div>
+    </AddInvestigator>
+  </div>
+  <div
+    className="margin-rl padding-bottom"
+  >
+    <div
+      className="alert-box small info margin-small-rl padding"
+    >
+      <ExpandableText
+        expanded={false}
+      >
+        <div
+          className="expandable-text"
+        >
+          <p>
+            Here you can see all investigators assigned to this study. Only assigned investigators can register subjects to a study and perform subject data population. If you are a data relationship manager, you can add new investigators to this study by their username or unassign individual investigators.
+          </p>
+          <p>
+            <a
+              data-enzyme="action"
+              onClick={[Function]}
+            >
+              Show more
+            </a>
+          </p>
+        </div>
+      </ExpandableText>
+    </div>
+  </div>
+  <ReactTable
+    AggregatedComponent={[Function]}
+    ExpanderComponent={[Function]}
+    FilterComponent={[Function]}
+    LoadingComponent={[Function]}
+    NoDataComponent={[Function]}
+    PadRowComponent={[Function]}
+    PaginationComponent={[Function]}
+    PivotValueComponent={[Function]}
+    ResizerComponent={[Function]}
+    TableComponent={[Function]}
+    TbodyComponent={[Function]}
+    TdComponent={[Function]}
+    TfootComponent={[Function]}
+    ThComponent={[Function]}
+    TheadComponent={[Function]}
+    TrComponent={[Function]}
+    TrGroupComponent={[Function]}
+    aggregatedKey="_aggregated"
+    className=""
+    collapseOnDataChange={true}
+    collapseOnPageChange={true}
+    collapseOnSortingChange={true}
+    column={
+      Object {
+        "Aggregated": undefined,
+        "Cell": undefined,
+        "Expander": undefined,
+        "Filter": undefined,
+        "Footer": undefined,
+        "Header": undefined,
+        "Pivot": undefined,
+        "PivotValue": undefined,
+        "Placeholder": undefined,
+        "aggregate": undefined,
+        "className": "",
+        "filterAll": false,
+        "filterMethod": undefined,
+        "filterable": undefined,
+        "footerClassName": "",
+        "footerStyle": Object {},
+        "getFooterProps": [Function],
+        "getHeaderProps": [Function],
+        "getProps": [Function],
+        "headerClassName": "",
+        "headerStyle": Object {},
+        "minResizeWidth": 11,
+        "minWidth": 100,
+        "resizable": undefined,
+        "show": true,
+        "sortMethod": undefined,
+        "sortable": undefined,
+        "style": Object {},
+      }
+    }
+    columns={
+      Array [
+        Object {
+          "Header": "Investigator",
+          "accessor": "name",
+          "filterable": false,
+          "show": true,
+          "sortable": false,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "Actions",
+          "accessor": "id",
+          "className": "button-cell text-right",
+          "filterable": false,
+          "headerClassName": "button-cell text-right",
+          "show": true,
+          "sortable": false,
+          "style": Object {
+            "flex": "none",
+          },
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "id": "1",
+          "name": "Gert",
+          "removable": true,
+        },
+      ]
+    }
+    defaultExpanded={Object {}}
+    defaultFilterMethod={[Function]}
+    defaultFiltered={Array []}
+    defaultPage={0}
+    defaultPageSize={10}
+    defaultResized={Array []}
+    defaultSortDesc={false}
+    defaultSortMethod={[Function]}
+    defaultSorted={Array []}
+    expanderDefaults={
+      Object {
+        "filterable": false,
+        "resizable": false,
+        "sortable": false,
+        "width": 35,
+      }
+    }
+    filterable={false}
+    freezeWhenExpanded={false}
+    getLoadingProps={[Function]}
+    getNoDataProps={[Function]}
+    getPaginationProps={[Function]}
+    getProps={[Function]}
+    getResizerProps={[Function]}
+    getTableProps={[Function]}
+    getTbodyProps={[Function]}
+    getTdProps={[Function]}
+    getTfootProps={[Function]}
+    getTfootTdProps={[Function]}
+    getTfootTrProps={[Function]}
+    getTheadFilterProps={[Function]}
+    getTheadFilterThProps={[Function]}
+    getTheadFilterTrProps={[Function]}
+    getTheadGroupProps={[Function]}
+    getTheadGroupThProps={[Function]}
+    getTheadGroupTrProps={[Function]}
+    getTheadProps={[Function]}
+    getTheadThProps={[Function]}
+    getTheadTrProps={[Function]}
+    getTrGroupProps={[Function]}
+    getTrProps={[Function]}
+    groupedByPivotKey="_groupedByPivot"
+    indexKey="_index"
+    loading={false}
+    loadingText="Loading..."
+    minRows={0}
+    multiSort={true}
+    nestingLevelKey="_nestingLevel"
+    nextText="Next"
+    noDataText="No rows found"
+    ofText="of"
+    onFetchData={[Function]}
+    originalKey="_original"
+    pageJumpText="jump to page"
+    pageSizeOptions={
+      Array [
+        10,
+        50,
+        100,
+      ]
+    }
+    pageText="Page"
+    pivotDefaults={Object {}}
+    pivotIDKey="_pivotID"
+    pivotValKey="_pivotVal"
+    previousText="Previous"
+    resizable={false}
+    resolveData={[Function]}
+    rowsSelectorText="rows per page"
+    rowsText="rows"
+    showPageJump={true}
+    showPageSizeOptions={true}
+    showPagination={true}
+    showPaginationBottom={true}
+    showPaginationTop={false}
+    sortable={true}
+    style={Object {}}
+    subRowsKey="_subRows"
+  >
+    <div
+      className="ReactTable"
+      style={Object {}}
+    >
+      <TableComponent
+        className=""
+      >
+        <div
+          className="rt-table"
+          role="grid"
+        >
+          <Thead
+            className="-header"
+            style={
+              Object {
+                "minWidth": "200px",
+              }
+            }
+          >
+            <div
+              className="rt-thead -header"
+              style={
+                Object {
+                  "minWidth": "200px",
+                }
+              }
+            >
+              <TrComponent>
+                <div
+                  className="rt-tr"
+                  role="row"
+                >
+                  <ThComponent
+                    className=""
+                    key="0-name"
+                    style={
+                      Object {
+                        "flex": "100 0 auto",
+                        "maxWidth": null,
+                        "width": "100px",
+                      }
+                    }
+                    toggleSort={[Function]}
+                  >
+                    <div
+                      className="rt-th"
+                      onClick={[Function]}
+                      role="columnheader"
+                      style={
+                        Object {
+                          "flex": "100 0 auto",
+                          "maxWidth": null,
+                          "width": "100px",
+                        }
+                      }
+                      tabIndex="-1"
+                    >
+                      <div
+                        className=""
+                      >
+                        Investigator
+                      </div>
+                    </div>
+                  </ThComponent>
+                  <ThComponent
+                    className="button-cell text-right"
+                    key="1-id"
+                    style={
+                      Object {
+                        "flex": "100 0 auto",
+                        "maxWidth": null,
+                        "width": "100px",
+                      }
+                    }
+                    toggleSort={[Function]}
+                  >
+                    <div
+                      className="rt-th button-cell text-right"
+                      onClick={[Function]}
+                      role="columnheader"
+                      style={
+                        Object {
+                          "flex": "100 0 auto",
+                          "maxWidth": null,
+                          "width": "100px",
+                        }
+                      }
+                      tabIndex="-1"
+                    >
+                      <div
+                        className=""
+                      >
+                        Actions
+                      </div>
+                    </div>
+                  </ThComponent>
+                </div>
+              </TrComponent>
+            </div>
+          </Thead>
+          <Tbody
+            className=""
+            style={
+              Object {
+                "minWidth": "200px",
+              }
+            }
+          >
+            <div
+              className="rt-tbody"
+              style={
+                Object {
+                  "minWidth": "200px",
+                }
+              }
+            >
+              <TrGroupComponent
+                key="0"
+              >
+                <div
+                  className="rt-tr-group"
+                  role="rowgroup"
+                >
+                  <TrComponent
+                    className="-odd"
+                  >
+                    <div
+                      className="rt-tr -odd"
+                      role="row"
+                    >
+                      <TdComponent
+                        className=""
+                        key="0-name"
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        <div
+                          className="rt-td"
+                          onClick={[Function]}
+                          role="gridcell"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          Gert
+                        </div>
+                      </TdComponent>
+                      <TdComponent
+                        className="button-cell text-right"
+                        key="1-id"
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                      >
+                        <div
+                          className="rt-td button-cell text-right"
+                          onClick={[Function]}
+                          role="gridcell"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <Cell
+                            classes={
+                              Array [
+                                undefined,
+                                "button-cell text-right",
+                                undefined,
+                              ]
+                            }
+                            column={
+                              Object {
+                                "Aggregated": undefined,
+                                "Cell": [Function],
+                                "Expander": undefined,
+                                "Filter": undefined,
+                                "Footer": undefined,
+                                "Header": "Actions",
+                                "Pivot": undefined,
+                                "PivotValue": undefined,
+                                "Placeholder": undefined,
+                                "accessor": [Function],
+                                "aggregate": undefined,
+                                "className": "button-cell text-right",
+                                "filterAll": false,
+                                "filterMethod": undefined,
+                                "filterable": false,
+                                "footerClassName": "",
+                                "footerStyle": Object {},
+                                "getFooterProps": [Function],
+                                "getHeaderProps": [Function],
+                                "getProps": [Function],
+                                "headerClassName": "button-cell text-right",
+                                "headerStyle": Object {},
+                                "id": "id",
+                                "minResizeWidth": 11,
+                                "minWidth": 100,
+                                "resizable": undefined,
+                                "show": true,
+                                "sortMethod": undefined,
+                                "sortable": false,
+                                "style": Object {
+                                  "flex": "none",
+                                },
+                              }
+                            }
+                            columnProps={
+                              Object {
+                                "className": undefined,
+                                "rest": Object {},
+                                "style": undefined,
+                              }
+                            }
+                            index={0}
+                            level={0}
+                            nestingPath={
+                              Array [
+                                0,
+                              ]
+                            }
+                            original={
+                              Object {
+                                "id": "1",
+                                "name": "Gert",
+                                "removable": true,
+                              }
+                            }
+                            page={0}
+                            pageSize={10}
+                            resized={Array []}
+                            row={
+                              Object {
+                                "_index": 0,
+                                "_nestingLevel": 0,
+                                "_original": Object {
+                                  "id": "1",
+                                  "name": "Gert",
+                                  "removable": true,
+                                },
+                                "_subRows": undefined,
+                                "_viewIndex": 0,
+                                "id": "1",
+                                "name": "Gert",
+                              }
+                            }
+                            show={true}
+                            styles={
+                              Object {
+                                "flex": "none",
+                              }
+                            }
+                            tdProps={
+                              Object {
+                                "className": undefined,
+                                "rest": Object {},
+                                "style": undefined,
+                              }
+                            }
+                            value="1"
+                            viewIndex={0}
+                            width={100}
+                          >
+                            <a
+                              className="unassign-icon"
+                              onClick={[Function]}
+                              title="Unassign 1"
+                            >
+                              <i
+                                className="fa fa-times"
+                              />
+                            </a>
+                          </Cell>
+                        </div>
+                      </TdComponent>
+                    </div>
+                  </TrComponent>
+                </div>
+              </TrGroupComponent>
+            </div>
+          </Tbody>
+        </div>
+      </TableComponent>
+      <div
+        className="pagination-bottom"
+      >
+        <ReactTablePager
+          AggregatedComponent={[Function]}
+          ExpanderComponent={[Function]}
+          FilterComponent={[Function]}
+          LoadingComponent={[Function]}
+          NoDataComponent={[Function]}
+          PadRowComponent={[Function]}
+          PaginationComponent={[Function]}
+          PivotValueComponent={[Function]}
+          ResizerComponent={[Function]}
+          TableComponent={[Function]}
+          TbodyComponent={[Function]}
+          TdComponent={[Function]}
+          TfootComponent={[Function]}
+          ThComponent={[Function]}
+          TheadComponent={[Function]}
+          TrComponent={[Function]}
+          TrGroupComponent={[Function]}
+          aggregatedKey="_aggregated"
+          allDecoratedColumns={
+            Array [
+              Object {
+                "Aggregated": undefined,
+                "Cell": undefined,
+                "Expander": undefined,
+                "Filter": undefined,
+                "Footer": undefined,
+                "Header": "Investigator",
+                "Pivot": undefined,
+                "PivotValue": undefined,
+                "Placeholder": undefined,
+                "accessor": [Function],
+                "aggregate": undefined,
+                "className": "",
+                "filterAll": false,
+                "filterMethod": undefined,
+                "filterable": false,
+                "footerClassName": "",
+                "footerStyle": Object {},
+                "getFooterProps": [Function],
+                "getHeaderProps": [Function],
+                "getProps": [Function],
+                "headerClassName": "",
+                "headerStyle": Object {},
+                "id": "name",
+                "minResizeWidth": 11,
+                "minWidth": 100,
+                "resizable": undefined,
+                "show": true,
+                "sortMethod": undefined,
+                "sortable": false,
+                "style": Object {},
+              },
+              Object {
+                "Aggregated": undefined,
+                "Cell": [Function],
+                "Expander": undefined,
+                "Filter": undefined,
+                "Footer": undefined,
+                "Header": "Actions",
+                "Pivot": undefined,
+                "PivotValue": undefined,
+                "Placeholder": undefined,
+                "accessor": [Function],
+                "aggregate": undefined,
+                "className": "button-cell text-right",
+                "filterAll": false,
+                "filterMethod": undefined,
+                "filterable": false,
+                "footerClassName": "",
+                "footerStyle": Object {},
+                "getFooterProps": [Function],
+                "getHeaderProps": [Function],
+                "getProps": [Function],
+                "headerClassName": "button-cell text-right",
+                "headerStyle": Object {},
+                "id": "id",
+                "minResizeWidth": 11,
+                "minWidth": 100,
+                "resizable": undefined,
+                "show": true,
+                "sortMethod": undefined,
+                "sortable": false,
+                "style": Object {
+                  "flex": "none",
+                },
+              },
+            ]
+          }
+          allVisibleColumns={
+            Array [
+              Object {
+                "Aggregated": undefined,
+                "Cell": undefined,
+                "Expander": undefined,
+                "Filter": undefined,
+                "Footer": undefined,
+                "Header": "Investigator",
+                "Pivot": undefined,
+                "PivotValue": undefined,
+                "Placeholder": undefined,
+                "accessor": [Function],
+                "aggregate": undefined,
+                "className": "",
+                "filterAll": false,
+                "filterMethod": undefined,
+                "filterable": false,
+                "footerClassName": "",
+                "footerStyle": Object {},
+                "getFooterProps": [Function],
+                "getHeaderProps": [Function],
+                "getProps": [Function],
+                "headerClassName": "",
+                "headerStyle": Object {},
+                "id": "name",
+                "minResizeWidth": 11,
+                "minWidth": 100,
+                "resizable": undefined,
+                "show": true,
+                "sortMethod": undefined,
+                "sortable": false,
+                "style": Object {},
+              },
+              Object {
+                "Aggregated": undefined,
+                "Cell": [Function],
+                "Expander": undefined,
+                "Filter": undefined,
+                "Footer": undefined,
+                "Header": "Actions",
+                "Pivot": undefined,
+                "PivotValue": undefined,
+                "Placeholder": undefined,
+                "accessor": [Function],
+                "aggregate": undefined,
+                "className": "button-cell text-right",
+                "filterAll": false,
+                "filterMethod": undefined,
+                "filterable": false,
+                "footerClassName": "",
+                "footerStyle": Object {},
+                "getFooterProps": [Function],
+                "getHeaderProps": [Function],
+                "getProps": [Function],
+                "headerClassName": "button-cell text-right",
+                "headerStyle": Object {},
+                "id": "id",
+                "minResizeWidth": 11,
+                "minWidth": 100,
+                "resizable": undefined,
+                "show": true,
+                "sortMethod": undefined,
+                "sortable": false,
+                "style": Object {
+                  "flex": "none",
+                },
+              },
+            ]
+          }
+          canNext={false}
+          canPrevious={false}
+          collapseOnDataChange={true}
+          collapseOnPageChange={true}
+          collapseOnSortingChange={true}
+          column={
+            Object {
+              "Aggregated": undefined,
+              "Cell": undefined,
+              "Expander": undefined,
+              "Filter": undefined,
+              "Footer": undefined,
+              "Header": undefined,
+              "Pivot": undefined,
+              "PivotValue": undefined,
+              "Placeholder": undefined,
+              "aggregate": undefined,
+              "className": "",
+              "filterAll": false,
+              "filterMethod": undefined,
+              "filterable": undefined,
+              "footerClassName": "",
+              "footerStyle": Object {},
+              "getFooterProps": [Function],
+              "getHeaderProps": [Function],
+              "getProps": [Function],
+              "headerClassName": "",
+              "headerStyle": Object {},
+              "minResizeWidth": 11,
+              "minWidth": 100,
+              "resizable": undefined,
+              "show": true,
+              "sortMethod": undefined,
+              "sortable": undefined,
+              "style": Object {},
+            }
+          }
+          columns={
+            Array [
+              Object {
+                "Header": "Investigator",
+                "accessor": "name",
+                "filterable": false,
+                "show": true,
+                "sortable": false,
+              },
+              Object {
+                "Cell": [Function],
+                "Header": "Actions",
+                "accessor": "id",
+                "className": "button-cell text-right",
+                "filterable": false,
+                "headerClassName": "button-cell text-right",
+                "show": true,
+                "sortable": false,
+                "style": Object {
+                  "flex": "none",
+                },
+              },
+            ]
+          }
+          currentlyResizing={false}
+          data={
+            Array [
+              Object {
+                "id": "1",
+                "name": "Gert",
+                "removable": true,
+              },
+            ]
+          }
+          defaultExpanded={Object {}}
+          defaultFilterMethod={[Function]}
+          defaultFiltered={Array []}
+          defaultPage={0}
+          defaultPageSize={10}
+          defaultResized={Array []}
+          defaultSortDesc={false}
+          defaultSortMethod={[Function]}
+          defaultSorted={Array []}
+          expanded={Object {}}
+          expanderDefaults={
+            Object {
+              "filterable": false,
+              "resizable": false,
+              "sortable": false,
+              "width": 35,
+            }
+          }
+          filterable={false}
+          filtered={Array []}
+          freezeWhenExpanded={false}
+          frozen={false}
+          getLoadingProps={[Function]}
+          getNoDataProps={[Function]}
+          getPaginationProps={[Function]}
+          getProps={[Function]}
+          getResizerProps={[Function]}
+          getTableProps={[Function]}
+          getTbodyProps={[Function]}
+          getTdProps={[Function]}
+          getTfootProps={[Function]}
+          getTfootTdProps={[Function]}
+          getTfootTrProps={[Function]}
+          getTheadFilterProps={[Function]}
+          getTheadFilterThProps={[Function]}
+          getTheadFilterTrProps={[Function]}
+          getTheadGroupProps={[Function]}
+          getTheadGroupThProps={[Function]}
+          getTheadGroupTrProps={[Function]}
+          getTheadProps={[Function]}
+          getTheadThProps={[Function]}
+          getTheadTrProps={[Function]}
+          getTrGroupProps={[Function]}
+          getTrProps={[Function]}
+          groupedByPivotKey="_groupedByPivot"
+          hasHeaderGroups={false}
+          headerGroups={Array []}
+          indexKey="_index"
+          isTop={false}
+          loading={false}
+          loadingText="Loading..."
+          minRows={0}
+          multiSort={true}
+          nestingLevelKey="_nestingLevel"
+          nextText="Next"
+          noDataText="No rows found"
+          ofText="of"
+          onFetchData={[Function]}
+          onPageChange={[Function]}
+          onPageSizeChange={[Function]}
+          originalKey="_original"
+          page={0}
+          pageJumpText="jump to page"
+          pageSize={10}
+          pageSizeOptions={
+            Array [
+              10,
+              50,
+              100,
+            ]
+          }
+          pageText="Page"
+          pages={1}
+          pivotDefaults={Object {}}
+          pivotIDKey="_pivotID"
+          pivotValKey="_pivotVal"
+          previousText="Previous"
+          resizable={false}
+          resized={Array []}
+          resolveData={[Function]}
+          resolvedData={
+            Array [
+              Object {
+                "_index": 0,
+                "_nestingLevel": 0,
+                "_original": Object {
+                  "id": "1",
+                  "name": "Gert",
+                  "removable": true,
+                },
+                "_subRows": undefined,
+                "id": "1",
+                "name": "Gert",
+              },
+            ]
+          }
+          rowsSelectorText="rows per page"
+          rowsText="rows"
+          showPageJump={true}
+          showPageSizeOptions={true}
+          showPagination={true}
+          showPaginationBottom={true}
+          showPaginationTop={false}
+          skipNextSort={false}
+          sortable={true}
+          sorted={Array []}
+          sortedData={
+            Array [
+              Object {
+                "_index": 0,
+                "_nestingLevel": 0,
+                "_original": Object {
+                  "id": "1",
+                  "name": "Gert",
+                  "removable": true,
+                },
+                "_subRows": undefined,
+                "id": "1",
+                "name": "Gert",
+              },
+            ]
+          }
+          subRowsKey="_subRows"
+        >
+          <zf-list-footer>
+            <div
+              className="pager-size"
+            >
+              <span>
+                Items per page: 
+              </span>
+              <ul>
+                <li
+                  className="page-size-10 is-active"
+                  key="10"
+                >
+                  <a
+                    onClick={[Function]}
+                  >
+                    10
+                  </a>
+                </li>
+                <li
+                  className="page-size-50"
+                  key="50"
+                >
+                  <a
+                    onClick={[Function]}
+                  >
+                    50
+                  </a>
+                </li>
+                <li
+                  className="page-size-100"
+                  key="100"
+                >
+                  <a
+                    onClick={[Function]}
+                  >
+                    100
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              className="pager-middle"
+            />
+            <ul
+              className="pager"
+            >
+              <li
+                className="pager-navigation-button first disabled"
+              >
+                <defaultButton
+                  disabled={true}
+                  onClick={[Function]}
+                >
+                  <a
+                    disabled={true}
+                    onClick={[Function]}
+                  >
+                    <i
+                      className="fa fa-angle-double-left"
+                    />
+                  </a>
+                </defaultButton>
+              </li>
+              <li
+                className="pager-navigation-button prev disabled"
+              >
+                <defaultButton
+                  disabled={true}
+                  onClick={[Function]}
+                >
+                  <a
+                    disabled={true}
+                    onClick={[Function]}
+                  >
+                    <i
+                      className="fa fa-angle-left"
+                    />
+                  </a>
+                </defaultButton>
+              </li>
+              <li
+                className="pager-navigation-page is-active page-1"
+                key="pagebutton-1"
+              >
+                <defaultButton
+                  key="1"
+                  onClick={[Function]}
+                >
+                  <a
+                    onClick={[Function]}
+                  >
+                    1
+                  </a>
+                </defaultButton>
+              </li>
+              <li
+                className="pager-navigation-button next disabled"
+              >
+                <defaultButton
+                  disabled={true}
+                  onClick={[Function]}
+                >
+                  <a
+                    disabled={true}
+                    onClick={[Function]}
+                  >
+                    <i
+                      className="fa fa-angle-right"
+                    />
+                  </a>
+                </defaultButton>
+              </li>
+              <li
+                className="pager-navigation-button last disabled"
+              >
+                <defaultButton
+                  disabled={true}
+                  onClick={[Function]}
+                >
+                  <a
+                    disabled={true}
+                    onClick={[Function]}
+                  >
+                    <i
+                      className="fa fa-angle-double-right"
+                    />
+                  </a>
+                </defaultButton>
+              </li>
+            </ul>
+          </zf-list-footer>
+        </ReactTablePager>
+      </div>
+      <LoadingComponent
+        loading={false}
+        loadingText="Loading..."
+      >
+        <div
+          className="-loading"
+        >
+          <div
+            className="-loading-inner"
+          >
+            Loading...
+          </div>
+        </div>
+      </LoadingComponent>
+    </div>
+  </ReactTable>
+</StudyInvestigatorsPane>
+`;
+
+exports[`Rendering the component Loading the component with empty investigators 1`] = `
+Array [
+  <div
+    className="grid-block padding margin-small-rl shrink"
+  >
+    <div
+      className="grid-content collapse"
+    >
+      <h3
+        className="subheader"
+      >
+        Investigators
+      </h3>
+    </div>
+    <div
+      className="grid-content collapse shrink"
+      title="All available users have been assigned as investigator"
+    >
+      <a
+        className="button open-add-investigator disabled"
+      >
+        <i
+          className="fa fa-plus"
+        />
+         Add investigator
+      </a>
+    </div>
+  </div>,
+  <div
+    className="margin-rl padding-bottom"
+  >
+    <div
+      className="alert-box small info margin-small-rl padding"
+    >
+      <div
+        className="expandable-text"
+      >
+        <p>
+          Here you can see all investigators assigned to this study. Only assigned investigators can register subjects to a study and perform subject data population. If you are a data relationship manager, you can add new investigators to this study by their username or unassign individual investigators.
+        </p>
+        <p>
+          <a
+            data-enzyme="action"
+            onClick={[Function]}
+          >
+            Show more
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>,
+  <p
+    className="margin-medium-rl"
+  >
+    No investigators assigned
+  </p>,
+]
+`;
+
+exports[`Rendering the component Loading the component with investigators 1`] = `
+Array [
+  <div
+    className="grid-block padding margin-small-rl shrink"
+  >
+    <div
+      className="grid-content collapse"
+    >
+      <h3
+        className="subheader"
+      >
+        Investigators
+      </h3>
+    </div>
+    <div
+      className="grid-content collapse shrink"
+      title="All available users have been assigned as investigator"
+    >
+      <a
+        className="button open-add-investigator disabled"
+      >
+        <i
+          className="fa fa-plus"
+        />
+         Add investigator
+      </a>
+    </div>
+  </div>,
+  <div
+    className="margin-rl padding-bottom"
+  >
+    <div
+      className="alert-box small info margin-small-rl padding"
+    >
+      <div
+        className="expandable-text"
+      >
+        <p>
+          Here you can see all investigators assigned to this study. Only assigned investigators can register subjects to a study and perform subject data population. If you are a data relationship manager, you can add new investigators to this study by their username or unassign individual investigators.
+        </p>
+        <p>
+          <a
+            data-enzyme="action"
+            onClick={[Function]}
+          >
+            Show more
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="ReactTable"
+    style={Object {}}
+  >
+    <div
+      className="rt-table"
+      role="grid"
+    >
+      <div
+        className="rt-thead -header"
+        style={
+          Object {
+            "minWidth": "100px",
+          }
+        }
+      >
+        <div
+          className="rt-tr"
+          role="row"
+        >
+          <div
+            className="rt-th"
+            onClick={[Function]}
+            role="columnheader"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className=""
+            >
+              Investigator
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="rt-tbody"
+        style={
+          Object {
+            "minWidth": "100px",
+          }
+        }
+      >
+        <div
+          className="rt-tr-group"
+          role="rowgroup"
+        >
+          <div
+            className="rt-tr -odd"
+            role="row"
+          >
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              Gert
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="pagination-bottom"
+    >
+      <zf-list-footer>
+        <div
+          className="pager-size"
+        >
+          <span>
+            Items per page: 
+          </span>
+          <ul>
+            <li
+              className="page-size-10 is-active"
+            >
+              <a
+                onClick={[Function]}
+              >
+                10
+              </a>
+            </li>
+            <li
+              className="page-size-50"
+            >
+              <a
+                onClick={[Function]}
+              >
+                50
+              </a>
+            </li>
+            <li
+              className="page-size-100"
+            >
+              <a
+                onClick={[Function]}
+              >
+                100
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          className="pager-middle"
+        />
+        <ul
+          className="pager"
+        >
+          <li
+            className="pager-navigation-button first disabled"
+          >
+            <a
+              disabled={true}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-double-left"
+              />
+            </a>
+          </li>
+          <li
+            className="pager-navigation-button prev disabled"
+          >
+            <a
+              disabled={true}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-left"
+              />
+            </a>
+          </li>
+          <li
+            className="pager-navigation-page is-active page-1"
+          >
+            <a
+              onClick={[Function]}
+            >
+              1
+            </a>
+          </li>
+          <li
+            className="pager-navigation-button next disabled"
+          >
+            <a
+              disabled={true}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-right"
+              />
+            </a>
+          </li>
+          <li
+            className="pager-navigation-button last disabled"
+          >
+            <a
+              disabled={true}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-double-right"
+              />
+            </a>
+          </li>
+        </ul>
+      </zf-list-footer>
+    </div>
+    <div
+      className="-loading"
+    >
+      <div
+        className="-loading-inner"
+      >
+        Loading...
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Rendering the component Loading the component with missing investigators 1`] = `
+Array [
+  <div
+    className="grid-block padding margin-small-rl shrink"
+  >
+    <div
+      className="grid-content collapse"
+    >
+      <h3
+        className="subheader"
+      >
+        Investigators
+      </h3>
+    </div>
+    <div
+      className="grid-content collapse shrink"
+      title="All available users have been assigned as investigator"
+    >
+      <a
+        className="button open-add-investigator disabled"
+      >
+        <i
+          className="fa fa-plus"
+        />
+         Add investigator
+      </a>
+    </div>
+  </div>,
+  <div
+    className="margin-rl padding-bottom"
+  >
+    <div
+      className="alert-box small info margin-small-rl padding"
+    >
+      <div
+        className="expandable-text"
+      >
+        <p>
+          Here you can see all investigators assigned to this study. Only assigned investigators can register subjects to a study and perform subject data population. If you are a data relationship manager, you can add new investigators to this study by their username or unassign individual investigators.
+        </p>
+        <p>
+          <a
+            data-enzyme="action"
+            onClick={[Function]}
+          >
+            Show more
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>,
+  <p
+    className="margin-medium-rl"
+  >
+    No investigators assigned
+  </p>,
+]
+`;
+
+exports[`Rendering the component Loading the component with no investigators 1`] = `
+Array [
+  <div
+    className="grid-block padding margin-small-rl shrink"
+  >
+    <div
+      className="grid-content collapse"
+    >
+      <h3
+        className="subheader"
+      >
+        Investigators
+      </h3>
+    </div>
+    <div
+      className="grid-content collapse shrink"
+      title="All available users have been assigned as investigator"
+    >
+      <a
+        className="button open-add-investigator disabled"
+      >
+        <i
+          className="fa fa-plus"
+        />
+         Add investigator
+      </a>
+    </div>
+  </div>,
+  <div
+    className="margin-rl padding-bottom"
+  >
+    <div
+      className="alert-box small info margin-small-rl padding"
+    >
+      <div
+        className="expandable-text"
+      >
+        <p>
+          Here you can see all investigators assigned to this study. Only assigned investigators can register subjects to a study and perform subject data population. If you are a data relationship manager, you can add new investigators to this study by their username or unassign individual investigators.
+        </p>
+        <p>
+          <a
+            data-enzyme="action"
+            onClick={[Function]}
+          >
+            Show more
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>,
+  <p
+    className="margin-medium-rl"
+  >
+    No investigators assigned
+  </p>,
+]
+`;
+
+exports[`Rendering the component Loading the component with removable investigators 1`] = `
+Array [
+  <div
+    className="grid-block padding margin-small-rl shrink"
+  >
+    <div
+      className="grid-content collapse"
+    >
+      <h3
+        className="subheader"
+      >
+        Investigators
+      </h3>
+    </div>
+    <div
+      className="grid-content collapse shrink"
+      title="All available users have been assigned as investigator"
+    >
+      <a
+        className="button open-add-investigator disabled"
+      >
+        <i
+          className="fa fa-plus"
+        />
+         Add investigator
+      </a>
+    </div>
+  </div>,
+  <div
+    className="margin-rl padding-bottom"
+  >
+    <div
+      className="alert-box small info margin-small-rl padding"
+    >
+      <div
+        className="expandable-text"
+      >
+        <p>
+          Here you can see all investigators assigned to this study. Only assigned investigators can register subjects to a study and perform subject data population. If you are a data relationship manager, you can add new investigators to this study by their username or unassign individual investigators.
+        </p>
+        <p>
+          <a
+            data-enzyme="action"
+            onClick={[Function]}
+          >
+            Show more
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="ReactTable"
+    style={Object {}}
+  >
+    <div
+      className="rt-table"
+      role="grid"
+    >
+      <div
+        className="rt-thead -header"
+        style={
+          Object {
+            "minWidth": "200px",
+          }
+        }
+      >
+        <div
+          className="rt-tr"
+          role="row"
+        >
+          <div
+            className="rt-th"
+            onClick={[Function]}
+            role="columnheader"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className=""
+            >
+              Investigator
+            </div>
+          </div>
+          <div
+            className="rt-th button-cell text-right"
+            onClick={[Function]}
+            role="columnheader"
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+            tabIndex="-1"
+          >
+            <div
+              className=""
+            >
+              Actions
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="rt-tbody"
+        style={
+          Object {
+            "minWidth": "200px",
+          }
+        }
+      >
+        <div
+          className="rt-tr-group"
+          role="rowgroup"
+        >
+          <div
+            className="rt-tr -odd"
+            role="row"
+          >
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              Gert
+            </div>
+            <div
+              className="rt-td button-cell text-right"
+              onClick={[Function]}
+              role="gridcell"
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                className="unassign-icon"
+                onClick={[Function]}
+                title="Unassign 1"
+              >
+                <i
+                  className="fa fa-times"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="pagination-bottom"
+    >
+      <zf-list-footer>
+        <div
+          className="pager-size"
+        >
+          <span>
+            Items per page: 
+          </span>
+          <ul>
+            <li
+              className="page-size-10 is-active"
+            >
+              <a
+                onClick={[Function]}
+              >
+                10
+              </a>
+            </li>
+            <li
+              className="page-size-50"
+            >
+              <a
+                onClick={[Function]}
+              >
+                50
+              </a>
+            </li>
+            <li
+              className="page-size-100"
+            >
+              <a
+                onClick={[Function]}
+              >
+                100
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          className="pager-middle"
+        />
+        <ul
+          className="pager"
+        >
+          <li
+            className="pager-navigation-button first disabled"
+          >
+            <a
+              disabled={true}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-double-left"
+              />
+            </a>
+          </li>
+          <li
+            className="pager-navigation-button prev disabled"
+          >
+            <a
+              disabled={true}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-left"
+              />
+            </a>
+          </li>
+          <li
+            className="pager-navigation-page is-active page-1"
+          >
+            <a
+              onClick={[Function]}
+            >
+              1
+            </a>
+          </li>
+          <li
+            className="pager-navigation-button next disabled"
+          >
+            <a
+              disabled={true}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-right"
+              />
+            </a>
+          </li>
+          <li
+            className="pager-navigation-button last disabled"
+          >
+            <a
+              disabled={true}
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-angle-double-right"
+              />
+            </a>
+          </li>
+        </ul>
+      </zf-list-footer>
+    </div>
+    <div
+      className="-loading"
+    >
+      <div
+        className="-loading-inner"
+      >
+        Loading...
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Rendering the component Reloading an empty component with investigators 1`] = `
+<Fragment>
+  <div
+    className="grid-block padding margin-small-rl shrink"
+  >
+    <div
+      className="grid-content collapse"
+    >
+      <h3
+        className="subheader"
+      >
+        Investigators
+      </h3>
+    </div>
+    <AddInvestigator />
+  </div>
+  <div
+    className="margin-rl padding-bottom"
+  >
+    <div
+      className="alert-box small info margin-small-rl padding"
+    >
+      <ExpandableText
+        expanded={false}
+      >
+        <p>
+          Here you can see all investigators assigned to this study. Only assigned investigators can register subjects to a study and perform subject data population. If you are a data relationship manager, you can add new investigators to this study by their username or unassign individual investigators.
+        </p>
+      </ExpandableText>
+    </div>
+  </div>
+  <ReactTable
+    AggregatedComponent={[Function]}
+    ExpanderComponent={[Function]}
+    FilterComponent={[Function]}
+    LoadingComponent={[Function]}
+    NoDataComponent={[Function]}
+    PadRowComponent={[Function]}
+    PaginationComponent={[Function]}
+    PivotValueComponent={[Function]}
+    ResizerComponent={[Function]}
+    TableComponent={[Function]}
+    TbodyComponent={[Function]}
+    TdComponent={[Function]}
+    TfootComponent={[Function]}
+    ThComponent={[Function]}
+    TheadComponent={[Function]}
+    TrComponent={[Function]}
+    TrGroupComponent={[Function]}
+    aggregatedKey="_aggregated"
+    className=""
+    collapseOnDataChange={true}
+    collapseOnPageChange={true}
+    collapseOnSortingChange={true}
+    column={
+      Object {
+        "Aggregated": undefined,
+        "Cell": undefined,
+        "Expander": undefined,
+        "Filter": undefined,
+        "Footer": undefined,
+        "Header": undefined,
+        "Pivot": undefined,
+        "PivotValue": undefined,
+        "Placeholder": undefined,
+        "aggregate": undefined,
+        "className": "",
+        "filterAll": false,
+        "filterMethod": undefined,
+        "filterable": undefined,
+        "footerClassName": "",
+        "footerStyle": Object {},
+        "getFooterProps": [Function],
+        "getHeaderProps": [Function],
+        "getProps": [Function],
+        "headerClassName": "",
+        "headerStyle": Object {},
+        "minResizeWidth": 11,
+        "minWidth": 100,
+        "resizable": undefined,
+        "show": true,
+        "sortMethod": undefined,
+        "sortable": undefined,
+        "style": Object {},
+      }
+    }
+    columns={
+      Array [
+        Object {
+          "Header": "Investigator",
+          "accessor": "name",
+          "filterable": false,
+          "show": true,
+          "sortable": false,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "Actions",
+          "accessor": "id",
+          "className": "button-cell text-right",
+          "filterable": false,
+          "headerClassName": "button-cell text-right",
+          "show": false,
+          "sortable": false,
+          "style": Object {
+            "flex": "none",
+          },
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "id": "1",
+          "name": "Gert",
+          "removable": false,
+        },
+      ]
+    }
+    defaultExpanded={Object {}}
+    defaultFilterMethod={[Function]}
+    defaultFiltered={Array []}
+    defaultPage={0}
+    defaultPageSize={10}
+    defaultResized={Array []}
+    defaultSortDesc={false}
+    defaultSortMethod={[Function]}
+    defaultSorted={Array []}
+    expanderDefaults={
+      Object {
+        "filterable": false,
+        "resizable": false,
+        "sortable": false,
+        "width": 35,
+      }
+    }
+    filterable={false}
+    freezeWhenExpanded={false}
+    getLoadingProps={[Function]}
+    getNoDataProps={[Function]}
+    getPaginationProps={[Function]}
+    getProps={[Function]}
+    getResizerProps={[Function]}
+    getTableProps={[Function]}
+    getTbodyProps={[Function]}
+    getTdProps={[Function]}
+    getTfootProps={[Function]}
+    getTfootTdProps={[Function]}
+    getTfootTrProps={[Function]}
+    getTheadFilterProps={[Function]}
+    getTheadFilterThProps={[Function]}
+    getTheadFilterTrProps={[Function]}
+    getTheadGroupProps={[Function]}
+    getTheadGroupThProps={[Function]}
+    getTheadGroupTrProps={[Function]}
+    getTheadProps={[Function]}
+    getTheadThProps={[Function]}
+    getTheadTrProps={[Function]}
+    getTrGroupProps={[Function]}
+    getTrProps={[Function]}
+    groupedByPivotKey="_groupedByPivot"
+    indexKey="_index"
+    loading={false}
+    loadingText="Loading..."
+    minRows={0}
+    multiSort={true}
+    nestingLevelKey="_nestingLevel"
+    nextText="Next"
+    noDataText="No rows found"
+    ofText="of"
+    onFetchData={[Function]}
+    originalKey="_original"
+    pageJumpText="jump to page"
+    pageSizeOptions={
+      Array [
+        10,
+        50,
+        100,
+      ]
+    }
+    pageText="Page"
+    pivotDefaults={Object {}}
+    pivotIDKey="_pivotID"
+    pivotValKey="_pivotVal"
+    previousText="Previous"
+    resizable={false}
+    resolveData={[Function]}
+    rowsSelectorText="rows per page"
+    rowsText="rows"
+    showPageJump={true}
+    showPageSizeOptions={true}
+    showPagination={true}
+    showPaginationBottom={true}
+    showPaginationTop={false}
+    sortable={true}
+    style={Object {}}
+    subRowsKey="_subRows"
+  />
+</Fragment>
+`;

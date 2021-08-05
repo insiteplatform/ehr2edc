@@ -1,0 +1,1 @@
+ALTER TABLE app_user ADD COLUMN passwordLastModified timestamp without time zone DEFAULT NULL;

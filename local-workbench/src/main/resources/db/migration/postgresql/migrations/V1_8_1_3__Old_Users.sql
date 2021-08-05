@@ -1,0 +1,1 @@
+UPDATE app_user SET deleted=false where deleted is null;

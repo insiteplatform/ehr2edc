@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html layout:decorate="~{thymeleaf/index}" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <title>EHR2EDC studies</title>
+</head>
+<body>
+<div layout:fragment="content" class="grid-block ehr2edc-studies"></div>
+<div layout:fragment="loadScripts">
+    <script type="text/javascript"
+            th:if="${ bundleLocation.isEmpty() }"
+            th:src="@{/public/javascripts/bundle.js}"></script>
+    <script type="text/javascript"
+            th:unless="${ bundleLocation.isEmpty() }"
+            th:src="${bundleLocation}"></script>
+    <script th:inline="javascript">
+        var data = {
+            emptyMessage: "No EHR2EDC studies are found.",
+            errorMessage: "EHR2EDC Studies failed to load.",
+            studyListUrl: "/ehr2edc/study",
+            studyPageUrl: [[${T(eu.ehr4cr.workbench.local.WebRoutes).EHR2EDC_STUDIES}]],
+            subjectStudyUrl: "/ehr2edc/study/${studyId}/subjects/${subjectId}",
+            subjectObservationSummaryUrl: "/ehr2edc/subject/${subjectId}/observationSummary",
+            patientIdentifierSourcesUrl: "/ehr2edc/patients/domains",
+            contactAddress: [[${contactAddress}]],
+            baseUrl: [[${baseUrl}]],
+        };
+        $(document).ready(function () {
+            appendEhr2EdcStudies($(".ehr2edc-studies")[0], data);
+        });
+    </script>
+</div>
+</body>
+</html>

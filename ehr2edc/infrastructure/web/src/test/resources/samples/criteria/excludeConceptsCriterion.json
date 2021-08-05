@@ -1,0 +1,8 @@
+{
+  "type": "excludeConcepts",
+  "concepts": [
+    {
+      "code": "386725007"
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ODM CreationDateTime="2008-01-01T00:00:00" FileOID="Example-1" FileType="Snapshot" ODMVersion="1.3" xmlns="http://www.cdisc.org/ns/odm/v1.3">
+    <ClinicalData MetaDataVersionOID="1" StudyOID="SID_001">
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000001">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000002">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000003">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000004">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000005">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000006">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000007">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000008">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000009">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000010">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000011">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000012">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000013">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000014">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000015">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000016">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000017">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000018">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000019">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000020">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000021">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000022">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000023">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000024">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000025">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000026">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000027">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000028">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000029">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000030">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000031">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000032">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000033">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000034">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000035">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000036">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000037">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000038">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000039">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000040">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000041">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000042">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000043">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000044">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000045">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000046">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000047">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000048">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000049">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000050">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000051">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000052">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000053">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000054">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000055">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000056">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000057">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000058">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000059">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000060">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000061">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000062">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000063">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000064">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000065">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000066">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000067">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000068">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000069">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000070">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000071">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000072">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000073">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000074">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000075">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000076">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000077">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000078">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000079">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000080">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000081">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000082">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000083">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000084">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000085">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000086">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000087">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000088">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000089">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000090">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000091">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000092">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000093">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000094">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000095">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000096">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000097">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000098">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000099">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+        <SubjectData SubjectKey="SOME_OTHER_SITE_REFERENCE000100">
+            <SiteRef LocationOID="SOME_OTHER_SITE_REFERENCE"/>
+        </SubjectData>
+    </ClinicalData>
+</ODM>

@@ -1,0 +1,83 @@
+version: '2.1'
+services:
+
+  ehr2edc:
+    image: docker-registry.internal.custodix.com/insite/local-workbench-service/ehr2edc-releases:workbench-parent-3.15.34
+    ports:
+      - 8501:8113
+    volumes:
+      - ./ehr2edc/config:/config-override:ro
+      - ./ehr2edc/credentials:/credentials:ro
+      - ./ehr2edc/logging:/config-logging:ro
+    environment:
+      SPRING_CONFIG_LOCATION: file:/config-override/override.properties
+      APPLICATION_CREDENTIALS_LOCATION: file:/credentials/credentials.properties
+      CI_ENVIRONMENT_URL: http://localhost
+      JAVA_OPTS: "-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=8113 -Dlogging.config=file:/config-logging/log4j2-ehr2edc.xml"
+    depends_on:
+      - oidc
+      - preloaded-postgres
+      - mongodb
+
+  local-workbench:
+    image: docker-registry.internal.custodix.com/insite/local-workbench-service/releases:workbench-parent-3.15.34
+    ports:
+      - 8500:8112
+    volumes:
+      - ./lwb/config:/config-override:ro
+      - ./lwb/credentials:/credentials:ro
+      - ./lwb/logging:/config-logging:ro
+    environment:
+      SPRING_CONFIG_LOCATION: file:/config-override/override-lwb.properties
+      APPLICATION_CREDENTIALS_LOCATION: file:/credentials/credentials-lwb.properties
+      CI_ENVIRONMENT_URL: http://localhost
+      CI_ENVIRONMENT_SLUG: http://localhost
+      JAVA_OPTS: "-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=8112 -Dlogging.config=file:/config-logging/log4j2-lwb.xml"
+    depends_on:
+      - oidc
+      - preloaded-postgres
+
+  oidc:
+    image: docker-registry.internal.custodix.com/insite/openid-connect-service/releases:openid-connect-service-1.0.3
+    ports:
+      - 8502:8114
+    volumes:
+      - ./oidc/config:/config-override:ro
+      - ./oidc/credentials:/credentials:ro
+    environment:
+      JAVA_OPTS: "-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=8114 -Djava.security.egd=file:/dev/./urandom -Djava.awt.headless=true -Dapplication.file=file:/config-override/override-oidc.properties -Dcredentials.file=file:/credentials/credentials-oidc.properties"
+      CI_ENVIRONMENT_URL: http://localhost
+    depends_on:
+      - preloaded-postgres
+
+  preloaded-postgres:
+    image: docker-registry.internal.custodix.com/containers/preloaded-postgres:review-irst-demo-data
+    ports:
+      - 5432:5432
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U lwb_user -d lwb -h 127.0.0.1 -p 5432"]
+      interval: 20s
+      timeout: 20s
+      retries: 3
+
+  mongodb:
+    image: bitnami/mongodb:4.0
+    ports:
+      - 27017:27017
+    environment:
+      MONGODB_USERNAME: insite
+      MONGODB_PASSWORD: password
+      MONGODB_DATABASE: insite
+      MONGODB_ROOT_PASSWORD: password
+#      MONGODB_REPLICA_SET_MODE: primary
+#      MONGODB_REPLICA_SET_KEY: insite-mongo-set
+#      MONGODB_ADVERTISED_HOSTNAME: mongodb-primary
+
+  proxy:
+    build: ./nginx
+    links:
+      - oidc
+      - ehr2edc
+      - local-workbench
+    ports:
+      - 80:80

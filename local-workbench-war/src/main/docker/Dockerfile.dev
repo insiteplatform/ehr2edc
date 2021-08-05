@@ -1,0 +1,11 @@
+FROM docker-registry.internal.custodix.com/containers/tomcat:master
+MAINTAINER custodix
+
+RUN ["rm", "-rf", "/usr/local/tomcat/webapps"]
+RUN ["mkdir", "-p", "/usr/local/tomcat/webapps"]
+
+ENV JPDA_ADDRESS=5678
+ENV JPDA_TRANSPORT=dt_socket
+ENV JAVA_OPTS="$JAVA_OPTS -Dspring.profiles.active=FLYWAY_MIGRATE,I2B2 -Dlogging.level.org.hibernate=error -Dsynchronize.studies=false -Ddatabase.url=jdbc:postgresql://lwb-postgres/lwb -D -Dspring.flyway.enabled=true -Ddatabase.username=lwb_user -Ddatabase.password=lwb_user -Ddatabase.url=jdbc:postgresql://lwb-postgres:5432/lwb -Dquery.engine.datasource.bluemodel.jdbc.url=jdbc:postgresql://lwb-postgres:5432/irstdemodata -Dquery.engine.datasource.metadata.jdbc.url=jdbc:postgresql://lwb-postgres:5432/irstmetadata -Dquery.engine.datasource.crc.jdbc.url=jdbc:postgresql://lwb-postgres:5432/irstdemodata -Dspring.jmx.enabled=false"
+
+CMD ["catalina.sh","jpda", "run"]

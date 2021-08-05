@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering the component Renders in closed state with expanded=false 1`] = `
+<div
+  className="expandable-text"
+>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus alias atque deleniti eius eligendi, fugit labore, libero nobis odio odit officia temporibus unde. Blanditiis debitis et labore soluta totam?
+  </p>
+  <p>
+    <a
+      data-enzyme="action"
+      onClick={[Function]}
+    >
+      Show more
+    </a>
+  </p>
+</div>
+`;
+
+exports[`Rendering the component Renders in closed state without props 1`] = `
+<div
+  className="expandable-text"
+>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus alias atque deleniti eius eligendi, fugit labore, libero nobis odio odit officia temporibus unde. Blanditiis debitis et labore soluta totam?
+  </p>
+  <p>
+    <a
+      data-enzyme="action"
+      onClick={[Function]}
+    >
+      Show more
+    </a>
+  </p>
+</div>
+`;
+
+exports[`Rendering the component Renders in open state with expanded=true 1`] = `
+<div
+  className="expandable-text expanded"
+>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus alias atque deleniti eius eligendi, fugit labore, libero nobis odio odit officia temporibus unde. Blanditiis debitis et labore soluta totam?
+  </p>
+  <p>
+    <a
+      data-enzyme="action"
+      onClick={[Function]}
+    >
+      Show less
+    </a>
+  </p>
+</div>
+`;

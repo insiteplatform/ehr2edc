@@ -1,0 +1,16 @@
+1;NL_What was your childhood nickname?
+2;NL_What is the name of your favorite childhood friend?
+3;NL_In what city or town did your mother and father meet?
+4;NL_What is the middle name of your oldest child?
+5;NL_What is your favorite team?
+6;NL_What is your favorite movie?
+7;NL_What was your favorite sport in high school?
+8;NL_What was your favorite food as a child?
+9;NL_What is the first name of the boy or girl that you first kissed?
+10;NL_What was the make and model of your first car?
+11;NL_What was the name of the hospital where you were born?
+12;NL_Who is your childhood sports hero?
+13;NL_What school did you attend for sixth grade?
+14;NL_What was the last name of your third grade teacher?
+15;NL_In what town was your first job?
+16;NL_What was the name of the company where you had your first job?

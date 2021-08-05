@@ -1,0 +1,11 @@
+{
+	"table": {
+		"recovering"		: "Herstellend",
+		"invited"			: "Geïnviteerd"
+	},
+
+	"changeRoles": {
+		"title"				: "Verander extra gebruikersrollen",
+		"confirm"			: "Wijzigingen opslaan"
+	}
+}

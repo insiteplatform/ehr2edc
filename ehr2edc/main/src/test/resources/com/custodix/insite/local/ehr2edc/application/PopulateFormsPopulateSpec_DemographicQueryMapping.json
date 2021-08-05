@@ -1,0 +1,21 @@
+{
+  "query": {
+    "type": "demographic",
+    "criteria": {
+      "criteria": [
+        {
+          "type": "demographicType",
+          "demographicType": "GENDER"
+        }
+      ]
+    }
+  },
+  "projectors": [
+    {
+      "type": "gender"
+    },
+    {
+      "type": "genderToSDTMCode"
+    }
+  ]
+}
